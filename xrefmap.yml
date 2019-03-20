@@ -1,3 +1,1838 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: BepInEx
+  name: BepInEx
+  href: api/BepInEx.html
+  commentId: N:BepInEx
+  fullName: BepInEx
+  nameWithType: BepInEx
+- uid: BepInEx.BaseUnityPlugin
+  name: BaseUnityPlugin
+  href: api/BepInEx.BaseUnityPlugin.html
+  commentId: T:BepInEx.BaseUnityPlugin
+  fullName: BepInEx.BaseUnityPlugin
+  nameWithType: BaseUnityPlugin
+- uid: BepInEx.BaseUnityPlugin.#ctor
+  name: BaseUnityPlugin()
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin__ctor
+  commentId: M:BepInEx.BaseUnityPlugin.#ctor
+  fullName: BepInEx.BaseUnityPlugin.BaseUnityPlugin()
+  nameWithType: BaseUnityPlugin.BaseUnityPlugin()
+- uid: BepInEx.BaseUnityPlugin.#ctor*
+  name: BaseUnityPlugin
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin__ctor_
+  commentId: Overload:BepInEx.BaseUnityPlugin.#ctor
+  isSpec: "True"
+  fullName: BepInEx.BaseUnityPlugin.BaseUnityPlugin
+  nameWithType: BaseUnityPlugin.BaseUnityPlugin
+- uid: BepInEx.BaseUnityPlugin.Logger
+  name: Logger
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Logger
+  commentId: P:BepInEx.BaseUnityPlugin.Logger
+  fullName: BepInEx.BaseUnityPlugin.Logger
+  nameWithType: BaseUnityPlugin.Logger
+- uid: BepInEx.BaseUnityPlugin.Logger*
+  name: Logger
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Logger_
+  commentId: Overload:BepInEx.BaseUnityPlugin.Logger
+  isSpec: "True"
+  fullName: BepInEx.BaseUnityPlugin.Logger
+  nameWithType: BaseUnityPlugin.Logger
+- uid: BepInEx.BepInDependency
+  name: BepInDependency
+  href: api/BepInEx.BepInDependency.html
+  commentId: T:BepInEx.BepInDependency
+  fullName: BepInEx.BepInDependency
+  nameWithType: BepInDependency
+- uid: BepInEx.BepInDependency.#ctor(System.String,BepInEx.BepInDependency.DependencyFlags)
+  name: BepInDependency(String, BepInDependency.DependencyFlags)
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency__ctor_System_String_BepInEx_BepInDependency_DependencyFlags_
+  commentId: M:BepInEx.BepInDependency.#ctor(System.String,BepInEx.BepInDependency.DependencyFlags)
+  fullName: BepInEx.BepInDependency.BepInDependency(System.String, BepInEx.BepInDependency.DependencyFlags)
+  nameWithType: BepInDependency.BepInDependency(String, BepInDependency.DependencyFlags)
+- uid: BepInEx.BepInDependency.#ctor*
+  name: BepInDependency
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency__ctor_
+  commentId: Overload:BepInEx.BepInDependency.#ctor
+  isSpec: "True"
+  fullName: BepInEx.BepInDependency.BepInDependency
+  nameWithType: BepInDependency.BepInDependency
+- uid: BepInEx.BepInDependency.DependencyFlags
+  name: BepInDependency.DependencyFlags
+  href: api/BepInEx.BepInDependency.DependencyFlags.html
+  commentId: T:BepInEx.BepInDependency.DependencyFlags
+  fullName: BepInEx.BepInDependency.DependencyFlags
+  nameWithType: BepInDependency.DependencyFlags
+- uid: BepInEx.BepInDependency.DependencyFlags.HardDependency
+  name: HardDependency
+  href: api/BepInEx.BepInDependency.DependencyFlags.html#BepInEx_BepInDependency_DependencyFlags_HardDependency
+  commentId: F:BepInEx.BepInDependency.DependencyFlags.HardDependency
+  fullName: BepInEx.BepInDependency.DependencyFlags.HardDependency
+  nameWithType: BepInDependency.DependencyFlags.HardDependency
+- uid: BepInEx.BepInDependency.DependencyFlags.SoftDependency
+  name: SoftDependency
+  href: api/BepInEx.BepInDependency.DependencyFlags.html#BepInEx_BepInDependency_DependencyFlags_SoftDependency
+  commentId: F:BepInEx.BepInDependency.DependencyFlags.SoftDependency
+  fullName: BepInEx.BepInDependency.DependencyFlags.SoftDependency
+  nameWithType: BepInDependency.DependencyFlags.SoftDependency
+- uid: BepInEx.BepInDependency.DependencyGUID
+  name: DependencyGUID
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_DependencyGUID
+  commentId: P:BepInEx.BepInDependency.DependencyGUID
+  fullName: BepInEx.BepInDependency.DependencyGUID
+  nameWithType: BepInDependency.DependencyGUID
+- uid: BepInEx.BepInDependency.DependencyGUID*
+  name: DependencyGUID
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_DependencyGUID_
+  commentId: Overload:BepInEx.BepInDependency.DependencyGUID
+  isSpec: "True"
+  fullName: BepInEx.BepInDependency.DependencyGUID
+  nameWithType: BepInDependency.DependencyGUID
+- uid: BepInEx.BepInDependency.Flags
+  name: Flags
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_Flags
+  commentId: P:BepInEx.BepInDependency.Flags
+  fullName: BepInEx.BepInDependency.Flags
+  nameWithType: BepInDependency.Flags
+- uid: BepInEx.BepInDependency.Flags*
+  name: Flags
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_Flags_
+  commentId: Overload:BepInEx.BepInDependency.Flags
+  isSpec: "True"
+  fullName: BepInEx.BepInDependency.Flags
+  nameWithType: BepInDependency.Flags
+- uid: BepInEx.BepInPlugin
+  name: BepInPlugin
+  href: api/BepInEx.BepInPlugin.html
+  commentId: T:BepInEx.BepInPlugin
+  fullName: BepInEx.BepInPlugin
+  nameWithType: BepInPlugin
+- uid: BepInEx.BepInPlugin.#ctor(System.String,System.String,System.String)
+  name: BepInPlugin(String, String, String)
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin__ctor_System_String_System_String_System_String_
+  commentId: M:BepInEx.BepInPlugin.#ctor(System.String,System.String,System.String)
+  fullName: BepInEx.BepInPlugin.BepInPlugin(System.String, System.String, System.String)
+  nameWithType: BepInPlugin.BepInPlugin(String, String, String)
+- uid: BepInEx.BepInPlugin.#ctor*
+  name: BepInPlugin
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin__ctor_
+  commentId: Overload:BepInEx.BepInPlugin.#ctor
+  isSpec: "True"
+  fullName: BepInEx.BepInPlugin.BepInPlugin
+  nameWithType: BepInPlugin.BepInPlugin
+- uid: BepInEx.BepInPlugin.GUID
+  name: GUID
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_GUID
+  commentId: P:BepInEx.BepInPlugin.GUID
+  fullName: BepInEx.BepInPlugin.GUID
+  nameWithType: BepInPlugin.GUID
+- uid: BepInEx.BepInPlugin.GUID*
+  name: GUID
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_GUID_
+  commentId: Overload:BepInEx.BepInPlugin.GUID
+  isSpec: "True"
+  fullName: BepInEx.BepInPlugin.GUID
+  nameWithType: BepInPlugin.GUID
+- uid: BepInEx.BepInPlugin.Name
+  name: Name
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_Name
+  commentId: P:BepInEx.BepInPlugin.Name
+  fullName: BepInEx.BepInPlugin.Name
+  nameWithType: BepInPlugin.Name
+- uid: BepInEx.BepInPlugin.Name*
+  name: Name
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_Name_
+  commentId: Overload:BepInEx.BepInPlugin.Name
+  isSpec: "True"
+  fullName: BepInEx.BepInPlugin.Name
+  nameWithType: BepInPlugin.Name
+- uid: BepInEx.BepInPlugin.Version
+  name: Version
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_Version
+  commentId: P:BepInEx.BepInPlugin.Version
+  fullName: BepInEx.BepInPlugin.Version
+  nameWithType: BepInPlugin.Version
+- uid: BepInEx.BepInPlugin.Version*
+  name: Version
+  href: api/BepInEx.BepInPlugin.html#BepInEx_BepInPlugin_Version_
+  commentId: Overload:BepInEx.BepInPlugin.Version
+  isSpec: "True"
+  fullName: BepInEx.BepInPlugin.Version
+  nameWithType: BepInPlugin.Version
+- uid: BepInEx.BepInProcess
+  name: BepInProcess
+  href: api/BepInEx.BepInProcess.html
+  commentId: T:BepInEx.BepInProcess
+  fullName: BepInEx.BepInProcess
+  nameWithType: BepInProcess
+- uid: BepInEx.BepInProcess.#ctor(System.String)
+  name: BepInProcess(String)
+  href: api/BepInEx.BepInProcess.html#BepInEx_BepInProcess__ctor_System_String_
+  commentId: M:BepInEx.BepInProcess.#ctor(System.String)
+  fullName: BepInEx.BepInProcess.BepInProcess(System.String)
+  nameWithType: BepInProcess.BepInProcess(String)
+- uid: BepInEx.BepInProcess.#ctor*
+  name: BepInProcess
+  href: api/BepInEx.BepInProcess.html#BepInEx_BepInProcess__ctor_
+  commentId: Overload:BepInEx.BepInProcess.#ctor
+  isSpec: "True"
+  fullName: BepInEx.BepInProcess.BepInProcess
+  nameWithType: BepInProcess.BepInProcess
+- uid: BepInEx.BepInProcess.ProcessName
+  name: ProcessName
+  href: api/BepInEx.BepInProcess.html#BepInEx_BepInProcess_ProcessName
+  commentId: P:BepInEx.BepInProcess.ProcessName
+  fullName: BepInEx.BepInProcess.ProcessName
+  nameWithType: BepInProcess.ProcessName
+- uid: BepInEx.BepInProcess.ProcessName*
+  name: ProcessName
+  href: api/BepInEx.BepInProcess.html#BepInEx_BepInProcess_ProcessName_
+  commentId: Overload:BepInEx.BepInProcess.ProcessName
+  isSpec: "True"
+  fullName: BepInEx.BepInProcess.ProcessName
+  nameWithType: BepInProcess.ProcessName
+- uid: BepInEx.Bootstrap
+  name: BepInEx.Bootstrap
+  href: api/BepInEx.Bootstrap.html
+  commentId: N:BepInEx.Bootstrap
+  fullName: BepInEx.Bootstrap
+  nameWithType: BepInEx.Bootstrap
+- uid: BepInEx.Bootstrap.Chainloader
+  name: Chainloader
+  href: api/BepInEx.Bootstrap.Chainloader.html
+  commentId: T:BepInEx.Bootstrap.Chainloader
+  fullName: BepInEx.Bootstrap.Chainloader
+  nameWithType: Chainloader
+- uid: BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)
+  name: Initialize(String, Boolean)
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_
+  commentId: M:BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)
+  fullName: BepInEx.Bootstrap.Chainloader.Initialize(System.String, System.Boolean)
+  nameWithType: Chainloader.Initialize(String, Boolean)
+- uid: BepInEx.Bootstrap.Chainloader.Initialize*
+  name: Initialize
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.Initialize
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.Initialize
+  nameWithType: Chainloader.Initialize
+- uid: BepInEx.Bootstrap.Chainloader.ManagerObject
+  name: ManagerObject
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ManagerObject
+  commentId: P:BepInEx.Bootstrap.Chainloader.ManagerObject
+  fullName: BepInEx.Bootstrap.Chainloader.ManagerObject
+  nameWithType: Chainloader.ManagerObject
+- uid: BepInEx.Bootstrap.Chainloader.ManagerObject*
+  name: ManagerObject
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ManagerObject_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.ManagerObject
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.ManagerObject
+  nameWithType: Chainloader.ManagerObject
+- uid: BepInEx.Bootstrap.Chainloader.Plugins
+  name: Plugins
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Plugins
+  commentId: P:BepInEx.Bootstrap.Chainloader.Plugins
+  fullName: BepInEx.Bootstrap.Chainloader.Plugins
+  nameWithType: Chainloader.Plugins
+- uid: BepInEx.Bootstrap.Chainloader.Plugins*
+  name: Plugins
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Plugins_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.Plugins
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.Plugins
+  nameWithType: Chainloader.Plugins
+- uid: BepInEx.Bootstrap.Chainloader.Start
+  name: Start()
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Start
+  commentId: M:BepInEx.Bootstrap.Chainloader.Start
+  fullName: BepInEx.Bootstrap.Chainloader.Start()
+  nameWithType: Chainloader.Start()
+- uid: BepInEx.Bootstrap.Chainloader.Start*
+  name: Start
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Start_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.Start
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.Start
+  nameWithType: Chainloader.Start
+- uid: BepInEx.Bootstrap.Entrypoint
+  name: Entrypoint
+  href: api/BepInEx.Bootstrap.Entrypoint.html
+  commentId: T:BepInEx.Bootstrap.Entrypoint
+  fullName: BepInEx.Bootstrap.Entrypoint
+  nameWithType: Entrypoint
+- uid: BepInEx.Bootstrap.Entrypoint.Init
+  name: Init()
+  href: api/BepInEx.Bootstrap.Entrypoint.html#BepInEx_Bootstrap_Entrypoint_Init
+  commentId: M:BepInEx.Bootstrap.Entrypoint.Init
+  fullName: BepInEx.Bootstrap.Entrypoint.Init()
+  nameWithType: Entrypoint.Init()
+- uid: BepInEx.Bootstrap.Entrypoint.Init*
+  name: Init
+  href: api/BepInEx.Bootstrap.Entrypoint.html#BepInEx_Bootstrap_Entrypoint_Init_
+  commentId: Overload:BepInEx.Bootstrap.Entrypoint.Init
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Entrypoint.Init
+  nameWithType: Entrypoint.Init
+- uid: BepInEx.Bootstrap.Linker
+  name: Linker
+  href: api/BepInEx.Bootstrap.Linker.html
+  commentId: T:BepInEx.Bootstrap.Linker
+  fullName: BepInEx.Bootstrap.Linker
+  nameWithType: Linker
+- uid: BepInEx.Bootstrap.Linker.StartBepInEx
+  name: StartBepInEx()
+  href: api/BepInEx.Bootstrap.Linker.html#BepInEx_Bootstrap_Linker_StartBepInEx
+  commentId: M:BepInEx.Bootstrap.Linker.StartBepInEx
+  fullName: BepInEx.Bootstrap.Linker.StartBepInEx()
+  nameWithType: Linker.StartBepInEx()
+- uid: BepInEx.Bootstrap.Linker.StartBepInEx*
+  name: StartBepInEx
+  href: api/BepInEx.Bootstrap.Linker.html#BepInEx_Bootstrap_Linker_StartBepInEx_
+  commentId: Overload:BepInEx.Bootstrap.Linker.StartBepInEx
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Linker.StartBepInEx
+  nameWithType: Linker.StartBepInEx
+- uid: BepInEx.Bootstrap.TypeLoader
+  name: TypeLoader
+  href: api/BepInEx.Bootstrap.TypeLoader.html
+  commentId: T:BepInEx.Bootstrap.TypeLoader
+  fullName: BepInEx.Bootstrap.TypeLoader
+  nameWithType: TypeLoader
+- uid: BepInEx.Bootstrap.TypeLoader.LoadTypes*
+  name: LoadTypes
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadTypes_
+  commentId: Overload:BepInEx.Bootstrap.TypeLoader.LoadTypes
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.TypeLoader.LoadTypes
+  nameWithType: TypeLoader.LoadTypes
+- uid: BepInEx.Bootstrap.TypeLoader.LoadTypes``1(System.String)
+  name: LoadTypes<T>(String)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadTypes__1_System_String_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.LoadTypes``1(System.String)
+  name.vb: LoadTypes(Of T)(String)
+  fullName: BepInEx.Bootstrap.TypeLoader.LoadTypes<T>(System.String)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.LoadTypes(Of T)(System.String)
+  nameWithType: TypeLoader.LoadTypes<T>(String)
+  nameWithType.vb: TypeLoader.LoadTypes(Of T)(String)
+- uid: BepInEx.Config
+  name: Config
+  href: api/BepInEx.Config.html
+  commentId: T:BepInEx.Config
+  fullName: BepInEx.Config
+  nameWithType: Config
+- uid: BepInEx.Config.ConfigReloaded
+  name: ConfigReloaded
+  href: api/BepInEx.Config.html#BepInEx_Config_ConfigReloaded
+  commentId: E:BepInEx.Config.ConfigReloaded
+  fullName: BepInEx.Config.ConfigReloaded
+  nameWithType: Config.ConfigReloaded
+- uid: BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
+  name: GetEntry(BaseUnityPlugin, String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_BepInEx_BaseUnityPlugin_System_String_System_String_
+  commentId: M:BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
+  fullName: BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin, System.String, System.String)
+  nameWithType: Config.GetEntry(BaseUnityPlugin, String, String)
+- uid: BepInEx.Config.GetEntry(System.String,System.String,System.String)
+  name: GetEntry(String, String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_System_String_System_String_System_String_
+  commentId: M:BepInEx.Config.GetEntry(System.String,System.String,System.String)
+  fullName: BepInEx.Config.GetEntry(System.String, System.String, System.String)
+  nameWithType: Config.GetEntry(String, String, String)
+- uid: BepInEx.Config.GetEntry*
+  name: GetEntry
+  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_
+  commentId: Overload:BepInEx.Config.GetEntry
+  isSpec: "True"
+  fullName: BepInEx.Config.GetEntry
+  nameWithType: Config.GetEntry
+- uid: BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin,System.String)
+  name: HasEntry(BaseUnityPlugin, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_BepInEx_BaseUnityPlugin_System_String_
+  commentId: M:BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin,System.String)
+  fullName: BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin, System.String)
+  nameWithType: Config.HasEntry(BaseUnityPlugin, String)
+- uid: BepInEx.Config.HasEntry(System.String,System.String)
+  name: HasEntry(String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_System_String_System_String_
+  commentId: M:BepInEx.Config.HasEntry(System.String,System.String)
+  fullName: BepInEx.Config.HasEntry(System.String, System.String)
+  nameWithType: Config.HasEntry(String, String)
+- uid: BepInEx.Config.HasEntry*
+  name: HasEntry
+  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_
+  commentId: Overload:BepInEx.Config.HasEntry
+  isSpec: "True"
+  fullName: BepInEx.Config.HasEntry
+  nameWithType: Config.HasEntry
+- uid: BepInEx.Config.ReloadConfig
+  name: ReloadConfig()
+  href: api/BepInEx.Config.html#BepInEx_Config_ReloadConfig
+  commentId: M:BepInEx.Config.ReloadConfig
+  fullName: BepInEx.Config.ReloadConfig()
+  nameWithType: Config.ReloadConfig()
+- uid: BepInEx.Config.ReloadConfig*
+  name: ReloadConfig
+  href: api/BepInEx.Config.html#BepInEx_Config_ReloadConfig_
+  commentId: Overload:BepInEx.Config.ReloadConfig
+  isSpec: "True"
+  fullName: BepInEx.Config.ReloadConfig
+  nameWithType: Config.ReloadConfig
+- uid: BepInEx.Config.Sanitize(System.String)
+  name: Sanitize(String)
+  href: api/BepInEx.Config.html#BepInEx_Config_Sanitize_System_String_
+  commentId: M:BepInEx.Config.Sanitize(System.String)
+  fullName: BepInEx.Config.Sanitize(System.String)
+  nameWithType: Config.Sanitize(String)
+- uid: BepInEx.Config.Sanitize*
+  name: Sanitize
+  href: api/BepInEx.Config.html#BepInEx_Config_Sanitize_
+  commentId: Overload:BepInEx.Config.Sanitize
+  isSpec: "True"
+  fullName: BepInEx.Config.Sanitize
+  nameWithType: Config.Sanitize
+- uid: BepInEx.Config.SaveConfig
+  name: SaveConfig()
+  href: api/BepInEx.Config.html#BepInEx_Config_SaveConfig
+  commentId: M:BepInEx.Config.SaveConfig
+  fullName: BepInEx.Config.SaveConfig()
+  nameWithType: Config.SaveConfig()
+- uid: BepInEx.Config.SaveConfig*
+  name: SaveConfig
+  href: api/BepInEx.Config.html#BepInEx_Config_SaveConfig_
+  commentId: Overload:BepInEx.Config.SaveConfig
+  isSpec: "True"
+  fullName: BepInEx.Config.SaveConfig
+  nameWithType: Config.SaveConfig
+- uid: BepInEx.Config.SaveOnConfigSet
+  name: SaveOnConfigSet
+  href: api/BepInEx.Config.html#BepInEx_Config_SaveOnConfigSet
+  commentId: P:BepInEx.Config.SaveOnConfigSet
+  fullName: BepInEx.Config.SaveOnConfigSet
+  nameWithType: Config.SaveOnConfigSet
+- uid: BepInEx.Config.SaveOnConfigSet*
+  name: SaveOnConfigSet
+  href: api/BepInEx.Config.html#BepInEx_Config_SaveOnConfigSet_
+  commentId: Overload:BepInEx.Config.SaveOnConfigSet
+  isSpec: "True"
+  fullName: BepInEx.Config.SaveOnConfigSet
+  nameWithType: Config.SaveOnConfigSet
+- uid: BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
+  name: SetEntry(BaseUnityPlugin, String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_BepInEx_BaseUnityPlugin_System_String_System_String_
+  commentId: M:BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
+  fullName: BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin, System.String, System.String)
+  nameWithType: Config.SetEntry(BaseUnityPlugin, String, String)
+- uid: BepInEx.Config.SetEntry(System.String,System.String,System.String)
+  name: SetEntry(String, String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_System_String_System_String_System_String_
+  commentId: M:BepInEx.Config.SetEntry(System.String,System.String,System.String)
+  fullName: BepInEx.Config.SetEntry(System.String, System.String, System.String)
+  nameWithType: Config.SetEntry(String, String, String)
+- uid: BepInEx.Config.SetEntry*
+  name: SetEntry
+  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_
+  commentId: Overload:BepInEx.Config.SetEntry
+  isSpec: "True"
+  fullName: BepInEx.Config.SetEntry
+  nameWithType: Config.SetEntry
+- uid: BepInEx.Config.UnsetEntry(System.String,System.String)
+  name: UnsetEntry(String, String)
+  href: api/BepInEx.Config.html#BepInEx_Config_UnsetEntry_System_String_System_String_
+  commentId: M:BepInEx.Config.UnsetEntry(System.String,System.String)
+  fullName: BepInEx.Config.UnsetEntry(System.String, System.String)
+  nameWithType: Config.UnsetEntry(String, String)
+- uid: BepInEx.Config.UnsetEntry*
+  name: UnsetEntry
+  href: api/BepInEx.Config.html#BepInEx_Config_UnsetEntry_
+  commentId: Overload:BepInEx.Config.UnsetEntry
+  isSpec: "True"
+  fullName: BepInEx.Config.UnsetEntry
+  nameWithType: Config.UnsetEntry
+- uid: BepInEx.ConfigWrapper`1
+  name: ConfigWrapper<T>
+  href: api/BepInEx.ConfigWrapper-1.html
+  commentId: T:BepInEx.ConfigWrapper`1
+  name.vb: ConfigWrapper(Of T)
+  fullName: BepInEx.ConfigWrapper<T>
+  fullName.vb: BepInEx.ConfigWrapper(Of T)
+  nameWithType: ConfigWrapper<T>
+  nameWithType.vb: ConfigWrapper(Of T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,`0)
+  name: ConfigWrapper(String, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String__0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,`0)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,`0)
+  name: ConfigWrapper(String, BaseUnityPlugin, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin__0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,`0)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,BepInEx.IConfigConverter{`0},`0)
+  name: ConfigWrapper(String, BaseUnityPlugin, IConfigConverter<T>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin_BepInEx_IConfigConverter__0___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,BepInEx.IConfigConverter{`0},`0)
+  name.vb: ConfigWrapper(String, BaseUnityPlugin, IConfigConverter(Of T), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, BepInEx.IConfigConverter<T>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, BepInEx.IConfigConverter(Of T), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, IConfigConverter<T>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, IConfigConverter(Of T), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name: ConfigWrapper(String, BaseUnityPlugin, Func<String, T>, Func<T, String>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin_System_Func_System_String__0__System_Func__0_System_String___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name.vb: ConfigWrapper(String, BaseUnityPlugin, Func(Of String, T), Func(Of T, String), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, System.Func<System.String, T>, System.Func<T, System.String>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, Func<String, T>, Func<T, String>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, Func(Of String, T), Func(Of T, String), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.IConfigConverter{`0},`0)
+  name: ConfigWrapper(String, IConfigConverter<T>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_IConfigConverter__0___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.IConfigConverter{`0},`0)
+  name.vb: ConfigWrapper(String, IConfigConverter(Of T), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.IConfigConverter<T>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.IConfigConverter(Of T), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, IConfigConverter<T>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, IConfigConverter(Of T), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name: ConfigWrapper(String, Func<String, T>, Func<T, String>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_Func_System_String__0__System_Func__0_System_String___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name.vb: ConfigWrapper(String, Func(Of String, T), Func(Of T, String), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.Func<System.String, T>, System.Func<T, System.String>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, Func<String, T>, Func<T, String>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, Func(Of String, T), Func(Of T, String), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,`0)
+  name: ConfigWrapper(String, String, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String__0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,`0)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,BepInEx.IConfigConverter{`0},`0)
+  name: ConfigWrapper(String, String, IConfigConverter<T>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String_BepInEx_IConfigConverter__0___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,BepInEx.IConfigConverter{`0},`0)
+  name.vb: ConfigWrapper(String, String, IConfigConverter(Of T), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, BepInEx.IConfigConverter<T>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, BepInEx.IConfigConverter(Of T), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, IConfigConverter<T>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, IConfigConverter(Of T), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name: ConfigWrapper(String, String, Func<String, T>, Func<T, String>, T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String_System_Func_System_String__0__System_Func__0_System_String___0_
+  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
+  name.vb: ConfigWrapper(String, String, Func(Of String, T), Func(Of T, String), T)
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, System.Func<System.String, T>, System.Func<T, System.String>, T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, Func<String, T>, Func<T, String>, T)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, Func(Of String, T), Func(Of T, String), T)
+- uid: BepInEx.ConfigWrapper`1.#ctor*
+  name: ConfigWrapper
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_
+  commentId: Overload:BepInEx.ConfigWrapper`1.#ctor
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper
+  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper
+  nameWithType: ConfigWrapper<T>.ConfigWrapper
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper
+- uid: BepInEx.ConfigWrapper`1.Clear
+  name: Clear()
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Clear
+  commentId: M:BepInEx.ConfigWrapper`1.Clear
+  fullName: BepInEx.ConfigWrapper<T>.Clear()
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Clear()
+  nameWithType: ConfigWrapper<T>.Clear()
+  nameWithType.vb: ConfigWrapper(Of T).Clear()
+- uid: BepInEx.ConfigWrapper`1.Clear*
+  name: Clear
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Clear_
+  commentId: Overload:BepInEx.ConfigWrapper`1.Clear
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.Clear
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Clear
+  nameWithType: ConfigWrapper<T>.Clear
+  nameWithType.vb: ConfigWrapper(Of T).Clear
+- uid: BepInEx.ConfigWrapper`1.GetKeyExists
+  name: GetKeyExists()
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetKeyExists
+  commentId: M:BepInEx.ConfigWrapper`1.GetKeyExists
+  fullName: BepInEx.ConfigWrapper<T>.GetKeyExists()
+  fullName.vb: BepInEx.ConfigWrapper(Of T).GetKeyExists()
+  nameWithType: ConfigWrapper<T>.GetKeyExists()
+  nameWithType.vb: ConfigWrapper(Of T).GetKeyExists()
+- uid: BepInEx.ConfigWrapper`1.GetKeyExists*
+  name: GetKeyExists
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetKeyExists_
+  commentId: Overload:BepInEx.ConfigWrapper`1.GetKeyExists
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.GetKeyExists
+  fullName.vb: BepInEx.ConfigWrapper(Of T).GetKeyExists
+  nameWithType: ConfigWrapper<T>.GetKeyExists
+  nameWithType.vb: ConfigWrapper(Of T).GetKeyExists
+- uid: BepInEx.ConfigWrapper`1.GetValue
+  name: GetValue()
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetValue
+  commentId: M:BepInEx.ConfigWrapper`1.GetValue
+  fullName: BepInEx.ConfigWrapper<T>.GetValue()
+  fullName.vb: BepInEx.ConfigWrapper(Of T).GetValue()
+  nameWithType: ConfigWrapper<T>.GetValue()
+  nameWithType.vb: ConfigWrapper(Of T).GetValue()
+- uid: BepInEx.ConfigWrapper`1.GetValue*
+  name: GetValue
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetValue_
+  commentId: Overload:BepInEx.ConfigWrapper`1.GetValue
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.GetValue
+  fullName.vb: BepInEx.ConfigWrapper(Of T).GetValue
+  nameWithType: ConfigWrapper<T>.GetValue
+  nameWithType.vb: ConfigWrapper(Of T).GetValue
+- uid: BepInEx.ConfigWrapper`1.Key
+  name: Key
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Key
+  commentId: P:BepInEx.ConfigWrapper`1.Key
+  fullName: BepInEx.ConfigWrapper<T>.Key
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Key
+  nameWithType: ConfigWrapper<T>.Key
+  nameWithType.vb: ConfigWrapper(Of T).Key
+- uid: BepInEx.ConfigWrapper`1.Key*
+  name: Key
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Key_
+  commentId: Overload:BepInEx.ConfigWrapper`1.Key
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.Key
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Key
+  nameWithType: ConfigWrapper<T>.Key
+  nameWithType.vb: ConfigWrapper(Of T).Key
+- uid: BepInEx.ConfigWrapper`1.Section
+  name: Section
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Section
+  commentId: P:BepInEx.ConfigWrapper`1.Section
+  fullName: BepInEx.ConfigWrapper<T>.Section
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Section
+  nameWithType: ConfigWrapper<T>.Section
+  nameWithType.vb: ConfigWrapper(Of T).Section
+- uid: BepInEx.ConfigWrapper`1.Section*
+  name: Section
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Section_
+  commentId: Overload:BepInEx.ConfigWrapper`1.Section
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.Section
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Section
+  nameWithType: ConfigWrapper<T>.Section
+  nameWithType.vb: ConfigWrapper(Of T).Section
+- uid: BepInEx.ConfigWrapper`1.SettingChanged
+  name: SettingChanged
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SettingChanged
+  commentId: E:BepInEx.ConfigWrapper`1.SettingChanged
+  fullName: BepInEx.ConfigWrapper<T>.SettingChanged
+  fullName.vb: BepInEx.ConfigWrapper(Of T).SettingChanged
+  nameWithType: ConfigWrapper<T>.SettingChanged
+  nameWithType.vb: ConfigWrapper(Of T).SettingChanged
+- uid: BepInEx.ConfigWrapper`1.SetValue(`0)
+  name: SetValue(T)
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SetValue__0_
+  commentId: M:BepInEx.ConfigWrapper`1.SetValue(`0)
+  fullName: BepInEx.ConfigWrapper<T>.SetValue(T)
+  fullName.vb: BepInEx.ConfigWrapper(Of T).SetValue(T)
+  nameWithType: ConfigWrapper<T>.SetValue(T)
+  nameWithType.vb: ConfigWrapper(Of T).SetValue(T)
+- uid: BepInEx.ConfigWrapper`1.SetValue*
+  name: SetValue
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SetValue_
+  commentId: Overload:BepInEx.ConfigWrapper`1.SetValue
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.SetValue
+  fullName.vb: BepInEx.ConfigWrapper(Of T).SetValue
+  nameWithType: ConfigWrapper<T>.SetValue
+  nameWithType.vb: ConfigWrapper(Of T).SetValue
+- uid: BepInEx.ConfigWrapper`1.Value
+  name: Value
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Value
+  commentId: P:BepInEx.ConfigWrapper`1.Value
+  fullName: BepInEx.ConfigWrapper<T>.Value
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Value
+  nameWithType: ConfigWrapper<T>.Value
+  nameWithType.vb: ConfigWrapper(Of T).Value
+- uid: BepInEx.ConfigWrapper`1.Value*
+  name: Value
+  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Value_
+  commentId: Overload:BepInEx.ConfigWrapper`1.Value
+  isSpec: "True"
+  fullName: BepInEx.ConfigWrapper<T>.Value
+  fullName.vb: BepInEx.ConfigWrapper(Of T).Value
+  nameWithType: ConfigWrapper<T>.Value
+  nameWithType.vb: ConfigWrapper(Of T).Value
+- uid: BepInEx.IConfigConverter`1
+  name: IConfigConverter<T>
+  href: api/BepInEx.IConfigConverter-1.html
+  commentId: T:BepInEx.IConfigConverter`1
+  name.vb: IConfigConverter(Of T)
+  fullName: BepInEx.IConfigConverter<T>
+  fullName.vb: BepInEx.IConfigConverter(Of T)
+  nameWithType: IConfigConverter<T>
+  nameWithType.vb: IConfigConverter(Of T)
+- uid: BepInEx.IConfigConverter`1.ConvertFromString(System.String)
+  name: ConvertFromString(String)
+  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertFromString_System_String_
+  commentId: M:BepInEx.IConfigConverter`1.ConvertFromString(System.String)
+  fullName: BepInEx.IConfigConverter<T>.ConvertFromString(System.String)
+  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertFromString(System.String)
+  nameWithType: IConfigConverter<T>.ConvertFromString(String)
+  nameWithType.vb: IConfigConverter(Of T).ConvertFromString(String)
+- uid: BepInEx.IConfigConverter`1.ConvertFromString*
+  name: ConvertFromString
+  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertFromString_
+  commentId: Overload:BepInEx.IConfigConverter`1.ConvertFromString
+  isSpec: "True"
+  fullName: BepInEx.IConfigConverter<T>.ConvertFromString
+  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertFromString
+  nameWithType: IConfigConverter<T>.ConvertFromString
+  nameWithType.vb: IConfigConverter(Of T).ConvertFromString
+- uid: BepInEx.IConfigConverter`1.ConvertToString(`0)
+  name: ConvertToString(T)
+  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertToString__0_
+  commentId: M:BepInEx.IConfigConverter`1.ConvertToString(`0)
+  fullName: BepInEx.IConfigConverter<T>.ConvertToString(T)
+  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertToString(T)
+  nameWithType: IConfigConverter<T>.ConvertToString(T)
+  nameWithType.vb: IConfigConverter(Of T).ConvertToString(T)
+- uid: BepInEx.IConfigConverter`1.ConvertToString*
+  name: ConvertToString
+  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertToString_
+  commentId: Overload:BepInEx.IConfigConverter`1.ConvertToString
+  isSpec: "True"
+  fullName: BepInEx.IConfigConverter<T>.ConvertToString
+  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertToString
+  nameWithType: IConfigConverter<T>.ConvertToString
+  nameWithType.vb: IConfigConverter(Of T).ConvertToString
+- uid: BepInEx.Logging
+  name: BepInEx.Logging
+  href: api/BepInEx.Logging.html
+  commentId: N:BepInEx.Logging
+  fullName: BepInEx.Logging
+  nameWithType: BepInEx.Logging
+- uid: BepInEx.Logging.ConsoleLogListener
+  name: ConsoleLogListener
+  href: api/BepInEx.Logging.ConsoleLogListener.html
+  commentId: T:BepInEx.Logging.ConsoleLogListener
+  fullName: BepInEx.Logging.ConsoleLogListener
+  nameWithType: ConsoleLogListener
+- uid: BepInEx.Logging.ConsoleLogListener.Dispose
+  name: Dispose()
+  href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_Dispose
+  commentId: M:BepInEx.Logging.ConsoleLogListener.Dispose
+  fullName: BepInEx.Logging.ConsoleLogListener.Dispose()
+  nameWithType: ConsoleLogListener.Dispose()
+- uid: BepInEx.Logging.ConsoleLogListener.Dispose*
+  name: Dispose
+  href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_Dispose_
+  commentId: Overload:BepInEx.Logging.ConsoleLogListener.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Logging.ConsoleLogListener.Dispose
+  nameWithType: ConsoleLogListener.Dispose
+- uid: BepInEx.Logging.ConsoleLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  name: LogEvent(Object, LogEventArgs)
+  href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_LogEvent_System_Object_BepInEx_Logging_LogEventArgs_
+  commentId: M:BepInEx.Logging.ConsoleLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  fullName: BepInEx.Logging.ConsoleLogListener.LogEvent(System.Object, BepInEx.Logging.LogEventArgs)
+  nameWithType: ConsoleLogListener.LogEvent(Object, LogEventArgs)
+- uid: BepInEx.Logging.ConsoleLogListener.LogEvent*
+  name: LogEvent
+  href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_LogEvent_
+  commentId: Overload:BepInEx.Logging.ConsoleLogListener.LogEvent
+  isSpec: "True"
+  fullName: BepInEx.Logging.ConsoleLogListener.LogEvent
+  nameWithType: ConsoleLogListener.LogEvent
+- uid: BepInEx.Logging.ILogListener
+  name: ILogListener
+  href: api/BepInEx.Logging.ILogListener.html
+  commentId: T:BepInEx.Logging.ILogListener
+  fullName: BepInEx.Logging.ILogListener
+  nameWithType: ILogListener
+- uid: BepInEx.Logging.ILogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  name: LogEvent(Object, LogEventArgs)
+  href: api/BepInEx.Logging.ILogListener.html#BepInEx_Logging_ILogListener_LogEvent_System_Object_BepInEx_Logging_LogEventArgs_
+  commentId: M:BepInEx.Logging.ILogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  fullName: BepInEx.Logging.ILogListener.LogEvent(System.Object, BepInEx.Logging.LogEventArgs)
+  nameWithType: ILogListener.LogEvent(Object, LogEventArgs)
+- uid: BepInEx.Logging.ILogListener.LogEvent*
+  name: LogEvent
+  href: api/BepInEx.Logging.ILogListener.html#BepInEx_Logging_ILogListener_LogEvent_
+  commentId: Overload:BepInEx.Logging.ILogListener.LogEvent
+  isSpec: "True"
+  fullName: BepInEx.Logging.ILogListener.LogEvent
+  nameWithType: ILogListener.LogEvent
+- uid: BepInEx.Logging.ILogSource
+  name: ILogSource
+  href: api/BepInEx.Logging.ILogSource.html
+  commentId: T:BepInEx.Logging.ILogSource
+  fullName: BepInEx.Logging.ILogSource
+  nameWithType: ILogSource
+- uid: BepInEx.Logging.ILogSource.LogEvent
+  name: LogEvent
+  href: api/BepInEx.Logging.ILogSource.html#BepInEx_Logging_ILogSource_LogEvent
+  commentId: E:BepInEx.Logging.ILogSource.LogEvent
+  fullName: BepInEx.Logging.ILogSource.LogEvent
+  nameWithType: ILogSource.LogEvent
+- uid: BepInEx.Logging.ILogSource.SourceName
+  name: SourceName
+  href: api/BepInEx.Logging.ILogSource.html#BepInEx_Logging_ILogSource_SourceName
+  commentId: P:BepInEx.Logging.ILogSource.SourceName
+  fullName: BepInEx.Logging.ILogSource.SourceName
+  nameWithType: ILogSource.SourceName
+- uid: BepInEx.Logging.ILogSource.SourceName*
+  name: SourceName
+  href: api/BepInEx.Logging.ILogSource.html#BepInEx_Logging_ILogSource_SourceName_
+  commentId: Overload:BepInEx.Logging.ILogSource.SourceName
+  isSpec: "True"
+  fullName: BepInEx.Logging.ILogSource.SourceName
+  nameWithType: ILogSource.SourceName
+- uid: BepInEx.Logging.LogEventArgs
+  name: LogEventArgs
+  href: api/BepInEx.Logging.LogEventArgs.html
+  commentId: T:BepInEx.Logging.LogEventArgs
+  fullName: BepInEx.Logging.LogEventArgs
+  nameWithType: LogEventArgs
+- uid: BepInEx.Logging.LogEventArgs.#ctor(System.Object,BepInEx.Logging.LogLevel,BepInEx.Logging.ILogSource)
+  name: LogEventArgs(Object, LogLevel, ILogSource)
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs__ctor_System_Object_BepInEx_Logging_LogLevel_BepInEx_Logging_ILogSource_
+  commentId: M:BepInEx.Logging.LogEventArgs.#ctor(System.Object,BepInEx.Logging.LogLevel,BepInEx.Logging.ILogSource)
+  fullName: BepInEx.Logging.LogEventArgs.LogEventArgs(System.Object, BepInEx.Logging.LogLevel, BepInEx.Logging.ILogSource)
+  nameWithType: LogEventArgs.LogEventArgs(Object, LogLevel, ILogSource)
+- uid: BepInEx.Logging.LogEventArgs.#ctor*
+  name: LogEventArgs
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs__ctor_
+  commentId: Overload:BepInEx.Logging.LogEventArgs.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogEventArgs.LogEventArgs
+  nameWithType: LogEventArgs.LogEventArgs
+- uid: BepInEx.Logging.LogEventArgs.Data
+  name: Data
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Data
+  commentId: P:BepInEx.Logging.LogEventArgs.Data
+  fullName: BepInEx.Logging.LogEventArgs.Data
+  nameWithType: LogEventArgs.Data
+- uid: BepInEx.Logging.LogEventArgs.Data*
+  name: Data
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Data_
+  commentId: Overload:BepInEx.Logging.LogEventArgs.Data
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogEventArgs.Data
+  nameWithType: LogEventArgs.Data
+- uid: BepInEx.Logging.LogEventArgs.Level
+  name: Level
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Level
+  commentId: P:BepInEx.Logging.LogEventArgs.Level
+  fullName: BepInEx.Logging.LogEventArgs.Level
+  nameWithType: LogEventArgs.Level
+- uid: BepInEx.Logging.LogEventArgs.Level*
+  name: Level
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Level_
+  commentId: Overload:BepInEx.Logging.LogEventArgs.Level
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogEventArgs.Level
+  nameWithType: LogEventArgs.Level
+- uid: BepInEx.Logging.LogEventArgs.Source
+  name: Source
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Source
+  commentId: P:BepInEx.Logging.LogEventArgs.Source
+  fullName: BepInEx.Logging.LogEventArgs.Source
+  nameWithType: LogEventArgs.Source
+- uid: BepInEx.Logging.LogEventArgs.Source*
+  name: Source
+  href: api/BepInEx.Logging.LogEventArgs.html#BepInEx_Logging_LogEventArgs_Source_
+  commentId: Overload:BepInEx.Logging.LogEventArgs.Source
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogEventArgs.Source
+  nameWithType: LogEventArgs.Source
+- uid: BepInEx.Logging.Logger
+  name: Logger
+  href: api/BepInEx.Logging.Logger.html
+  commentId: T:BepInEx.Logging.Logger
+  fullName: BepInEx.Logging.Logger
+  nameWithType: Logger
+- uid: BepInEx.Logging.Logger.CreateLogSource(System.String)
+  name: CreateLogSource(String)
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_CreateLogSource_System_String_
+  commentId: M:BepInEx.Logging.Logger.CreateLogSource(System.String)
+  fullName: BepInEx.Logging.Logger.CreateLogSource(System.String)
+  nameWithType: Logger.CreateLogSource(String)
+- uid: BepInEx.Logging.Logger.CreateLogSource*
+  name: CreateLogSource
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_CreateLogSource_
+  commentId: Overload:BepInEx.Logging.Logger.CreateLogSource
+  isSpec: "True"
+  fullName: BepInEx.Logging.Logger.CreateLogSource
+  nameWithType: Logger.CreateLogSource
+- uid: BepInEx.Logging.Logger.Listeners
+  name: Listeners
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Listeners
+  commentId: P:BepInEx.Logging.Logger.Listeners
+  fullName: BepInEx.Logging.Logger.Listeners
+  nameWithType: Logger.Listeners
+- uid: BepInEx.Logging.Logger.Listeners*
+  name: Listeners
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Listeners_
+  commentId: Overload:BepInEx.Logging.Logger.Listeners
+  isSpec: "True"
+  fullName: BepInEx.Logging.Logger.Listeners
+  nameWithType: Logger.Listeners
+- uid: BepInEx.Logging.Logger.Sources
+  name: Sources
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Sources
+  commentId: P:BepInEx.Logging.Logger.Sources
+  fullName: BepInEx.Logging.Logger.Sources
+  nameWithType: Logger.Sources
+- uid: BepInEx.Logging.Logger.Sources*
+  name: Sources
+  href: api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Sources_
+  commentId: Overload:BepInEx.Logging.Logger.Sources
+  isSpec: "True"
+  fullName: BepInEx.Logging.Logger.Sources
+  nameWithType: Logger.Sources
+- uid: BepInEx.Logging.LogLevel
+  name: LogLevel
+  href: api/BepInEx.Logging.LogLevel.html
+  commentId: T:BepInEx.Logging.LogLevel
+  fullName: BepInEx.Logging.LogLevel
+  nameWithType: LogLevel
+- uid: BepInEx.Logging.LogLevel.All
+  name: All
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_All
+  commentId: F:BepInEx.Logging.LogLevel.All
+  fullName: BepInEx.Logging.LogLevel.All
+  nameWithType: LogLevel.All
+- uid: BepInEx.Logging.LogLevel.Debug
+  name: Debug
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Debug
+  commentId: F:BepInEx.Logging.LogLevel.Debug
+  fullName: BepInEx.Logging.LogLevel.Debug
+  nameWithType: LogLevel.Debug
+- uid: BepInEx.Logging.LogLevel.Error
+  name: Error
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Error
+  commentId: F:BepInEx.Logging.LogLevel.Error
+  fullName: BepInEx.Logging.LogLevel.Error
+  nameWithType: LogLevel.Error
+- uid: BepInEx.Logging.LogLevel.Fatal
+  name: Fatal
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Fatal
+  commentId: F:BepInEx.Logging.LogLevel.Fatal
+  fullName: BepInEx.Logging.LogLevel.Fatal
+  nameWithType: LogLevel.Fatal
+- uid: BepInEx.Logging.LogLevel.Info
+  name: Info
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Info
+  commentId: F:BepInEx.Logging.LogLevel.Info
+  fullName: BepInEx.Logging.LogLevel.Info
+  nameWithType: LogLevel.Info
+- uid: BepInEx.Logging.LogLevel.Message
+  name: Message
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Message
+  commentId: F:BepInEx.Logging.LogLevel.Message
+  fullName: BepInEx.Logging.LogLevel.Message
+  nameWithType: LogLevel.Message
+- uid: BepInEx.Logging.LogLevel.None
+  name: None
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_None
+  commentId: F:BepInEx.Logging.LogLevel.None
+  fullName: BepInEx.Logging.LogLevel.None
+  nameWithType: LogLevel.None
+- uid: BepInEx.Logging.LogLevel.Warning
+  name: Warning
+  href: api/BepInEx.Logging.LogLevel.html#BepInEx_Logging_LogLevel_Warning
+  commentId: F:BepInEx.Logging.LogLevel.Warning
+  fullName: BepInEx.Logging.LogLevel.Warning
+  nameWithType: LogLevel.Warning
+- uid: BepInEx.Logging.LogLevelExtensions
+  name: LogLevelExtensions
+  href: api/BepInEx.Logging.LogLevelExtensions.html
+  commentId: T:BepInEx.Logging.LogLevelExtensions
+  fullName: BepInEx.Logging.LogLevelExtensions
+  nameWithType: LogLevelExtensions
+- uid: BepInEx.Logging.LogLevelExtensions.GetConsoleColor(BepInEx.Logging.LogLevel)
+  name: GetConsoleColor(LogLevel)
+  href: api/BepInEx.Logging.LogLevelExtensions.html#BepInEx_Logging_LogLevelExtensions_GetConsoleColor_BepInEx_Logging_LogLevel_
+  commentId: M:BepInEx.Logging.LogLevelExtensions.GetConsoleColor(BepInEx.Logging.LogLevel)
+  fullName: BepInEx.Logging.LogLevelExtensions.GetConsoleColor(BepInEx.Logging.LogLevel)
+  nameWithType: LogLevelExtensions.GetConsoleColor(LogLevel)
+- uid: BepInEx.Logging.LogLevelExtensions.GetConsoleColor*
+  name: GetConsoleColor
+  href: api/BepInEx.Logging.LogLevelExtensions.html#BepInEx_Logging_LogLevelExtensions_GetConsoleColor_
+  commentId: Overload:BepInEx.Logging.LogLevelExtensions.GetConsoleColor
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogLevelExtensions.GetConsoleColor
+  nameWithType: LogLevelExtensions.GetConsoleColor
+- uid: BepInEx.Logging.LogLevelExtensions.GetHighestLevel(BepInEx.Logging.LogLevel)
+  name: GetHighestLevel(LogLevel)
+  href: api/BepInEx.Logging.LogLevelExtensions.html#BepInEx_Logging_LogLevelExtensions_GetHighestLevel_BepInEx_Logging_LogLevel_
+  commentId: M:BepInEx.Logging.LogLevelExtensions.GetHighestLevel(BepInEx.Logging.LogLevel)
+  fullName: BepInEx.Logging.LogLevelExtensions.GetHighestLevel(BepInEx.Logging.LogLevel)
+  nameWithType: LogLevelExtensions.GetHighestLevel(LogLevel)
+- uid: BepInEx.Logging.LogLevelExtensions.GetHighestLevel*
+  name: GetHighestLevel
+  href: api/BepInEx.Logging.LogLevelExtensions.html#BepInEx_Logging_LogLevelExtensions_GetHighestLevel_
+  commentId: Overload:BepInEx.Logging.LogLevelExtensions.GetHighestLevel
+  isSpec: "True"
+  fullName: BepInEx.Logging.LogLevelExtensions.GetHighestLevel
+  nameWithType: LogLevelExtensions.GetHighestLevel
+- uid: BepInEx.Logging.ManualLogSource
+  name: ManualLogSource
+  href: api/BepInEx.Logging.ManualLogSource.html
+  commentId: T:BepInEx.Logging.ManualLogSource
+  fullName: BepInEx.Logging.ManualLogSource
+  nameWithType: ManualLogSource
+- uid: BepInEx.Logging.ManualLogSource.#ctor(System.String)
+  name: ManualLogSource(String)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource__ctor_System_String_
+  commentId: M:BepInEx.Logging.ManualLogSource.#ctor(System.String)
+  fullName: BepInEx.Logging.ManualLogSource.ManualLogSource(System.String)
+  nameWithType: ManualLogSource.ManualLogSource(String)
+- uid: BepInEx.Logging.ManualLogSource.#ctor*
+  name: ManualLogSource
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource__ctor_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.ManualLogSource
+  nameWithType: ManualLogSource.ManualLogSource
+- uid: BepInEx.Logging.ManualLogSource.Dispose
+  name: Dispose()
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_Dispose
+  commentId: M:BepInEx.Logging.ManualLogSource.Dispose
+  fullName: BepInEx.Logging.ManualLogSource.Dispose()
+  nameWithType: ManualLogSource.Dispose()
+- uid: BepInEx.Logging.ManualLogSource.Dispose*
+  name: Dispose
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_Dispose_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.Dispose
+  nameWithType: ManualLogSource.Dispose
+- uid: BepInEx.Logging.ManualLogSource.Log(BepInEx.Logging.LogLevel,System.Object)
+  name: Log(LogLevel, Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_Log_BepInEx_Logging_LogLevel_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.Log(BepInEx.Logging.LogLevel,System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.Log(BepInEx.Logging.LogLevel, System.Object)
+  nameWithType: ManualLogSource.Log(LogLevel, Object)
+- uid: BepInEx.Logging.ManualLogSource.Log*
+  name: Log
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_Log_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.Log
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.Log
+  nameWithType: ManualLogSource.Log
+- uid: BepInEx.Logging.ManualLogSource.LogDebug(System.Object)
+  name: LogDebug(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogDebug_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogDebug(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogDebug(System.Object)
+  nameWithType: ManualLogSource.LogDebug(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogDebug*
+  name: LogDebug
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogDebug_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogDebug
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogDebug
+  nameWithType: ManualLogSource.LogDebug
+- uid: BepInEx.Logging.ManualLogSource.LogError(System.Object)
+  name: LogError(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogError_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogError(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogError(System.Object)
+  nameWithType: ManualLogSource.LogError(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogError*
+  name: LogError
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogError_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogError
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogError
+  nameWithType: ManualLogSource.LogError
+- uid: BepInEx.Logging.ManualLogSource.LogEvent
+  name: LogEvent
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogEvent
+  commentId: E:BepInEx.Logging.ManualLogSource.LogEvent
+  fullName: BepInEx.Logging.ManualLogSource.LogEvent
+  nameWithType: ManualLogSource.LogEvent
+- uid: BepInEx.Logging.ManualLogSource.LogFatal(System.Object)
+  name: LogFatal(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogFatal_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogFatal(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogFatal(System.Object)
+  nameWithType: ManualLogSource.LogFatal(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogFatal*
+  name: LogFatal
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogFatal_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogFatal
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogFatal
+  nameWithType: ManualLogSource.LogFatal
+- uid: BepInEx.Logging.ManualLogSource.LogInfo(System.Object)
+  name: LogInfo(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogInfo_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogInfo(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogInfo(System.Object)
+  nameWithType: ManualLogSource.LogInfo(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogInfo*
+  name: LogInfo
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogInfo_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogInfo
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogInfo
+  nameWithType: ManualLogSource.LogInfo
+- uid: BepInEx.Logging.ManualLogSource.LogMessage(System.Object)
+  name: LogMessage(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogMessage_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogMessage(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogMessage(System.Object)
+  nameWithType: ManualLogSource.LogMessage(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogMessage*
+  name: LogMessage
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogMessage_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogMessage
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogMessage
+  nameWithType: ManualLogSource.LogMessage
+- uid: BepInEx.Logging.ManualLogSource.LogWarning(System.Object)
+  name: LogWarning(Object)
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogWarning_System_Object_
+  commentId: M:BepInEx.Logging.ManualLogSource.LogWarning(System.Object)
+  fullName: BepInEx.Logging.ManualLogSource.LogWarning(System.Object)
+  nameWithType: ManualLogSource.LogWarning(Object)
+- uid: BepInEx.Logging.ManualLogSource.LogWarning*
+  name: LogWarning
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_LogWarning_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.LogWarning
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.LogWarning
+  nameWithType: ManualLogSource.LogWarning
+- uid: BepInEx.Logging.ManualLogSource.SourceName
+  name: SourceName
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_SourceName
+  commentId: P:BepInEx.Logging.ManualLogSource.SourceName
+  fullName: BepInEx.Logging.ManualLogSource.SourceName
+  nameWithType: ManualLogSource.SourceName
+- uid: BepInEx.Logging.ManualLogSource.SourceName*
+  name: SourceName
+  href: api/BepInEx.Logging.ManualLogSource.html#BepInEx_Logging_ManualLogSource_SourceName_
+  commentId: Overload:BepInEx.Logging.ManualLogSource.SourceName
+  isSpec: "True"
+  fullName: BepInEx.Logging.ManualLogSource.SourceName
+  nameWithType: ManualLogSource.SourceName
+- uid: BepInEx.Logging.TraceLogSource
+  name: TraceLogSource
+  href: api/BepInEx.Logging.TraceLogSource.html
+  commentId: T:BepInEx.Logging.TraceLogSource
+  fullName: BepInEx.Logging.TraceLogSource
+  nameWithType: TraceLogSource
+- uid: BepInEx.Logging.TraceLogSource.#ctor
+  name: TraceLogSource()
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource__ctor
+  commentId: M:BepInEx.Logging.TraceLogSource.#ctor
+  fullName: BepInEx.Logging.TraceLogSource.TraceLogSource()
+  nameWithType: TraceLogSource.TraceLogSource()
+- uid: BepInEx.Logging.TraceLogSource.#ctor*
+  name: TraceLogSource
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource__ctor_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.TraceLogSource
+  nameWithType: TraceLogSource.TraceLogSource
+- uid: BepInEx.Logging.TraceLogSource.CreateSource
+  name: CreateSource()
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_CreateSource
+  commentId: M:BepInEx.Logging.TraceLogSource.CreateSource
+  fullName: BepInEx.Logging.TraceLogSource.CreateSource()
+  nameWithType: TraceLogSource.CreateSource()
+- uid: BepInEx.Logging.TraceLogSource.CreateSource*
+  name: CreateSource
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_CreateSource_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.CreateSource
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.CreateSource
+  nameWithType: TraceLogSource.CreateSource
+- uid: BepInEx.Logging.TraceLogSource.IsListening
+  name: IsListening
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_IsListening
+  commentId: P:BepInEx.Logging.TraceLogSource.IsListening
+  fullName: BepInEx.Logging.TraceLogSource.IsListening
+  nameWithType: TraceLogSource.IsListening
+- uid: BepInEx.Logging.TraceLogSource.IsListening*
+  name: IsListening
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_IsListening_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.IsListening
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.IsListening
+  nameWithType: TraceLogSource.IsListening
+- uid: BepInEx.Logging.TraceLogSource.LogSource
+  name: LogSource
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_LogSource
+  commentId: P:BepInEx.Logging.TraceLogSource.LogSource
+  fullName: BepInEx.Logging.TraceLogSource.LogSource
+  nameWithType: TraceLogSource.LogSource
+- uid: BepInEx.Logging.TraceLogSource.LogSource*
+  name: LogSource
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_LogSource_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.LogSource
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.LogSource
+  nameWithType: TraceLogSource.LogSource
+- uid: BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)
+  name: TraceEvent(TraceEventCache, String, TraceEventType, Int32, String)
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_TraceEvent_System_Diagnostics_TraceEventCache_System_String_System_Diagnostics_TraceEventType_System_Int32_System_String_
+  commentId: M:BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String)
+  fullName: BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache, System.String, System.Diagnostics.TraceEventType, System.Int32, System.String)
+  nameWithType: TraceLogSource.TraceEvent(TraceEventCache, String, TraceEventType, Int32, String)
+- uid: BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])
+  name: TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object[])
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_TraceEvent_System_Diagnostics_TraceEventCache_System_String_System_Diagnostics_TraceEventType_System_Int32_System_String_System_Object___
+  commentId: M:BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[])
+  name.vb: TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object())
+  fullName: BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache, System.String, System.Diagnostics.TraceEventType, System.Int32, System.String, System.Object[])
+  fullName.vb: BepInEx.Logging.TraceLogSource.TraceEvent(System.Diagnostics.TraceEventCache, System.String, System.Diagnostics.TraceEventType, System.Int32, System.String, System.Object())
+  nameWithType: TraceLogSource.TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object[])
+  nameWithType.vb: TraceLogSource.TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object())
+- uid: BepInEx.Logging.TraceLogSource.TraceEvent*
+  name: TraceEvent
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_TraceEvent_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.TraceEvent
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.TraceEvent
+  nameWithType: TraceLogSource.TraceEvent
+- uid: BepInEx.Logging.TraceLogSource.Write(System.String)
+  name: Write(String)
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_Write_System_String_
+  commentId: M:BepInEx.Logging.TraceLogSource.Write(System.String)
+  fullName: BepInEx.Logging.TraceLogSource.Write(System.String)
+  nameWithType: TraceLogSource.Write(String)
+- uid: BepInEx.Logging.TraceLogSource.Write*
+  name: Write
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_Write_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.Write
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.Write
+  nameWithType: TraceLogSource.Write
+- uid: BepInEx.Logging.TraceLogSource.WriteLine(System.String)
+  name: WriteLine(String)
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_WriteLine_System_String_
+  commentId: M:BepInEx.Logging.TraceLogSource.WriteLine(System.String)
+  fullName: BepInEx.Logging.TraceLogSource.WriteLine(System.String)
+  nameWithType: TraceLogSource.WriteLine(String)
+- uid: BepInEx.Logging.TraceLogSource.WriteLine*
+  name: WriteLine
+  href: api/BepInEx.Logging.TraceLogSource.html#BepInEx_Logging_TraceLogSource_WriteLine_
+  commentId: Overload:BepInEx.Logging.TraceLogSource.WriteLine
+  isSpec: "True"
+  fullName: BepInEx.Logging.TraceLogSource.WriteLine
+  nameWithType: TraceLogSource.WriteLine
+- uid: BepInEx.Logging.UnityLogListener
+  name: UnityLogListener
+  href: api/BepInEx.Logging.UnityLogListener.html
+  commentId: T:BepInEx.Logging.UnityLogListener
+  fullName: BepInEx.Logging.UnityLogListener
+  nameWithType: UnityLogListener
+- uid: BepInEx.Logging.UnityLogListener.Dispose
+  name: Dispose()
+  href: api/BepInEx.Logging.UnityLogListener.html#BepInEx_Logging_UnityLogListener_Dispose
+  commentId: M:BepInEx.Logging.UnityLogListener.Dispose
+  fullName: BepInEx.Logging.UnityLogListener.Dispose()
+  nameWithType: UnityLogListener.Dispose()
+- uid: BepInEx.Logging.UnityLogListener.Dispose*
+  name: Dispose
+  href: api/BepInEx.Logging.UnityLogListener.html#BepInEx_Logging_UnityLogListener_Dispose_
+  commentId: Overload:BepInEx.Logging.UnityLogListener.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Logging.UnityLogListener.Dispose
+  nameWithType: UnityLogListener.Dispose
+- uid: BepInEx.Logging.UnityLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  name: LogEvent(Object, LogEventArgs)
+  href: api/BepInEx.Logging.UnityLogListener.html#BepInEx_Logging_UnityLogListener_LogEvent_System_Object_BepInEx_Logging_LogEventArgs_
+  commentId: M:BepInEx.Logging.UnityLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  fullName: BepInEx.Logging.UnityLogListener.LogEvent(System.Object, BepInEx.Logging.LogEventArgs)
+  nameWithType: UnityLogListener.LogEvent(Object, LogEventArgs)
+- uid: BepInEx.Logging.UnityLogListener.LogEvent*
+  name: LogEvent
+  href: api/BepInEx.Logging.UnityLogListener.html#BepInEx_Logging_UnityLogListener_LogEvent_
+  commentId: Overload:BepInEx.Logging.UnityLogListener.LogEvent
+  isSpec: "True"
+  fullName: BepInEx.Logging.UnityLogListener.LogEvent
+  nameWithType: UnityLogListener.LogEvent
+- uid: BepInEx.Logging.UnityLogSource
+  name: UnityLogSource
+  href: api/BepInEx.Logging.UnityLogSource.html
+  commentId: T:BepInEx.Logging.UnityLogSource
+  fullName: BepInEx.Logging.UnityLogSource
+  nameWithType: UnityLogSource
+- uid: BepInEx.Logging.UnityLogSource.#ctor
+  name: UnityLogSource()
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource__ctor
+  commentId: M:BepInEx.Logging.UnityLogSource.#ctor
+  fullName: BepInEx.Logging.UnityLogSource.UnityLogSource()
+  nameWithType: UnityLogSource.UnityLogSource()
+- uid: BepInEx.Logging.UnityLogSource.#ctor*
+  name: UnityLogSource
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource__ctor_
+  commentId: Overload:BepInEx.Logging.UnityLogSource.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Logging.UnityLogSource.UnityLogSource
+  nameWithType: UnityLogSource.UnityLogSource
+- uid: BepInEx.Logging.UnityLogSource.Dispose
+  name: Dispose()
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource_Dispose
+  commentId: M:BepInEx.Logging.UnityLogSource.Dispose
+  fullName: BepInEx.Logging.UnityLogSource.Dispose()
+  nameWithType: UnityLogSource.Dispose()
+- uid: BepInEx.Logging.UnityLogSource.Dispose*
+  name: Dispose
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource_Dispose_
+  commentId: Overload:BepInEx.Logging.UnityLogSource.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Logging.UnityLogSource.Dispose
+  nameWithType: UnityLogSource.Dispose
+- uid: BepInEx.Logging.UnityLogSource.LogEvent
+  name: LogEvent
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource_LogEvent
+  commentId: E:BepInEx.Logging.UnityLogSource.LogEvent
+  fullName: BepInEx.Logging.UnityLogSource.LogEvent
+  nameWithType: UnityLogSource.LogEvent
+- uid: BepInEx.Logging.UnityLogSource.SourceName
+  name: SourceName
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource_SourceName
+  commentId: P:BepInEx.Logging.UnityLogSource.SourceName
+  fullName: BepInEx.Logging.UnityLogSource.SourceName
+  nameWithType: UnityLogSource.SourceName
+- uid: BepInEx.Logging.UnityLogSource.SourceName*
+  name: SourceName
+  href: api/BepInEx.Logging.UnityLogSource.html#BepInEx_Logging_UnityLogSource_SourceName_
+  commentId: Overload:BepInEx.Logging.UnityLogSource.SourceName
+  isSpec: "True"
+  fullName: BepInEx.Logging.UnityLogSource.SourceName
+  nameWithType: UnityLogSource.SourceName
+- uid: BepInEx.MetadataHelper
+  name: MetadataHelper
+  href: api/BepInEx.MetadataHelper.html
+  commentId: T:BepInEx.MetadataHelper
+  fullName: BepInEx.MetadataHelper
+  nameWithType: MetadataHelper
+- uid: BepInEx.MetadataHelper.GetAttributes*
+  name: GetAttributes
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetAttributes_
+  commentId: Overload:BepInEx.MetadataHelper.GetAttributes
+  isSpec: "True"
+  fullName: BepInEx.MetadataHelper.GetAttributes
+  nameWithType: MetadataHelper.GetAttributes
+- uid: BepInEx.MetadataHelper.GetAttributes``1(System.Object)
+  name: GetAttributes<T>(Object)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetAttributes__1_System_Object_
+  commentId: M:BepInEx.MetadataHelper.GetAttributes``1(System.Object)
+  name.vb: GetAttributes(Of T)(Object)
+  fullName: BepInEx.MetadataHelper.GetAttributes<T>(System.Object)
+  fullName.vb: BepInEx.MetadataHelper.GetAttributes(Of T)(System.Object)
+  nameWithType: MetadataHelper.GetAttributes<T>(Object)
+  nameWithType.vb: MetadataHelper.GetAttributes(Of T)(Object)
+- uid: BepInEx.MetadataHelper.GetAttributes``1(System.Type)
+  name: GetAttributes<T>(Type)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetAttributes__1_System_Type_
+  commentId: M:BepInEx.MetadataHelper.GetAttributes``1(System.Type)
+  name.vb: GetAttributes(Of T)(Type)
+  fullName: BepInEx.MetadataHelper.GetAttributes<T>(System.Type)
+  fullName.vb: BepInEx.MetadataHelper.GetAttributes(Of T)(System.Type)
+  nameWithType: MetadataHelper.GetAttributes<T>(Type)
+  nameWithType.vb: MetadataHelper.GetAttributes(Of T)(Type)
+- uid: BepInEx.MetadataHelper.GetDependencies(System.Type,System.Collections.Generic.IEnumerable{System.Type})
+  name: GetDependencies(Type, IEnumerable<Type>)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetDependencies_System_Type_System_Collections_Generic_IEnumerable_System_Type__
+  commentId: M:BepInEx.MetadataHelper.GetDependencies(System.Type,System.Collections.Generic.IEnumerable{System.Type})
+  name.vb: GetDependencies(Type, IEnumerable(Of Type))
+  fullName: BepInEx.MetadataHelper.GetDependencies(System.Type, System.Collections.Generic.IEnumerable<System.Type>)
+  fullName.vb: BepInEx.MetadataHelper.GetDependencies(System.Type, System.Collections.Generic.IEnumerable(Of System.Type))
+  nameWithType: MetadataHelper.GetDependencies(Type, IEnumerable<Type>)
+  nameWithType.vb: MetadataHelper.GetDependencies(Type, IEnumerable(Of Type))
+- uid: BepInEx.MetadataHelper.GetDependencies*
+  name: GetDependencies
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetDependencies_
+  commentId: Overload:BepInEx.MetadataHelper.GetDependencies
+  isSpec: "True"
+  fullName: BepInEx.MetadataHelper.GetDependencies
+  nameWithType: MetadataHelper.GetDependencies
+- uid: BepInEx.MetadataHelper.GetMetadata(System.Object)
+  name: GetMetadata(Object)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetMetadata_System_Object_
+  commentId: M:BepInEx.MetadataHelper.GetMetadata(System.Object)
+  fullName: BepInEx.MetadataHelper.GetMetadata(System.Object)
+  nameWithType: MetadataHelper.GetMetadata(Object)
+- uid: BepInEx.MetadataHelper.GetMetadata(System.Type)
+  name: GetMetadata(Type)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetMetadata_System_Type_
+  commentId: M:BepInEx.MetadataHelper.GetMetadata(System.Type)
+  fullName: BepInEx.MetadataHelper.GetMetadata(System.Type)
+  nameWithType: MetadataHelper.GetMetadata(Type)
+- uid: BepInEx.MetadataHelper.GetMetadata*
+  name: GetMetadata
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetMetadata_
+  commentId: Overload:BepInEx.MetadataHelper.GetMetadata
+  isSpec: "True"
+  fullName: BepInEx.MetadataHelper.GetMetadata
+  nameWithType: MetadataHelper.GetMetadata
+- uid: BepInEx.MissingDependencyException
+  name: MissingDependencyException
+  href: api/BepInEx.MissingDependencyException.html
+  commentId: T:BepInEx.MissingDependencyException
+  fullName: BepInEx.MissingDependencyException
+  nameWithType: MissingDependencyException
+- uid: BepInEx.MissingDependencyException.#ctor(System.String)
+  name: MissingDependencyException(String)
+  href: api/BepInEx.MissingDependencyException.html#BepInEx_MissingDependencyException__ctor_System_String_
+  commentId: M:BepInEx.MissingDependencyException.#ctor(System.String)
+  fullName: BepInEx.MissingDependencyException.MissingDependencyException(System.String)
+  nameWithType: MissingDependencyException.MissingDependencyException(String)
+- uid: BepInEx.MissingDependencyException.#ctor*
+  name: MissingDependencyException
+  href: api/BepInEx.MissingDependencyException.html#BepInEx_MissingDependencyException__ctor_
+  commentId: Overload:BepInEx.MissingDependencyException.#ctor
+  isSpec: "True"
+  fullName: BepInEx.MissingDependencyException.MissingDependencyException
+  nameWithType: MissingDependencyException.MissingDependencyException
+- uid: BepInEx.Paths
+  name: Paths
+  href: api/BepInEx.Paths.html
+  commentId: T:BepInEx.Paths
+  fullName: BepInEx.Paths
+  nameWithType: Paths
+- uid: BepInEx.Paths.BepInExAssemblyDirectory
+  name: BepInExAssemblyDirectory
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExAssemblyDirectory
+  commentId: P:BepInEx.Paths.BepInExAssemblyDirectory
+  fullName: BepInEx.Paths.BepInExAssemblyDirectory
+  nameWithType: Paths.BepInExAssemblyDirectory
+- uid: BepInEx.Paths.BepInExAssemblyDirectory*
+  name: BepInExAssemblyDirectory
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExAssemblyDirectory_
+  commentId: Overload:BepInEx.Paths.BepInExAssemblyDirectory
+  isSpec: "True"
+  fullName: BepInEx.Paths.BepInExAssemblyDirectory
+  nameWithType: Paths.BepInExAssemblyDirectory
+- uid: BepInEx.Paths.BepInExAssemblyPath
+  name: BepInExAssemblyPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExAssemblyPath
+  commentId: P:BepInEx.Paths.BepInExAssemblyPath
+  fullName: BepInEx.Paths.BepInExAssemblyPath
+  nameWithType: Paths.BepInExAssemblyPath
+- uid: BepInEx.Paths.BepInExAssemblyPath*
+  name: BepInExAssemblyPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExAssemblyPath_
+  commentId: Overload:BepInEx.Paths.BepInExAssemblyPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.BepInExAssemblyPath
+  nameWithType: Paths.BepInExAssemblyPath
+- uid: BepInEx.Paths.BepInExRootPath
+  name: BepInExRootPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExRootPath
+  commentId: P:BepInEx.Paths.BepInExRootPath
+  fullName: BepInEx.Paths.BepInExRootPath
+  nameWithType: Paths.BepInExRootPath
+- uid: BepInEx.Paths.BepInExRootPath*
+  name: BepInExRootPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExRootPath_
+  commentId: Overload:BepInEx.Paths.BepInExRootPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.BepInExRootPath
+  nameWithType: Paths.BepInExRootPath
+- uid: BepInEx.Paths.ExecutablePath
+  name: ExecutablePath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ExecutablePath
+  commentId: P:BepInEx.Paths.ExecutablePath
+  fullName: BepInEx.Paths.ExecutablePath
+  nameWithType: Paths.ExecutablePath
+- uid: BepInEx.Paths.ExecutablePath*
+  name: ExecutablePath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ExecutablePath_
+  commentId: Overload:BepInEx.Paths.ExecutablePath
+  isSpec: "True"
+  fullName: BepInEx.Paths.ExecutablePath
+  nameWithType: Paths.ExecutablePath
+- uid: BepInEx.Paths.GameRootPath
+  name: GameRootPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_GameRootPath
+  commentId: P:BepInEx.Paths.GameRootPath
+  fullName: BepInEx.Paths.GameRootPath
+  nameWithType: Paths.GameRootPath
+- uid: BepInEx.Paths.GameRootPath*
+  name: GameRootPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_GameRootPath_
+  commentId: Overload:BepInEx.Paths.GameRootPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.GameRootPath
+  nameWithType: Paths.GameRootPath
+- uid: BepInEx.Paths.ManagedPath
+  name: ManagedPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ManagedPath
+  commentId: P:BepInEx.Paths.ManagedPath
+  fullName: BepInEx.Paths.ManagedPath
+  nameWithType: Paths.ManagedPath
+- uid: BepInEx.Paths.ManagedPath*
+  name: ManagedPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ManagedPath_
+  commentId: Overload:BepInEx.Paths.ManagedPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.ManagedPath
+  nameWithType: Paths.ManagedPath
+- uid: BepInEx.Paths.PatcherPluginPath
+  name: PatcherPluginPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_PatcherPluginPath
+  commentId: P:BepInEx.Paths.PatcherPluginPath
+  fullName: BepInEx.Paths.PatcherPluginPath
+  nameWithType: Paths.PatcherPluginPath
+- uid: BepInEx.Paths.PatcherPluginPath*
+  name: PatcherPluginPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_PatcherPluginPath_
+  commentId: Overload:BepInEx.Paths.PatcherPluginPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.PatcherPluginPath
+  nameWithType: Paths.PatcherPluginPath
+- uid: BepInEx.Paths.PluginPath
+  name: PluginPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_PluginPath
+  commentId: P:BepInEx.Paths.PluginPath
+  fullName: BepInEx.Paths.PluginPath
+  nameWithType: Paths.PluginPath
+- uid: BepInEx.Paths.PluginPath*
+  name: PluginPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_PluginPath_
+  commentId: Overload:BepInEx.Paths.PluginPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.PluginPath
+  nameWithType: Paths.PluginPath
+- uid: BepInEx.Paths.ProcessName
+  name: ProcessName
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ProcessName
+  commentId: P:BepInEx.Paths.ProcessName
+  fullName: BepInEx.Paths.ProcessName
+  nameWithType: Paths.ProcessName
+- uid: BepInEx.Paths.ProcessName*
+  name: ProcessName
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ProcessName_
+  commentId: Overload:BepInEx.Paths.ProcessName
+  isSpec: "True"
+  fullName: BepInEx.Paths.ProcessName
+  nameWithType: Paths.ProcessName
+- uid: BepInEx.Preloader
+  name: BepInEx.Preloader
+  href: api/BepInEx.Preloader.html
+  commentId: N:BepInEx.Preloader
+  fullName: BepInEx.Preloader
+  nameWithType: BepInEx.Preloader
+- uid: BepInEx.Preloader.PreloaderConsoleListener
+  name: PreloaderConsoleListener
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html
+  commentId: T:BepInEx.Preloader.PreloaderConsoleListener
+  fullName: BepInEx.Preloader.PreloaderConsoleListener
+  nameWithType: PreloaderConsoleListener
+- uid: BepInEx.Preloader.PreloaderConsoleListener.#ctor(System.Boolean)
+  name: PreloaderConsoleListener(Boolean)
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener__ctor_System_Boolean_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.#ctor(System.Boolean)
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.PreloaderConsoleListener(System.Boolean)
+  nameWithType: PreloaderConsoleListener.PreloaderConsoleListener(Boolean)
+- uid: BepInEx.Preloader.PreloaderConsoleListener.#ctor*
+  name: PreloaderConsoleListener
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener__ctor_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.PreloaderConsoleListener
+  nameWithType: PreloaderConsoleListener.PreloaderConsoleListener
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite(System.String)
+  name: ConsoleDirectWrite(String)
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ConsoleDirectWrite_System_String_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite(System.String)
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite(System.String)
+  nameWithType: PreloaderConsoleListener.ConsoleDirectWrite(String)
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite*
+  name: ConsoleDirectWrite
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ConsoleDirectWrite_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWrite
+  nameWithType: PreloaderConsoleListener.ConsoleDirectWrite
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine(System.String)
+  name: ConsoleDirectWriteLine(String)
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ConsoleDirectWriteLine_System_String_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine(System.String)
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine(System.String)
+  nameWithType: PreloaderConsoleListener.ConsoleDirectWriteLine(String)
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine*
+  name: ConsoleDirectWriteLine
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ConsoleDirectWriteLine_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ConsoleDirectWriteLine
+  nameWithType: PreloaderConsoleListener.ConsoleDirectWriteLine
+- uid: BepInEx.Preloader.PreloaderConsoleListener.Dispose
+  name: Dispose()
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_Dispose
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.Dispose
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.Dispose()
+  nameWithType: PreloaderConsoleListener.Dispose()
+- uid: BepInEx.Preloader.PreloaderConsoleListener.Dispose*
+  name: Dispose
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_Dispose_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.Dispose
+  nameWithType: PreloaderConsoleListener.Dispose
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LogBuilder
+  name: LogBuilder
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LogBuilder
+  commentId: F:BepInEx.Preloader.PreloaderConsoleListener.LogBuilder
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LogBuilder
+  nameWithType: PreloaderConsoleListener.LogBuilder
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  name: LogEvent(Object, LogEventArgs)
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LogEvent_System_Object_BepInEx_Logging_LogEventArgs_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LogEvent(System.Object, BepInEx.Logging.LogEventArgs)
+  nameWithType: PreloaderConsoleListener.LogEvent(Object, LogEventArgs)
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LogEvent*
+  name: LogEvent
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LogEvent_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.LogEvent
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LogEvent
+  nameWithType: PreloaderConsoleListener.LogEvent
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LogEvents
+  name: LogEvents
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LogEvents
+  commentId: P:BepInEx.Preloader.PreloaderConsoleListener.LogEvents
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LogEvents
+  nameWithType: PreloaderConsoleListener.LogEvents
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LogEvents*
+  name: LogEvents
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LogEvents_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.LogEvents
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LogEvents
+  nameWithType: PreloaderConsoleListener.LogEvents
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LoggerSource
+  name: LoggerSource
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LoggerSource
+  commentId: P:BepInEx.Preloader.PreloaderConsoleListener.LoggerSource
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LoggerSource
+  nameWithType: PreloaderConsoleListener.LoggerSource
+- uid: BepInEx.Preloader.PreloaderConsoleListener.LoggerSource*
+  name: LoggerSource
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_LoggerSource_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.LoggerSource
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.LoggerSource
+  nameWithType: PreloaderConsoleListener.LoggerSource
+- uid: BepInEx.Preloader.PreloaderConsoleListener.StandardOut
+  name: StandardOut
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_StandardOut
+  commentId: P:BepInEx.Preloader.PreloaderConsoleListener.StandardOut
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.StandardOut
+  nameWithType: PreloaderConsoleListener.StandardOut
+- uid: BepInEx.Preloader.PreloaderConsoleListener.StandardOut*
+  name: StandardOut
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_StandardOut_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.StandardOut
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.StandardOut
+  nameWithType: PreloaderConsoleListener.StandardOut
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ToString
+  name: ToString()
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ToString
+  commentId: M:BepInEx.Preloader.PreloaderConsoleListener.ToString
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ToString()
+  nameWithType: PreloaderConsoleListener.ToString()
+- uid: BepInEx.Preloader.PreloaderConsoleListener.ToString*
+  name: ToString
+  href: api/BepInEx.Preloader.PreloaderConsoleListener.html#BepInEx_Preloader_PreloaderConsoleListener_ToString_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleListener.ToString
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleListener.ToString
+  nameWithType: PreloaderConsoleListener.ToString
+- uid: BepInEx.Preloader.PreloaderConsoleSource
+  name: PreloaderConsoleSource
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html
+  commentId: T:BepInEx.Preloader.PreloaderConsoleSource
+  fullName: BepInEx.Preloader.PreloaderConsoleSource
+  nameWithType: PreloaderConsoleSource
+- uid: BepInEx.Preloader.PreloaderConsoleSource.Encoding
+  name: Encoding
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_Encoding
+  commentId: P:BepInEx.Preloader.PreloaderConsoleSource.Encoding
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.Encoding
+  nameWithType: PreloaderConsoleSource.Encoding
+- uid: BepInEx.Preloader.PreloaderConsoleSource.Encoding*
+  name: Encoding
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_Encoding_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleSource.Encoding
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.Encoding
+  nameWithType: PreloaderConsoleSource.Encoding
+- uid: BepInEx.Preloader.PreloaderConsoleSource.LogEvent
+  name: LogEvent
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_LogEvent
+  commentId: E:BepInEx.Preloader.PreloaderConsoleSource.LogEvent
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.LogEvent
+  nameWithType: PreloaderConsoleSource.LogEvent
+- uid: BepInEx.Preloader.PreloaderConsoleSource.SourceName
+  name: SourceName
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_SourceName
+  commentId: P:BepInEx.Preloader.PreloaderConsoleSource.SourceName
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.SourceName
+  nameWithType: PreloaderConsoleSource.SourceName
+- uid: BepInEx.Preloader.PreloaderConsoleSource.SourceName*
+  name: SourceName
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_SourceName_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleSource.SourceName
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.SourceName
+  nameWithType: PreloaderConsoleSource.SourceName
+- uid: BepInEx.Preloader.PreloaderConsoleSource.Write(System.Object)
+  name: Write(Object)
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_Write_System_Object_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleSource.Write(System.Object)
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.Write(System.Object)
+  nameWithType: PreloaderConsoleSource.Write(Object)
+- uid: BepInEx.Preloader.PreloaderConsoleSource.Write(System.String)
+  name: Write(String)
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_Write_System_String_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleSource.Write(System.String)
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.Write(System.String)
+  nameWithType: PreloaderConsoleSource.Write(String)
+- uid: BepInEx.Preloader.PreloaderConsoleSource.Write*
+  name: Write
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_Write_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleSource.Write
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.Write
+  nameWithType: PreloaderConsoleSource.Write
+- uid: BepInEx.Preloader.PreloaderConsoleSource.WriteLine
+  name: WriteLine()
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_WriteLine
+  commentId: M:BepInEx.Preloader.PreloaderConsoleSource.WriteLine
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.WriteLine()
+  nameWithType: PreloaderConsoleSource.WriteLine()
+- uid: BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.Object)
+  name: WriteLine(Object)
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_WriteLine_System_Object_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.Object)
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.Object)
+  nameWithType: PreloaderConsoleSource.WriteLine(Object)
+- uid: BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.String)
+  name: WriteLine(String)
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_WriteLine_System_String_
+  commentId: M:BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.String)
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.WriteLine(System.String)
+  nameWithType: PreloaderConsoleSource.WriteLine(String)
+- uid: BepInEx.Preloader.PreloaderConsoleSource.WriteLine*
+  name: WriteLine
+  href: api/BepInEx.Preloader.PreloaderConsoleSource.html#BepInEx_Preloader_PreloaderConsoleSource_WriteLine_
+  commentId: Overload:BepInEx.Preloader.PreloaderConsoleSource.WriteLine
+  isSpec: "True"
+  fullName: BepInEx.Preloader.PreloaderConsoleSource.WriteLine
+  nameWithType: PreloaderConsoleSource.WriteLine
+- uid: BepInEx.Utility
+  name: Utility
+  href: api/BepInEx.Utility.html
+  commentId: T:BepInEx.Utility
+  fullName: BepInEx.Utility
+  nameWithType: Utility
+- uid: BepInEx.Utility.CombinePaths(System.String[])
+  name: CombinePaths(String[])
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CombinePaths_System_String___
+  commentId: M:BepInEx.Utility.CombinePaths(System.String[])
+  name.vb: CombinePaths(String())
+  fullName: BepInEx.Utility.CombinePaths(System.String[])
+  fullName.vb: BepInEx.Utility.CombinePaths(System.String())
+  nameWithType: Utility.CombinePaths(String[])
+  nameWithType.vb: Utility.CombinePaths(String())
+- uid: BepInEx.Utility.CombinePaths*
+  name: CombinePaths
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CombinePaths_
+  commentId: Overload:BepInEx.Utility.CombinePaths
+  isSpec: "True"
+  fullName: BepInEx.Utility.CombinePaths
+  nameWithType: Utility.CombinePaths
+- uid: BepInEx.Utility.ConvertToWWWFormat(System.String)
+  name: ConvertToWWWFormat(String)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_ConvertToWWWFormat_System_String_
+  commentId: M:BepInEx.Utility.ConvertToWWWFormat(System.String)
+  fullName: BepInEx.Utility.ConvertToWWWFormat(System.String)
+  nameWithType: Utility.ConvertToWWWFormat(String)
+- uid: BepInEx.Utility.ConvertToWWWFormat*
+  name: ConvertToWWWFormat
+  href: api/BepInEx.Utility.html#BepInEx_Utility_ConvertToWWWFormat_
+  commentId: Overload:BepInEx.Utility.ConvertToWWWFormat
+  isSpec: "True"
+  fullName: BepInEx.Utility.ConvertToWWWFormat
+  nameWithType: Utility.ConvertToWWWFormat
+- uid: BepInEx.Utility.IsNullOrWhiteSpace(System.String)
+  name: IsNullOrWhiteSpace(String)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsNullOrWhiteSpace_System_String_
+  commentId: M:BepInEx.Utility.IsNullOrWhiteSpace(System.String)
+  fullName: BepInEx.Utility.IsNullOrWhiteSpace(System.String)
+  nameWithType: Utility.IsNullOrWhiteSpace(String)
+- uid: BepInEx.Utility.IsNullOrWhiteSpace*
+  name: IsNullOrWhiteSpace
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsNullOrWhiteSpace_
+  commentId: Overload:BepInEx.Utility.IsNullOrWhiteSpace
+  isSpec: "True"
+  fullName: BepInEx.Utility.IsNullOrWhiteSpace
+  nameWithType: Utility.IsNullOrWhiteSpace
+- uid: BepInEx.Utility.SafeParseBool(System.String,System.Boolean)
+  name: SafeParseBool(String, Boolean)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_SafeParseBool_System_String_System_Boolean_
+  commentId: M:BepInEx.Utility.SafeParseBool(System.String,System.Boolean)
+  fullName: BepInEx.Utility.SafeParseBool(System.String, System.Boolean)
+  nameWithType: Utility.SafeParseBool(String, Boolean)
+- uid: BepInEx.Utility.SafeParseBool*
+  name: SafeParseBool
+  href: api/BepInEx.Utility.html#BepInEx_Utility_SafeParseBool_
+  commentId: Overload:BepInEx.Utility.SafeParseBool
+  isSpec: "True"
+  fullName: BepInEx.Utility.SafeParseBool
+  nameWithType: Utility.SafeParseBool
+- uid: BepInEx.Utility.TopologicalSort*
+  name: TopologicalSort
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TopologicalSort_
+  commentId: Overload:BepInEx.Utility.TopologicalSort
+  isSpec: "True"
+  fullName: BepInEx.Utility.TopologicalSort
+  nameWithType: Utility.TopologicalSort
+- uid: BepInEx.Utility.TopologicalSort``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  name: TopologicalSort<TNode>(IEnumerable<TNode>, Func<TNode, IEnumerable<TNode>>)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TopologicalSort__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___
+  commentId: M:BepInEx.Utility.TopologicalSort``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
+  name.vb: TopologicalSort(Of TNode)(IEnumerable(Of TNode), Func(Of TNode, IEnumerable(Of TNode)))
+  fullName: BepInEx.Utility.TopologicalSort<TNode>(System.Collections.Generic.IEnumerable<TNode>, System.Func<TNode, System.Collections.Generic.IEnumerable<TNode>>)
+  fullName.vb: BepInEx.Utility.TopologicalSort(Of TNode)(System.Collections.Generic.IEnumerable(Of TNode), System.Func(Of TNode, System.Collections.Generic.IEnumerable(Of TNode)))
+  nameWithType: Utility.TopologicalSort<TNode>(IEnumerable<TNode>, Func<TNode, IEnumerable<TNode>>)
+  nameWithType.vb: Utility.TopologicalSort(Of TNode)(IEnumerable(Of TNode), Func(Of TNode, IEnumerable(Of TNode)))
+- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)
+  name: TryResolveDllAssembly(AssemblyName, String, out Assembly)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_System_Reflection_Assembly__
+  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)
+  name.vb: TryResolveDllAssembly(AssemblyName, String, ByRef Assembly)
+  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, out System.Reflection.Assembly)
+  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ByRef System.Reflection.Assembly)
+  nameWithType: Utility.TryResolveDllAssembly(AssemblyName, String, out Assembly)
+  nameWithType.vb: Utility.TryResolveDllAssembly(AssemblyName, String, ByRef Assembly)
+- uid: BepInEx.Utility.TryResolveDllAssembly*
+  name: TryResolveDllAssembly
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_
+  commentId: Overload:BepInEx.Utility.TryResolveDllAssembly
+  isSpec: "True"
+  fullName: BepInEx.Utility.TryResolveDllAssembly
+  nameWithType: Utility.TryResolveDllAssembly
