@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+    stages {
+        stage('Prepare DocFx') {
+            steps {
+                dir('_site') {
+                    deleteDir()
+                }
+                dir('docfx') {
+                    script {
+                        if(!fileExists('docfx.exe')){
+                            sh 'wget "https://github.com/dotnet/docfx/releases/download/v2.40.12/docfx.zip"'
+                            sh 'unzip docfx.zip'
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Pull GitHub projects') {
+            steps {
+                dir('bepis_docs') {
+                    deleteDir()
+                    git credentialsId: '385c0d2b-6a4e-4eee-a682-b4f2b9a7b6a5', url: 'git@github.com:BepInEx/bepinex_docs.git'
+                    dir('src') {
+                        git url: 'https://github.com/BepInEx/BepInEx.git'
+                    }
+                }
+            }
+        }
+
+        stage('Generate docs') {
+            steps {
+                dir('bepis_docs') {
+                    sh 'mono ../docfx/docfx.exe'
+                    sh 'mv _site ..'
+                }
+            }
+        }
+
+        stage('Push updated docs') {
+            steps {
+                dir('bepis_docs') {
+                    sh 'git checkout gh-pages'
+                    sh 'rm -r *'
+                    sh 'mv ../_site/* .'
+                    sh 'git config user.name bepin-jenkins'
+                    sh 'git config user.email bepin-jenkins@protonmail.com'
+                    sh 'git add .'
+                    sh 'git commit -m "Update docs"'
+                    sshagent(['385c0d2b-6a4e-4eee-a682-b4f2b9a7b6a5']) {
+                        sh 'git push origin gh-pages'
+                    }
+                }
+            }
+        }
+        
+    }
+}
