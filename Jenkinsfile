@@ -21,7 +21,7 @@ pipeline {
             steps {
                 dir('bepis_docs') {
                     deleteDir()
-                    git credentialsId: '385c0d2b-6a4e-4eee-a682-b4f2b9a7b6a5', url: 'git@github.com:BepInEx/bepinex_docs.git'
+                    git url: 'https://github.com/BepInEx/bepinex_docs.git'
                     dir('src') {
                         git url: 'https://github.com/BepInEx/BepInEx.git'
                     }
@@ -48,12 +48,11 @@ pipeline {
                     sh 'git config user.email bepin-jenkins@protonmail.com'
                     sh 'git add .'
                     sh 'git commit -m "Update docs"'
-                    sshagent(['385c0d2b-6a4e-4eee-a682-b4f2b9a7b6a5']) {
-                        sh 'git push origin gh-pages'
+                    withCredentials([usernamePassword(credentialsId: 'ceb99705-5860-45ff-b100-c07e5f90902f', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+                        sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/BepInEx/bepinex_docs.git gh-pages')
                     }
                 }
             }
         }
-        
     }
 }
