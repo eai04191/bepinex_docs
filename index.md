@@ -2,6 +2,9 @@
     <img src="https://avatars2.githubusercontent.com/u/39589027?s=256"/>
 </div>
 
+> [!NOTE]  
+> Please not that these docs are still WIP. For latest stable guides, visit the [BepInEx wiki on GitHub](https://github.com/BepInEx/BepInEx/wiki).
+
 Welcome to BepInEx documentation!
 
 Here you can find guides on how to install, configure and develop plugins for BepInEx!
@@ -18,5 +21,3 @@ BepInEx provides various features, including
 * **in-memory assembly patching** -- allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory.
 
 Most importantly, BepInEx is fully open source under the MIT license.
-
-## Quick links
