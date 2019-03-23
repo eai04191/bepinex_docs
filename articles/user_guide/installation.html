@@ -5,19 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace BepInEx.Bootstrap
-   </title>
+    <title>Installing BepInEx </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace BepInEx.Bootstrap
-   ">
+    <meta name="title" content="Installing BepInEx ">
     <meta name="generator" content="docfx 2.40.12.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
     
     
@@ -36,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -68,21 +66,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="BepInEx.Bootstrap">
-  
-  <h1 id="BepInEx_Bootstrap" data-uid="BepInEx.Bootstrap" class="text-break">Namespace BepInEx.Bootstrap
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="BepInEx.Bootstrap.Chainloader.html">Chainloader</a></h4>
-      <section><p>The manager and loader for all plugins, and the entry point for BepInEx plugin system.</p>
-</section>
-      <h4><a class="xref" href="BepInEx.Bootstrap.TypeLoader.html">TypeLoader</a></h4>
-      <section><p>Provides methods for loading specified types from an assembly.</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="installing-bepinex">Installing BepInEx</h1>
+
+<h2 id="requirements">Requirements</h2>
+<p>BepInEx requires a game using Unity that uses Mono runtime (i.e. has <code>mono.dll</code>). BepInEx has been successfully tested to be working on Unity versions 5.4 - 2017.2.</p>
+<h2 id="upgrading-from-previous-versions">Upgrading from previous versions</h2>
+<p>For upgrading guide, refer to the <a href="./Migration">migration guide</a>.</p>
+<h2 id="installation">Installation</h2>
+<ol>
+<li>Download the latest BepInEx from <a href="https://github.com/BepInEx/BepInEx/releases">releases page</a>.</li>
+<li>Extract the contents of the archive into the game's root folder</li>
+<li>If the game's executable is 32-bit version, replace <code>winhttp.dll</code> with the one in <code>x86</code> folder.</li>
+<li>Run the game once to let BepInEx create configuration files and folders</li>
+<li>Install plug-ins and patchers into <code>BepInEx</code> folder</li>
+<li>Configure BepInEx with <code>BepInEx/config.ini</code></li>
+</ol>
 </article>
           </div>
           
@@ -90,6 +89,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/master/articles/user_guide/installation.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
@@ -114,8 +116,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>
