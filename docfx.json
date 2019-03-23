@@ -5,6 +5,11 @@
         {
           "files": [
             "src/**.csproj"
+          ],
+          "exclude": [
+            "src/**/submodules/Harmony/**",
+            "src/**/BepInEx.Preloader/**",
+            "src/**/BepInEx.Bootstrap/**"
           ]
         }
       ],

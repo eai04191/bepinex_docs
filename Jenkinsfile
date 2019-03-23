@@ -24,6 +24,7 @@ pipeline {
                     git url: 'https://github.com/BepInEx/bepinex_docs.git'
                     dir('src') {
                         git url: 'https://github.com/BepInEx/BepInEx.git'
+                        sh 'git submodule update --init --recursive'
                     }
                 }
             }
