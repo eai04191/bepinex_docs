@@ -1,3 +1,7 @@
+---
+uid: installation
+---
+
 # Installing BepInEx
 
 ## Requirements

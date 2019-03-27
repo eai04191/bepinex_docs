@@ -1,3 +1,7 @@
+---
+uid: plugin_dev_index
+---
+
 ## Plugin development
 
 Assuming you already know your way around Visual Studio and C#, this is the basics of making a plugin.

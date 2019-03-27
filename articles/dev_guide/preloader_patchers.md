@@ -1,3 +1,7 @@
+---
+uid: preloader_patches
+---
+
 # Using preloader patchers
 
 ## Preface
