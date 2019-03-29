@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: advanced
+  name: advanced
+  href: articles/advanced/index.html
 - uid: BepInEx
   name: BepInEx
   href: api/BepInEx.html
@@ -1666,6 +1669,21 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.TryResolveDllAssembly
   nameWithType: Utility.TryResolveDllAssembly
+- uid: configuration
+  name: configuration
+  href: articles/user_guide/configuration.html
 - uid: harmony_wrapper
   name: 'Runtime patching with '
   href: articles/dev_guide/harmony_wrapper.html
+- uid: installation
+  name: Installing BepInEx
+  href: articles/user_guide/installation.html
+- uid: plugin_dev_index
+  name: Plugin development
+  href: articles/dev_guide/plugin_tutorial/index.html
+- uid: porting
+  name: Porting BepInEx
+  href: articles/advanced/porting.html
+- uid: preloader_patches
+  name: Using preloader patchers
+  href: articles/dev_guide/preloader_patchers.html
