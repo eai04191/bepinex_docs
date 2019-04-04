@@ -1678,6 +1678,9 @@ references:
 - uid: installation
   name: Installing BepInEx
   href: articles/user_guide/installation.html
+- uid: limitations
+  name: limitations
+  href: articles/advanced/limitations.html
 - uid: plugin_dev_index
   name: Plugin development
   href: articles/dev_guide/plugin_tutorial/index.html

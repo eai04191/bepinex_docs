@@ -456,7 +456,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/limitations.html",
-          "hash": "CxDOJ6V4OypvlIkML+H78Q=="
+          "hash": "tKL8mwfORCWwrXQHY3u3fg=="
         }
       },
       "is_incremental": false,
@@ -622,27 +622,68 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/user_guide/index.md",
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/installer_1.png",
       "output": {
-        ".html": {
-          "relative_path": "articles/user_guide/index.html",
-          "hash": "dSTmzsMPnBjmd+km8FIGNA=="
+        "resource": {
+          "relative_path": "articles/user_guide/images/installer_1.png"
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/user_guide/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/user_guide/index.html",
+          "hash": "HdhOSOvYcQC3nL6pvkeXlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/user_guide/installation.md",
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation.html",
-          "hash": "8qQJbold4n140ieqBqQrfg=="
+          "hash": "mAw3odRjulBVlzhNBgQHpQ=="
         }
       },
       "is_incremental": false,
@@ -699,13 +740,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -716,6 +750,20 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 31,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
