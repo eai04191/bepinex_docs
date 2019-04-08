@@ -416,12 +416,12 @@ references:
   commentId: T:BepInEx.Configuration.ConfigFile
   fullName: BepInEx.Configuration.ConfigFile
   nameWithType: ConfigFile
-- uid: BepInEx.Configuration.ConfigFile.#ctor(System.String)
-  name: ConfigFile(String)
-  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile__ctor_System_String_
-  commentId: M:BepInEx.Configuration.ConfigFile.#ctor(System.String)
-  fullName: BepInEx.Configuration.ConfigFile.ConfigFile(System.String)
-  nameWithType: ConfigFile.ConfigFile(String)
+- uid: BepInEx.Configuration.ConfigFile.#ctor(System.String,System.Boolean)
+  name: ConfigFile(String, Boolean)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile__ctor_System_String_System_Boolean_
+  commentId: M:BepInEx.Configuration.ConfigFile.#ctor(System.String,System.Boolean)
+  fullName: BepInEx.Configuration.ConfigFile.ConfigFile(System.String, System.Boolean)
+  nameWithType: ConfigFile.ConfigFile(String, Boolean)
 - uid: BepInEx.Configuration.ConfigFile.#ctor*
   name: ConfigFile
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile__ctor_
