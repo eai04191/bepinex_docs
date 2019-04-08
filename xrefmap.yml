@@ -29,6 +29,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.BaseUnityPlugin.BaseUnityPlugin
   nameWithType: BaseUnityPlugin.BaseUnityPlugin
+- uid: BepInEx.BaseUnityPlugin.Config
+  name: Config
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Config
+  commentId: P:BepInEx.BaseUnityPlugin.Config
+  fullName: BepInEx.BaseUnityPlugin.Config
+  nameWithType: BaseUnityPlugin.Config
+- uid: BepInEx.BaseUnityPlugin.Config*
+  name: Config
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Config_
+  commentId: Overload:BepInEx.BaseUnityPlugin.Config
+  isSpec: "True"
+  fullName: BepInEx.BaseUnityPlugin.Config
+  nameWithType: BaseUnityPlugin.Config
 - uid: BepInEx.BaseUnityPlugin.Logger
   name: Logger
   href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Logger
@@ -281,361 +294,333 @@ references:
   fullName.vb: BepInEx.Bootstrap.TypeLoader.LoadTypes(Of T)(System.String)
   nameWithType: TypeLoader.LoadTypes<T>(String)
   nameWithType.vb: TypeLoader.LoadTypes(Of T)(String)
-- uid: BepInEx.Config
-  name: Config
-  href: api/BepInEx.Config.html
-  commentId: T:BepInEx.Config
-  fullName: BepInEx.Config
-  nameWithType: Config
-- uid: BepInEx.Config.ConfigReloaded
+- uid: BepInEx.Configuration
+  name: BepInEx.Configuration
+  href: api/BepInEx.Configuration.html
+  commentId: N:BepInEx.Configuration
+  fullName: BepInEx.Configuration
+  nameWithType: BepInEx.Configuration
+- uid: BepInEx.Configuration.ConfigDefinition
+  name: ConfigDefinition
+  href: api/BepInEx.Configuration.ConfigDefinition.html
+  commentId: T:BepInEx.Configuration.ConfigDefinition
+  fullName: BepInEx.Configuration.ConfigDefinition
+  nameWithType: ConfigDefinition
+- uid: BepInEx.Configuration.ConfigDefinition.#ctor(System.String,System.String,System.String)
+  name: ConfigDefinition(String, String, String)
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition__ctor_System_String_System_String_System_String_
+  commentId: M:BepInEx.Configuration.ConfigDefinition.#ctor(System.String,System.String,System.String)
+  fullName: BepInEx.Configuration.ConfigDefinition.ConfigDefinition(System.String, System.String, System.String)
+  nameWithType: ConfigDefinition.ConfigDefinition(String, String, String)
+- uid: BepInEx.Configuration.ConfigDefinition.#ctor*
+  name: ConfigDefinition
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition__ctor_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.ConfigDefinition
+  nameWithType: ConfigDefinition.ConfigDefinition
+- uid: BepInEx.Configuration.ConfigDefinition.Description
+  name: Description
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Description
+  commentId: P:BepInEx.Configuration.ConfigDefinition.Description
+  fullName: BepInEx.Configuration.ConfigDefinition.Description
+  nameWithType: ConfigDefinition.Description
+- uid: BepInEx.Configuration.ConfigDefinition.Description*
+  name: Description
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Description_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.Description
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Description
+  nameWithType: ConfigDefinition.Description
+- uid: BepInEx.Configuration.ConfigDefinition.Equals(System.Object)
+  name: Equals(Object)
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Equals_System_Object_
+  commentId: M:BepInEx.Configuration.ConfigDefinition.Equals(System.Object)
+  fullName: BepInEx.Configuration.ConfigDefinition.Equals(System.Object)
+  nameWithType: ConfigDefinition.Equals(Object)
+- uid: BepInEx.Configuration.ConfigDefinition.Equals*
+  name: Equals
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Equals_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.Equals
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Equals
+  nameWithType: ConfigDefinition.Equals
+- uid: BepInEx.Configuration.ConfigDefinition.GetHashCode
+  name: GetHashCode()
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_GetHashCode
+  commentId: M:BepInEx.Configuration.ConfigDefinition.GetHashCode
+  fullName: BepInEx.Configuration.ConfigDefinition.GetHashCode()
+  nameWithType: ConfigDefinition.GetHashCode()
+- uid: BepInEx.Configuration.ConfigDefinition.GetHashCode*
+  name: GetHashCode
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_GetHashCode_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.GetHashCode
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.GetHashCode
+  nameWithType: ConfigDefinition.GetHashCode
+- uid: BepInEx.Configuration.ConfigDefinition.Key
+  name: Key
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Key
+  commentId: P:BepInEx.Configuration.ConfigDefinition.Key
+  fullName: BepInEx.Configuration.ConfigDefinition.Key
+  nameWithType: ConfigDefinition.Key
+- uid: BepInEx.Configuration.ConfigDefinition.Key*
+  name: Key
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Key_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.Key
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Key
+  nameWithType: ConfigDefinition.Key
+- uid: BepInEx.Configuration.ConfigDefinition.op_Equality(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigDefinition)
+  name: Equality(ConfigDefinition, ConfigDefinition)
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_op_Equality_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigDefinition_
+  commentId: M:BepInEx.Configuration.ConfigDefinition.op_Equality(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigDefinition.Equality(BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigDefinition.Equality(ConfigDefinition, ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigDefinition.op_Equality*
+  name: Equality
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_op_Equality_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.op_Equality
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Equality
+  nameWithType: ConfigDefinition.Equality
+- uid: BepInEx.Configuration.ConfigDefinition.op_Inequality(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigDefinition)
+  name: Inequality(ConfigDefinition, ConfigDefinition)
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_op_Inequality_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigDefinition_
+  commentId: M:BepInEx.Configuration.ConfigDefinition.op_Inequality(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigDefinition.Inequality(BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigDefinition.Inequality(ConfigDefinition, ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigDefinition.op_Inequality*
+  name: Inequality
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_op_Inequality_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.op_Inequality
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Inequality
+  nameWithType: ConfigDefinition.Inequality
+- uid: BepInEx.Configuration.ConfigDefinition.Section
+  name: Section
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Section
+  commentId: P:BepInEx.Configuration.ConfigDefinition.Section
+  fullName: BepInEx.Configuration.ConfigDefinition.Section
+  nameWithType: ConfigDefinition.Section
+- uid: BepInEx.Configuration.ConfigDefinition.Section*
+  name: Section
+  href: api/BepInEx.Configuration.ConfigDefinition.html#BepInEx_Configuration_ConfigDefinition_Section_
+  commentId: Overload:BepInEx.Configuration.ConfigDefinition.Section
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigDefinition.Section
+  nameWithType: ConfigDefinition.Section
+- uid: BepInEx.Configuration.ConfigFile
+  name: ConfigFile
+  href: api/BepInEx.Configuration.ConfigFile.html
+  commentId: T:BepInEx.Configuration.ConfigFile
+  fullName: BepInEx.Configuration.ConfigFile
+  nameWithType: ConfigFile
+- uid: BepInEx.Configuration.ConfigFile.#ctor(System.String)
+  name: ConfigFile(String)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile__ctor_System_String_
+  commentId: M:BepInEx.Configuration.ConfigFile.#ctor(System.String)
+  fullName: BepInEx.Configuration.ConfigFile.ConfigFile(System.String)
+  nameWithType: ConfigFile.ConfigFile(String)
+- uid: BepInEx.Configuration.ConfigFile.#ctor*
+  name: ConfigFile
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile__ctor_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.ConfigFile
+  nameWithType: ConfigFile.ConfigFile
+- uid: BepInEx.Configuration.ConfigFile.Cache
+  name: Cache
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Cache
+  commentId: P:BepInEx.Configuration.ConfigFile.Cache
+  fullName: BepInEx.Configuration.ConfigFile.Cache
+  nameWithType: ConfigFile.Cache
+- uid: BepInEx.Configuration.ConfigFile.Cache*
+  name: Cache
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Cache_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Cache
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Cache
+  nameWithType: ConfigFile.Cache
+- uid: BepInEx.Configuration.ConfigFile.ConfigDefinitions
+  name: ConfigDefinitions
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigDefinitions
+  commentId: P:BepInEx.Configuration.ConfigFile.ConfigDefinitions
+  fullName: BepInEx.Configuration.ConfigFile.ConfigDefinitions
+  nameWithType: ConfigFile.ConfigDefinitions
+- uid: BepInEx.Configuration.ConfigFile.ConfigDefinitions*
+  name: ConfigDefinitions
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigDefinitions_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.ConfigDefinitions
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.ConfigDefinitions
+  nameWithType: ConfigFile.ConfigDefinitions
+- uid: BepInEx.Configuration.ConfigFile.ConfigFilePath
+  name: ConfigFilePath
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigFilePath
+  commentId: P:BepInEx.Configuration.ConfigFile.ConfigFilePath
+  fullName: BepInEx.Configuration.ConfigFile.ConfigFilePath
+  nameWithType: ConfigFile.ConfigFilePath
+- uid: BepInEx.Configuration.ConfigFile.ConfigFilePath*
+  name: ConfigFilePath
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigFilePath_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.ConfigFilePath
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.ConfigFilePath
+  nameWithType: ConfigFile.ConfigFilePath
+- uid: BepInEx.Configuration.ConfigFile.ConfigReloaded
   name: ConfigReloaded
-  href: api/BepInEx.Config.html#BepInEx_Config_ConfigReloaded
-  commentId: E:BepInEx.Config.ConfigReloaded
-  fullName: BepInEx.Config.ConfigReloaded
-  nameWithType: Config.ConfigReloaded
-- uid: BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
-  name: GetEntry(BaseUnityPlugin, String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_BepInEx_BaseUnityPlugin_System_String_System_String_
-  commentId: M:BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
-  fullName: BepInEx.Config.GetEntry(BepInEx.BaseUnityPlugin, System.String, System.String)
-  nameWithType: Config.GetEntry(BaseUnityPlugin, String, String)
-- uid: BepInEx.Config.GetEntry(System.String,System.String,System.String)
-  name: GetEntry(String, String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_System_String_System_String_System_String_
-  commentId: M:BepInEx.Config.GetEntry(System.String,System.String,System.String)
-  fullName: BepInEx.Config.GetEntry(System.String, System.String, System.String)
-  nameWithType: Config.GetEntry(String, String, String)
-- uid: BepInEx.Config.GetEntry*
-  name: GetEntry
-  href: api/BepInEx.Config.html#BepInEx_Config_GetEntry_
-  commentId: Overload:BepInEx.Config.GetEntry
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigReloaded
+  commentId: E:BepInEx.Configuration.ConfigFile.ConfigReloaded
+  fullName: BepInEx.Configuration.ConfigFile.ConfigReloaded
+  nameWithType: ConfigFile.ConfigReloaded
+- uid: BepInEx.Configuration.ConfigFile.Reload
+  name: Reload()
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Reload
+  commentId: M:BepInEx.Configuration.ConfigFile.Reload
+  fullName: BepInEx.Configuration.ConfigFile.Reload()
+  nameWithType: ConfigFile.Reload()
+- uid: BepInEx.Configuration.ConfigFile.Reload*
+  name: Reload
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Reload_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Reload
   isSpec: "True"
-  fullName: BepInEx.Config.GetEntry
-  nameWithType: Config.GetEntry
-- uid: BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin,System.String)
-  name: HasEntry(BaseUnityPlugin, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_BepInEx_BaseUnityPlugin_System_String_
-  commentId: M:BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin,System.String)
-  fullName: BepInEx.Config.HasEntry(BepInEx.BaseUnityPlugin, System.String)
-  nameWithType: Config.HasEntry(BaseUnityPlugin, String)
-- uid: BepInEx.Config.HasEntry(System.String,System.String)
-  name: HasEntry(String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_System_String_System_String_
-  commentId: M:BepInEx.Config.HasEntry(System.String,System.String)
-  fullName: BepInEx.Config.HasEntry(System.String, System.String)
-  nameWithType: Config.HasEntry(String, String)
-- uid: BepInEx.Config.HasEntry*
-  name: HasEntry
-  href: api/BepInEx.Config.html#BepInEx_Config_HasEntry_
-  commentId: Overload:BepInEx.Config.HasEntry
+  fullName: BepInEx.Configuration.ConfigFile.Reload
+  nameWithType: ConfigFile.Reload
+- uid: BepInEx.Configuration.ConfigFile.Save
+  name: Save()
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Save
+  commentId: M:BepInEx.Configuration.ConfigFile.Save
+  fullName: BepInEx.Configuration.ConfigFile.Save()
+  nameWithType: ConfigFile.Save()
+- uid: BepInEx.Configuration.ConfigFile.Save*
+  name: Save
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Save_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Save
   isSpec: "True"
-  fullName: BepInEx.Config.HasEntry
-  nameWithType: Config.HasEntry
-- uid: BepInEx.Config.ReloadConfig
-  name: ReloadConfig()
-  href: api/BepInEx.Config.html#BepInEx_Config_ReloadConfig
-  commentId: M:BepInEx.Config.ReloadConfig
-  fullName: BepInEx.Config.ReloadConfig()
-  nameWithType: Config.ReloadConfig()
-- uid: BepInEx.Config.ReloadConfig*
-  name: ReloadConfig
-  href: api/BepInEx.Config.html#BepInEx_Config_ReloadConfig_
-  commentId: Overload:BepInEx.Config.ReloadConfig
-  isSpec: "True"
-  fullName: BepInEx.Config.ReloadConfig
-  nameWithType: Config.ReloadConfig
-- uid: BepInEx.Config.Sanitize(System.String)
-  name: Sanitize(String)
-  href: api/BepInEx.Config.html#BepInEx_Config_Sanitize_System_String_
-  commentId: M:BepInEx.Config.Sanitize(System.String)
-  fullName: BepInEx.Config.Sanitize(System.String)
-  nameWithType: Config.Sanitize(String)
-- uid: BepInEx.Config.Sanitize*
-  name: Sanitize
-  href: api/BepInEx.Config.html#BepInEx_Config_Sanitize_
-  commentId: Overload:BepInEx.Config.Sanitize
-  isSpec: "True"
-  fullName: BepInEx.Config.Sanitize
-  nameWithType: Config.Sanitize
-- uid: BepInEx.Config.SaveConfig
-  name: SaveConfig()
-  href: api/BepInEx.Config.html#BepInEx_Config_SaveConfig
-  commentId: M:BepInEx.Config.SaveConfig
-  fullName: BepInEx.Config.SaveConfig()
-  nameWithType: Config.SaveConfig()
-- uid: BepInEx.Config.SaveConfig*
-  name: SaveConfig
-  href: api/BepInEx.Config.html#BepInEx_Config_SaveConfig_
-  commentId: Overload:BepInEx.Config.SaveConfig
-  isSpec: "True"
-  fullName: BepInEx.Config.SaveConfig
-  nameWithType: Config.SaveConfig
-- uid: BepInEx.Config.SaveOnConfigSet
+  fullName: BepInEx.Configuration.ConfigFile.Save
+  nameWithType: ConfigFile.Save
+- uid: BepInEx.Configuration.ConfigFile.SaveOnConfigSet
   name: SaveOnConfigSet
-  href: api/BepInEx.Config.html#BepInEx_Config_SaveOnConfigSet
-  commentId: P:BepInEx.Config.SaveOnConfigSet
-  fullName: BepInEx.Config.SaveOnConfigSet
-  nameWithType: Config.SaveOnConfigSet
-- uid: BepInEx.Config.SaveOnConfigSet*
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_SaveOnConfigSet
+  commentId: P:BepInEx.Configuration.ConfigFile.SaveOnConfigSet
+  fullName: BepInEx.Configuration.ConfigFile.SaveOnConfigSet
+  nameWithType: ConfigFile.SaveOnConfigSet
+- uid: BepInEx.Configuration.ConfigFile.SaveOnConfigSet*
   name: SaveOnConfigSet
-  href: api/BepInEx.Config.html#BepInEx_Config_SaveOnConfigSet_
-  commentId: Overload:BepInEx.Config.SaveOnConfigSet
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_SaveOnConfigSet_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.SaveOnConfigSet
   isSpec: "True"
-  fullName: BepInEx.Config.SaveOnConfigSet
-  nameWithType: Config.SaveOnConfigSet
-- uid: BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
-  name: SetEntry(BaseUnityPlugin, String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_BepInEx_BaseUnityPlugin_System_String_System_String_
-  commentId: M:BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin,System.String,System.String)
-  fullName: BepInEx.Config.SetEntry(BepInEx.BaseUnityPlugin, System.String, System.String)
-  nameWithType: Config.SetEntry(BaseUnityPlugin, String, String)
-- uid: BepInEx.Config.SetEntry(System.String,System.String,System.String)
-  name: SetEntry(String, String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_System_String_System_String_System_String_
-  commentId: M:BepInEx.Config.SetEntry(System.String,System.String,System.String)
-  fullName: BepInEx.Config.SetEntry(System.String, System.String, System.String)
-  nameWithType: Config.SetEntry(String, String, String)
-- uid: BepInEx.Config.SetEntry*
-  name: SetEntry
-  href: api/BepInEx.Config.html#BepInEx_Config_SetEntry_
-  commentId: Overload:BepInEx.Config.SetEntry
+  fullName: BepInEx.Configuration.ConfigFile.SaveOnConfigSet
+  nameWithType: ConfigFile.SaveOnConfigSet
+- uid: BepInEx.Configuration.ConfigFile.Wrap*
+  name: Wrap
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Wrap_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Wrap
   isSpec: "True"
-  fullName: BepInEx.Config.SetEntry
-  nameWithType: Config.SetEntry
-- uid: BepInEx.Config.UnsetEntry(System.String,System.String)
-  name: UnsetEntry(String, String)
-  href: api/BepInEx.Config.html#BepInEx_Config_UnsetEntry_System_String_System_String_
-  commentId: M:BepInEx.Config.UnsetEntry(System.String,System.String)
-  fullName: BepInEx.Config.UnsetEntry(System.String, System.String)
-  nameWithType: Config.UnsetEntry(String, String)
-- uid: BepInEx.Config.UnsetEntry*
-  name: UnsetEntry
-  href: api/BepInEx.Config.html#BepInEx_Config_UnsetEntry_
-  commentId: Overload:BepInEx.Config.UnsetEntry
-  isSpec: "True"
-  fullName: BepInEx.Config.UnsetEntry
-  nameWithType: Config.UnsetEntry
-- uid: BepInEx.ConfigWrapper`1
+  fullName: BepInEx.Configuration.ConfigFile.Wrap
+  nameWithType: ConfigFile.Wrap
+- uid: BepInEx.Configuration.ConfigFile.Wrap``1(BepInEx.Configuration.ConfigDefinition,``0)
+  name: Wrap<T>(ConfigDefinition, T)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Wrap__1_BepInEx_Configuration_ConfigDefinition___0_
+  commentId: M:BepInEx.Configuration.ConfigFile.Wrap``1(BepInEx.Configuration.ConfigDefinition,``0)
+  name.vb: Wrap(Of T)(ConfigDefinition, T)
+  fullName: BepInEx.Configuration.ConfigFile.Wrap<T>(BepInEx.Configuration.ConfigDefinition, T)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Wrap(Of T)(BepInEx.Configuration.ConfigDefinition, T)
+  nameWithType: ConfigFile.Wrap<T>(ConfigDefinition, T)
+  nameWithType.vb: ConfigFile.Wrap(Of T)(ConfigDefinition, T)
+- uid: BepInEx.Configuration.ConfigFile.Wrap``1(System.String,System.String,System.String,``0)
+  name: Wrap<T>(String, String, String, T)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Wrap__1_System_String_System_String_System_String___0_
+  commentId: M:BepInEx.Configuration.ConfigFile.Wrap``1(System.String,System.String,System.String,``0)
+  name.vb: Wrap(Of T)(String, String, String, T)
+  fullName: BepInEx.Configuration.ConfigFile.Wrap<T>(System.String, System.String, System.String, T)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Wrap(Of T)(System.String, System.String, System.String, T)
+  nameWithType: ConfigFile.Wrap<T>(String, String, String, T)
+  nameWithType.vb: ConfigFile.Wrap(Of T)(String, String, String, T)
+- uid: BepInEx.Configuration.ConfigWrapper`1
   name: ConfigWrapper<T>
-  href: api/BepInEx.ConfigWrapper-1.html
-  commentId: T:BepInEx.ConfigWrapper`1
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html
+  commentId: T:BepInEx.Configuration.ConfigWrapper`1
   name.vb: ConfigWrapper(Of T)
-  fullName: BepInEx.ConfigWrapper<T>
-  fullName.vb: BepInEx.ConfigWrapper(Of T)
+  fullName: BepInEx.Configuration.ConfigWrapper<T>
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T)
   nameWithType: ConfigWrapper<T>
   nameWithType.vb: ConfigWrapper(Of T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,`0)
-  name: ConfigWrapper(String, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String__0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,`0)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,`0)
-  name: ConfigWrapper(String, BaseUnityPlugin, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin__0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,`0)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,BepInEx.IConfigConverter{`0},`0)
-  name: ConfigWrapper(String, BaseUnityPlugin, IConfigConverter<T>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin_BepInEx_IConfigConverter__0___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,BepInEx.IConfigConverter{`0},`0)
-  name.vb: ConfigWrapper(String, BaseUnityPlugin, IConfigConverter(Of T), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, BepInEx.IConfigConverter<T>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, BepInEx.IConfigConverter(Of T), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, IConfigConverter<T>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, IConfigConverter(Of T), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name: ConfigWrapper(String, BaseUnityPlugin, Func<String, T>, Func<T, String>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_BaseUnityPlugin_System_Func_System_String__0__System_Func__0_System_String___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.BaseUnityPlugin,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name.vb: ConfigWrapper(String, BaseUnityPlugin, Func(Of String, T), Func(Of T, String), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, System.Func<System.String, T>, System.Func<T, System.String>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.BaseUnityPlugin, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, BaseUnityPlugin, Func<String, T>, Func<T, String>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, BaseUnityPlugin, Func(Of String, T), Func(Of T, String), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.IConfigConverter{`0},`0)
-  name: ConfigWrapper(String, IConfigConverter<T>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_BepInEx_IConfigConverter__0___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,BepInEx.IConfigConverter{`0},`0)
-  name.vb: ConfigWrapper(String, IConfigConverter(Of T), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, BepInEx.IConfigConverter<T>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, BepInEx.IConfigConverter(Of T), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, IConfigConverter<T>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, IConfigConverter(Of T), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name: ConfigWrapper(String, Func<String, T>, Func<T, String>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_Func_System_String__0__System_Func__0_System_String___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name.vb: ConfigWrapper(String, Func(Of String, T), Func(Of T, String), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.Func<System.String, T>, System.Func<T, System.String>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, Func<String, T>, Func<T, String>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, Func(Of String, T), Func(Of T, String), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,`0)
-  name: ConfigWrapper(String, String, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String__0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,`0)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,BepInEx.IConfigConverter{`0},`0)
-  name: ConfigWrapper(String, String, IConfigConverter<T>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String_BepInEx_IConfigConverter__0___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,BepInEx.IConfigConverter{`0},`0)
-  name.vb: ConfigWrapper(String, String, IConfigConverter(Of T), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, BepInEx.IConfigConverter<T>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, BepInEx.IConfigConverter(Of T), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, IConfigConverter<T>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, IConfigConverter(Of T), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name: ConfigWrapper(String, String, Func<String, T>, Func<T, String>, T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_System_String_System_String_System_Func_System_String__0__System_Func__0_System_String___0_
-  commentId: M:BepInEx.ConfigWrapper`1.#ctor(System.String,System.String,System.Func{System.String,`0},System.Func{`0,System.String},`0)
-  name.vb: ConfigWrapper(String, String, Func(Of String, T), Func(Of T, String), T)
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper(System.String, System.String, System.Func<System.String, T>, System.Func<T, System.String>, T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper(System.String, System.String, System.Func(Of System.String, T), System.Func(Of T, System.String), T)
-  nameWithType: ConfigWrapper<T>.ConfigWrapper(String, String, Func<String, T>, Func<T, String>, T)
-  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(String, String, Func(Of String, T), Func(Of T, String), T)
-- uid: BepInEx.ConfigWrapper`1.#ctor*
+- uid: BepInEx.Configuration.ConfigWrapper`1.#ctor(BepInEx.Configuration.ConfigFile,BepInEx.Configuration.ConfigDefinition)
+  name: ConfigWrapper(ConfigFile, ConfigDefinition)
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1__ctor_BepInEx_Configuration_ConfigFile_BepInEx_Configuration_ConfigDefinition_
+  commentId: M:BepInEx.Configuration.ConfigWrapper`1.#ctor(BepInEx.Configuration.ConfigFile,BepInEx.Configuration.ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.ConfigWrapper(BepInEx.Configuration.ConfigFile, BepInEx.Configuration.ConfigDefinition)
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).ConfigWrapper(BepInEx.Configuration.ConfigFile, BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigWrapper<T>.ConfigWrapper(ConfigFile, ConfigDefinition)
+  nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper(ConfigFile, ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigWrapper`1.#ctor*
   name: ConfigWrapper
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1__ctor_
-  commentId: Overload:BepInEx.ConfigWrapper`1.#ctor
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1__ctor_
+  commentId: Overload:BepInEx.Configuration.ConfigWrapper`1.#ctor
   isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.ConfigWrapper
-  fullName.vb: BepInEx.ConfigWrapper(Of T).ConfigWrapper
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.ConfigWrapper
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).ConfigWrapper
   nameWithType: ConfigWrapper<T>.ConfigWrapper
   nameWithType.vb: ConfigWrapper(Of T).ConfigWrapper
-- uid: BepInEx.ConfigWrapper`1.Clear
-  name: Clear()
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Clear
-  commentId: M:BepInEx.ConfigWrapper`1.Clear
-  fullName: BepInEx.ConfigWrapper<T>.Clear()
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Clear()
-  nameWithType: ConfigWrapper<T>.Clear()
-  nameWithType.vb: ConfigWrapper(Of T).Clear()
-- uid: BepInEx.ConfigWrapper`1.Clear*
-  name: Clear
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Clear_
-  commentId: Overload:BepInEx.ConfigWrapper`1.Clear
+- uid: BepInEx.Configuration.ConfigWrapper`1.ConfigFile
+  name: ConfigFile
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_ConfigFile
+  commentId: P:BepInEx.Configuration.ConfigWrapper`1.ConfigFile
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.ConfigFile
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).ConfigFile
+  nameWithType: ConfigWrapper<T>.ConfigFile
+  nameWithType.vb: ConfigWrapper(Of T).ConfigFile
+- uid: BepInEx.Configuration.ConfigWrapper`1.ConfigFile*
+  name: ConfigFile
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_ConfigFile_
+  commentId: Overload:BepInEx.Configuration.ConfigWrapper`1.ConfigFile
   isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.Clear
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Clear
-  nameWithType: ConfigWrapper<T>.Clear
-  nameWithType.vb: ConfigWrapper(Of T).Clear
-- uid: BepInEx.ConfigWrapper`1.GetKeyExists
-  name: GetKeyExists()
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetKeyExists
-  commentId: M:BepInEx.ConfigWrapper`1.GetKeyExists
-  fullName: BepInEx.ConfigWrapper<T>.GetKeyExists()
-  fullName.vb: BepInEx.ConfigWrapper(Of T).GetKeyExists()
-  nameWithType: ConfigWrapper<T>.GetKeyExists()
-  nameWithType.vb: ConfigWrapper(Of T).GetKeyExists()
-- uid: BepInEx.ConfigWrapper`1.GetKeyExists*
-  name: GetKeyExists
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetKeyExists_
-  commentId: Overload:BepInEx.ConfigWrapper`1.GetKeyExists
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.ConfigFile
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).ConfigFile
+  nameWithType: ConfigWrapper<T>.ConfigFile
+  nameWithType.vb: ConfigWrapper(Of T).ConfigFile
+- uid: BepInEx.Configuration.ConfigWrapper`1.Definition
+  name: Definition
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_Definition
+  commentId: P:BepInEx.Configuration.ConfigWrapper`1.Definition
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.Definition
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).Definition
+  nameWithType: ConfigWrapper<T>.Definition
+  nameWithType.vb: ConfigWrapper(Of T).Definition
+- uid: BepInEx.Configuration.ConfigWrapper`1.Definition*
+  name: Definition
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_Definition_
+  commentId: Overload:BepInEx.Configuration.ConfigWrapper`1.Definition
   isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.GetKeyExists
-  fullName.vb: BepInEx.ConfigWrapper(Of T).GetKeyExists
-  nameWithType: ConfigWrapper<T>.GetKeyExists
-  nameWithType.vb: ConfigWrapper(Of T).GetKeyExists
-- uid: BepInEx.ConfigWrapper`1.GetValue
-  name: GetValue()
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetValue
-  commentId: M:BepInEx.ConfigWrapper`1.GetValue
-  fullName: BepInEx.ConfigWrapper<T>.GetValue()
-  fullName.vb: BepInEx.ConfigWrapper(Of T).GetValue()
-  nameWithType: ConfigWrapper<T>.GetValue()
-  nameWithType.vb: ConfigWrapper(Of T).GetValue()
-- uid: BepInEx.ConfigWrapper`1.GetValue*
-  name: GetValue
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_GetValue_
-  commentId: Overload:BepInEx.ConfigWrapper`1.GetValue
-  isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.GetValue
-  fullName.vb: BepInEx.ConfigWrapper(Of T).GetValue
-  nameWithType: ConfigWrapper<T>.GetValue
-  nameWithType.vb: ConfigWrapper(Of T).GetValue
-- uid: BepInEx.ConfigWrapper`1.Key
-  name: Key
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Key
-  commentId: P:BepInEx.ConfigWrapper`1.Key
-  fullName: BepInEx.ConfigWrapper<T>.Key
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Key
-  nameWithType: ConfigWrapper<T>.Key
-  nameWithType.vb: ConfigWrapper(Of T).Key
-- uid: BepInEx.ConfigWrapper`1.Key*
-  name: Key
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Key_
-  commentId: Overload:BepInEx.ConfigWrapper`1.Key
-  isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.Key
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Key
-  nameWithType: ConfigWrapper<T>.Key
-  nameWithType.vb: ConfigWrapper(Of T).Key
-- uid: BepInEx.ConfigWrapper`1.Section
-  name: Section
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Section
-  commentId: P:BepInEx.ConfigWrapper`1.Section
-  fullName: BepInEx.ConfigWrapper<T>.Section
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Section
-  nameWithType: ConfigWrapper<T>.Section
-  nameWithType.vb: ConfigWrapper(Of T).Section
-- uid: BepInEx.ConfigWrapper`1.Section*
-  name: Section
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Section_
-  commentId: Overload:BepInEx.ConfigWrapper`1.Section
-  isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.Section
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Section
-  nameWithType: ConfigWrapper<T>.Section
-  nameWithType.vb: ConfigWrapper(Of T).Section
-- uid: BepInEx.ConfigWrapper`1.SettingChanged
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.Definition
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).Definition
+  nameWithType: ConfigWrapper<T>.Definition
+  nameWithType.vb: ConfigWrapper(Of T).Definition
+- uid: BepInEx.Configuration.ConfigWrapper`1.SettingChanged
   name: SettingChanged
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SettingChanged
-  commentId: E:BepInEx.ConfigWrapper`1.SettingChanged
-  fullName: BepInEx.ConfigWrapper<T>.SettingChanged
-  fullName.vb: BepInEx.ConfigWrapper(Of T).SettingChanged
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_SettingChanged
+  commentId: E:BepInEx.Configuration.ConfigWrapper`1.SettingChanged
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.SettingChanged
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).SettingChanged
   nameWithType: ConfigWrapper<T>.SettingChanged
   nameWithType.vb: ConfigWrapper(Of T).SettingChanged
-- uid: BepInEx.ConfigWrapper`1.SetValue(`0)
-  name: SetValue(T)
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SetValue__0_
-  commentId: M:BepInEx.ConfigWrapper`1.SetValue(`0)
-  fullName: BepInEx.ConfigWrapper<T>.SetValue(T)
-  fullName.vb: BepInEx.ConfigWrapper(Of T).SetValue(T)
-  nameWithType: ConfigWrapper<T>.SetValue(T)
-  nameWithType.vb: ConfigWrapper(Of T).SetValue(T)
-- uid: BepInEx.ConfigWrapper`1.SetValue*
-  name: SetValue
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_SetValue_
-  commentId: Overload:BepInEx.ConfigWrapper`1.SetValue
-  isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.SetValue
-  fullName.vb: BepInEx.ConfigWrapper(Of T).SetValue
-  nameWithType: ConfigWrapper<T>.SetValue
-  nameWithType.vb: ConfigWrapper(Of T).SetValue
-- uid: BepInEx.ConfigWrapper`1.Value
+- uid: BepInEx.Configuration.ConfigWrapper`1.Value
   name: Value
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Value
-  commentId: P:BepInEx.ConfigWrapper`1.Value
-  fullName: BepInEx.ConfigWrapper<T>.Value
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Value
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_Value
+  commentId: P:BepInEx.Configuration.ConfigWrapper`1.Value
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.Value
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).Value
   nameWithType: ConfigWrapper<T>.Value
   nameWithType.vb: ConfigWrapper(Of T).Value
-- uid: BepInEx.ConfigWrapper`1.Value*
+- uid: BepInEx.Configuration.ConfigWrapper`1.Value*
   name: Value
-  href: api/BepInEx.ConfigWrapper-1.html#BepInEx_ConfigWrapper_1_Value_
-  commentId: Overload:BepInEx.ConfigWrapper`1.Value
+  href: api/BepInEx.Configuration.ConfigWrapper-1.html#BepInEx_Configuration_ConfigWrapper_1_Value_
+  commentId: Overload:BepInEx.Configuration.ConfigWrapper`1.Value
   isSpec: "True"
-  fullName: BepInEx.ConfigWrapper<T>.Value
-  fullName.vb: BepInEx.ConfigWrapper(Of T).Value
+  fullName: BepInEx.Configuration.ConfigWrapper<T>.Value
+  fullName.vb: BepInEx.Configuration.ConfigWrapper(Of T).Value
   nameWithType: ConfigWrapper<T>.Value
   nameWithType.vb: ConfigWrapper(Of T).Value
 - uid: BepInEx.Harmony
@@ -723,49 +708,6 @@ references:
   isSpec: "True"
   fullName: BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
   nameWithType: ParameterByRefAttribute.ParameterIndices
-- uid: BepInEx.IConfigConverter`1
-  name: IConfigConverter<T>
-  href: api/BepInEx.IConfigConverter-1.html
-  commentId: T:BepInEx.IConfigConverter`1
-  name.vb: IConfigConverter(Of T)
-  fullName: BepInEx.IConfigConverter<T>
-  fullName.vb: BepInEx.IConfigConverter(Of T)
-  nameWithType: IConfigConverter<T>
-  nameWithType.vb: IConfigConverter(Of T)
-- uid: BepInEx.IConfigConverter`1.ConvertFromString(System.String)
-  name: ConvertFromString(String)
-  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertFromString_System_String_
-  commentId: M:BepInEx.IConfigConverter`1.ConvertFromString(System.String)
-  fullName: BepInEx.IConfigConverter<T>.ConvertFromString(System.String)
-  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertFromString(System.String)
-  nameWithType: IConfigConverter<T>.ConvertFromString(String)
-  nameWithType.vb: IConfigConverter(Of T).ConvertFromString(String)
-- uid: BepInEx.IConfigConverter`1.ConvertFromString*
-  name: ConvertFromString
-  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertFromString_
-  commentId: Overload:BepInEx.IConfigConverter`1.ConvertFromString
-  isSpec: "True"
-  fullName: BepInEx.IConfigConverter<T>.ConvertFromString
-  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertFromString
-  nameWithType: IConfigConverter<T>.ConvertFromString
-  nameWithType.vb: IConfigConverter(Of T).ConvertFromString
-- uid: BepInEx.IConfigConverter`1.ConvertToString(`0)
-  name: ConvertToString(T)
-  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertToString__0_
-  commentId: M:BepInEx.IConfigConverter`1.ConvertToString(`0)
-  fullName: BepInEx.IConfigConverter<T>.ConvertToString(T)
-  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertToString(T)
-  nameWithType: IConfigConverter<T>.ConvertToString(T)
-  nameWithType.vb: IConfigConverter(Of T).ConvertToString(T)
-- uid: BepInEx.IConfigConverter`1.ConvertToString*
-  name: ConvertToString
-  href: api/BepInEx.IConfigConverter-1.html#BepInEx_IConfigConverter_1_ConvertToString_
-  commentId: Overload:BepInEx.IConfigConverter`1.ConvertToString
-  isSpec: "True"
-  fullName: BepInEx.IConfigConverter<T>.ConvertToString
-  fullName.vb: BepInEx.IConfigConverter(Of T).ConvertToString
-  nameWithType: IConfigConverter<T>.ConvertToString
-  nameWithType.vb: IConfigConverter(Of T).ConvertToString
 - uid: BepInEx.Logging
   name: BepInEx.Logging
   href: api/BepInEx.Logging.html
@@ -778,6 +720,12 @@ references:
   commentId: T:BepInEx.Logging.ConsoleLogListener
   fullName: BepInEx.Logging.ConsoleLogListener
   nameWithType: ConsoleLogListener
+- uid: BepInEx.Logging.ConsoleLogListener.DisplayedLogLevel
+  name: DisplayedLogLevel
+  href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_DisplayedLogLevel
+  commentId: F:BepInEx.Logging.ConsoleLogListener.DisplayedLogLevel
+  fullName: BepInEx.Logging.ConsoleLogListener.DisplayedLogLevel
+  nameWithType: ConsoleLogListener.DisplayedLogLevel
 - uid: BepInEx.Logging.ConsoleLogListener.Dispose
   name: Dispose()
   href: api/BepInEx.Logging.ConsoleLogListener.html#BepInEx_Logging_ConsoleLogListener_Dispose
@@ -1485,6 +1433,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Paths.BepInExAssemblyPath
   nameWithType: Paths.BepInExAssemblyPath
+- uid: BepInEx.Paths.BepInExConfigPath
+  name: BepInExConfigPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExConfigPath
+  commentId: P:BepInEx.Paths.BepInExConfigPath
+  fullName: BepInEx.Paths.BepInExConfigPath
+  nameWithType: Paths.BepInExConfigPath
+- uid: BepInEx.Paths.BepInExConfigPath*
+  name: BepInExConfigPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExConfigPath_
+  commentId: Overload:BepInEx.Paths.BepInExConfigPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.BepInExConfigPath
+  nameWithType: Paths.BepInExConfigPath
 - uid: BepInEx.Paths.BepInExRootPath
   name: BepInExRootPath
   href: api/BepInEx.Paths.html#BepInEx_Paths_BepInExRootPath
@@ -1498,6 +1459,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Paths.BepInExRootPath
   nameWithType: Paths.BepInExRootPath
+- uid: BepInEx.Paths.ConfigPath
+  name: ConfigPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ConfigPath
+  commentId: P:BepInEx.Paths.ConfigPath
+  fullName: BepInEx.Paths.ConfigPath
+  nameWithType: Paths.ConfigPath
+- uid: BepInEx.Paths.ConfigPath*
+  name: ConfigPath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_ConfigPath_
+  commentId: Overload:BepInEx.Paths.ConfigPath
+  isSpec: "True"
+  fullName: BepInEx.Paths.ConfigPath
+  nameWithType: Paths.ConfigPath
 - uid: BepInEx.Paths.ExecutablePath
   name: ExecutablePath
   href: api/BepInEx.Paths.html#BepInEx_Paths_ExecutablePath

@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BaseUnityPlugin.html",
-          "hash": "KzQ0nwSWp+3Vtrt7suPDdw=="
+          "hash": "Gbka1GTKAxpfO8wWv9ONFg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "fY0s1hl9GAwGe2J35tUTJA=="
+          "hash": "6b5TqJ4qKa25IVgNek5i7g=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Config.yml",
+      "source_relative_path": "api/BepInEx.Configuration.ConfigDefinition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BepInEx.Config.html",
-          "hash": "KEkwHTZj4oPr0Tia+r91Mw=="
+          "relative_path": "api/BepInEx.Configuration.ConfigDefinition.html",
+          "hash": "Fci+/QCecyLYc8En/Qryeg=="
         }
       },
       "is_incremental": false,
@@ -113,11 +113,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.ConfigWrapper-1.yml",
+      "source_relative_path": "api/BepInEx.Configuration.ConfigFile.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BepInEx.ConfigWrapper-1.html",
-          "hash": "4Hw+qOJPSfG1OzLVj2Rjsg=="
+          "relative_path": "api/BepInEx.Configuration.ConfigFile.html",
+          "hash": "mmzNdZFxzj6am3wKVYq79w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Configuration.ConfigWrapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Configuration.ConfigWrapper-1.html",
+          "hash": "BnWbYdQ5ogrFyYTl9zYXjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Configuration.html",
+          "hash": "b40oUIHX3i/mzMGDLEolJA=="
         }
       },
       "is_incremental": false,
@@ -161,23 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.IConfigConverter-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.IConfigConverter-1.html",
-          "hash": "GgTq6uCwWq1W+VfHdBJbdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BepInEx.Logging.ConsoleLogListener.yml",
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ConsoleLogListener.html",
-          "hash": "uJORgYKLqWhf390QVeqsCA=="
+          "hash": "6x/qeS++Wgw/nhVsci1dlQ=="
         }
       },
       "is_incremental": false,
@@ -345,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Paths.html",
-          "hash": "bNPOz1v/Tub+AAji77vDAA=="
+          "hash": "d/EY8vuvUHX9/ayuntqbyg=="
         }
       },
       "is_incremental": false,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.html",
-          "hash": "pNUicgjPJczku7dwwJ0n5Q=="
+          "hash": "h0DgyHqq27EPjmpBQJSv5Q=="
         }
       },
       "is_incremental": false,
@@ -381,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "KD274ZOugMRYg/TpqeMUJA=="
+          "hash": "nw1M158iUjSddAlzdZku9w=="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "BxXSrHhYcaem3JTg8ilCow=="
+          "hash": "6rqyNkorT2UXLGZPZlYcig=="
         }
       },
       "is_incremental": false,
@@ -747,16 +759,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 31,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 32,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
