@@ -444,7 +444,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dotnet_profiles.html",
-          "hash": "aXzdjm+y2ITLT92N6asrxA=="
+          "hash": "eCozR1VdL6F3fEyeRUgRDw=="
         }
       },
       "is_incremental": false,
@@ -519,7 +519,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/1_setup.html",
-          "hash": "NBzCqkdK5Cpg6HnVQ9Cudw=="
+          "hash": "hfu98a1ZbnnG/lBnt6Z1Pw=="
         }
       },
       "is_incremental": false,
@@ -574,12 +574,81 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/dev_guide/plugin_tutorial/index.md",
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "3tZtq270UW5l7osMKhRugw=="
+          "hash": "JRpolR3tW/YrYa7vIcXAWg=="
         }
       },
       "is_incremental": false,
@@ -615,7 +684,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "+c/YdeqHeOPOAtru0HGZsw=="
+          "hash": "KIfT7CWip66/rg/COLiy9Q=="
         }
       },
       "is_incremental": false,
@@ -695,7 +764,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation.html",
-          "hash": "mAw3odRjulBVlzhNBgQHpQ=="
+          "hash": "WAMCZwhoaA3flLePdP3y3A=="
         }
       },
       "is_incremental": false,

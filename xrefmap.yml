@@ -1646,6 +1646,9 @@ references:
 - uid: configuration
   name: configuration
   href: articles/user_guide/configuration.html
+- uid: dotnet_profiles
+  name: dotnet_profiles
+  href: articles/advanced/dotnet_profiles.html
 - uid: harmony_wrapper
   name: 'Runtime patching with '
   href: articles/dev_guide/harmony_wrapper.html
@@ -1656,7 +1659,7 @@ references:
   name: limitations
   href: articles/advanced/limitations.html
 - uid: plugin_dev_index
-  name: Plugin development
+  name: 'How to: create a BepInEx plugin'
   href: articles/dev_guide/plugin_tutorial/index.html
 - uid: porting
   name: Porting BepInEx
