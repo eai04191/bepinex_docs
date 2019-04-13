@@ -33,40 +33,7 @@ Bleeding edge builds are always the latest builds of the source code. Thus they 
 
 BepInEx can be installed in two ways: via the installer tool or manually.
 
-# [Using the installer tool](#tab/tabid-1)
-
-1. Download the installer tool.
-
-    [Download BepInEx from one of the available sources.](#where-to-download-bepinex)  
-    From the available files, download `BepInEx_Installer_<version>.zip`, where `<version>` is the version of BepInEx you are downloading.
-
-2. Unpack and launch the installer.
-
-    After you have downloaded the installer, unpack it and run `BepInEx.Installer.exe`. That will open the main installer GUI:
-
-    ![BepInEx Installer GUI](images/installer_1.png)
-
-3. Select the game folder.
-
-    In the GUI, select `Browse...` and select the folder where the game executable is located:
-
-    ![Select the game folder in the directory browser](images/installer_2.png)
-
-    Press `OK` after which the installer will automatically detect game version and try to pick the best configuration for the game.
-
-4. *Optional:* Configure installation options.
-
-    Optionally, you can configure the advanced option of the installation by selecting the `Advanced` tab:
-
-    ![Advanced tab of the installer](images/installer_3.png)
-
-    You can get description of every option by hovering your mouse on it.
-
-5. Apply the patch.
-
-    Finally, press `Patch` to install BepInEx. You should now have correct version of BepInEx installed for you.  
-
-# [Installing manually](#tab/tabid-2)
+# [Installing manually](#tab/tabid-1)
 
 1. Download the correct version of BepInEx.
 
@@ -104,6 +71,39 @@ BepInEx can be installed in two ways: via the installer tool or manually.
     > [!NOTE]  
     > If you are using a non-Windows system, you might need to run the patcher via mono:  
     > `mono BepInEx.Patcher.exe`
+
+# [Using the installer tool](#tab/tabid-2)
+
+1. Download the installer tool.
+
+    [Download BepInEx from one of the available sources.](#where-to-download-bepinex)  
+    From the available files, download `BepInEx_Installer_<version>.zip`, where `<version>` is the version of BepInEx you are downloading.
+
+2. Unpack and launch the installer.
+
+    After you have downloaded the installer, unpack it and run `BepInEx.Installer.exe`. That will open the main installer GUI:
+
+    ![BepInEx Installer GUI](images/installer_1.png)
+
+3. Select the game folder.
+
+    In the GUI, select `Browse...` and select the folder where the game executable is located:
+
+    ![Select the game folder in the directory browser](images/installer_2.png)
+
+    Press `OK` after which the installer will automatically detect game version and try to pick the best configuration for the game.
+
+4. *Optional:* Configure installation options.
+
+    Optionally, you can configure the advanced option of the installation by selecting the `Advanced` tab:
+
+    ![Advanced tab of the installer](images/installer_3.png)
+
+    You can get description of every option by hovering your mouse on it.
+
+5. Apply the patch.
+
+    Finally, press `Patch` to install BepInEx. You should now have correct version of BepInEx installed for you.  
 
 ***
 
