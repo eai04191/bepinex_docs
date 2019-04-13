@@ -1,4 +1,4 @@
-- name: "Part I: Setting up the developer environment"
+- name: "Part I: Setting up the development environment"
   href: 1_setup.md
 - name: "Part II: Writing a basic plug-in class"
   href: 2_plugin_start.md
