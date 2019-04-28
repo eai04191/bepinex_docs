@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.MetadataHelper.html",
-          "hash": "gdNmAIuxJ/ta9/Me5lXmuw=="
+          "hash": "PuA7FR2kQudnX6fdlvZUgA=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.MissingDependencyException.html",
-          "hash": "LPO6Cn7uxMYZ9LjwKVa14w=="
+          "hash": "1bR9yxwwVW6l/DY6k1li6g=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "P+DobyhimEuetTSPXgmeUA=="
+          "hash": "R73+NwqiFe4WF+IZVSJn5g=="
         }
       },
       "is_incremental": false,
@@ -432,7 +432,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dnspy_debug.html",
-          "hash": "cpAflBFtURv8B1KbK5TENw=="
+          "hash": "JuQEN0daOAvwvZj8NAnEmA=="
         }
       },
       "is_incremental": false,
@@ -752,7 +752,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/index.html",
-          "hash": "HdhOSOvYcQC3nL6pvkeXlg=="
+          "hash": "41hG5oYerK3ZlFskQnyjkQ=="
         }
       },
       "is_incremental": false,
@@ -779,7 +779,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "EC1OGy03N+2k5dFZNiGBnA=="
+          "hash": "63WmbgmdYeHQoSupKaSsJg=="
         }
       },
       "is_incremental": false,
@@ -791,7 +791,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3SJY3IO3fJ3mJuyb3ujRWQ=="
+          "hash": "UhzlSidRecK88xfxVh7VJw=="
         }
       },
       "is_incremental": false,
@@ -821,10 +821,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -833,11 +834,10 @@
           "total_file_count": 32,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 22,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
