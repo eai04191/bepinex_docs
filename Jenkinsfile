@@ -46,7 +46,7 @@ pipeline {
                     sh 'rm -r *'
                     sh 'mv ../_site/* .'
                     sh 'git config user.name bepin-jenkins'
-                    sh 'git config user.email bepin-jenkins@protonmail.com'
+                    sh 'git config user.email jenkins_bepinex@protonmail.com'
                     sh 'git add .'
                     sh 'git commit -m "Update docs"'
                     withCredentials([usernamePassword(credentialsId: 'ceb99705-5860-45ff-b100-c07e5f90902f', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
