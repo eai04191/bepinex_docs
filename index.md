@@ -11,7 +11,7 @@ Here you can find guides on how to install, configure and develop plugins for Be
 
 ## About BepInEx
 
-**Bep**is **In**jector **Ex**tensible is a patcher/plug-in framework for Unity games that use C#/Mono as their scripting backend.
+**Bep**is **In**jector **Ex**tensible is a patcher/plug-in framework for Unity games that use Mono as their scripting backend.
 
 BepInEx provides various features, including
 
