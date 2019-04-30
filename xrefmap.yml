@@ -752,6 +752,82 @@ references:
   isSpec: "True"
   fullName: BepInEx.Logging.ConsoleLogListener.LogEvent
   nameWithType: ConsoleLogListener.LogEvent
+- uid: BepInEx.Logging.DiskLogListener
+  name: DiskLogListener
+  href: api/BepInEx.Logging.DiskLogListener.html
+  commentId: T:BepInEx.Logging.DiskLogListener
+  fullName: BepInEx.Logging.DiskLogListener
+  nameWithType: DiskLogListener
+- uid: BepInEx.Logging.DiskLogListener.#ctor
+  name: DiskLogListener()
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener__ctor
+  commentId: M:BepInEx.Logging.DiskLogListener.#ctor
+  fullName: BepInEx.Logging.DiskLogListener.DiskLogListener()
+  nameWithType: DiskLogListener.DiskLogListener()
+- uid: BepInEx.Logging.DiskLogListener.#ctor*
+  name: DiskLogListener
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener__ctor_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Logging.DiskLogListener.DiskLogListener
+  nameWithType: DiskLogListener.DiskLogListener
+- uid: BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  name: DisplayedLogLevel
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_DisplayedLogLevel
+  commentId: F:BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  fullName: BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  nameWithType: DiskLogListener.DisplayedLogLevel
+- uid: BepInEx.Logging.DiskLogListener.Dispose
+  name: Dispose()
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_Dispose
+  commentId: M:BepInEx.Logging.DiskLogListener.Dispose
+  fullName: BepInEx.Logging.DiskLogListener.Dispose()
+  nameWithType: DiskLogListener.Dispose()
+- uid: BepInEx.Logging.DiskLogListener.Dispose*
+  name: Dispose
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_Dispose_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Logging.DiskLogListener.Dispose
+  nameWithType: DiskLogListener.Dispose
+- uid: BepInEx.Logging.DiskLogListener.Finalize
+  name: Finalize()
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_Finalize
+  commentId: M:BepInEx.Logging.DiskLogListener.Finalize
+  fullName: BepInEx.Logging.DiskLogListener.Finalize()
+  nameWithType: DiskLogListener.Finalize()
+- uid: BepInEx.Logging.DiskLogListener.Finalize*
+  name: Finalize
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_Finalize_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.Finalize
+  isSpec: "True"
+  fullName: BepInEx.Logging.DiskLogListener.Finalize
+  nameWithType: DiskLogListener.Finalize
+- uid: BepInEx.Logging.DiskLogListener.FlushTimer
+  name: FlushTimer
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_FlushTimer
+  commentId: F:BepInEx.Logging.DiskLogListener.FlushTimer
+  fullName: BepInEx.Logging.DiskLogListener.FlushTimer
+  nameWithType: DiskLogListener.FlushTimer
+- uid: BepInEx.Logging.DiskLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  name: LogEvent(Object, LogEventArgs)
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_LogEvent_System_Object_BepInEx_Logging_LogEventArgs_
+  commentId: M:BepInEx.Logging.DiskLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
+  fullName: BepInEx.Logging.DiskLogListener.LogEvent(System.Object, BepInEx.Logging.LogEventArgs)
+  nameWithType: DiskLogListener.LogEvent(Object, LogEventArgs)
+- uid: BepInEx.Logging.DiskLogListener.LogEvent*
+  name: LogEvent
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_LogEvent_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.LogEvent
+  isSpec: "True"
+  fullName: BepInEx.Logging.DiskLogListener.LogEvent
+  nameWithType: DiskLogListener.LogEvent
+- uid: BepInEx.Logging.DiskLogListener.LogWriter
+  name: LogWriter
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_LogWriter
+  commentId: F:BepInEx.Logging.DiskLogListener.LogWriter
+  fullName: BepInEx.Logging.DiskLogListener.LogWriter
+  nameWithType: DiskLogListener.LogWriter
 - uid: BepInEx.Logging.ILogListener
   name: ILogListener
   href: api/BepInEx.Logging.ILogListener.html
