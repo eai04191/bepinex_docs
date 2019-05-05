@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ModMetadata
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ModMetadata
+   ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MonoMod.BaseLoader.ModMetadata">
+  
+  
+  <h1 id="MonoMod_BaseLoader_ModMetadata" data-uid="MonoMod.BaseLoader.ModMetadata" class="text-break">Class ModMetadata
+  </h1>
+  <div class="markdown level0 summary"><p>Any module metadata, usually mirroring the data in your metadata.yaml</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ModMetadata</span></div>
+      <div class="level2"><a class="xref" href="MonoMod.BaseLoader.DirectoryModMetadata.html">DirectoryModMetadata</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MonoMod.BaseLoader.html">MonoMod.BaseLoader</a></h6>
+  <h6><strong>Assembly</strong>: MonoMod.BaseLoader.dll</h6>
+  <h5 id="MonoMod_BaseLoader_ModMetadata_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModMetadata</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_Container.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.Container%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L17">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_Container_" data-uid="MonoMod.BaseLoader.ModMetadata.Container*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_Container" data-uid="MonoMod.BaseLoader.ModMetadata.Container">Container</h4>
+  <div class="markdown level1 summary"><p>The path to the mod container, be it a directory, .zip file or something else. Set at runtime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string Container { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_Dependencies.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.Dependencies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L43">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_Dependencies_" data-uid="MonoMod.BaseLoader.ModMetadata.Dependencies*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_Dependencies" data-uid="MonoMod.BaseLoader.ModMetadata.Dependencies">Dependencies</h4>
+  <div class="markdown level1 summary"><p>The dependencies of the mod.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual List&lt;ModMetadata&gt; Dependencies { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="MonoMod.BaseLoader.ModMetadata.html">ModMetadata</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_DLL.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.DLL%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L32">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_DLL_" data-uid="MonoMod.BaseLoader.ModMetadata.DLL*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_DLL" data-uid="MonoMod.BaseLoader.ModMetadata.DLL">DLL</h4>
+  <div class="markdown level1 summary"><p>The path of the mod .dll inside the container or the absolute file path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string DLL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_Name.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L22">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_Name_" data-uid="MonoMod.BaseLoader.ModMetadata.Name*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_Name" data-uid="MonoMod.BaseLoader.ModMetadata.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name of the mod.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_Prelinked.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.Prelinked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L38">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_Prelinked_" data-uid="MonoMod.BaseLoader.ModMetadata.Prelinked*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_Prelinked" data-uid="MonoMod.BaseLoader.ModMetadata.Prelinked">Prelinked</h4>
+  <div class="markdown level1 summary"><p>Whether the mod has been prelinked or not.
+If you don't know what prelinked mods are, don't touch this field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool Prelinked { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_Version.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L27">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_Version_" data-uid="MonoMod.BaseLoader.ModMetadata.Version*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_Version" data-uid="MonoMod.BaseLoader.ModMetadata.Version">Version</h4>
+  <div class="markdown level1 summary"><p>The mod version.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Version Version { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_OpenAssembly_System_String_.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.OpenAssembly(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L50">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_OpenAssembly_" data-uid="MonoMod.BaseLoader.ModMetadata.OpenAssembly*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_OpenAssembly_System_String_" data-uid="MonoMod.BaseLoader.ModMetadata.OpenAssembly(System.String)">OpenAssembly(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Assembly OpenAssembly(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_OpenStream_System_String__System_String___.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.OpenStream(System.String%40%2CSystem.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L45">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_OpenStream_" data-uid="MonoMod.BaseLoader.ModMetadata.OpenStream*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_OpenStream_System_String__System_String___" data-uid="MonoMod.BaseLoader.ModMetadata.OpenStream(System.String@,System.String[])">OpenStream(out String, String[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Stream OpenStream(out string result, params string[] names)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">names</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_PostParse.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.PostParse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L61">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_PostParse_" data-uid="MonoMod.BaseLoader.ModMetadata.PostParse*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_PostParse" data-uid="MonoMod.BaseLoader.ModMetadata.PostParse">PostParse()</h4>
+  <div class="markdown level1 summary"><p>Perform a few basic post-parsing operations. For example, make the DLL path absolute if the mod is in a directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PostParse()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata_ToString.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L54">View Source</a>
+  </span>
+  <a id="MonoMod_BaseLoader_ModMetadata_ToString_" data-uid="MonoMod.BaseLoader.ModMetadata.ToString*"></a>
+  <h4 id="MonoMod_BaseLoader_ModMetadata_ToString" data-uid="MonoMod.BaseLoader.ModMetadata.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/0x0ade/MonoMod/new/origin/master/apiSpec/new?filename=MonoMod_BaseLoader_ModMetadata.md&amp;value=---%0Auid%3A%20MonoMod.BaseLoader.ModMetadata%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/0x0ade/MonoMod/blob/origin/master/MonoMod.BaseLoader/ModMetadata.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
