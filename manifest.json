@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Harmony.HarmonyWrapper.html",
-          "hash": "MmPgjT9wvGh0wzSQX+jFww=="
+          "hash": "iMEGxe8ITZ2cEV6nwrL78g=="
         }
       },
       "is_incremental": false,
@@ -178,6 +178,30 @@
         ".html": {
           "relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.html",
           "hash": "bH/lqqm2pPrpTlFRSGOKXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Harmony.Tests.HarmonyWrapperTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Harmony.Tests.HarmonyWrapperTests.html",
+          "hash": "SDDiUWFOXCgdVlYOy1UQXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Harmony.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Harmony.Tests.html",
+          "hash": "TN8NKU/Yor1HjKoRdLanFQ=="
         }
       },
       "is_incremental": false,
@@ -741,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "10mrb6J+vcvTXTaeu68JLA=="
+          "hash": "yDRmQ73bPpoFAwSIu9iy1A=="
         }
       },
       "is_incremental": false,
@@ -753,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "v/ZSBIR9hPl6ctz1gkjYDA=="
+          "hash": "Q0J+1BtCsHKhSc/0VQkTYw=="
         }
       },
       "is_incremental": false,
@@ -765,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "R73+NwqiFe4WF+IZVSJn5g=="
+          "hash": "P+DobyhimEuetTSPXgmeUA=="
         }
       },
       "is_incremental": false,
@@ -780,7 +804,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dnspy_debug.html",
-          "hash": "JuQEN0daOAvwvZj8NAnEmA=="
+          "hash": "cpAflBFtURv8B1KbK5TENw=="
         }
       },
       "is_incremental": false,
@@ -867,7 +891,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/1_setup.html",
-          "hash": "OC5lFZsnuuCAvryVCgOmEw=="
+          "hash": "hfu98a1ZbnnG/lBnt6Z1Pw=="
         }
       },
       "is_incremental": false,
@@ -879,7 +903,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "FX9nIVnvFAjdCXMUfsafSQ=="
+          "hash": "4nqt+oGuDUlKXRiZo16qvA=="
         }
       },
       "is_incremental": false,
@@ -891,7 +915,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "FX9nIVnvFAjdCXMUfsafSQ=="
+          "hash": "t2z3v1eD09qFXYcuxvlaQQ=="
         }
       },
       "is_incremental": false,
@@ -903,7 +927,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/4_logging.html",
-          "hash": "FX9nIVnvFAjdCXMUfsafSQ=="
+          "hash": "EvoyOFFD6hIVhsOCpepjcA=="
         }
       },
       "is_incremental": false,
@@ -915,7 +939,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/5_distributing.html",
-          "hash": "FX9nIVnvFAjdCXMUfsafSQ=="
+          "hash": "AuktxwHbjbf1cozvqAqQXQ=="
         }
       },
       "is_incremental": false,
@@ -996,7 +1020,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "f/mxAjRcar+SSfj93KMzMw=="
+          "hash": "JRpolR3tW/YrYa7vIcXAWg=="
         }
       },
       "is_incremental": false,
@@ -1020,7 +1044,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "z2o2H3qTN2BbTc7aYpizAw=="
+          "hash": "LD7cMHfZ2zxqA+Wqjwulxw=="
         }
       },
       "is_incremental": false,
@@ -1044,7 +1068,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/configuration.html",
-          "hash": "E5Hd2Oe72G+8E3mbLk5Vsw=="
+          "hash": "Mx74YPNLrbOWHjmI1jb2ew=="
         }
       },
       "is_incremental": false,
@@ -1100,7 +1124,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/index.html",
-          "hash": "41hG5oYerK3ZlFskQnyjkQ=="
+          "hash": "HdhOSOvYcQC3nL6pvkeXlg=="
         }
       },
       "is_incremental": false,
@@ -1112,7 +1136,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation.html",
-          "hash": "vnwCyEFP0AeEoeBKcqVAYw=="
+          "hash": "WAMCZwhoaA3flLePdP3y3A=="
         }
       },
       "is_incremental": false,
@@ -1127,7 +1151,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "63WmbgmdYeHQoSupKaSsJg=="
+          "hash": "EC1OGy03N+2k5dFZNiGBnA=="
         }
       },
       "is_incremental": false,
@@ -1139,7 +1163,95 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UhzlSidRecK88xfxVh7VJw=="
+          "hash": "V1SwVSjc8wa1ytQpDJg4vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
         }
       },
       "is_incremental": false,
@@ -1169,16 +1281,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 61,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
@@ -1188,11 +1295,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 63,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
           "skipped_file_count": 0
         }
       }
