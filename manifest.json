@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MonoMod.BaseLoader.Extensions.html",
-          "hash": "J8rFJ2oVkbcasQD/I1oLRg=="
+          "hash": "sAuPYme3NVTuxQYMrZ0wLw=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "yDRmQ73bPpoFAwSIu9iy1A=="
+          "hash": "10mrb6J+vcvTXTaeu68JLA=="
         }
       },
       "is_incremental": false,
@@ -1281,10 +1281,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -1293,11 +1294,10 @@
           "total_file_count": 63,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 22,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
