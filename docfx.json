@@ -9,7 +9,9 @@
           "exclude": [
             "src/**/submodules/Harmony/**",
             "src/**/BepInEx.Preloader/**",
-            "src/**/BepInEx.Bootstrap/**"
+            "src/**/BepInEx.Bootstrap/**",
+            "src/**/BepInEx.Harmony.Tests/**",
+            "src/**/MonoMod/**"
           ]
         }
       ],
