@@ -185,30 +185,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.Tests.HarmonyWrapperTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.Tests.HarmonyWrapperTests.html",
-          "hash": "SDDiUWFOXCgdVlYOy1UQXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.Tests.html",
-          "hash": "TN8NKU/Yor1HjKoRdLanFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/BepInEx.Harmony.yml",
       "output": {
         ".html": {
@@ -436,330 +412,6 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.AssemblyModAsset.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.AssemblyModAsset.html",
-          "hash": "W1yt0DeF/PA/1W2VMmUejA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.AssemblyModContent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.AssemblyModContent.html",
-          "hash": "4AaVQ05t75u7Z07EEqlEDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.AssetTypeAssembly.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.AssetTypeAssembly.html",
-          "hash": "d7FmFzX2DLSFqK5ZDIhYrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.AssetTypeDirectory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.AssetTypeDirectory.html",
-          "hash": "9/evZIHdpLQ7a09MneDnhQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.AssetTypeYaml.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.AssetTypeYaml.html",
-          "hash": "TtNXvBUuGpVMwxpcthMw7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.DirectoryModMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.DirectoryModMetadata.html",
-          "hash": "0LV9pBJ7gTAjPP1oLyTrGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.Extensions.html",
-          "hash": "sAuPYme3NVTuxQYMrZ0wLw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.FileSystemModAsset.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.FileSystemModAsset.html",
-          "hash": "tNlWnLEH3WMAbDusvHWI3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.FileSystemModContent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.FileSystemModContent.html",
-          "hash": "XuLGal9G51yCjR6XyRimUA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.LogLevel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.LogLevel.html",
-          "hash": "heAMwEzh9lyFd73p4N0/zQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.LogWriter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.LogWriter.html",
-          "hash": "F5mYHZPhaxcJTgYruvkoYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.Logger.html",
-          "hash": "CNFuUUIMPZ1YFkLZncU5ug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModAsset-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModAsset-1.html",
-          "hash": "w2Fbn+dBLLkhzzA0K2yqJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModAsset.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModAsset.html",
-          "hash": "84aFQKLmHRdfR7FVHKTu7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModAssetBranch.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModAssetBranch.html",
-          "hash": "ahHix/oYny0cmoBm/GeNDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModBase.html",
-          "hash": "zWPzTR3l7XUV37A8m2g1KQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModContent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModContent.html",
-          "hash": "bs1pg4B58fgHEB1Syq7lvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModContentManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModContentManager.html",
-          "hash": "KLmHXWzvCtsWSo17xOUQxw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModLoader.html",
-          "hash": "7mxlgR/ot4FA2ub3iXGwqg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModManager.html",
-          "hash": "W25Oys42AzH1i0Zwnc32QQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModMetadata.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModMetadata.html",
-          "hash": "diQXrVnls01B+gKNuKjYGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.ModSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.ModSettings.html",
-          "hash": "kV7WNPOsCB66Z6UufWtq1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.Relinker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.Relinker.html",
-          "hash": "/o40ScRWDwAtnf+O/NLA8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.RelinkerSymbolReaderProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.RelinkerSymbolReaderProvider.html",
-          "hash": "laJHvEWH9WzANqQ7pGgLvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.TypeGuesser.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.TypeGuesser.html",
-          "hash": "zxQD+ovcvKFODHMhb3rVdg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.YamlHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.YamlHelper.html",
-          "hash": "O7iMI88oUx0gAMcIb7HnQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoMod.BaseLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoMod.BaseLoader.html",
-          "hash": "9s3YMjfS9qjyf2joVGeV3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -777,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Q0J+1BtCsHKhSc/0VQkTYw=="
+          "hash": "R7O+pd0GHXIBgeCgiakCzQ=="
         }
       },
       "is_incremental": false,
@@ -789,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "R73+NwqiFe4WF+IZVSJn5g=="
+          "hash": "P+DobyhimEuetTSPXgmeUA=="
         }
       },
       "is_incremental": false,
@@ -804,7 +456,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dnspy_debug.html",
-          "hash": "JuQEN0daOAvwvZj8NAnEmA=="
+          "hash": "cpAflBFtURv8B1KbK5TENw=="
         }
       },
       "is_incremental": false,
@@ -898,12 +550,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.md",
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "4nqt+oGuDUlKXRiZo16qvA=="
+          "hash": "eloXHr/Ig51gKhYEtjPiyQ=="
         }
       },
       "is_incremental": false,
@@ -915,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "t2z3v1eD09qFXYcuxvlaQQ=="
+          "hash": "olaqt8f85kxmrDZxf5LeLg=="
         }
       },
       "is_incremental": false,
@@ -947,6 +602,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/dev_guide/plugin_tutorial/images/libs-folder.png",
       "output": {
         "resource": {
@@ -962,6 +628,17 @@
       "output": {
         "resource": {
           "relative_path": "articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/dev_guide/plugin_tutorial/images/plugin-works.png"
         }
       },
       "is_incremental": false,
@@ -1044,7 +721,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "z2o2H3qTN2BbTc7aYpizAw=="
+          "hash": "LD7cMHfZ2zxqA+Wqjwulxw=="
         }
       },
       "is_incremental": false,
@@ -1163,7 +840,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UhzlSidRecK88xfxVh7VJw=="
+          "hash": "V1SwVSjc8wa1ytQpDJg4vQ=="
         }
       },
       "is_incremental": false,
@@ -1288,6 +965,13 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -1297,14 +981,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 63,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 34,
           "skipped_file_count": 0
         }
       }
