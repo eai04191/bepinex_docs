@@ -859,7 +859,14 @@ references:
 - uid: BepInEx.Logging.DiskLogListener.FlushTimer
   name: FlushTimer
   href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_FlushTimer
-  commentId: F:BepInEx.Logging.DiskLogListener.FlushTimer
+  commentId: P:BepInEx.Logging.DiskLogListener.FlushTimer
+  fullName: BepInEx.Logging.DiskLogListener.FlushTimer
+  nameWithType: DiskLogListener.FlushTimer
+- uid: BepInEx.Logging.DiskLogListener.FlushTimer*
+  name: FlushTimer
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_FlushTimer_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.FlushTimer
+  isSpec: "True"
   fullName: BepInEx.Logging.DiskLogListener.FlushTimer
   nameWithType: DiskLogListener.FlushTimer
 - uid: BepInEx.Logging.DiskLogListener.LogEvent(System.Object,BepInEx.Logging.LogEventArgs)
@@ -878,7 +885,14 @@ references:
 - uid: BepInEx.Logging.DiskLogListener.LogWriter
   name: LogWriter
   href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_LogWriter
-  commentId: F:BepInEx.Logging.DiskLogListener.LogWriter
+  commentId: P:BepInEx.Logging.DiskLogListener.LogWriter
+  fullName: BepInEx.Logging.DiskLogListener.LogWriter
+  nameWithType: DiskLogListener.LogWriter
+- uid: BepInEx.Logging.DiskLogListener.LogWriter*
+  name: LogWriter
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_LogWriter_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.LogWriter
+  isSpec: "True"
   fullName: BepInEx.Logging.DiskLogListener.LogWriter
   nameWithType: DiskLogListener.LogWriter
 - uid: BepInEx.Logging.ILogListener
@@ -1756,6 +1770,22 @@ references:
   fullName.vb: BepInEx.Utility.TopologicalSort(Of TNode)(System.Collections.Generic.IEnumerable(Of TNode), System.Func(Of TNode, System.Collections.Generic.IEnumerable(Of TNode)))
   nameWithType: Utility.TopologicalSort<TNode>(IEnumerable<TNode>, Func<TNode, IEnumerable<TNode>>)
   nameWithType.vb: Utility.TopologicalSort(Of TNode)(IEnumerable(Of TNode), Func(Of TNode, IEnumerable(Of TNode)))
+- uid: BepInEx.Utility.TryOpenFileStream(System.String,System.IO.FileMode,System.IO.FileStream@,System.IO.FileAccess,System.IO.FileShare)
+  name: TryOpenFileStream(String, FileMode, out FileStream, FileAccess, FileShare)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryOpenFileStream_System_String_System_IO_FileMode_System_IO_FileStream__System_IO_FileAccess_System_IO_FileShare_
+  commentId: M:BepInEx.Utility.TryOpenFileStream(System.String,System.IO.FileMode,System.IO.FileStream@,System.IO.FileAccess,System.IO.FileShare)
+  name.vb: TryOpenFileStream(String, FileMode, ByRef FileStream, FileAccess, FileShare)
+  fullName: BepInEx.Utility.TryOpenFileStream(System.String, System.IO.FileMode, out System.IO.FileStream, System.IO.FileAccess, System.IO.FileShare)
+  fullName.vb: BepInEx.Utility.TryOpenFileStream(System.String, System.IO.FileMode, ByRef System.IO.FileStream, System.IO.FileAccess, System.IO.FileShare)
+  nameWithType: Utility.TryOpenFileStream(String, FileMode, out FileStream, FileAccess, FileShare)
+  nameWithType.vb: Utility.TryOpenFileStream(String, FileMode, ByRef FileStream, FileAccess, FileShare)
+- uid: BepInEx.Utility.TryOpenFileStream*
+  name: TryOpenFileStream
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryOpenFileStream_
+  commentId: Overload:BepInEx.Utility.TryOpenFileStream
+  isSpec: "True"
+  fullName: BepInEx.Utility.TryOpenFileStream
+  nameWithType: Utility.TryOpenFileStream
 - uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)
   name: TryResolveDllAssembly(AssemblyName, String, out Assembly)
   href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_System_Reflection_Assembly__
