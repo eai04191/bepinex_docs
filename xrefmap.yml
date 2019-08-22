@@ -42,6 +42,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.BaseUnityPlugin.Config
   nameWithType: BaseUnityPlugin.Config
+- uid: BepInEx.BaseUnityPlugin.Info
+  name: Info
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Info
+  commentId: P:BepInEx.BaseUnityPlugin.Info
+  fullName: BepInEx.BaseUnityPlugin.Info
+  nameWithType: BaseUnityPlugin.Info
+- uid: BepInEx.BaseUnityPlugin.Info*
+  name: Info
+  href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Info_
+  commentId: Overload:BepInEx.BaseUnityPlugin.Info
+  isSpec: "True"
+  fullName: BepInEx.BaseUnityPlugin.Info
+  nameWithType: BaseUnityPlugin.Info
 - uid: BepInEx.BaseUnityPlugin.Logger
   name: Logger
   href: api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Logger
@@ -214,6 +227,49 @@ references:
   commentId: N:BepInEx.Bootstrap
   fullName: BepInEx.Bootstrap
   nameWithType: BepInEx.Bootstrap
+- uid: BepInEx.Bootstrap.CachedAssembly`1
+  name: CachedAssembly<T>
+  href: api/BepInEx.Bootstrap.CachedAssembly-1.html
+  commentId: T:BepInEx.Bootstrap.CachedAssembly`1
+  name.vb: CachedAssembly(Of T)
+  fullName: BepInEx.Bootstrap.CachedAssembly<T>
+  fullName.vb: BepInEx.Bootstrap.CachedAssembly(Of T)
+  nameWithType: CachedAssembly<T>
+  nameWithType.vb: CachedAssembly(Of T)
+- uid: BepInEx.Bootstrap.CachedAssembly`1.CacheItems
+  name: CacheItems
+  href: api/BepInEx.Bootstrap.CachedAssembly-1.html#BepInEx_Bootstrap_CachedAssembly_1_CacheItems
+  commentId: P:BepInEx.Bootstrap.CachedAssembly`1.CacheItems
+  fullName: BepInEx.Bootstrap.CachedAssembly<T>.CacheItems
+  fullName.vb: BepInEx.Bootstrap.CachedAssembly(Of T).CacheItems
+  nameWithType: CachedAssembly<T>.CacheItems
+  nameWithType.vb: CachedAssembly(Of T).CacheItems
+- uid: BepInEx.Bootstrap.CachedAssembly`1.CacheItems*
+  name: CacheItems
+  href: api/BepInEx.Bootstrap.CachedAssembly-1.html#BepInEx_Bootstrap_CachedAssembly_1_CacheItems_
+  commentId: Overload:BepInEx.Bootstrap.CachedAssembly`1.CacheItems
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.CachedAssembly<T>.CacheItems
+  fullName.vb: BepInEx.Bootstrap.CachedAssembly(Of T).CacheItems
+  nameWithType: CachedAssembly<T>.CacheItems
+  nameWithType.vb: CachedAssembly(Of T).CacheItems
+- uid: BepInEx.Bootstrap.CachedAssembly`1.Timestamp
+  name: Timestamp
+  href: api/BepInEx.Bootstrap.CachedAssembly-1.html#BepInEx_Bootstrap_CachedAssembly_1_Timestamp
+  commentId: P:BepInEx.Bootstrap.CachedAssembly`1.Timestamp
+  fullName: BepInEx.Bootstrap.CachedAssembly<T>.Timestamp
+  fullName.vb: BepInEx.Bootstrap.CachedAssembly(Of T).Timestamp
+  nameWithType: CachedAssembly<T>.Timestamp
+  nameWithType.vb: CachedAssembly(Of T).Timestamp
+- uid: BepInEx.Bootstrap.CachedAssembly`1.Timestamp*
+  name: Timestamp
+  href: api/BepInEx.Bootstrap.CachedAssembly-1.html#BepInEx_Bootstrap_CachedAssembly_1_Timestamp_
+  commentId: Overload:BepInEx.Bootstrap.CachedAssembly`1.Timestamp
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.CachedAssembly<T>.Timestamp
+  fullName.vb: BepInEx.Bootstrap.CachedAssembly(Of T).Timestamp
+  nameWithType: CachedAssembly<T>.Timestamp
+  nameWithType.vb: CachedAssembly(Of T).Timestamp
 - uid: BepInEx.Bootstrap.Chainloader
   name: Chainloader
   href: api/BepInEx.Bootstrap.Chainloader.html
@@ -246,6 +302,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.Chainloader.ManagerObject
   nameWithType: Chainloader.ManagerObject
+- uid: BepInEx.Bootstrap.Chainloader.PluginInfos
+  name: PluginInfos
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_PluginInfos
+  commentId: P:BepInEx.Bootstrap.Chainloader.PluginInfos
+  fullName: BepInEx.Bootstrap.Chainloader.PluginInfos
+  nameWithType: Chainloader.PluginInfos
+- uid: BepInEx.Bootstrap.Chainloader.PluginInfos*
+  name: PluginInfos
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_PluginInfos_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.PluginInfos
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.PluginInfos
+  nameWithType: Chainloader.PluginInfos
 - uid: BepInEx.Bootstrap.Chainloader.Plugins
   name: Plugins
   href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Plugins
@@ -272,28 +341,124 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.Chainloader.Start
   nameWithType: Chainloader.Start
+- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+  name: ToPluginInfo(TypeDefinition)
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_TypeDefinition_
+  commentId: M:BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+  nameWithType: Chainloader.ToPluginInfo(TypeDefinition)
+- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo*
+  name: ToPluginInfo
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.ToPluginInfo
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo
+  nameWithType: Chainloader.ToPluginInfo
+- uid: BepInEx.Bootstrap.ICacheable
+  name: ICacheable
+  href: api/BepInEx.Bootstrap.ICacheable.html
+  commentId: T:BepInEx.Bootstrap.ICacheable
+  fullName: BepInEx.Bootstrap.ICacheable
+  nameWithType: ICacheable
+- uid: BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  name: Load(BinaryReader)
+  href: api/BepInEx.Bootstrap.ICacheable.html#BepInEx_Bootstrap_ICacheable_Load_System_IO_BinaryReader_
+  commentId: M:BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  fullName: BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  nameWithType: ICacheable.Load(BinaryReader)
+- uid: BepInEx.Bootstrap.ICacheable.Load*
+  name: Load
+  href: api/BepInEx.Bootstrap.ICacheable.html#BepInEx_Bootstrap_ICacheable_Load_
+  commentId: Overload:BepInEx.Bootstrap.ICacheable.Load
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.ICacheable.Load
+  nameWithType: ICacheable.Load
+- uid: BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  name: Save(BinaryWriter)
+  href: api/BepInEx.Bootstrap.ICacheable.html#BepInEx_Bootstrap_ICacheable_Save_System_IO_BinaryWriter_
+  commentId: M:BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  fullName: BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  nameWithType: ICacheable.Save(BinaryWriter)
+- uid: BepInEx.Bootstrap.ICacheable.Save*
+  name: Save
+  href: api/BepInEx.Bootstrap.ICacheable.html#BepInEx_Bootstrap_ICacheable_Save_
+  commentId: Overload:BepInEx.Bootstrap.ICacheable.Save
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.ICacheable.Save
+  nameWithType: ICacheable.Save
 - uid: BepInEx.Bootstrap.TypeLoader
   name: TypeLoader
   href: api/BepInEx.Bootstrap.TypeLoader.html
   commentId: T:BepInEx.Bootstrap.TypeLoader
   fullName: BepInEx.Bootstrap.TypeLoader
   nameWithType: TypeLoader
-- uid: BepInEx.Bootstrap.TypeLoader.LoadTypes*
-  name: LoadTypes
-  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadTypes_
-  commentId: Overload:BepInEx.Bootstrap.TypeLoader.LoadTypes
+- uid: BepInEx.Bootstrap.TypeLoader.AssemblyResolve
+  name: AssemblyResolve
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_AssemblyResolve
+  commentId: E:BepInEx.Bootstrap.TypeLoader.AssemblyResolve
+  fullName: BepInEx.Bootstrap.TypeLoader.AssemblyResolve
+  nameWithType: TypeLoader.AssemblyResolve
+- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes*
+  name: FindPluginTypes
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes_
+  commentId: Overload:BepInEx.Bootstrap.TypeLoader.FindPluginTypes
   isSpec: "True"
-  fullName: BepInEx.Bootstrap.TypeLoader.LoadTypes
-  nameWithType: TypeLoader.LoadTypes
-- uid: BepInEx.Bootstrap.TypeLoader.LoadTypes``1(System.String)
-  name: LoadTypes<T>(String)
-  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadTypes__1_System_String_
-  commentId: M:BepInEx.Bootstrap.TypeLoader.LoadTypes``1(System.String)
-  name.vb: LoadTypes(Of T)(String)
-  fullName: BepInEx.Bootstrap.TypeLoader.LoadTypes<T>(System.String)
-  fullName.vb: BepInEx.Bootstrap.TypeLoader.LoadTypes(Of T)(System.String)
-  nameWithType: TypeLoader.LoadTypes<T>(String)
-  nameWithType.vb: TypeLoader.LoadTypes(Of T)(String)
+  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes
+  nameWithType: TypeLoader.FindPluginTypes
+- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
+  name: FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
+  name.vb: FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
+  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes<T>(System.String, System.Func<TypeDefinition, T>, System.Func<AssemblyDefinition, System.Boolean>, System.String)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.FindPluginTypes(Of T)(System.String, System.Func(Of TypeDefinition, T), System.Func(Of AssemblyDefinition, System.Boolean), System.String)
+  nameWithType: TypeLoader.FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
+  nameWithType.vb: TypeLoader.FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
+- uid: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache*
+  name: LoadAssemblyCache
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadAssemblyCache_
+  commentId: Overload:BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache
+  nameWithType: TypeLoader.LoadAssemblyCache
+- uid: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache``1(System.String)
+  name: LoadAssemblyCache<T>(String)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_LoadAssemblyCache__1_System_String_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache``1(System.String)
+  name.vb: LoadAssemblyCache(Of T)(String)
+  fullName: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache<T>(System.String)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache(Of T)(System.String)
+  nameWithType: TypeLoader.LoadAssemblyCache<T>(String)
+  nameWithType.vb: TypeLoader.LoadAssemblyCache(Of T)(String)
+- uid: BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache*
+  name: SaveAssemblyCache
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_SaveAssemblyCache_
+  commentId: Overload:BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache
+  nameWithType: TypeLoader.SaveAssemblyCache
+- uid: BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache``1(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{``0}})
+  name: SaveAssemblyCache<T>(String, Dictionary<String, List<T>>)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_SaveAssemblyCache__1_System_String_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List___0___
+  commentId: M:BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache``1(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{``0}})
+  name.vb: SaveAssemblyCache(Of T)(String, Dictionary(Of String, List(Of T)))
+  fullName: BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache<T>(System.String, System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<T>>)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache(Of T)(System.String, System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of T)))
+  nameWithType: TypeLoader.SaveAssemblyCache<T>(String, Dictionary<String, List<T>>)
+  nameWithType.vb: TypeLoader.SaveAssemblyCache(Of T)(String, Dictionary(Of String, List(Of T)))
+- uid: BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString(System.Reflection.ReflectionTypeLoadException)
+  name: TypeLoadExceptionToString(ReflectionTypeLoadException)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_TypeLoadExceptionToString_System_Reflection_ReflectionTypeLoadException_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString(System.Reflection.ReflectionTypeLoadException)
+  fullName: BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString(System.Reflection.ReflectionTypeLoadException)
+  nameWithType: TypeLoader.TypeLoadExceptionToString(ReflectionTypeLoadException)
+- uid: BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString*
+  name: TypeLoadExceptionToString
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_TypeLoadExceptionToString_
+  commentId: Overload:BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString
+  nameWithType: TypeLoader.TypeLoadExceptionToString
 - uid: BepInEx.Configuration
   name: BepInEx.Configuration
   href: api/BepInEx.Configuration.html
@@ -655,6 +820,109 @@ references:
   isSpec: "True"
   fullName: BepInEx.Configuration.TypeConverter.ConvertToString
   nameWithType: TypeConverter.ConvertToString
+- uid: BepInEx.Contract
+  name: BepInEx.Contract
+  href: api/BepInEx.Contract.html
+  commentId: N:BepInEx.Contract
+  fullName: BepInEx.Contract
+  nameWithType: BepInEx.Contract
+- uid: BepInEx.Contract.PluginInfo
+  name: PluginInfo
+  href: api/BepInEx.Contract.PluginInfo.html
+  commentId: T:BepInEx.Contract.PluginInfo
+  fullName: BepInEx.Contract.PluginInfo
+  nameWithType: PluginInfo
+- uid: BepInEx.Contract.PluginInfo.Dependencies
+  name: Dependencies
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Dependencies
+  commentId: P:BepInEx.Contract.PluginInfo.Dependencies
+  fullName: BepInEx.Contract.PluginInfo.Dependencies
+  nameWithType: PluginInfo.Dependencies
+- uid: BepInEx.Contract.PluginInfo.Dependencies*
+  name: Dependencies
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Dependencies_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Dependencies
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Dependencies
+  nameWithType: PluginInfo.Dependencies
+- uid: BepInEx.Contract.PluginInfo.Instance
+  name: Instance
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Instance
+  commentId: P:BepInEx.Contract.PluginInfo.Instance
+  fullName: BepInEx.Contract.PluginInfo.Instance
+  nameWithType: PluginInfo.Instance
+- uid: BepInEx.Contract.PluginInfo.Instance*
+  name: Instance
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Instance_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Instance
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Instance
+  nameWithType: PluginInfo.Instance
+- uid: BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
+  name: Load(BinaryReader)
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Load_System_IO_BinaryReader_
+  commentId: M:BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
+  fullName: BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
+  nameWithType: PluginInfo.Load(BinaryReader)
+- uid: BepInEx.Contract.PluginInfo.Load*
+  name: Load
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Load_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Load
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Load
+  nameWithType: PluginInfo.Load
+- uid: BepInEx.Contract.PluginInfo.Location
+  name: Location
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Location
+  commentId: P:BepInEx.Contract.PluginInfo.Location
+  fullName: BepInEx.Contract.PluginInfo.Location
+  nameWithType: PluginInfo.Location
+- uid: BepInEx.Contract.PluginInfo.Location*
+  name: Location
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Location_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Location
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Location
+  nameWithType: PluginInfo.Location
+- uid: BepInEx.Contract.PluginInfo.Metadata
+  name: Metadata
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Metadata
+  commentId: P:BepInEx.Contract.PluginInfo.Metadata
+  fullName: BepInEx.Contract.PluginInfo.Metadata
+  nameWithType: PluginInfo.Metadata
+- uid: BepInEx.Contract.PluginInfo.Metadata*
+  name: Metadata
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Metadata_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Metadata
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Metadata
+  nameWithType: PluginInfo.Metadata
+- uid: BepInEx.Contract.PluginInfo.Processes
+  name: Processes
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Processes
+  commentId: P:BepInEx.Contract.PluginInfo.Processes
+  fullName: BepInEx.Contract.PluginInfo.Processes
+  nameWithType: PluginInfo.Processes
+- uid: BepInEx.Contract.PluginInfo.Processes*
+  name: Processes
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Processes_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Processes
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Processes
+  nameWithType: PluginInfo.Processes
+- uid: BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
+  name: Save(BinaryWriter)
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Save_System_IO_BinaryWriter_
+  commentId: M:BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
+  fullName: BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
+  nameWithType: PluginInfo.Save(BinaryWriter)
+- uid: BepInEx.Contract.PluginInfo.Save*
+  name: Save
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Save_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Save
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Save
+  nameWithType: PluginInfo.Save
 - uid: BepInEx.Harmony
   name: BepInEx.Harmony
   href: api/BepInEx.Harmony.html
@@ -811,12 +1079,12 @@ references:
   commentId: T:BepInEx.Logging.DiskLogListener
   fullName: BepInEx.Logging.DiskLogListener
   nameWithType: DiskLogListener
-- uid: BepInEx.Logging.DiskLogListener.#ctor
-  name: DiskLogListener()
-  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener__ctor
-  commentId: M:BepInEx.Logging.DiskLogListener.#ctor
-  fullName: BepInEx.Logging.DiskLogListener.DiskLogListener()
-  nameWithType: DiskLogListener.DiskLogListener()
+- uid: BepInEx.Logging.DiskLogListener.#ctor(System.String,BepInEx.Logging.LogLevel,System.Boolean,System.Boolean)
+  name: DiskLogListener(String, LogLevel, Boolean, Boolean)
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener__ctor_System_String_BepInEx_Logging_LogLevel_System_Boolean_System_Boolean_
+  commentId: M:BepInEx.Logging.DiskLogListener.#ctor(System.String,BepInEx.Logging.LogLevel,System.Boolean,System.Boolean)
+  fullName: BepInEx.Logging.DiskLogListener.DiskLogListener(System.String, BepInEx.Logging.LogLevel, System.Boolean, System.Boolean)
+  nameWithType: DiskLogListener.DiskLogListener(String, LogLevel, Boolean, Boolean)
 - uid: BepInEx.Logging.DiskLogListener.#ctor*
   name: DiskLogListener
   href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener__ctor_
@@ -827,7 +1095,14 @@ references:
 - uid: BepInEx.Logging.DiskLogListener.DisplayedLogLevel
   name: DisplayedLogLevel
   href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_DisplayedLogLevel
-  commentId: F:BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  commentId: P:BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  fullName: BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  nameWithType: DiskLogListener.DisplayedLogLevel
+- uid: BepInEx.Logging.DiskLogListener.DisplayedLogLevel*
+  name: DisplayedLogLevel
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_DisplayedLogLevel_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.DisplayedLogLevel
+  isSpec: "True"
   fullName: BepInEx.Logging.DiskLogListener.DisplayedLogLevel
   nameWithType: DiskLogListener.DisplayedLogLevel
 - uid: BepInEx.Logging.DiskLogListener.Dispose
@@ -895,6 +1170,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Logging.DiskLogListener.LogWriter
   nameWithType: DiskLogListener.LogWriter
+- uid: BepInEx.Logging.DiskLogListener.WriteFromUnityLog
+  name: WriteFromUnityLog
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_WriteFromUnityLog
+  commentId: P:BepInEx.Logging.DiskLogListener.WriteFromUnityLog
+  fullName: BepInEx.Logging.DiskLogListener.WriteFromUnityLog
+  nameWithType: DiskLogListener.WriteFromUnityLog
+- uid: BepInEx.Logging.DiskLogListener.WriteFromUnityLog*
+  name: WriteFromUnityLog
+  href: api/BepInEx.Logging.DiskLogListener.html#BepInEx_Logging_DiskLogListener_WriteFromUnityLog_
+  commentId: Overload:BepInEx.Logging.DiskLogListener.WriteFromUnityLog
+  isSpec: "True"
+  fullName: BepInEx.Logging.DiskLogListener.WriteFromUnityLog
+  nameWithType: DiskLogListener.WriteFromUnityLog
 - uid: BepInEx.Logging.ILogListener
   name: ILogListener
   href: api/BepInEx.Logging.ILogListener.html
@@ -1490,15 +1778,12 @@ references:
   fullName.vb: BepInEx.MetadataHelper.GetAttributes(Of T)(System.Type)
   nameWithType: MetadataHelper.GetAttributes<T>(Type)
   nameWithType.vb: MetadataHelper.GetAttributes(Of T)(Type)
-- uid: BepInEx.MetadataHelper.GetDependencies(System.Type,System.Collections.Generic.IEnumerable{System.Type})
-  name: GetDependencies(Type, IEnumerable<Type>)
-  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetDependencies_System_Type_System_Collections_Generic_IEnumerable_System_Type__
-  commentId: M:BepInEx.MetadataHelper.GetDependencies(System.Type,System.Collections.Generic.IEnumerable{System.Type})
-  name.vb: GetDependencies(Type, IEnumerable(Of Type))
-  fullName: BepInEx.MetadataHelper.GetDependencies(System.Type, System.Collections.Generic.IEnumerable<System.Type>)
-  fullName.vb: BepInEx.MetadataHelper.GetDependencies(System.Type, System.Collections.Generic.IEnumerable(Of System.Type))
-  nameWithType: MetadataHelper.GetDependencies(Type, IEnumerable<Type>)
-  nameWithType.vb: MetadataHelper.GetDependencies(Type, IEnumerable(Of Type))
+- uid: BepInEx.MetadataHelper.GetDependencies(System.Type)
+  name: GetDependencies(Type)
+  href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetDependencies_System_Type_
+  commentId: M:BepInEx.MetadataHelper.GetDependencies(System.Type)
+  fullName: BepInEx.MetadataHelper.GetDependencies(System.Type)
+  nameWithType: MetadataHelper.GetDependencies(Type)
 - uid: BepInEx.MetadataHelper.GetDependencies*
   name: GetDependencies
   href: api/BepInEx.MetadataHelper.html#BepInEx_MetadataHelper_GetDependencies_
@@ -1602,6 +1887,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Paths.BepInExRootPath
   nameWithType: Paths.BepInExRootPath
+- uid: BepInEx.Paths.CachePath
+  name: CachePath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_CachePath
+  commentId: P:BepInEx.Paths.CachePath
+  fullName: BepInEx.Paths.CachePath
+  nameWithType: Paths.CachePath
+- uid: BepInEx.Paths.CachePath*
+  name: CachePath
+  href: api/BepInEx.Paths.html#BepInEx_Paths_CachePath_
+  commentId: Overload:BepInEx.Paths.CachePath
+  isSpec: "True"
+  fullName: BepInEx.Paths.CachePath
+  nameWithType: Paths.CachePath
 - uid: BepInEx.Paths.ConfigPath
   name: ConfigPath
   href: api/BepInEx.Paths.html#BepInEx_Paths_ConfigPath
@@ -1699,6 +1997,19 @@ references:
   commentId: T:BepInEx.Utility
   fullName: BepInEx.Utility
   nameWithType: Utility
+- uid: BepInEx.Utility.CLRSupportsDynamicAssemblies
+  name: CLRSupportsDynamicAssemblies
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CLRSupportsDynamicAssemblies
+  commentId: P:BepInEx.Utility.CLRSupportsDynamicAssemblies
+  fullName: BepInEx.Utility.CLRSupportsDynamicAssemblies
+  nameWithType: Utility.CLRSupportsDynamicAssemblies
+- uid: BepInEx.Utility.CLRSupportsDynamicAssemblies*
+  name: CLRSupportsDynamicAssemblies
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CLRSupportsDynamicAssemblies_
+  commentId: Overload:BepInEx.Utility.CLRSupportsDynamicAssemblies
+  isSpec: "True"
+  fullName: BepInEx.Utility.CLRSupportsDynamicAssemblies
+  nameWithType: Utility.CLRSupportsDynamicAssemblies
 - uid: BepInEx.Utility.CombinePaths(System.String[])
   name: CombinePaths(String[])
   href: api/BepInEx.Utility.html#BepInEx_Utility_CombinePaths_System_String___
@@ -1741,6 +2052,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.IsNullOrWhiteSpace
   nameWithType: Utility.IsNullOrWhiteSpace
+- uid: BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
+  name: IsSubtypeOf(TypeDefinition, Type)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_TypeDefinition_System_Type_
+  commentId: M:BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
+  fullName: BepInEx.Utility.IsSubtypeOf(TypeDefinition, System.Type)
+  nameWithType: Utility.IsSubtypeOf(TypeDefinition, Type)
+- uid: BepInEx.Utility.IsSubtypeOf*
+  name: IsSubtypeOf
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_
+  commentId: Overload:BepInEx.Utility.IsSubtypeOf
+  isSpec: "True"
+  fullName: BepInEx.Utility.IsSubtypeOf
+  nameWithType: Utility.IsSubtypeOf
 - uid: BepInEx.Utility.SafeParseBool(System.String,System.Boolean)
   name: SafeParseBool(String, Boolean)
   href: api/BepInEx.Utility.html#BepInEx_Utility_SafeParseBool_System_String_System_Boolean_
@@ -1770,6 +2094,22 @@ references:
   fullName.vb: BepInEx.Utility.TopologicalSort(Of TNode)(System.Collections.Generic.IEnumerable(Of TNode), System.Func(Of TNode, System.Collections.Generic.IEnumerable(Of TNode)))
   nameWithType: Utility.TopologicalSort<TNode>(IEnumerable<TNode>, Func<TNode, IEnumerable<TNode>>)
   nameWithType.vb: Utility.TopologicalSort(Of TNode)(IEnumerable(Of TNode), Func(Of TNode, IEnumerable(Of TNode)))
+- uid: BepInEx.Utility.TryDo(System.Action,System.Exception@)
+  name: TryDo(Action, out Exception)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryDo_System_Action_System_Exception__
+  commentId: M:BepInEx.Utility.TryDo(System.Action,System.Exception@)
+  name.vb: TryDo(Action, ByRef Exception)
+  fullName: BepInEx.Utility.TryDo(System.Action, out System.Exception)
+  fullName.vb: BepInEx.Utility.TryDo(System.Action, ByRef System.Exception)
+  nameWithType: Utility.TryDo(Action, out Exception)
+  nameWithType.vb: Utility.TryDo(Action, ByRef Exception)
+- uid: BepInEx.Utility.TryDo*
+  name: TryDo
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryDo_
+  commentId: Overload:BepInEx.Utility.TryDo
+  isSpec: "True"
+  fullName: BepInEx.Utility.TryDo
+  nameWithType: Utility.TryDo
 - uid: BepInEx.Utility.TryOpenFileStream(System.String,System.IO.FileMode,System.IO.FileStream@,System.IO.FileAccess,System.IO.FileShare)
   name: TryOpenFileStream(String, FileMode, out FileStream, FileAccess, FileShare)
   href: api/BepInEx.Utility.html#BepInEx_Utility_TryOpenFileStream_System_String_System_IO_FileMode_System_IO_FileStream__System_IO_FileAccess_System_IO_FileShare_
@@ -1786,6 +2126,15 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.TryOpenFileStream
   nameWithType: Utility.TryOpenFileStream
+- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
+  name: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_ReaderParameters_AssemblyDefinition__
+  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
+  name.vb: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
+  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, out AssemblyDefinition)
+  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, ByRef AssemblyDefinition)
+  nameWithType: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
+  nameWithType.vb: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
 - uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)
   name: TryResolveDllAssembly(AssemblyName, String, out Assembly)
   href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_System_Reflection_Assembly__

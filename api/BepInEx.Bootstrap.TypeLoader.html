@@ -115,19 +115,20 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_LoadTypes__1_System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.LoadTypes%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.FindPluginTypes%60%601(System.String%2CSystem.Func%7BTypeDefinition%2C%60%600%7D%2CSystem.Func%7BAssemblyDefinition%2CSystem.Boolean%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L21">View Source</a>
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L86">View Source</a>
   </span>
-  <a id="BepInEx_Bootstrap_TypeLoader_LoadTypes_" data-uid="BepInEx.Bootstrap.TypeLoader.LoadTypes*"></a>
-  <h4 id="BepInEx_Bootstrap_TypeLoader_LoadTypes__1_System_String_" data-uid="BepInEx.Bootstrap.TypeLoader.LoadTypes``1(System.String)">LoadTypes&lt;T&gt;(String)</h4>
-  <div class="markdown level1 summary"><p>Loads a list of types from a directory containing assemblies, that derive from a base type.</p>
+  <a id="BepInEx_Bootstrap_TypeLoader_FindPluginTypes_" data-uid="BepInEx.Bootstrap.TypeLoader.FindPluginTypes*"></a>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_" data-uid="BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)">FindPluginTypes&lt;T&gt;(String, Func&lt;TypeDefinition, T&gt;, Func&lt;AssemblyDefinition, Boolean&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Looks up assemblies in the given directory and locates all types that can be loaded and collects their metadata.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; LoadTypes&lt;T&gt;(string directory)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, List&lt;T&gt;&gt; FindPluginTypes&lt;T&gt;(string directory, Func&lt;TypeDefinition, T&gt; typeSelector, Func&lt;AssemblyDefinition, bool&gt; assemblyFilter = null, string cacheName = null)
+    where T : ICacheable, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,6 +146,24 @@
         <td><p>The directory to search for assemblies.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">TypeDefinition</span>, T&gt;</td>
+        <td><span class="parametername">typeSelector</span></td>
+        <td><p>A function to check if a type should be selected and to build the type metadata.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">AssemblyDefinition</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">assemblyFilter</span></td>
+        <td><p>A filter function to quickly determine if the assembly can be loaded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheName</span></td>
+        <td><p>The name of the cache to get cached types from.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -157,8 +176,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
-        <td><p>Returns a list of found derivative types.</p>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.List</span>&lt;T&gt;&gt;</td>
+        <td><p>A list of all loadable type metadatas indexed by the full path to the assembly that contains the types.</p>
 </td>
       </tr>
     </tbody>
@@ -179,6 +198,211 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_LoadAssemblyCache__1_System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L143">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_TypeLoader_LoadAssemblyCache_" data-uid="BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache*"></a>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_LoadAssemblyCache__1_System_String_" data-uid="BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache``1(System.String)">LoadAssemblyCache&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Loads an index of type metadatas from a cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, CachedAssembly&lt;T&gt;&gt; LoadAssemblyCache&lt;T&gt;(string cacheName)
+    where T : ICacheable, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheName</span></td>
+        <td><p>Name of the cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="BepInEx.Bootstrap.CachedAssembly-1.html">CachedAssembly</a>&lt;T&gt;&gt;</td>
+        <td><p>Cached type metadatas indexed by the path of the assembly that defines the type. If no cache is defined, return null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Cacheable item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_SaveAssemblyCache__1_System_String_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List___0___.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache%60%601(System.String%2CSystem.Collections.Generic.Dictionary%7BSystem.String%2CSystem.Collections.Generic.List%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L191">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_TypeLoader_SaveAssemblyCache_" data-uid="BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache*"></a>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_SaveAssemblyCache__1_System_String_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List___0___" data-uid="BepInEx.Bootstrap.TypeLoader.SaveAssemblyCache``1(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{``0}})">SaveAssemblyCache&lt;T&gt;(String, Dictionary&lt;String, List&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Saves indexed type metadata into a cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveAssemblyCache&lt;T&gt;(string cacheName, Dictionary&lt;string, List&lt;T&gt;&gt; entries)
+    where T : ICacheable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cacheName</span></td>
+        <td><p>Name of the cache</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.List</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">entries</span></td>
+        <td><p>List of plugin metadatas indexed by the path to the assembly that contains the types</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Cacheable item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_TypeLoadExceptionToString_System_Reflection_ReflectionTypeLoadException_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString(System.Reflection.ReflectionTypeLoadException)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L229">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_TypeLoader_TypeLoadExceptionToString_" data-uid="BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString*"></a>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_TypeLoadExceptionToString_System_Reflection_ReflectionTypeLoadException_" data-uid="BepInEx.Bootstrap.TypeLoader.TypeLoadExceptionToString(System.Reflection.ReflectionTypeLoadException)">TypeLoadExceptionToString(ReflectionTypeLoadException)</h4>
+  <div class="markdown level1 summary"><p>Converts TypeLoadException to a readable string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TypeLoadExceptionToString(ReflectionTypeLoadException ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.ReflectionTypeLoadException</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>TypeLoadException</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Readable representation of the exception</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_AssemblyResolve.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.AssemblyResolve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L75">View Source</a>
+  </span>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_AssemblyResolve" data-uid="BepInEx.Bootstrap.TypeLoader.AssemblyResolve">AssemblyResolve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event AssemblyResolveEventHandler AssemblyResolve</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AssemblyResolveEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -190,7 +414,7 @@
                     <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L52" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
