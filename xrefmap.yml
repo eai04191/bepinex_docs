@@ -80,6 +80,12 @@ references:
   commentId: M:BepInEx.BepInDependency.#ctor(System.String,BepInEx.BepInDependency.DependencyFlags)
   fullName: BepInEx.BepInDependency.BepInDependency(System.String, BepInEx.BepInDependency.DependencyFlags)
   nameWithType: BepInDependency.BepInDependency(String, BepInDependency.DependencyFlags)
+- uid: BepInEx.BepInDependency.#ctor(System.String,System.String)
+  name: BepInDependency(String, String)
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency__ctor_System_String_System_String_
+  commentId: M:BepInEx.BepInDependency.#ctor(System.String,System.String)
+  fullName: BepInEx.BepInDependency.BepInDependency(System.String, System.String)
+  nameWithType: BepInDependency.BepInDependency(String, String)
 - uid: BepInEx.BepInDependency.#ctor*
   name: BepInDependency
   href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency__ctor_
@@ -87,6 +93,40 @@ references:
   isSpec: "True"
   fullName: BepInEx.BepInDependency.BepInDependency
   nameWithType: BepInDependency.BepInDependency
+- uid: BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name: ICacheable.Load(BinaryReader)
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_BepInEx_Bootstrap_ICacheable_Load_System_IO_BinaryReader_
+  commentId: M:BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name.vb: BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+  fullName: BepInEx.BepInDependency.BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  nameWithType: BepInDependency.ICacheable.Load(BinaryReader)
+  nameWithType.vb: BepInDependency.BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+- uid: BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Load*
+  name: ICacheable.Load
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_BepInEx_Bootstrap_ICacheable_Load_
+  commentId: Overload:BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Load
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Load
+  fullName: BepInEx.BepInDependency.BepInEx.Bootstrap.ICacheable.Load
+  nameWithType: BepInDependency.ICacheable.Load
+  nameWithType.vb: BepInDependency.BepInEx.Bootstrap.ICacheable.Load
+- uid: BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name: ICacheable.Save(BinaryWriter)
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_BepInEx_Bootstrap_ICacheable_Save_System_IO_BinaryWriter_
+  commentId: M:BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name.vb: BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+  fullName: BepInEx.BepInDependency.BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  nameWithType: BepInDependency.ICacheable.Save(BinaryWriter)
+  nameWithType.vb: BepInDependency.BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+- uid: BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Save*
+  name: ICacheable.Save
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_BepInEx_Bootstrap_ICacheable_Save_
+  commentId: Overload:BepInEx.BepInDependency.BepInEx#Bootstrap#ICacheable#Save
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Save
+  fullName: BepInEx.BepInDependency.BepInEx.Bootstrap.ICacheable.Save
+  nameWithType: BepInDependency.ICacheable.Save
+  nameWithType.vb: BepInDependency.BepInEx.Bootstrap.ICacheable.Save
 - uid: BepInEx.BepInDependency.DependencyFlags
   name: BepInDependency.DependencyFlags
   href: api/BepInEx.BepInDependency.DependencyFlags.html
@@ -131,6 +171,85 @@ references:
   isSpec: "True"
   fullName: BepInEx.BepInDependency.Flags
   nameWithType: BepInDependency.Flags
+- uid: BepInEx.BepInDependency.MinimumVersion
+  name: MinimumVersion
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_MinimumVersion
+  commentId: P:BepInEx.BepInDependency.MinimumVersion
+  fullName: BepInEx.BepInDependency.MinimumVersion
+  nameWithType: BepInDependency.MinimumVersion
+- uid: BepInEx.BepInDependency.MinimumVersion*
+  name: MinimumVersion
+  href: api/BepInEx.BepInDependency.html#BepInEx_BepInDependency_MinimumVersion_
+  commentId: Overload:BepInEx.BepInDependency.MinimumVersion
+  isSpec: "True"
+  fullName: BepInEx.BepInDependency.MinimumVersion
+  nameWithType: BepInDependency.MinimumVersion
+- uid: BepInEx.BepInIncompatibility
+  name: BepInIncompatibility
+  href: api/BepInEx.BepInIncompatibility.html
+  commentId: T:BepInEx.BepInIncompatibility
+  fullName: BepInEx.BepInIncompatibility
+  nameWithType: BepInIncompatibility
+- uid: BepInEx.BepInIncompatibility.#ctor(System.String)
+  name: BepInIncompatibility(String)
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility__ctor_System_String_
+  commentId: M:BepInEx.BepInIncompatibility.#ctor(System.String)
+  fullName: BepInEx.BepInIncompatibility.BepInIncompatibility(System.String)
+  nameWithType: BepInIncompatibility.BepInIncompatibility(String)
+- uid: BepInEx.BepInIncompatibility.#ctor*
+  name: BepInIncompatibility
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility__ctor_
+  commentId: Overload:BepInEx.BepInIncompatibility.#ctor
+  isSpec: "True"
+  fullName: BepInEx.BepInIncompatibility.BepInIncompatibility
+  nameWithType: BepInIncompatibility.BepInIncompatibility
+- uid: BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name: ICacheable.Load(BinaryReader)
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_BepInEx_Bootstrap_ICacheable_Load_System_IO_BinaryReader_
+  commentId: M:BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name.vb: BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+  fullName: BepInEx.BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  nameWithType: BepInIncompatibility.ICacheable.Load(BinaryReader)
+  nameWithType.vb: BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+- uid: BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Load*
+  name: ICacheable.Load
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_BepInEx_Bootstrap_ICacheable_Load_
+  commentId: Overload:BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Load
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Load
+  fullName: BepInEx.BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Load
+  nameWithType: BepInIncompatibility.ICacheable.Load
+  nameWithType.vb: BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Load
+- uid: BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name: ICacheable.Save(BinaryWriter)
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_BepInEx_Bootstrap_ICacheable_Save_System_IO_BinaryWriter_
+  commentId: M:BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name.vb: BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+  fullName: BepInEx.BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  nameWithType: BepInIncompatibility.ICacheable.Save(BinaryWriter)
+  nameWithType.vb: BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+- uid: BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Save*
+  name: ICacheable.Save
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_BepInEx_Bootstrap_ICacheable_Save_
+  commentId: Overload:BepInEx.BepInIncompatibility.BepInEx#Bootstrap#ICacheable#Save
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Save
+  fullName: BepInEx.BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Save
+  nameWithType: BepInIncompatibility.ICacheable.Save
+  nameWithType.vb: BepInIncompatibility.BepInEx.Bootstrap.ICacheable.Save
+- uid: BepInEx.BepInIncompatibility.IncompatibilityGUID
+  name: IncompatibilityGUID
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_IncompatibilityGUID
+  commentId: P:BepInEx.BepInIncompatibility.IncompatibilityGUID
+  fullName: BepInEx.BepInIncompatibility.IncompatibilityGUID
+  nameWithType: BepInIncompatibility.IncompatibilityGUID
+- uid: BepInEx.BepInIncompatibility.IncompatibilityGUID*
+  name: IncompatibilityGUID
+  href: api/BepInEx.BepInIncompatibility.html#BepInEx_BepInIncompatibility_IncompatibilityGUID_
+  commentId: Overload:BepInEx.BepInIncompatibility.IncompatibilityGUID
+  isSpec: "True"
+  fullName: BepInEx.BepInIncompatibility.IncompatibilityGUID
+  nameWithType: BepInIncompatibility.IncompatibilityGUID
 - uid: BepInEx.BepInPlugin
   name: BepInPlugin
   href: api/BepInEx.BepInPlugin.html
@@ -276,6 +395,19 @@ references:
   commentId: T:BepInEx.Bootstrap.Chainloader
   fullName: BepInEx.Bootstrap.Chainloader
   nameWithType: Chainloader
+- uid: BepInEx.Bootstrap.Chainloader.DependencyErrors
+  name: DependencyErrors
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_DependencyErrors
+  commentId: P:BepInEx.Bootstrap.Chainloader.DependencyErrors
+  fullName: BepInEx.Bootstrap.Chainloader.DependencyErrors
+  nameWithType: Chainloader.DependencyErrors
+- uid: BepInEx.Bootstrap.Chainloader.DependencyErrors*
+  name: DependencyErrors
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_DependencyErrors_
+  commentId: Overload:BepInEx.Bootstrap.Chainloader.DependencyErrors
+  isSpec: "True"
+  fullName: BepInEx.Bootstrap.Chainloader.DependencyErrors
+  nameWithType: Chainloader.DependencyErrors
 - uid: BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)
   name: Initialize(String, Boolean)
   href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_
@@ -832,6 +964,40 @@ references:
   commentId: T:BepInEx.Contract.PluginInfo
   fullName: BepInEx.Contract.PluginInfo
   nameWithType: PluginInfo
+- uid: BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name: ICacheable.Load(BinaryReader)
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_BepInEx_Bootstrap_ICacheable_Load_System_IO_BinaryReader_
+  commentId: M:BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Load(System.IO.BinaryReader)
+  name.vb: BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+  fullName: BepInEx.Contract.PluginInfo.BepInEx.Bootstrap.ICacheable.Load(System.IO.BinaryReader)
+  nameWithType: PluginInfo.ICacheable.Load(BinaryReader)
+  nameWithType.vb: PluginInfo.BepInEx.Bootstrap.ICacheable.Load(BinaryReader)
+- uid: BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Load*
+  name: ICacheable.Load
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_BepInEx_Bootstrap_ICacheable_Load_
+  commentId: Overload:BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Load
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Load
+  fullName: BepInEx.Contract.PluginInfo.BepInEx.Bootstrap.ICacheable.Load
+  nameWithType: PluginInfo.ICacheable.Load
+  nameWithType.vb: PluginInfo.BepInEx.Bootstrap.ICacheable.Load
+- uid: BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name: ICacheable.Save(BinaryWriter)
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_BepInEx_Bootstrap_ICacheable_Save_System_IO_BinaryWriter_
+  commentId: M:BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Save(System.IO.BinaryWriter)
+  name.vb: BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+  fullName: BepInEx.Contract.PluginInfo.BepInEx.Bootstrap.ICacheable.Save(System.IO.BinaryWriter)
+  nameWithType: PluginInfo.ICacheable.Save(BinaryWriter)
+  nameWithType.vb: PluginInfo.BepInEx.Bootstrap.ICacheable.Save(BinaryWriter)
+- uid: BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Save*
+  name: ICacheable.Save
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_BepInEx_Bootstrap_ICacheable_Save_
+  commentId: Overload:BepInEx.Contract.PluginInfo.BepInEx#Bootstrap#ICacheable#Save
+  isSpec: "True"
+  name.vb: BepInEx.Bootstrap.ICacheable.Save
+  fullName: BepInEx.Contract.PluginInfo.BepInEx.Bootstrap.ICacheable.Save
+  nameWithType: PluginInfo.ICacheable.Save
+  nameWithType.vb: PluginInfo.BepInEx.Bootstrap.ICacheable.Save
 - uid: BepInEx.Contract.PluginInfo.Dependencies
   name: Dependencies
   href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Dependencies
@@ -845,6 +1011,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Contract.PluginInfo.Dependencies
   nameWithType: PluginInfo.Dependencies
+- uid: BepInEx.Contract.PluginInfo.Incompatibilities
+  name: Incompatibilities
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Incompatibilities
+  commentId: P:BepInEx.Contract.PluginInfo.Incompatibilities
+  fullName: BepInEx.Contract.PluginInfo.Incompatibilities
+  nameWithType: PluginInfo.Incompatibilities
+- uid: BepInEx.Contract.PluginInfo.Incompatibilities*
+  name: Incompatibilities
+  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Incompatibilities_
+  commentId: Overload:BepInEx.Contract.PluginInfo.Incompatibilities
+  isSpec: "True"
+  fullName: BepInEx.Contract.PluginInfo.Incompatibilities
+  nameWithType: PluginInfo.Incompatibilities
 - uid: BepInEx.Contract.PluginInfo.Instance
   name: Instance
   href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Instance
@@ -858,19 +1037,6 @@ references:
   isSpec: "True"
   fullName: BepInEx.Contract.PluginInfo.Instance
   nameWithType: PluginInfo.Instance
-- uid: BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
-  name: Load(BinaryReader)
-  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Load_System_IO_BinaryReader_
-  commentId: M:BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
-  fullName: BepInEx.Contract.PluginInfo.Load(System.IO.BinaryReader)
-  nameWithType: PluginInfo.Load(BinaryReader)
-- uid: BepInEx.Contract.PluginInfo.Load*
-  name: Load
-  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Load_
-  commentId: Overload:BepInEx.Contract.PluginInfo.Load
-  isSpec: "True"
-  fullName: BepInEx.Contract.PluginInfo.Load
-  nameWithType: PluginInfo.Load
 - uid: BepInEx.Contract.PluginInfo.Location
   name: Location
   href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Location
@@ -910,19 +1076,6 @@ references:
   isSpec: "True"
   fullName: BepInEx.Contract.PluginInfo.Processes
   nameWithType: PluginInfo.Processes
-- uid: BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
-  name: Save(BinaryWriter)
-  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Save_System_IO_BinaryWriter_
-  commentId: M:BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
-  fullName: BepInEx.Contract.PluginInfo.Save(System.IO.BinaryWriter)
-  nameWithType: PluginInfo.Save(BinaryWriter)
-- uid: BepInEx.Contract.PluginInfo.Save*
-  name: Save
-  href: api/BepInEx.Contract.PluginInfo.html#BepInEx_Contract_PluginInfo_Save_
-  commentId: Overload:BepInEx.Contract.PluginInfo.Save
-  isSpec: "True"
-  fullName: BepInEx.Contract.PluginInfo.Save
-  nameWithType: PluginInfo.Save
 - uid: BepInEx.Harmony
   name: BepInEx.Harmony
   href: api/BepInEx.Harmony.html

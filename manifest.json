@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInDependency.DependencyFlags.html",
-          "hash": "FWloj4+PXE1SWdXtkA5viQ=="
+          "hash": "aOArpxFnL0FyQg+3BpcKtQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,19 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInDependency.html",
-          "hash": "yXF5v4YgxaIgQze+RqYoNg=="
+          "hash": "V3bARrEX9nF82kXnx4oZZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.BepInIncompatibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.BepInIncompatibility.html",
+          "hash": "GmXNmzLe/Jr2EvQyccJemQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInPlugin.html",
-          "hash": "nZukWJP5FTQxX3zXiWpy1A=="
+          "hash": "nUM47gY0YZNgfqmr9xFkcw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInProcess.html",
-          "hash": "vy/wl8Fgpy0hbVTKev1abA=="
+          "hash": "90mAt/onrdqjSpMheMOaww=="
         }
       },
       "is_incremental": false,
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "ca/6l/b9Rx8XBX8GS0aNjA=="
+          "hash": "puCwslK3FU3pJ6FuMG9Q3A=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Contract.PluginInfo.html",
-          "hash": "AVvlp9I6+tYq/KOswyLtoA=="
+          "hash": "3U/TvcZOOho7bp22c+Ng4Q=="
         }
       },
       "is_incremental": false,
@@ -405,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.MetadataHelper.html",
-          "hash": "svomJEcih/JR+kjouhvjdw=="
+          "hash": "i1YKccs//aJnrDliN70DZQ=="
         }
       },
       "is_incremental": false,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.MissingDependencyException.html",
-          "hash": "pjjqpzVGvsvGPV9uo9tmxw=="
+          "hash": "aE5+2kqv7vb4z1S4++2pdQ=="
         }
       },
       "is_incremental": false,
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.html",
-          "hash": "h0DgyHqq27EPjmpBQJSv5Q=="
+          "hash": "KBPjo4aL1NBi6k0wg6e/8g=="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Zozd1hjlymLDCYdZBbt21g=="
+          "hash": "cCqllp3mFOSCEkDD9R0drw=="
         }
       },
       "is_incremental": false,
@@ -1013,11 +1025,10 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 39,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -1026,10 +1037,11 @@
           "total_file_count": 22,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 38,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
