@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
     
     
@@ -57,35 +57,28 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="bepinex-api-documentation">BepInEx API documentation</h1>
 
 <p>This page contains documentation for BepInEx API.</p>
 <h2 id="main-namespaces-of-bepinex">Main namespaces of BepInEx</h2>
-<h3 id="section"><a class="xref" href="BepInEx.html">BepInEx</a></h3>
+<h3 id="section">@BepInEx</h3>
 <p>Contains most commonly used API provided by BepInEx.</p>
 <p>Important classes:</p>
 <ul>
-<li><a class="xref" href="BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> -- base class your plugins should inherit from.</li>
-<li><a class="xref" href="BepInEx.BepInPlugin.html">BepInPlugin</a>, <a class="xref" href="BepInEx.BepInDependency.html">BepInDependency</a> and <a class="xref" href="BepInEx.BepInProcess.html">BepInProcess</a> attributes -- used to specify important metadata about each plugin class.</li>
-<li><a class="xref" href="BepInEx.Configuration.html">BepInEx.Configuration</a> -- access to configuration.</li>
-<li><a class="xref" href="BepInEx.Paths.html">Paths</a> -- all common file and directory locations BepInEx and plugins rely on.</li>
+<li>@BepInEx.BaseUnityPlugin -- base class your plugins should inherit from.</li>
+<li>@BepInEx.BepInPlugin, @BepInEx.BepInDependency and @BepInEx.BepInProcess attributes -- used to specify important metadata about each plugin class.</li>
+<li>@BepInEx.Configuration -- access to configuration.</li>
+<li>@BepInEx.Paths -- all common file and directory locations BepInEx and plugins rely on.</li>
 </ul>
-<h3 id="section-1"><a class="xref" href="BepInEx.Bootstrap.html">BepInEx.Bootstrap</a></h3>
+<h3 id="section-1">@BepInEx.Bootstrap</h3>
 <p>Contains internals of BepInEx plugin loader. Allows access to other loaded plugins.</p>
-<h3 id="section-2"><a class="xref" href="BepInEx.Harmony.html">BepInEx.Harmony</a></h3>
+<h3 id="section-2">@BepInEx.Harmony</h3>
 <p>Special extensions to Harmony to allow patching without writing special patcher classes.<br>
 See <a class="xref" href="../articles/dev_guide/harmony_wrapper.html">&quot;How to use HarmonyWrapper&quot;</a> for more information.</p>
-<h3 id="section-3"><a class="xref" href="BepInEx.Logging.html">BepInEx.Logging</a></h3>
+<h3 id="section-3">@BepInEx.Logging</h3>
 <p>All classes related to logging in BepInEx.</p>
 </article>
           </div>

@@ -73,7 +73,7 @@
 <h2 id="defining-the-plug-in-class">Defining the plug-in class</h2>
 <p>Continuing from the previous step, rename <code>Class1.cs</code> to the name of your plugin. In this instance, we'll rename ours to <code>ExamplePlugin.cs</code>.</p>
 <p>Open the source file. You'll see there is already some generic boilerplate code for a class.</p>
-<p>Edit the class to inherit from <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> and add <a class="xref" href="../../../api/BepInEx.BepInPlugin.html">BepInPlugin</a> attribute to the class:</p>
+<p>Edit the class to inherit from @BepInEx.BaseUnityPlugin and add @BepInEx.BepInPlugin attribute to the class:</p>
 <pre><code class="lang-csharp">using System;
 using BepInEx;
 
@@ -89,13 +89,13 @@ namespace ExamplePlugin
 Note that the name of the namespace and the plug-in class are likely different in your case, so if you copy-paste, you might want to edit them.</p>
 <p>Next, we'll dive a bit deeper into what all of this means.</p>
 <h2 id="specifying-metadata-with-attributes">Specifying metadata with attributes</h2>
-<p>By itself, a simple class that inherits <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> doesn't tell BepInEx much.
+<p>By itself, a simple class that inherits @BepInEx.BaseUnityPlugin doesn't tell BepInEx much.
 However, BepInEx has to know some information about the class in order to know how to load the plug-in.
 This is done by specifying C# attributes to the class as we defined above.</p>
 <p>Let's go over some of the most important attributes you might want to use.
 For more attributes and exact documentation, visit the <a href="../../../api">API docs</a>.</p>
 <h3 id="basic-information-about-the-plug-in">Basic information about the plug-in</h3>
-<p>The most crucial attribute is <a class="xref" href="../../../api/BepInEx.BepInPlugin.html">BepInPlugin</a>. <strong>Without it, BepInEx will simply ignore loading of the plug-in!</strong></p>
+<p>The most crucial attribute is @BepInEx.BepInPlugin. <strong>Without it, BepInEx will simply ignore loading of the plug-in!</strong></p>
 <p>The attribute consists of three string parameters that are:</p>
 <table>
 <thead>
@@ -126,7 +126,7 @@ public class ExamplePlugin : BaseUnityPlugin
 <h3 id="specifying-dependencies-on-other-plug-ins">Specifying dependencies on other plug-ins</h3>
 <p>Sometimes you might want to load some plug-ins before other ones.
 Moreover, in some cases you want to ensure that a user has installed some other plug-in in order for yours to function.</p>
-<p>You can specify dependencies on other plug-ins with <a class="xref" href="../../../api/BepInEx.BepInDependency.html">BepInDependency</a> attribute.<br>
+<p>You can specify dependencies on other plug-ins with @BepInEx.BepInDependency attribute.<br>
 You can specify the attribute multiple times for multiple dependencies.</p>
 <p>The attribute consists of only two parameters:</p>
 <table>
@@ -143,7 +143,7 @@ You can specify the attribute multiple times for multiple dependencies.</p>
 </tr>
 <tr>
 <td><code>Flags</code></td>
-<td><em>Optional.</em> Specifies a flag from <a class="xref" href="../../../api/BepInEx.BepInDependency.DependencyFlags.html">BepInDependency.DependencyFlags</a> that tells how to handle missing dependencies. A <em>soft dependency</em> means that the plug-in can be loaded even if the dependency is missing. A <em>hard dependency</em> means that a plug-in must be skipped if the dependency is missing.</td>
+<td><em>Optional.</em> Specifies a flag from @BepInEx.BepInDependency.DependencyFlags that tells how to handle missing dependencies. A <em>soft dependency</em> means that the plug-in can be loaded even if the dependency is missing. A <em>hard dependency</em> means that a plug-in must be skipped if the dependency is missing.</td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +162,7 @@ public class ExamplePlugin : BaseUnityPlugin
 <p>In some cases you may want to allow to load the plugin only in certain games.
 For instance, your plug-in only works in one game and you want to prevent users from installing a plug-in into a wrong game.
 Alternatively, there might be multiple games in the same game folder, and you want to load your plugin only in one of those games.</p>
-<p>You can specify what games to load the plug-in on with <a class="xref" href="../../../api/BepInEx.BepInProcess.html">BepInProcess</a> attribute.</p>
+<p>You can specify what games to load the plug-in on with @BepInEx.BepInProcess attribute.</p>
 <p>The attribute has only one parameter: <code>ProcessName</code> that is simply the name of the process that the plug-in is allowed to run on (including the <code>.exe</code> extension).<br>
 Naturally, you can specify the attribute multiple times.</p>
 <p>An example of the attribute usage:</p>
@@ -172,7 +172,7 @@ Naturally, you can specify the attribute multiple times.</p>
 public class ExamplePlugin : BaseUnityPlugin
 </code></pre>
 <h2 id="adding-code-to-the-plug-in">Adding code to the plug-in</h2>
-<p>Under the hood, <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> inherits from <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a>.
+<p>Under the hood, @BepInEx.BaseUnityPlugin inherits from <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a>.
 This means you can access all game objects using Unity's own API.</p>
 <p>As an example, we'll log <code>Hello, world!</code> text when the plug-in is starting.
 For that we'll add the call into <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html">MonoBehaviour.Awake</a>:</p>
@@ -203,7 +203,7 @@ Doing so will simplify installation and the removal process of each plug-in.</p>
 <p>Note that you have to enable the console via <a class="xref" href="../../user_guide/configuration.html">the configuration file</a> to see the debug message.</p>
 <h2 id="next-steps">Next steps</h2>
 <p>You can continue by adding more plug-ins or modifying the example plug-in!<br>
-Remember that a single DLL can contain multiple plug-in classes: that is, you can add more classes that inherit from <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> and have the <a class="xref" href="../../../api/BepInEx.BepInPlugin.html">BepInPlugin</a> attribute and have multiple plugins in the same DLL.</p>
+Remember that a single DLL can contain multiple plug-in classes: that is, you can add more classes that inherit from @BepInEx.BaseUnityPlugin and have the @BepInEx.BepInPlugin attribute and have multiple plugins in the same DLL.</p>
 <p>Next, we'll look at how to create and manage configuration files of the plug-in.</p>
 </article>
           </div>

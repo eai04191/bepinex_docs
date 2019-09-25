@@ -1,495 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "/var/lib/jenkins/workspace/BepInEx_DocFX/bepis_docs",
+  "source_base_path": "/var/jenkins_home/workspace/BepInEx_DocFX/bepis_docs",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BaseUnityPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BaseUnityPlugin.html",
-          "hash": "eREzTc5Yb9XLoY+XZ/0eRA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BepInDependency.DependencyFlags.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BepInDependency.DependencyFlags.html",
-          "hash": "aOArpxFnL0FyQg+3BpcKtQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BepInDependency.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BepInDependency.html",
-          "hash": "V3bARrEX9nF82kXnx4oZZw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BepInIncompatibility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BepInIncompatibility.html",
-          "hash": "GmXNmzLe/Jr2EvQyccJemQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BepInPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BepInPlugin.html",
-          "hash": "nUM47gY0YZNgfqmr9xFkcw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.BepInProcess.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.BepInProcess.html",
-          "hash": "90mAt/onrdqjSpMheMOaww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Bootstrap.CachedAssembly-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Bootstrap.CachedAssembly-1.html",
-          "hash": "IEh2vm34sLkxsCE4BaDeOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Bootstrap.Chainloader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "puCwslK3FU3pJ6FuMG9Q3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Bootstrap.ICacheable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Bootstrap.ICacheable.html",
-          "hash": "ZwOXcTAFO+Fsy9LEtCJG8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Bootstrap.TypeLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Bootstrap.TypeLoader.html",
-          "hash": "Oc6ghfCMP7jMZXf5cACbyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Bootstrap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Bootstrap.html",
-          "hash": "CFMLIXEvXbGwsjlGuZz9DA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Configuration.ConfigDefinition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Configuration.ConfigDefinition.html",
-          "hash": "Fci+/QCecyLYc8En/Qryeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Configuration.ConfigFile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Configuration.ConfigFile.html",
-          "hash": "AKYBrbQoaPeNXj571vBNaA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Configuration.ConfigWrapper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Configuration.ConfigWrapper-1.html",
-          "hash": "BnWbYdQ5ogrFyYTl9zYXjg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Configuration.TypeConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Configuration.TypeConverter.html",
-          "hash": "qaEit31oI73drj3M0J6lFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Configuration.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Configuration.html",
-          "hash": "SYvRngdn7AFkuOXYDr5OQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Contract.PluginInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Contract.PluginInfo.html",
-          "hash": "3U/TvcZOOho7bp22c+Ng4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Contract.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Contract.html",
-          "hash": "bxYn8TWBqrg2UlHDg4vhLw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.HarmonyWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.HarmonyWrapper.html",
-          "hash": "iMEGxe8ITZ2cEV6nwrL78g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.html",
-          "hash": "bH/lqqm2pPrpTlFRSGOKXw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.html",
-          "hash": "fEgWXuTrnL0DAlcH1Hs7nA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.ConsoleLogListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.ConsoleLogListener.html",
-          "hash": "6x/qeS++Wgw/nhVsci1dlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.DiskLogListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.DiskLogListener.html",
-          "hash": "A0ksT8bDAIpEgGSbR2e9EQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.ILogListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.ILogListener.html",
-          "hash": "NsnQ4PPacKdCG82jfn443g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.ILogSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.ILogSource.html",
-          "hash": "tfmSetmvpMRCnf622YibCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.LogEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.LogEventArgs.html",
-          "hash": "77I3F9E9yKWGRIsGEKCW2Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.LogLevel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.LogLevel.html",
-          "hash": "eVwIdNnIlECdut25zBSbpQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.LogLevelExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.LogLevelExtensions.html",
-          "hash": "JRnP7+y6M0tqyRj/YkkVdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.Logger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.Logger.html",
-          "hash": "KNqg7d/p5i/BFjjVQNiX/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.ManualLogSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.ManualLogSource.html",
-          "hash": "hg6PVKTB1o2S621TaQVuHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.TraceLogSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.TraceLogSource.html",
-          "hash": "mdplDNCvo7TzU8vGFqCUWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.UnityLogListener.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.UnityLogListener.html",
-          "hash": "h5JHhn208i9tPDLwHkt/5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.UnityLogSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.UnityLogSource.html",
-          "hash": "q7ODVIhvsu4TTKT5nJxsYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Logging.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Logging.html",
-          "hash": "11KTGsBjWi/chaVuB7Dy8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.MetadataHelper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.MetadataHelper.html",
-          "hash": "i1YKccs//aJnrDliN70DZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.MissingDependencyException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.MissingDependencyException.html",
-          "hash": "aE5+2kqv7vb4z1S4++2pdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Paths.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Paths.html",
-          "hash": "vAdEccC++tCWwIDyRvtutg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Utility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Utility.html",
-          "hash": "+ThUXCQkzNKBvMjNMcdYwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.html",
-          "hash": "KBPjo4aL1NBi6k0wg6e/8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "yDRmQ73bPpoFAwSIu9iy1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "cCqllp3mFOSCEkDD9R0drw=="
+          "hash": "SHZHCwGfO1yvStrIuviKtw=="
         }
       },
       "is_incremental": false,
@@ -579,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/harmony_wrapper.html",
-          "hash": "BqBEPt9vgvbwiOIQm/QTXg=="
+          "hash": "tJJA/yeSKD3J+2uWRXferQ=="
         }
       },
       "is_incremental": false,
@@ -618,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "eloXHr/Ig51gKhYEtjPiyQ=="
+          "hash": "ojxZ7IwsGLEJbz4GL8eswg=="
         }
       },
       "is_incremental": false,
@@ -630,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "olaqt8f85kxmrDZxf5LeLg=="
+          "hash": "T49m5l8SD2A2zf1BgJdjWQ=="
         }
       },
       "is_incremental": false,
@@ -757,7 +277,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "JRpolR3tW/YrYa7vIcXAWg=="
+          "hash": "7MpgUWdOUnJSJ7cm1XI95g=="
         }
       },
       "is_incremental": false,
@@ -1000,7 +520,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "KaXs43To7ZHcwxbf3S3C2Q=="
+          "hash": "nhFAJaE2wY7+I3K6W0wEpQ=="
         }
       },
       "is_incremental": false,
@@ -1018,17 +538,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 39,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -1037,9 +551,9 @@
           "total_file_count": 22,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
