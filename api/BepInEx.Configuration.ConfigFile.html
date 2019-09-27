@@ -1,0 +1,1031 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConfigFile
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConfigFile
+   ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BepInEx.Configuration.ConfigFile">
+  
+  
+  <h1 id="BepInEx_Configuration_ConfigFile" data-uid="BepInEx.Configuration.ConfigFile" class="text-break">Class ConfigFile
+  </h1>
+  <div class="markdown level0 summary"><p>A helper class to handle persistent data. All public methods are thread-safe.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConfigFile</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BepInEx.Configuration.html">BepInEx.Configuration</a></h6>
+  <h6><strong>Assembly</strong>: BepInEx.dll</h6>
+  <h5 id="BepInEx_Configuration_ConfigFile_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConfigFile</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile__ctor_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.%23ctor(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L61">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile__ctor_" data-uid="BepInEx.Configuration.ConfigFile.#ctor*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile__ctor_System_String_System_Boolean_" data-uid="BepInEx.Configuration.ConfigFile.#ctor(System.String,System.Boolean)">ConfigFile(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigFile(string configPath, bool saveOnInit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveOnInit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile__ctor_System_String_System_Boolean_BepInEx_BepInPlugin_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.%23ctor(System.String%2CSystem.Boolean%2CBepInEx.BepInPlugin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L69">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile__ctor_" data-uid="BepInEx.Configuration.ConfigFile.#ctor*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile__ctor_System_String_System_Boolean_BepInEx_BepInPlugin_" data-uid="BepInEx.Configuration.ConfigFile.#ctor(System.String,System.Boolean,BepInEx.BepInPlugin)">ConfigFile(String, Boolean, BepInPlugin)</h4>
+  <div class="markdown level1 summary"><p>Create a new config file at the specified config path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigFile(string configPath, bool saveOnInit, BepInPlugin ownerMetadata)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configPath</span></td>
+        <td><p>Full path to a file that contains settings. The file will be created as needed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveOnInit</span></td>
+        <td><p>If the config file/directory doesn't exist, create it immediately.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BepInEx.BepInPlugin.html">BepInPlugin</a></td>
+        <td><span class="parametername">ownerMetadata</span></td>
+        <td><p>Information about the plugin that owns this setting file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_ConfigDefinitions.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.ConfigDefinitions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L30">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_ConfigDefinitions_" data-uid="BepInEx.Configuration.ConfigFile.ConfigDefinitions*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_ConfigDefinitions" data-uid="BepInEx.Configuration.ConfigFile.ConfigDefinitions">ConfigDefinitions</h4>
+  <div class="markdown level1 summary"><p>Create a list with all config entries inside of this config file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use GetConfigEntries instead&quot;)]
+public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="BepInEx.Configuration.ConfigDefinition.html">ConfigDefinition</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_ConfigFilePath.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.ConfigFilePath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L52">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_ConfigFilePath_" data-uid="BepInEx.Configuration.ConfigFile.ConfigFilePath*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_ConfigFilePath" data-uid="BepInEx.Configuration.ConfigFile.ConfigFilePath">ConfigFilePath</h4>
+  <div class="markdown level1 summary"><p>Full path to the config file. The file might not exist until a setting is added and changed, or <a class="xref" href="BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Save">Save()</a> is called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ConfigFilePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_Entries.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.Entries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L23">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_Entries_" data-uid="BepInEx.Configuration.ConfigFile.Entries*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_Entries" data-uid="BepInEx.Configuration.ConfigFile.Entries">Entries</h4>
+  <div class="markdown level1 summary"><p>All config entries inside</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Dictionary&lt;ConfigDefinition, ConfigEntryBase&gt; Entries { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="BepInEx.Configuration.ConfigDefinition.html">ConfigDefinition</a>, <a class="xref" href="BepInEx.Configuration.ConfigEntryBase.html">ConfigEntryBase</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_SaveOnConfigSet.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.SaveOnConfigSet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L58">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_SaveOnConfigSet_" data-uid="BepInEx.Configuration.ConfigFile.SaveOnConfigSet*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_SaveOnConfigSet" data-uid="BepInEx.Configuration.ConfigFile.SaveOnConfigSet">SaveOnConfigSet</h4>
+  <div class="markdown level1 summary"><p>If enabled, writes the config to disk every time a value is set.
+If disabled, you have to manually use <a class="xref" href="BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Save">Save()</a> or the changes will be lost!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SaveOnConfigSet { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_AddSetting__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.AddSetting%60%601(BepInEx.Configuration.ConfigDefinition%2C%60%600%2CBepInEx.Configuration.ConfigDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L231">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_AddSetting_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_AddSetting__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting``1(BepInEx.Configuration.ConfigDefinition,``0,BepInEx.Configuration.ConfigDescription)">AddSetting&lt;T&gt;(ConfigDefinition, T, ConfigDescription)</h4>
+  <div class="markdown level1 summary"><p>Create a new setting. The setting is saved to drive and loaded automatically.
+Each definition can be used to add only one setting, trying to add a second setting will throw an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(ConfigDefinition configDefinition, T defaultValue, ConfigDescription configDescription = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigDefinition.html">ConfigDefinition</a></td>
+        <td><span class="parametername">configDefinition</span></td>
+        <td><p>Section and Key of the setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Value of the setting if the setting was not created yet.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigDescription.html">ConfigDescription</a></td>
+        <td><span class="parametername">configDescription</span></td>
+        <td><p>Description of the setting shown to the user and other metadata.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value contained in this setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_AddSetting__1_System_String_System_String___0_BepInEx_Configuration_ConfigDescription_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.AddSetting%60%601(System.String%2CSystem.String%2C%60%600%2CBepInEx.Configuration.ConfigDescription)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L276">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_AddSetting_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_AddSetting__1_System_String_System_String___0_BepInEx_Configuration_ConfigDescription_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting``1(System.String,System.String,``0,BepInEx.Configuration.ConfigDescription)">AddSetting&lt;T&gt;(String, String, T, ConfigDescription)</h4>
+  <div class="markdown level1 summary"><p>Create a new setting. The setting is saved to drive and loaded automatically.
+Each section and key pair can be used to add only one setting, trying to add a second setting will throw an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T defaultValue, ConfigDescription configDescription = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td><p>Section/category/group of the setting. Settings are grouped by this.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Name of the setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Value of the setting if the setting was not created yet.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigDescription.html">ConfigDescription</a></td>
+        <td><span class="parametername">configDescription</span></td>
+        <td><p>Description of the setting shown to the user and other metadata.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value contained in this setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_AddSetting__1_System_String_System_String___0_System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.AddSetting%60%601(System.String%2CSystem.String%2C%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L288">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_AddSetting_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_AddSetting__1_System_String_System_String___0_System_String_" data-uid="BepInEx.Configuration.ConfigFile.AddSetting``1(System.String,System.String,``0,System.String)">AddSetting&lt;T&gt;(String, String, T, String)</h4>
+  <div class="markdown level1 summary"><p>Create a new setting. The setting is saved to drive and loaded automatically.
+Each section and key pair can be used to add only one setting, trying to add a second setting will throw an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T defaultValue, string description)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td><p>Section/category/group of the setting. Settings are grouped by this.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Name of the setting.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td><p>Value of the setting if the setting was not created yet.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Simple description of the setting shown to the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value contained in this setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_GetConfigEntries.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.GetConfigEntries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L44">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_GetConfigEntries_" data-uid="BepInEx.Configuration.ConfigFile.GetConfigEntries*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_GetConfigEntries" data-uid="BepInEx.Configuration.ConfigFile.GetConfigEntries">GetConfigEntries()</h4>
+  <div class="markdown level1 summary"><p>Create an array with all config entries inside of this config file. Should be only used for metadata purposes.
+If you want to access and modify an existing setting then use <a class="xref" href="BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_AddSetting__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_">AddSetting&lt;T&gt;(ConfigDefinition, T, ConfigDescription)</a>
+instead with no description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntryBase[] GetConfigEntries()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntryBase.html">ConfigEntryBase</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_GetSetting__1_BepInEx_Configuration_ConfigDefinition_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.GetSetting%60%601(BepInEx.Configuration.ConfigDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L201">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_GetSetting_" data-uid="BepInEx.Configuration.ConfigFile.GetSetting*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_GetSetting__1_BepInEx_Configuration_ConfigDefinition_" data-uid="BepInEx.Configuration.ConfigFile.GetSetting``1(BepInEx.Configuration.ConfigDefinition)">GetSetting&lt;T&gt;(ConfigDefinition)</h4>
+  <div class="markdown level1 summary"><p>Access one of the existing settings. If the setting has not been added yet, null is returned.
+If the setting exists but has a different type than T, an exception is thrown.
+New settings should be added with <a class="xref" href="BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_AddSetting__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_">AddSetting&lt;T&gt;(ConfigDefinition, T, ConfigDescription)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(ConfigDefinition configDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigDefinition.html">ConfigDefinition</a></td>
+        <td><span class="parametername">configDefinition</span></td>
+        <td><p>Section and Key of the setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value contained in this setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_GetSetting__1_System_String_System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.GetSetting%60%601(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L218">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_GetSetting_" data-uid="BepInEx.Configuration.ConfigFile.GetSetting*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_GetSetting__1_System_String_System_String_" data-uid="BepInEx.Configuration.ConfigFile.GetSetting``1(System.String,System.String)">GetSetting&lt;T&gt;(String, String)</h4>
+  <div class="markdown level1 summary"><p>Access one of the existing settings. If the setting has not been added yet, null is returned.
+If the setting exists but has a different type than T, an exception is thrown.
+New settings should be added with <a class="xref" href="BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_AddSetting__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_">AddSetting&lt;T&gt;(ConfigDefinition, T, ConfigDescription)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td><p>Section/category/group of the setting. Settings are grouped by this.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Name of the setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value contained in this setting.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_Reload.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.Reload%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L95">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_Reload_" data-uid="BepInEx.Configuration.ConfigFile.Reload*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_Reload" data-uid="BepInEx.Configuration.ConfigFile.Reload">Reload()</h4>
+  <div class="markdown level1 summary"><p>Reloads the config from disk. Unsaved changes are lost.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reload()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_Save.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.Save%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L149">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_Save_" data-uid="BepInEx.Configuration.ConfigFile.Save*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_Save" data-uid="BepInEx.Configuration.ConfigFile.Save">Save()</h4>
+  <div class="markdown level1 summary"><p>Writes the config to disk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Save()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_Wrap__1_BepInEx_Configuration_ConfigDefinition___0_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.Wrap%60%601(BepInEx.Configuration.ConfigDefinition%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L308">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_Wrap_" data-uid="BepInEx.Configuration.ConfigFile.Wrap*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_Wrap__1_BepInEx_Configuration_ConfigDefinition___0_" data-uid="BepInEx.Configuration.ConfigFile.Wrap``1(BepInEx.Configuration.ConfigDefinition,``0)">Wrap&lt;T&gt;(ConfigDefinition, T)</h4>
+  <div class="markdown level1 summary"><p>Access a setting. Use AddSetting and GetSetting instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use AddSetting and GetSetting instead&quot;)]
+public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(ConfigDefinition configDefinition, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigDefinition.html">ConfigDefinition</a></td>
+        <td><span class="parametername">configDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigWrapper-1.html">ConfigWrapper</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_Wrap__1_System_String_System_String_System_String___0_.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.Wrap%60%601(System.String%2CSystem.String%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L294">View Source</a>
+  </span>
+  <a id="BepInEx_Configuration_ConfigFile_Wrap_" data-uid="BepInEx.Configuration.ConfigFile.Wrap*"></a>
+  <h4 id="BepInEx_Configuration_ConfigFile_Wrap__1_System_String_System_String_System_String___0_" data-uid="BepInEx.Configuration.ConfigFile.Wrap``1(System.String,System.String,System.String,``0)">Wrap&lt;T&gt;(String, String, String, T)</h4>
+  <div class="markdown level1 summary"><p>Access a setting. Use AddSetting and GetSetting instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use AddSetting and GetSetting instead&quot;)]
+public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string description = null, T defaultValue = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">defaultValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigWrapper-1.html">ConfigWrapper</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_ConfigReloaded.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.ConfigReloaded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L319">View Source</a>
+  </span>
+  <h4 id="BepInEx_Configuration_ConfigFile_ConfigReloaded" data-uid="BepInEx.Configuration.ConfigFile.ConfigReloaded">ConfigReloaded</h4>
+  <div class="markdown level1 summary"><p>An event that is fired every time the config is reloaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler ConfigReloaded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile_SettingChanged.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile.SettingChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L324">View Source</a>
+  </span>
+  <h4 id="BepInEx_Configuration_ConfigFile_SettingChanged" data-uid="BepInEx.Configuration.ConfigFile.SettingChanged">SettingChanged</h4>
+  <div class="markdown level1 summary"><p>Fired when one of the settings is changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangedEventArgs&gt; SettingChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="BepInEx.Configuration.SettingChangedEventArgs.html">SettingChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Configuration_ConfigFile.md&amp;value=---%0Auid%3A%20BepInEx.Configuration.ConfigFile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Configuration/ConfigFile.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
