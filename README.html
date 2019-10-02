@@ -71,9 +71,10 @@ Please refer to DocFX documentation for information on using <a href="https://do
 <h3 id="setting-up-the-repo-locally">Setting up the repo locally</h3>
 <ol>
 <li>Clone this repo</li>
-<li>Create a <code>src</code> folder and clone <a href="https://github.com/BepInEx/BepInEx">BepInEx</a> repository <strong>recursively pulling the submodules</strong> into it.
+<li>Create a <code>src</code> folder and clone <a href="https://github.com/BepInEx/BepInEx">BepInEx</a> repository <strong>recursively pulling the submodules</strong> into it.<br>
 For instance, you can use <code>git clone --recurse-submodules https://github.com/BepInEx/BepInEx.git .</code> inside the <code>src</code> folder.</li>
-<li>Install DocFX. Currently our CI uses <a href="https://github.com/dotnet/docfx/releases/download/v2.40.12/docfx.zip">DocFX 2.40.12</a>, so you should consider using the same version. However, <strong>pick the version that works with your VS/MSBuild setup</strong>. It's suggested to download and install <a href="https://stackoverflow.com/questions/52729944/how-to-get-msbuild-15-without-a-full-install-of-visual-studio">MSBuild 15</a> separately if you use Visual Studio 2019 or older (or use).
+<li>Run <code>nuget restore</code> in the <code>src</code> folder to restore packages.</li>
+<li>Install DocFX. Currently our CI uses <a href="https://github.com/dotnet/docfx/releases/download/v2.40.12/docfx.zip">DocFX 2.40.12</a>, so you should consider using the same version. However, <strong>pick the version that works with your VS/MSBuild setup</strong>. It's suggested to download and install <a href="https://stackoverflow.com/questions/52729944/how-to-get-msbuild-15-without-a-full-install-of-visual-studio">MSBuild 15</a> separately if you use Visual Studio 2019 or older (or use).<br>
 <strong>NOTE</strong> Currently DocFX works best with MSBuild 15 (which ships with VS19) or mono.</li>
 <li>Run <code>docfx --serve</code> in this repository folder to build the documentation and automatically serve them on <code>localhost:8080</code>.</li>
 </ol>
