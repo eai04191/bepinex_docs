@@ -473,11 +473,11 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.Chainloader.Start
   nameWithType: Chainloader.Start
-- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
+- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
   name: ToPluginInfo(TypeDefinition)
-  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_Mono_Cecil_TypeDefinition_
-  commentId: M:BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
-  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_TypeDefinition_
+  commentId: M:BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
   nameWithType: Chainloader.ToPluginInfo(TypeDefinition)
 - uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo*
   name: ToPluginInfo
@@ -537,13 +537,13 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes
   nameWithType: TypeLoader.FindPluginTypes
-- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{Mono.Cecil.TypeDefinition,``0},System.Func{Mono.Cecil.AssemblyDefinition,System.Boolean},System.String)
+- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
   name: FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
-  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_Mono_Cecil_TypeDefinition___0__System_Func_Mono_Cecil_AssemblyDefinition_System_Boolean__System_String_
-  commentId: M:BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{Mono.Cecil.TypeDefinition,``0},System.Func{Mono.Cecil.AssemblyDefinition,System.Boolean},System.String)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
   name.vb: FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
-  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes<T>(System.String, System.Func<Mono.Cecil.TypeDefinition, T>, System.Func<Mono.Cecil.AssemblyDefinition, System.Boolean>, System.String)
-  fullName.vb: BepInEx.Bootstrap.TypeLoader.FindPluginTypes(Of T)(System.String, System.Func(Of Mono.Cecil.TypeDefinition, T), System.Func(Of Mono.Cecil.AssemblyDefinition, System.Boolean), System.String)
+  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes<T>(System.String, System.Func<TypeDefinition, T>, System.Func<AssemblyDefinition, System.Boolean>, System.String)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.FindPluginTypes(Of T)(System.String, System.Func(Of TypeDefinition, T), System.Func(Of AssemblyDefinition, System.Boolean), System.String)
   nameWithType: TypeLoader.FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
   nameWithType.vb: TypeLoader.FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
 - uid: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache*
@@ -3569,11 +3569,11 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.IsNullOrWhiteSpace
   nameWithType: Utility.IsNullOrWhiteSpace
-- uid: BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition,System.Type)
+- uid: BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
   name: IsSubtypeOf(TypeDefinition, Type)
-  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_Mono_Cecil_TypeDefinition_System_Type_
-  commentId: M:BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition,System.Type)
-  fullName: BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition, System.Type)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_TypeDefinition_System_Type_
+  commentId: M:BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
+  fullName: BepInEx.Utility.IsSubtypeOf(TypeDefinition, System.Type)
   nameWithType: Utility.IsSubtypeOf(TypeDefinition, Type)
 - uid: BepInEx.Utility.IsSubtypeOf*
   name: IsSubtypeOf
@@ -3643,13 +3643,13 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.TryOpenFileStream
   nameWithType: Utility.TryOpenFileStream
-- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,Mono.Cecil.ReaderParameters,Mono.Cecil.AssemblyDefinition@)
+- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
   name: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
-  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_Mono_Cecil_ReaderParameters_Mono_Cecil_AssemblyDefinition__
-  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,Mono.Cecil.ReaderParameters,Mono.Cecil.AssemblyDefinition@)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_ReaderParameters_AssemblyDefinition__
+  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
   name.vb: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
-  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, Mono.Cecil.ReaderParameters, out Mono.Cecil.AssemblyDefinition)
-  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, Mono.Cecil.ReaderParameters, ByRef Mono.Cecil.AssemblyDefinition)
+  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, out AssemblyDefinition)
+  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, ByRef AssemblyDefinition)
   nameWithType: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
   nameWithType.vb: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
 - uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)
