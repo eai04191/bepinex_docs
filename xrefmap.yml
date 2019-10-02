@@ -2169,6 +2169,25 @@ references:
   commentId: N:BepInEx.Harmony
   fullName: BepInEx.Harmony
   nameWithType: BepInEx.Harmony
+- uid: BepInEx.Harmony.HarmonyExtensions
+  name: HarmonyExtensions
+  href: api/BepInEx.Harmony.HarmonyExtensions.html
+  commentId: T:BepInEx.Harmony.HarmonyExtensions
+  fullName: BepInEx.Harmony.HarmonyExtensions
+  nameWithType: HarmonyExtensions
+- uid: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
+  name: PatchAll(HarmonyLib.Harmony, Type)
+  href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_HarmonyLib_Harmony_System_Type_
+  commentId: M:BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
+  fullName: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony, System.Type)
+  nameWithType: HarmonyExtensions.PatchAll(HarmonyLib.Harmony, Type)
+- uid: BepInEx.Harmony.HarmonyExtensions.PatchAll*
+  name: PatchAll
+  href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_
+  commentId: Overload:BepInEx.Harmony.HarmonyExtensions.PatchAll
+  isSpec: "True"
+  fullName: BepInEx.Harmony.HarmonyExtensions.PatchAll
+  nameWithType: HarmonyExtensions.PatchAll
 - uid: BepInEx.Harmony.HarmonyWrapper
   name: HarmonyWrapper
   href: api/BepInEx.Harmony.HarmonyWrapper.html
