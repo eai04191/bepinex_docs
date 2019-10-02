@@ -32,6 +32,9 @@ pipeline {
 
         stage('Generate docs') {
             steps {
+                dir('bepis_docs/src/BepInEx') {
+                    sh 'nuget restore'
+                }
                 dir('bepis_docs') {
                     sh 'mono ../docfx/docfx.exe'
                     sh 'mv _site ..'
