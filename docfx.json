@@ -11,7 +11,8 @@
             "src/**/BepInEx.Preloader/**",
             "src/**/BepInEx.Bootstrap/**",
             "src/**/BepInEx.Harmony.Tests/**",
-            "src/**/MonoMod/**"
+            "src/**/MonoMod/**",
+            "src/**/BepInEx.Tests/**"
           ]
         }
       ],
