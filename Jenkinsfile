@@ -32,7 +32,7 @@ pipeline {
 
         stage('Generate docs') {
             steps {
-                dir('bepis_docs/src/BepInEx') {
+                dir('bepis_docs/src') {
                     sh 'nuget restore'
                 }
                 dir('bepis_docs') {
