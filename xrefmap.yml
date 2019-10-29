@@ -1576,13 +1576,13 @@ references:
   commentId: T:BepInEx.Configuration.KeyboardShortcut
   fullName: BepInEx.Configuration.KeyboardShortcut
   nameWithType: KeyboardShortcut
-- uid: BepInEx.Configuration.KeyboardShortcut.#ctor(KeyCode,KeyCode[])
+- uid: BepInEx.Configuration.KeyboardShortcut.#ctor(UnityEngine.KeyCode,UnityEngine.KeyCode[])
   name: KeyboardShortcut(KeyCode, KeyCode[])
-  href: api/BepInEx.Configuration.KeyboardShortcut.html#BepInEx_Configuration_KeyboardShortcut__ctor_KeyCode_KeyCode___
-  commentId: M:BepInEx.Configuration.KeyboardShortcut.#ctor(KeyCode,KeyCode[])
+  href: api/BepInEx.Configuration.KeyboardShortcut.html#BepInEx_Configuration_KeyboardShortcut__ctor_UnityEngine_KeyCode_UnityEngine_KeyCode___
+  commentId: M:BepInEx.Configuration.KeyboardShortcut.#ctor(UnityEngine.KeyCode,UnityEngine.KeyCode[])
   name.vb: KeyboardShortcut(KeyCode, KeyCode())
-  fullName: BepInEx.Configuration.KeyboardShortcut.KeyboardShortcut(KeyCode, KeyCode[])
-  fullName.vb: BepInEx.Configuration.KeyboardShortcut.KeyboardShortcut(KeyCode, KeyCode())
+  fullName: BepInEx.Configuration.KeyboardShortcut.KeyboardShortcut(UnityEngine.KeyCode, UnityEngine.KeyCode[])
+  fullName.vb: BepInEx.Configuration.KeyboardShortcut.KeyboardShortcut(UnityEngine.KeyCode, UnityEngine.KeyCode())
   nameWithType: KeyboardShortcut.KeyboardShortcut(KeyCode, KeyCode[])
   nameWithType.vb: KeyboardShortcut.KeyboardShortcut(KeyCode, KeyCode())
 - uid: BepInEx.Configuration.KeyboardShortcut.#ctor*
