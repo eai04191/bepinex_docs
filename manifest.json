@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "MAvKloL70o6Hx++V4CHSIg=="
+          "hash": "zJUfMVKjbZvRC0f1Gxz9+Q=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "10mrb6J+vcvTXTaeu68JLA=="
+          "hash": "yDRmQ73bPpoFAwSIu9iy1A=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "R73+NwqiFe4WF+IZVSJn5g=="
+          "hash": "P+DobyhimEuetTSPXgmeUA=="
         }
       },
       "is_incremental": false,
@@ -735,7 +735,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/porting.html",
-          "hash": "DTWWSK/Cc6OzQOdbq8ZQ9Q=="
+          "hash": "XadYVDv/66hacACLmzdohw=="
         }
       },
       "is_incremental": false,
@@ -759,7 +759,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/index.html",
-          "hash": "9ahEnHbCLqPjqHnc1ilEkg=="
+          "hash": "R73+NwqiFe4WF+IZVSJn5g=="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "olaqt8f85kxmrDZxf5LeLg=="
+          "hash": "JItIaedtGMZ3i28aArgmoA=="
         }
       },
       "is_incremental": false,
@@ -937,7 +937,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/preloader_patchers.html",
-          "hash": "N6TuukoSZP2IkApgAmoiAA=="
+          "hash": "b6as03gUkBB1iyKcaJWnUw=="
         }
       },
       "is_incremental": false,
@@ -949,7 +949,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "z2o2H3qTN2BbTc7aYpizAw=="
+          "hash": "LD7cMHfZ2zxqA+Wqjwulxw=="
         }
       },
       "is_incremental": false,
@@ -973,7 +973,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/configuration.html",
-          "hash": "Mx74YPNLrbOWHjmI1jb2ew=="
+          "hash": "E5Hd2Oe72G+8E3mbLk5Vsw=="
         }
       },
       "is_incremental": false,
@@ -1056,7 +1056,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "EC1OGy03N+2k5dFZNiGBnA=="
+          "hash": "63WmbgmdYeHQoSupKaSsJg=="
         }
       },
       "is_incremental": false,
@@ -1068,7 +1068,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UhzlSidRecK88xfxVh7VJw=="
+          "hash": "V1SwVSjc8wa1ytQpDJg4vQ=="
         }
       },
       "is_incremental": false,
