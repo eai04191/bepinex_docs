@@ -408,12 +408,15 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.Chainloader.DependencyErrors
   nameWithType: Chainloader.DependencyErrors
-- uid: BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)
-  name: Initialize(String, Boolean)
-  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_
-  commentId: M:BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)
-  fullName: BepInEx.Bootstrap.Chainloader.Initialize(System.String, System.Boolean)
-  nameWithType: Chainloader.Initialize(String, Boolean)
+- uid: BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean,System.Collections.Generic.ICollection{BepInEx.Logging.LogEventArgs})
+  name: Initialize(String, Boolean, ICollection<LogEventArgs>)
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_System_Collections_Generic_ICollection_BepInEx_Logging_LogEventArgs__
+  commentId: M:BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean,System.Collections.Generic.ICollection{BepInEx.Logging.LogEventArgs})
+  name.vb: Initialize(String, Boolean, ICollection(Of LogEventArgs))
+  fullName: BepInEx.Bootstrap.Chainloader.Initialize(System.String, System.Boolean, System.Collections.Generic.ICollection<BepInEx.Logging.LogEventArgs>)
+  fullName.vb: BepInEx.Bootstrap.Chainloader.Initialize(System.String, System.Boolean, System.Collections.Generic.ICollection(Of BepInEx.Logging.LogEventArgs))
+  nameWithType: Chainloader.Initialize(String, Boolean, ICollection<LogEventArgs>)
+  nameWithType.vb: Chainloader.Initialize(String, Boolean, ICollection(Of LogEventArgs))
 - uid: BepInEx.Bootstrap.Chainloader.Initialize*
   name: Initialize
   href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_Initialize_
@@ -473,11 +476,11 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.Chainloader.Start
   nameWithType: Chainloader.Start
-- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+- uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
   name: ToPluginInfo(TypeDefinition)
-  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_TypeDefinition_
-  commentId: M:BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
-  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)
+  href: api/BepInEx.Bootstrap.Chainloader.html#BepInEx_Bootstrap_Chainloader_ToPluginInfo_Mono_Cecil_TypeDefinition_
+  commentId: M:BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
+  fullName: BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)
   nameWithType: Chainloader.ToPluginInfo(TypeDefinition)
 - uid: BepInEx.Bootstrap.Chainloader.ToPluginInfo*
   name: ToPluginInfo
@@ -537,13 +540,13 @@ references:
   isSpec: "True"
   fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes
   nameWithType: TypeLoader.FindPluginTypes
-- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
+- uid: BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{Mono.Cecil.TypeDefinition,``0},System.Func{Mono.Cecil.AssemblyDefinition,System.Boolean},System.String)
   name: FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
-  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_
-  commentId: M:BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)
+  href: api/BepInEx.Bootstrap.TypeLoader.html#BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_Mono_Cecil_TypeDefinition___0__System_Func_Mono_Cecil_AssemblyDefinition_System_Boolean__System_String_
+  commentId: M:BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{Mono.Cecil.TypeDefinition,``0},System.Func{Mono.Cecil.AssemblyDefinition,System.Boolean},System.String)
   name.vb: FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
-  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes<T>(System.String, System.Func<TypeDefinition, T>, System.Func<AssemblyDefinition, System.Boolean>, System.String)
-  fullName.vb: BepInEx.Bootstrap.TypeLoader.FindPluginTypes(Of T)(System.String, System.Func(Of TypeDefinition, T), System.Func(Of AssemblyDefinition, System.Boolean), System.String)
+  fullName: BepInEx.Bootstrap.TypeLoader.FindPluginTypes<T>(System.String, System.Func<Mono.Cecil.TypeDefinition, T>, System.Func<Mono.Cecil.AssemblyDefinition, System.Boolean>, System.String)
+  fullName.vb: BepInEx.Bootstrap.TypeLoader.FindPluginTypes(Of T)(System.String, System.Func(Of Mono.Cecil.TypeDefinition, T), System.Func(Of Mono.Cecil.AssemblyDefinition, System.Boolean), System.String)
   nameWithType: TypeLoader.FindPluginTypes<T>(String, Func<TypeDefinition, T>, Func<AssemblyDefinition, Boolean>, String)
   nameWithType.vb: TypeLoader.FindPluginTypes(Of T)(String, Func(Of TypeDefinition, T), Func(Of AssemblyDefinition, Boolean), String)
 - uid: BepInEx.Bootstrap.TypeLoader.LoadAssemblyCache*
@@ -1298,6 +1301,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Configuration.ConfigFile.ConfigFile
   nameWithType: ConfigFile.ConfigFile
+- uid: BepInEx.Configuration.ConfigFile.Add(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase)
+  name: Add(ConfigDefinition, ConfigEntryBase)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Add_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase_
+  commentId: M:BepInEx.Configuration.ConfigFile.Add(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase)
+  fullName: BepInEx.Configuration.ConfigFile.Add(BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase)
+  nameWithType: ConfigFile.Add(ConfigDefinition, ConfigEntryBase)
+- uid: BepInEx.Configuration.ConfigFile.Add*
+  name: Add
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Add_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Add
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Add
+  nameWithType: ConfigFile.Add
 - uid: BepInEx.Configuration.ConfigFile.AddSetting*
   name: AddSetting
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_AddSetting_
@@ -1332,6 +1348,53 @@ references:
   fullName.vb: BepInEx.Configuration.ConfigFile.AddSetting(Of T)(System.String, System.String, T, System.String)
   nameWithType: ConfigFile.AddSetting<T>(String, String, T, String)
   nameWithType.vb: ConfigFile.AddSetting(Of T)(String, String, T, String)
+- uid: BepInEx.Configuration.ConfigFile.Bind*
+  name: Bind
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Bind_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Bind
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Bind
+  nameWithType: ConfigFile.Bind
+- uid: BepInEx.Configuration.ConfigFile.Bind``1(BepInEx.Configuration.ConfigDefinition,``0,BepInEx.Configuration.ConfigDescription)
+  name: Bind<T>(ConfigDefinition, T, ConfigDescription)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Bind__1_BepInEx_Configuration_ConfigDefinition___0_BepInEx_Configuration_ConfigDescription_
+  commentId: M:BepInEx.Configuration.ConfigFile.Bind``1(BepInEx.Configuration.ConfigDefinition,``0,BepInEx.Configuration.ConfigDescription)
+  name.vb: Bind(Of T)(ConfigDefinition, T, ConfigDescription)
+  fullName: BepInEx.Configuration.ConfigFile.Bind<T>(BepInEx.Configuration.ConfigDefinition, T, BepInEx.Configuration.ConfigDescription)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Bind(Of T)(BepInEx.Configuration.ConfigDefinition, T, BepInEx.Configuration.ConfigDescription)
+  nameWithType: ConfigFile.Bind<T>(ConfigDefinition, T, ConfigDescription)
+  nameWithType.vb: ConfigFile.Bind(Of T)(ConfigDefinition, T, ConfigDescription)
+- uid: BepInEx.Configuration.ConfigFile.Bind``1(System.String,System.String,``0,BepInEx.Configuration.ConfigDescription)
+  name: Bind<T>(String, String, T, ConfigDescription)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Bind__1_System_String_System_String___0_BepInEx_Configuration_ConfigDescription_
+  commentId: M:BepInEx.Configuration.ConfigFile.Bind``1(System.String,System.String,``0,BepInEx.Configuration.ConfigDescription)
+  name.vb: Bind(Of T)(String, String, T, ConfigDescription)
+  fullName: BepInEx.Configuration.ConfigFile.Bind<T>(System.String, System.String, T, BepInEx.Configuration.ConfigDescription)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Bind(Of T)(System.String, System.String, T, BepInEx.Configuration.ConfigDescription)
+  nameWithType: ConfigFile.Bind<T>(String, String, T, ConfigDescription)
+  nameWithType.vb: ConfigFile.Bind(Of T)(String, String, T, ConfigDescription)
+- uid: BepInEx.Configuration.ConfigFile.Bind``1(System.String,System.String,``0,System.String)
+  name: Bind<T>(String, String, T, String)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Bind__1_System_String_System_String___0_System_String_
+  commentId: M:BepInEx.Configuration.ConfigFile.Bind``1(System.String,System.String,``0,System.String)
+  name.vb: Bind(Of T)(String, String, T, String)
+  fullName: BepInEx.Configuration.ConfigFile.Bind<T>(System.String, System.String, T, System.String)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Bind(Of T)(System.String, System.String, T, System.String)
+  nameWithType: ConfigFile.Bind<T>(String, String, T, String)
+  nameWithType.vb: ConfigFile.Bind(Of T)(String, String, T, String)
+- uid: BepInEx.Configuration.ConfigFile.Clear
+  name: Clear()
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Clear
+  commentId: M:BepInEx.Configuration.ConfigFile.Clear
+  fullName: BepInEx.Configuration.ConfigFile.Clear()
+  nameWithType: ConfigFile.Clear()
+- uid: BepInEx.Configuration.ConfigFile.Clear*
+  name: Clear
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Clear_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Clear
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Clear
+  nameWithType: ConfigFile.Clear
 - uid: BepInEx.Configuration.ConfigFile.ConfigDefinitions
   name: ConfigDefinitions
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ConfigDefinitions
@@ -1364,6 +1427,48 @@ references:
   commentId: E:BepInEx.Configuration.ConfigFile.ConfigReloaded
   fullName: BepInEx.Configuration.ConfigFile.ConfigReloaded
   nameWithType: ConfigFile.ConfigReloaded
+- uid: BepInEx.Configuration.ConfigFile.Contains(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name: Contains(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Contains_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__
+  commentId: M:BepInEx.Configuration.ConfigFile.Contains(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name.vb: Contains(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+  fullName: BepInEx.Configuration.ConfigFile.Contains(System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>)
+  fullName.vb: BepInEx.Configuration.ConfigFile.Contains(System.Collections.Generic.KeyValuePair(Of BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase))
+  nameWithType: ConfigFile.Contains(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  nameWithType.vb: ConfigFile.Contains(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+- uid: BepInEx.Configuration.ConfigFile.Contains*
+  name: Contains
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Contains_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Contains
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Contains
+  nameWithType: ConfigFile.Contains
+- uid: BepInEx.Configuration.ConfigFile.ContainsKey(BepInEx.Configuration.ConfigDefinition)
+  name: ContainsKey(ConfigDefinition)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ContainsKey_BepInEx_Configuration_ConfigDefinition_
+  commentId: M:BepInEx.Configuration.ConfigFile.ContainsKey(BepInEx.Configuration.ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigFile.ContainsKey(BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigFile.ContainsKey(ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigFile.ContainsKey*
+  name: ContainsKey
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_ContainsKey_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.ContainsKey
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.ContainsKey
+  nameWithType: ConfigFile.ContainsKey
+- uid: BepInEx.Configuration.ConfigFile.Count
+  name: Count
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Count
+  commentId: P:BepInEx.Configuration.ConfigFile.Count
+  fullName: BepInEx.Configuration.ConfigFile.Count
+  nameWithType: ConfigFile.Count
+- uid: BepInEx.Configuration.ConfigFile.Count*
+  name: Count
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Count_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Count
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Count
+  nameWithType: ConfigFile.Count
 - uid: BepInEx.Configuration.ConfigFile.Entries
   name: Entries
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Entries
@@ -1390,6 +1495,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Configuration.ConfigFile.GetConfigEntries
   nameWithType: ConfigFile.GetConfigEntries
+- uid: BepInEx.Configuration.ConfigFile.GetEnumerator
+  name: GetEnumerator()
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_GetEnumerator
+  commentId: M:BepInEx.Configuration.ConfigFile.GetEnumerator
+  fullName: BepInEx.Configuration.ConfigFile.GetEnumerator()
+  nameWithType: ConfigFile.GetEnumerator()
+- uid: BepInEx.Configuration.ConfigFile.GetEnumerator*
+  name: GetEnumerator
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_GetEnumerator_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.GetEnumerator
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.GetEnumerator
+  nameWithType: ConfigFile.GetEnumerator
 - uid: BepInEx.Configuration.ConfigFile.GetSetting*
   name: GetSetting
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_GetSetting_
@@ -1415,6 +1533,57 @@ references:
   fullName.vb: BepInEx.Configuration.ConfigFile.GetSetting(Of T)(System.String, System.String)
   nameWithType: ConfigFile.GetSetting<T>(String, String)
   nameWithType.vb: ConfigFile.GetSetting(Of T)(String, String)
+- uid: BepInEx.Configuration.ConfigFile.IsReadOnly
+  name: IsReadOnly
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_IsReadOnly
+  commentId: P:BepInEx.Configuration.ConfigFile.IsReadOnly
+  fullName: BepInEx.Configuration.ConfigFile.IsReadOnly
+  nameWithType: ConfigFile.IsReadOnly
+- uid: BepInEx.Configuration.ConfigFile.IsReadOnly*
+  name: IsReadOnly
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_IsReadOnly_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.IsReadOnly
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.IsReadOnly
+  nameWithType: ConfigFile.IsReadOnly
+- uid: BepInEx.Configuration.ConfigFile.Item(BepInEx.Configuration.ConfigDefinition)
+  name: Item[ConfigDefinition]
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Item_BepInEx_Configuration_ConfigDefinition_
+  commentId: P:BepInEx.Configuration.ConfigFile.Item(BepInEx.Configuration.ConfigDefinition)
+  name.vb: Item(ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigFile.Item[BepInEx.Configuration.ConfigDefinition]
+  fullName.vb: BepInEx.Configuration.ConfigFile.Item(BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigFile.Item[ConfigDefinition]
+  nameWithType.vb: ConfigFile.Item(ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigFile.Item(System.String,System.String)
+  name: Item[String, String]
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Item_System_String_System_String_
+  commentId: P:BepInEx.Configuration.ConfigFile.Item(System.String,System.String)
+  name.vb: Item(String, String)
+  fullName: BepInEx.Configuration.ConfigFile.Item[System.String, System.String]
+  fullName.vb: BepInEx.Configuration.ConfigFile.Item(System.String, System.String)
+  nameWithType: ConfigFile.Item[String, String]
+  nameWithType.vb: ConfigFile.Item(String, String)
+- uid: BepInEx.Configuration.ConfigFile.Item*
+  name: Item
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Item_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Item
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Item
+  nameWithType: ConfigFile.Item
+- uid: BepInEx.Configuration.ConfigFile.Keys
+  name: Keys
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Keys
+  commentId: P:BepInEx.Configuration.ConfigFile.Keys
+  fullName: BepInEx.Configuration.ConfigFile.Keys
+  nameWithType: ConfigFile.Keys
+- uid: BepInEx.Configuration.ConfigFile.Keys*
+  name: Keys
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Keys_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Keys
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Keys
+  nameWithType: ConfigFile.Keys
 - uid: BepInEx.Configuration.ConfigFile.Reload
   name: Reload()
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Reload
@@ -1428,6 +1597,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Configuration.ConfigFile.Reload
   nameWithType: ConfigFile.Reload
+- uid: BepInEx.Configuration.ConfigFile.Remove(BepInEx.Configuration.ConfigDefinition)
+  name: Remove(ConfigDefinition)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Remove_BepInEx_Configuration_ConfigDefinition_
+  commentId: M:BepInEx.Configuration.ConfigFile.Remove(BepInEx.Configuration.ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigFile.Remove(BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigFile.Remove(ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigFile.Remove*
+  name: Remove
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Remove_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.Remove
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.Remove
+  nameWithType: ConfigFile.Remove
 - uid: BepInEx.Configuration.ConfigFile.Save
   name: Save()
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Save
@@ -1460,6 +1642,162 @@ references:
   commentId: E:BepInEx.Configuration.ConfigFile.SettingChanged
   fullName: BepInEx.Configuration.ConfigFile.SettingChanged
   nameWithType: ConfigFile.SettingChanged
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Add(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Add(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___Add_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__
+  commentId: M:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Add(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.Add(System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>)
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add(System.Collections.Generic.KeyValuePair(Of BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase))
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Add(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Add*
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Add
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___Add_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.Add
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Add
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Add
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#CopyTo(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase}[],System.Int32)
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.CopyTo(KeyValuePair<ConfigDefinition, ConfigEntryBase>[], Int32)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___CopyTo_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase____System_Int32_
+  commentId: M:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#CopyTo(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase}[],System.Int32)
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo(KeyValuePair(Of ConfigDefinition, ConfigEntryBase)(), Int32)
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.CopyTo(System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>[], System.Int32)
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo(System.Collections.Generic.KeyValuePair(Of BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase)(), System.Int32)
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.CopyTo(KeyValuePair<ConfigDefinition, ConfigEntryBase>[], Int32)
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo(KeyValuePair(Of ConfigDefinition, ConfigEntryBase)(), Int32)
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#CopyTo*
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.CopyTo
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___CopyTo_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.CopyTo
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.CopyTo
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.CopyTo
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Remove(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Remove(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___Remove_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__
+  commentId: M:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Remove(System.Collections.Generic.KeyValuePair{BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase})
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.Remove(System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>)
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove(System.Collections.Generic.KeyValuePair(Of BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase))
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Remove(KeyValuePair<ConfigDefinition, ConfigEntryBase>)
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove(KeyValuePair(Of ConfigDefinition, ConfigEntryBase))
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Remove*
+  name: ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Remove
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase___Remove_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}}#Remove
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>>.Remove
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove
+  nameWithType: ConfigFile.ICollection<KeyValuePair<ConfigDefinition, ConfigEntryBase>>.Remove
+  nameWithType.vb: ConfigFile.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>>.Remove
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Item(BepInEx.Configuration.ConfigDefinition)
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.Item[ConfigDefinition]
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__Item_BepInEx_Configuration_ConfigDefinition_
+  commentId: P:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Item(BepInEx.Configuration.ConfigDefinition)
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item(ConfigDefinition)
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.Item[BepInEx.Configuration.ConfigDefinition]
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item(BepInEx.Configuration.ConfigDefinition)
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.Item[ConfigDefinition]
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item(ConfigDefinition)
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Item*
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.Item
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__Item_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Item
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.Item
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.Item
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Item
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#TryGetValue(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase@)
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.TryGetValue(ConfigDefinition, out ConfigEntryBase)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__TryGetValue_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__
+  commentId: M:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#TryGetValue(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase@)
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue(ConfigDefinition, ByRef ConfigEntryBase)
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.TryGetValue(BepInEx.Configuration.ConfigDefinition, out BepInEx.Configuration.ConfigEntryBase)
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue(BepInEx.Configuration.ConfigDefinition, ByRef BepInEx.Configuration.ConfigEntryBase)
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.TryGetValue(ConfigDefinition, out ConfigEntryBase)
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue(ConfigDefinition, ByRef ConfigEntryBase)
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#TryGetValue*
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.TryGetValue
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__TryGetValue_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#TryGetValue
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.TryGetValue
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.TryGetValue
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.TryGetValue
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Values
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.Values
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__Values
+  commentId: P:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Values
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.Values
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.Values
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Values*
+  name: IDictionary<ConfigDefinition, ConfigEntryBase>.Values
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_Generic_IDictionary_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntryBase__Values_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#Generic#IDictionary{BepInEx#Configuration#ConfigDefinition,BepInEx#Configuration#ConfigEntryBase}#Values
+  isSpec: "True"
+  name.vb: System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition, BepInEx.Configuration.ConfigEntryBase>.Values
+  fullName.vb: BepInEx.Configuration.ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+  nameWithType: ConfigFile.IDictionary<ConfigDefinition, ConfigEntryBase>.Values
+  nameWithType.vb: ConfigFile.System.Collections.Generic.IDictionary<BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntryBase>.Values
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:BepInEx.Configuration.ConfigFile.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: ConfigFile.IEnumerable.GetEnumerator()
+  nameWithType.vb: ConfigFile.System.Collections.IEnumerable.GetEnumerator()
+- uid: BepInEx.Configuration.ConfigFile.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: BepInEx.Configuration.ConfigFile.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ConfigFile.IEnumerable.GetEnumerator
+  nameWithType.vb: ConfigFile.System.Collections.IEnumerable.GetEnumerator
+- uid: BepInEx.Configuration.ConfigFile.TryGetEntry*
+  name: TryGetEntry
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_TryGetEntry_
+  commentId: Overload:BepInEx.Configuration.ConfigFile.TryGetEntry
+  isSpec: "True"
+  fullName: BepInEx.Configuration.ConfigFile.TryGetEntry
+  nameWithType: ConfigFile.TryGetEntry
+- uid: BepInEx.Configuration.ConfigFile.TryGetEntry``1(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntry{``0}@)
+  name: TryGetEntry<T>(ConfigDefinition, out ConfigEntry<T>)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_TryGetEntry__1_BepInEx_Configuration_ConfigDefinition_BepInEx_Configuration_ConfigEntry___0___
+  commentId: M:BepInEx.Configuration.ConfigFile.TryGetEntry``1(BepInEx.Configuration.ConfigDefinition,BepInEx.Configuration.ConfigEntry{``0}@)
+  name.vb: TryGetEntry(Of T)(ConfigDefinition, ByRef ConfigEntry(Of T))
+  fullName: BepInEx.Configuration.ConfigFile.TryGetEntry<T>(BepInEx.Configuration.ConfigDefinition, out BepInEx.Configuration.ConfigEntry<T>)
+  fullName.vb: BepInEx.Configuration.ConfigFile.TryGetEntry(Of T)(BepInEx.Configuration.ConfigDefinition, ByRef BepInEx.Configuration.ConfigEntry(Of T))
+  nameWithType: ConfigFile.TryGetEntry<T>(ConfigDefinition, out ConfigEntry<T>)
+  nameWithType.vb: ConfigFile.TryGetEntry(Of T)(ConfigDefinition, ByRef ConfigEntry(Of T))
+- uid: BepInEx.Configuration.ConfigFile.TryGetEntry``1(System.String,System.String,BepInEx.Configuration.ConfigEntry{``0}@)
+  name: TryGetEntry<T>(String, String, out ConfigEntry<T>)
+  href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_TryGetEntry__1_System_String_System_String_BepInEx_Configuration_ConfigEntry___0___
+  commentId: M:BepInEx.Configuration.ConfigFile.TryGetEntry``1(System.String,System.String,BepInEx.Configuration.ConfigEntry{``0}@)
+  name.vb: TryGetEntry(Of T)(String, String, ByRef ConfigEntry(Of T))
+  fullName: BepInEx.Configuration.ConfigFile.TryGetEntry<T>(System.String, System.String, out BepInEx.Configuration.ConfigEntry<T>)
+  fullName.vb: BepInEx.Configuration.ConfigFile.TryGetEntry(Of T)(System.String, System.String, ByRef BepInEx.Configuration.ConfigEntry(Of T))
+  nameWithType: ConfigFile.TryGetEntry<T>(String, String, out ConfigEntry<T>)
+  nameWithType.vb: ConfigFile.TryGetEntry(Of T)(String, String, ByRef ConfigEntry(Of T))
 - uid: BepInEx.Configuration.ConfigFile.Wrap*
   name: Wrap
   href: api/BepInEx.Configuration.ConfigFile.html#BepInEx_Configuration_ConfigFile_Wrap_
@@ -3569,11 +3907,11 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.IsNullOrWhiteSpace
   nameWithType: Utility.IsNullOrWhiteSpace
-- uid: BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
+- uid: BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition,System.Type)
   name: IsSubtypeOf(TypeDefinition, Type)
-  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_TypeDefinition_System_Type_
-  commentId: M:BepInEx.Utility.IsSubtypeOf(TypeDefinition,System.Type)
-  fullName: BepInEx.Utility.IsSubtypeOf(TypeDefinition, System.Type)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_IsSubtypeOf_Mono_Cecil_TypeDefinition_System_Type_
+  commentId: M:BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition,System.Type)
+  fullName: BepInEx.Utility.IsSubtypeOf(Mono.Cecil.TypeDefinition, System.Type)
   nameWithType: Utility.IsSubtypeOf(TypeDefinition, Type)
 - uid: BepInEx.Utility.IsSubtypeOf*
   name: IsSubtypeOf
@@ -3643,13 +3981,13 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.TryOpenFileStream
   nameWithType: Utility.TryOpenFileStream
-- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
+- uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,Mono.Cecil.ReaderParameters,Mono.Cecil.AssemblyDefinition@)
   name: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
-  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_ReaderParameters_AssemblyDefinition__
-  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,ReaderParameters,AssemblyDefinition@)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_TryResolveDllAssembly_System_Reflection_AssemblyName_System_String_Mono_Cecil_ReaderParameters_Mono_Cecil_AssemblyDefinition__
+  commentId: M:BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,Mono.Cecil.ReaderParameters,Mono.Cecil.AssemblyDefinition@)
   name.vb: TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
-  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, out AssemblyDefinition)
-  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, ReaderParameters, ByRef AssemblyDefinition)
+  fullName: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, Mono.Cecil.ReaderParameters, out Mono.Cecil.AssemblyDefinition)
+  fullName.vb: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName, System.String, Mono.Cecil.ReaderParameters, ByRef Mono.Cecil.AssemblyDefinition)
   nameWithType: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, out AssemblyDefinition)
   nameWithType.vb: Utility.TryResolveDllAssembly(AssemblyName, String, ReaderParameters, ByRef AssemblyDefinition)
 - uid: BepInEx.Utility.TryResolveDllAssembly(System.Reflection.AssemblyName,System.String,System.Reflection.Assembly@)

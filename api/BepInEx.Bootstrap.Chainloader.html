@@ -240,19 +240,19 @@ public static List&lt;BaseUnityPlugin&gt; Plugins { get; }</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.Chainloader.Initialize(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_System_Collections_Generic_ICollection_BepInEx_Logging_LogEventArgs__.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.Chainloader.Initialize(System.String%2CSystem.Boolean%2CSystem.Collections.Generic.ICollection%7BBepInEx.Logging.LogEventArgs%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/Chainloader.cs/#L55">View Source</a>
   </span>
   <a id="BepInEx_Bootstrap_Chainloader_Initialize_" data-uid="BepInEx.Bootstrap.Chainloader.Initialize*"></a>
-  <h4 id="BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_" data-uid="BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean)">Initialize(String, Boolean)</h4>
+  <h4 id="BepInEx_Bootstrap_Chainloader_Initialize_System_String_System_Boolean_System_Collections_Generic_ICollection_BepInEx_Logging_LogEventArgs__" data-uid="BepInEx.Bootstrap.Chainloader.Initialize(System.String,System.Boolean,System.Collections.Generic.ICollection{BepInEx.Logging.LogEventArgs})">Initialize(String, Boolean, ICollection&lt;LogEventArgs&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes BepInEx to be able to start the chainloader.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Initialize(string gameExePath, bool startConsole = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Initialize(string gameExePath, bool startConsole = true, ICollection&lt;LogEventArgs&gt; preloaderLogEvents = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,6 +274,11 @@ public static List&lt;BaseUnityPlugin&gt; Plugins { get; }</code></pre>
         <td><span class="parametername">startConsole</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="BepInEx.Logging.LogEventArgs.html">LogEventArgs</a>&gt;</td>
+        <td><span class="parametername">preloaderLogEvents</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
@@ -281,7 +286,7 @@ public static List&lt;BaseUnityPlugin&gt; Plugins { get; }</code></pre>
     <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_Chainloader_Start.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.Chainloader.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/Chainloader.cs/#L178">View Source</a>
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/Chainloader.cs/#L199">View Source</a>
   </span>
   <a id="BepInEx_Bootstrap_Chainloader_Start_" data-uid="BepInEx.Bootstrap.Chainloader.Start*"></a>
   <h4 id="BepInEx_Bootstrap_Chainloader_Start" data-uid="BepInEx.Bootstrap.Chainloader.Start">Start()</h4>
@@ -294,13 +299,13 @@ public static List&lt;BaseUnityPlugin&gt; Plugins { get; }</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_Chainloader_ToPluginInfo_TypeDefinition_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_Chainloader_ToPluginInfo_Mono_Cecil_TypeDefinition_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/Chainloader.cs/#L106">View Source</a>
+    <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/Chainloader.cs/#L127">View Source</a>
   </span>
   <a id="BepInEx_Bootstrap_Chainloader_ToPluginInfo_" data-uid="BepInEx.Bootstrap.Chainloader.ToPluginInfo*"></a>
-  <h4 id="BepInEx_Bootstrap_Chainloader_ToPluginInfo_TypeDefinition_" data-uid="BepInEx.Bootstrap.Chainloader.ToPluginInfo(TypeDefinition)">ToPluginInfo(TypeDefinition)</h4>
+  <h4 id="BepInEx_Bootstrap_Chainloader_ToPluginInfo_Mono_Cecil_TypeDefinition_" data-uid="BepInEx.Bootstrap.Chainloader.ToPluginInfo(Mono.Cecil.TypeDefinition)">ToPluginInfo(TypeDefinition)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -318,7 +323,7 @@ public static List&lt;BaseUnityPlugin&gt; Plugins { get; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TypeDefinition</span></td>
+        <td><span class="xref">Mono.Cecil.TypeDefinition</span></td>
         <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
