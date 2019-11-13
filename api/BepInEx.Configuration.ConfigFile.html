@@ -50,15 +50,15 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-inverse">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="BepInEx.Configuration.ConfigFile">
   
   
@@ -136,7 +136,7 @@
     <pre><code class="lang-csharp hljs">public ConfigFile(string configPath, bool saveOnInit)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -174,7 +174,7 @@
     <pre><code class="lang-csharp hljs">public ConfigFile(string configPath, bool saveOnInit, BepInPlugin ownerMetadata)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -223,7 +223,7 @@
 public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -254,7 +254,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public string ConfigFilePath { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -284,7 +284,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -315,7 +315,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">protected Dictionary&lt;ConfigDefinition, ConfigEntryBase&gt; Entries { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -345,7 +345,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -375,7 +375,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public ConfigEntryBase this[ConfigDefinition key] { get; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -392,7 +392,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     </tbody>
   </table>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -422,7 +422,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public ConfigEntryBase this[string section, string key] { get; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -444,7 +444,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     </tbody>
   </table>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -476,7 +476,7 @@ public ReadOnlyCollection&lt;ConfigDefinition&gt; ConfigDefinitions { get; }</co
     <pre><code class="lang-csharp hljs">public ICollection&lt;ConfigDefinition&gt; Keys { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -508,7 +508,7 @@ If disabled, you have to manually use <a class="xref" href="BepInEx.Configuratio
     <pre><code class="lang-csharp hljs">public bool SaveOnConfigSet { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -540,7 +540,7 @@ If disabled, you have to manually use <a class="xref" href="BepInEx.Configuratio
     <pre><code class="lang-csharp hljs">public void Add(ConfigDefinition key, ConfigEntryBase value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -580,7 +580,7 @@ Each definition can be used to add only one setting, trying to add a second sett
 public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(ConfigDefinition configDefinition, T defaultValue, ConfigDescription configDescription = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -610,7 +610,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(ConfigDefinition configDefinitio
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -625,7 +625,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(ConfigDefinition configDefinitio
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -659,7 +659,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
 public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T defaultValue, ConfigDescription configDescription = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -695,7 +695,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T de
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -710,7 +710,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T de
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -744,7 +744,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
 public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T defaultValue, string description)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -780,7 +780,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T de
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -795,7 +795,7 @@ public ConfigEntry&lt;T&gt; AddSetting&lt;T&gt;(string section, string key, T de
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -828,7 +828,7 @@ Each definition can be used to add only one setting, trying to add a second sett
     <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; Bind&lt;T&gt;(ConfigDefinition configDefinition, T defaultValue, ConfigDescription configDescription = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -858,7 +858,7 @@ Each definition can be used to add only one setting, trying to add a second sett
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -873,7 +873,7 @@ Each definition can be used to add only one setting, trying to add a second sett
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -906,7 +906,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; Bind&lt;T&gt;(string section, string key, T defaultValue, ConfigDescription configDescription = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -942,7 +942,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -957,7 +957,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -990,7 +990,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     <pre><code class="lang-csharp hljs">public ConfigEntry&lt;T&gt; Bind&lt;T&gt;(string section, string key, T defaultValue, string description)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1026,7 +1026,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1041,7 +1041,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1087,7 +1087,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1104,7 +1104,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1134,7 +1134,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     <pre><code class="lang-csharp hljs">public bool ContainsKey(ConfigDefinition key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1151,7 +1151,7 @@ Each section and key pair can be used to add only one setting, trying to add a s
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1185,7 +1185,7 @@ instead with no description.</p>
 public ConfigEntryBase[] GetConfigEntries()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1215,7 +1215,7 @@ public ConfigEntryBase[] GetConfigEntries()</code></pre>
     <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt;&gt; GetEnumerator()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1249,7 +1249,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
 public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(ConfigDefinition configDefinition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1267,7 +1267,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(ConfigDefinition configDefinitio
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1282,7 +1282,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(ConfigDefinition configDefinitio
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1317,7 +1317,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
 public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1341,7 +1341,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</cod
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1356,7 +1356,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</cod
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1403,7 +1403,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</cod
     <pre><code class="lang-csharp hljs">public bool Remove(ConfigDefinition key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1420,7 +1420,7 @@ public ConfigEntry&lt;T&gt; GetSetting&lt;T&gt;(string section, string key)</cod
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1469,7 +1469,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     <pre><code class="lang-csharp hljs">public bool TryGetEntry&lt;T&gt;(ConfigDefinition configDefinition, out ConfigEntry&lt;T&gt; entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1493,7 +1493,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1508,7 +1508,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1542,7 +1542,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     <pre><code class="lang-csharp hljs">public bool TryGetEntry&lt;T&gt;(string section, string key, out ConfigEntry&lt;T&gt; entry)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1572,7 +1572,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1587,7 +1587,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1620,7 +1620,7 @@ New settings should be added with <a class="xref" href="BepInEx.Configuration.Co
 public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(ConfigDefinition configDefinition, T defaultValue = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1642,7 +1642,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(ConfigDefinition configDefinition, T
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1657,7 +1657,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(ConfigDefinition configDefinition, T
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1689,7 +1689,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(ConfigDefinition configDefinition, T
 public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string description = null, T defaultValue = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1721,7 +1721,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1736,7 +1736,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -1768,7 +1768,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">public event EventHandler ConfigReloaded</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1798,7 +1798,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">public event EventHandler&lt;SettingChangedEventArgs&gt; SettingChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1830,7 +1830,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">void ICollection&lt;KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt;&gt;.Add(KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1862,7 +1862,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">void ICollection&lt;KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt;&gt;.CopyTo(KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt;[] array, int arrayIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1899,7 +1899,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">bool ICollection&lt;KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt;&gt;.Remove(KeyValuePair&lt;ConfigDefinition, ConfigEntryBase&gt; item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1916,7 +1916,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1946,7 +1946,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">ConfigEntryBase IDictionary&lt;ConfigDefinition, ConfigEntryBase&gt;.this[ConfigDefinition key] { get; set; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1963,7 +1963,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -1993,7 +1993,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">bool IDictionary&lt;ConfigDefinition, ConfigEntryBase&gt;.TryGetValue(ConfigDefinition key, out ConfigEntryBase value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -2015,7 +2015,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -2047,7 +2047,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">ICollection&lt;ConfigEntryBase&gt; IDictionary&lt;ConfigDefinition, ConfigEntryBase&gt;.Values { get; }</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -2077,7 +2077,7 @@ public ConfigWrapper&lt;T&gt; Wrap&lt;T&gt;(string section, string key, string d
     <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>

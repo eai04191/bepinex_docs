@@ -50,15 +50,15 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-inverse">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="BepInEx.Configuration.AcceptableValueList`1">
   
   
@@ -116,7 +116,7 @@
     <pre><code class="lang-csharp hljs">public class AcceptableValueList&lt;T&gt; : AcceptableValueBase where T : IEquatable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -150,7 +150,7 @@ If the setting does not equal any of the values, it will be set to the first one
     <pre><code class="lang-csharp hljs">public AcceptableValueList(params T[] acceptableValues)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -185,7 +185,7 @@ If the setting does not equal any of the values, it will be set to the first one
     <pre><code class="lang-csharp hljs">public virtual T[] AcceptableValues { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -218,7 +218,7 @@ If the setting does not equal any of the values, it will be set to the first one
     <pre><code class="lang-csharp hljs">public override object Clamp(object value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -235,7 +235,7 @@ If the setting does not equal any of the values, it will be set to the first one
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -268,7 +268,7 @@ If the setting does not equal any of the values, it will be set to the first one
     <pre><code class="lang-csharp hljs">public override bool IsValid(object value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -285,7 +285,7 @@ If the setting does not equal any of the values, it will be set to the first one
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -318,7 +318,7 @@ If the setting does not equal any of the values, it will be set to the first one
     <pre><code class="lang-csharp hljs">public override string ToDescriptionString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>

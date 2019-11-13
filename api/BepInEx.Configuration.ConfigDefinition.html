@@ -50,15 +50,15 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-inverse">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="BepInEx.Configuration.ConfigDefinition">
   
   
@@ -126,7 +126,7 @@ The same definition can be used in multiple config files, it will point to diffe
     <pre><code class="lang-csharp hljs">public ConfigDefinition(string section, string key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -166,7 +166,7 @@ The same definition can be used in multiple config files, it will point to diffe
 public ConfigDefinition(string section, string key, string description)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -211,7 +211,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public string Key { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -242,7 +242,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public string Section { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -275,7 +275,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public bool Equals(ConfigDefinition other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -292,7 +292,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -323,7 +323,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -340,7 +340,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -372,7 +372,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -404,7 +404,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -439,7 +439,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public static bool operator ==(ConfigDefinition left, ConfigDefinition right)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -461,7 +461,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -492,7 +492,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     <pre><code class="lang-csharp hljs">public static bool operator !=(ConfigDefinition left, ConfigDefinition right)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -514,7 +514,7 @@ public ConfigDefinition(string section, string key, string description)</code></
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>

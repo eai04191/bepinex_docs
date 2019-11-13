@@ -1,8 +1,10 @@
 /* Copyright (c) Microsoft Corporation. All Rights Reserved. Licensed under the MIT License. See License.txt in the project root for license information. */
+
 html,
 body {
   font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif;
   height: 100%;
+  font-size: 16px;
 }
 button,
 a {
@@ -422,9 +424,13 @@ article section {
   background-color: #f1f1f1;
 }
 
+#breadcrumb {
+  margin-left: 100px;
+}
+
 .sidetoc {
   position: fixed;
-  width: 260px;
+  width: 300px;
   top: 150px;
   bottom: 0;
   overflow-x: hidden;
@@ -433,6 +439,7 @@ article section {
   border-left: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
   z-index: 1;
+  margin-left: 100px;
 }
 
 .sidetoc.shiftup {
@@ -543,12 +550,13 @@ body .toc{
 .sidefilter {
   position: fixed;
   top: 90px;
-  width: 260px;
+  width: 300px;
   background-color: #f1f1f1;
   padding: 15px;
   border-left: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
   z-index: 1;
+  margin-left: 100px;
 }
 .toc-filter {
   border-radius: 5px;
@@ -582,7 +590,7 @@ body .toc{
 }
 
 .article.grid-right {
-  margin-left: 280px;
+  margin-left: 450px;
 }
 
 .inheritance hr {
@@ -600,6 +608,7 @@ body .toc{
   top: 100px;
   bottom: 10px;
   position: fixed;
+  width: 200px;
 }
 .sideaffix.shiftup {
   bottom: 70px;
@@ -767,6 +776,7 @@ footer {
     width: auto;
     float: none;
     border: none;
+    margin-left: 0;
   }
   .sidetoc {
     position: static;
@@ -774,6 +784,7 @@ footer {
     float: none;
     padding-bottom: 0px;
     border: none;
+    margin-left: 0;
   }
   .toc .nav > li, .toc .nav > li >a {
     display: inline-block;
@@ -955,3 +966,72 @@ div.embeddedvideo iframe {
 
 .mainContainer[dir='rtl'] main ul[role="tablist"] {
   margin: 0; }
+
+
+.footer {
+  background-color: #222;
+  border-top-color: #333;
+}
+
+button, a {
+  color: #488ecb;
+}
+
+body {
+  background-color: #111;
+  color: #eaeaea;
+}
+
+.sidefilter, .sidetoc {
+  background-color: #222;
+  border-left-color: #333;
+  border-right-color: #333;
+}
+
+body .toc {
+  background-color: #222;
+  color: white !important;
+}
+
+.toc .nav > li > a {
+  color: #dadada;
+}
+
+.toc .nav > li > a:hover, .toc .nav > li > a:focus {
+  color: #ffffff;
+}
+
+.toc-filter {
+  background-color: #111;
+  color: white;
+}
+
+.toc-filter > input {
+  background-color: #111;
+  color: #cfcfcf;
+}
+
+.toc-filter > input::placeholder {
+  color: #cfcfcf;
+}
+
+.affix ul > li > a {
+  color: #eaeaea;
+}
+
+.affix ul > li > a:hover {
+  color: white;
+}
+
+pre {
+  background-color: #282c34;
+  border-color: #1a1d22;
+}
+
+code {
+  background-color: #080808;
+}
+
+.sidenav, .fixed_header, .toc {
+  background-color: #222;
+}

@@ -50,15 +50,15 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-inverse">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="BepInEx.BepInDependency">
   
   
@@ -255,7 +255,7 @@ If the other plugin doesn't exist, what happens depends on the <a class="xref" h
     <pre><code class="lang-csharp hljs">public BepInDependency(string DependencyGUID, BepInDependency.DependencyFlags Flags = BepInDependency.DependencyFlags.HardDependency)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -296,7 +296,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">public BepInDependency(string DependencyGUID, string MinimumDependencyVersion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -341,7 +341,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">public string DependencyGUID { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -372,7 +372,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">public BepInDependency.DependencyFlags Flags { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -403,7 +403,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">public Version MinimumVersion { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -435,7 +435,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">void ICacheable.Load(BinaryReader br)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -467,7 +467,7 @@ If the other plugin doesn't exist or is of a version below <see cref="!:MinimumD
     <pre><code class="lang-csharp hljs">void ICacheable.Save(BinaryWriter bw)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>

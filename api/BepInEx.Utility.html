@@ -50,15 +50,15 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-inverse">
+          <div class="container-fluid hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="BepInEx.Utility">
   
   
@@ -130,7 +130,7 @@
     <pre><code class="lang-csharp hljs">public static bool CLRSupportsDynamicAssemblies { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -163,7 +163,7 @@
     <pre><code class="lang-csharp hljs">public static string CombinePaths(params string[] parts)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -181,7 +181,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -213,7 +213,7 @@
     <pre><code class="lang-csharp hljs">public static string ConvertToWWWFormat(string path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -231,7 +231,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -263,7 +263,7 @@
     <pre><code class="lang-csharp hljs">public static bool IsNullOrWhiteSpace(this string self)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -281,7 +281,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -312,7 +312,7 @@
     <pre><code class="lang-csharp hljs">public static bool IsSubtypeOf(this TypeDefinition self, Type td)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -334,7 +334,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -365,7 +365,7 @@
     <pre><code class="lang-csharp hljs">public static bool SafeParseBool(string input, bool defaultValue = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -389,7 +389,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -420,7 +420,7 @@
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TNode&gt; TopologicalSort&lt;TNode&gt;(IEnumerable&lt;TNode&gt; nodes, Func&lt;TNode, IEnumerable&lt;TNode&gt;&gt; dependencySelector)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -442,7 +442,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -457,7 +457,7 @@
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -488,7 +488,7 @@
     <pre><code class="lang-csharp hljs">public static bool TryDo(Action action, out Exception exception)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -512,7 +512,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -544,7 +544,7 @@
     <pre><code class="lang-csharp hljs">public static bool TryOpenFileStream(string path, FileMode mode, out FileStream fileStream, FileAccess access = FileAccess.Read | FileAccess.ReadWrite | FileAccess.Write, FileShare share = FileShare.Read)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -586,7 +586,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -617,7 +617,7 @@
     <pre><code class="lang-csharp hljs">public static bool TryResolveDllAssembly(AssemblyName assemblyName, string directory, ReaderParameters readerParameters, out AssemblyDefinition assembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -652,7 +652,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -684,7 +684,7 @@
     <pre><code class="lang-csharp hljs">public static bool TryResolveDllAssembly(AssemblyName assemblyName, string directory, out Assembly assembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -714,7 +714,7 @@
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered  table-condensed">
     <thead>
       <tr>
         <th>Type</th>
