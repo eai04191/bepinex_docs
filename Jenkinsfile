@@ -9,7 +9,7 @@ pipeline {
                 dir('docfx') {
                     script {
                         if(!fileExists('docfx.exe')){
-                            sh 'wget "https://github.com/dotnet/docfx/releases/download/v2.40.12/docfx.zip"'
+                            sh 'wget "https://github.com/dotnet/docfx/releases/download/v2.47/docfx.zip"'
                             sh 'unzip docfx.zip'
                         }
                     }
