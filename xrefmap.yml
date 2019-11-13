@@ -2514,11 +2514,11 @@ references:
   fullName: BepInEx.Harmony.HarmonyExtensions
   nameWithType: HarmonyExtensions
 - uid: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
-  name: PatchAll(HarmonyLib.Harmony, Type)
+  name: PatchAll(Harmony, Type)
   href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_HarmonyLib_Harmony_System_Type_
   commentId: M:BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
   fullName: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony, System.Type)
-  nameWithType: HarmonyExtensions.PatchAll(HarmonyLib.Harmony, Type)
+  nameWithType: HarmonyExtensions.PatchAll(Harmony, Type)
 - uid: BepInEx.Harmony.HarmonyExtensions.PatchAll*
   name: PatchAll
   href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_
@@ -2549,17 +2549,17 @@ references:
   nameWithType: HarmonyWrapper.EmitDelegate<T>(T)
   nameWithType.vb: HarmonyWrapper.EmitDelegate(Of T)(T)
 - uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
-  name: PatchAll(HarmonyLib.Harmony)
+  name: PatchAll(Harmony)
   href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_HarmonyLib_Harmony_
   commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
   fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
+  nameWithType: HarmonyWrapper.PatchAll(Harmony)
 - uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,HarmonyLib.Harmony)
-  name: PatchAll(Assembly, HarmonyLib.Harmony)
+  name: PatchAll(Assembly, Harmony)
   href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Reflection_Assembly_HarmonyLib_Harmony_
   commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,HarmonyLib.Harmony)
   fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly, HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(Assembly, HarmonyLib.Harmony)
+  nameWithType: HarmonyWrapper.PatchAll(Assembly, Harmony)
 - uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,System.String)
   name: PatchAll(Assembly, String)
   href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Reflection_Assembly_System_String_
@@ -2573,11 +2573,11 @@ references:
   fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.String)
   nameWithType: HarmonyWrapper.PatchAll(String)
 - uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,HarmonyLib.Harmony)
-  name: PatchAll(Type, HarmonyLib.Harmony)
+  name: PatchAll(Type, Harmony)
   href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Type_HarmonyLib_Harmony_
   commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,HarmonyLib.Harmony)
   fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type, HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(Type, HarmonyLib.Harmony)
+  nameWithType: HarmonyWrapper.PatchAll(Type, Harmony)
 - uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,System.String)
   name: PatchAll(Type, String)
   href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Type_System_String_
