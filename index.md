@@ -1,3 +1,8 @@
+---
+title: Welcome to BepinEx Docs!
+documentType: index
+---
+
 <div style="width: 256px; margin: auto;">
     <img src="https://avatars2.githubusercontent.com/u/39589027?s=256"/>
 </div>
