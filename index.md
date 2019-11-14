@@ -10,7 +10,9 @@ _centerBody: true
 </div>
 
 > [!NOTE]  
-> Please not that these docs are still WIP. For latest stable guides, visit the [BepInEx wiki on GitHub](https://github.com/BepInEx/BepInEx/wiki).
+> Please not that these docs are still WIP.  
+> If you would like to help with writing guides for BepInEx 5, consider 
+> [contributing by writing guides](https://github.com/BepInEx/bepinex_docs#contributing)!
 
 Welcome to BepInEx documentation!
 
