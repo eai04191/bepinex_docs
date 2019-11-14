@@ -1,6 +1,8 @@
 ---
 title: Welcome to BepinEx Docs!
-documentType: index
+_disableAffix: true
+_disableToc: true
+_centerBody: true
 ---
 
 <div style="width: 256px; margin: auto;">

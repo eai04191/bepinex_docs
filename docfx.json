@@ -61,7 +61,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-	  "./bepin_template"
+      "./templates/bepin_template"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

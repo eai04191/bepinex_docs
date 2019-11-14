@@ -23,7 +23,12 @@
         {{>partials/searchResults}}
       </div>
       {{/_enableSearch}}
+      {{#_centerBody}}
+      <div role="main" class="container body-content hide-when-search">
+      {{/_centerBody}}
+      {{^_centerBody}}
       <div role="main" class="container-fluid body-content hide-when-search">
+      {{/_centerBody}}
       {{^_disableToc}}
         {{>partials/toc}}
         <div class="article row grid-right">
