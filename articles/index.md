@@ -15,9 +15,9 @@ While BepInEx is mainly aimed at PC games running on Windows, BepInEx can be ins
 
 ## What BepInEx is not
 
-BepInEx does not aim to be the solution for modding all games with .NET support on all platforms. This limitation allows BepInEx to be small and simple to install while still working on as many games as possible.
+Currently BepInEx does not aim to be the solution for modding all games with .NET support on all platforms. This limitation allows BepInEx to be small and simple to install while still working on as many games as possible.
 
-If you need a more general solution, a larger, more general framework like [MonoMod](https://github.com/0x0ade/MonoMod) might be more suitable for your needs.
+As of version 5.0, support for more general .NET games is being planned.
 
 ## Getting started with BepInEx
 
