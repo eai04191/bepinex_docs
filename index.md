@@ -22,9 +22,9 @@ Here you can find guides on how to install, configure and develop plugins for Be
 
 BepInEx provides various features, including
 
-* **drop-in installation** with optional installer;
+* **drop-in installation**;
 * **built-in configuration and logging systems**; 
-* **runtime method patching with Harmony** -- includes [Harmony](https://github.com/pardeike/Harmony) to enable runtime method injection;
-* **in-memory assembly patching** -- allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory.
+* **runtime method patching with Harmony** -- includes [Harmony](https://github.com/pardeike/Harmony) and [MonoMod](https://github.com/MonoMod/MonoMod) to enable runtime method injection;
+* **in-memory assembly patching** -- allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory with the help of [UnityDoorstop](https://github.com/NeighTools/UnityDoorstop).
 
-Most importantly, BepInEx is fully open source under the MIT license.
+BepInEx is fully open source under the MIT license.
