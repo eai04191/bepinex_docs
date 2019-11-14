@@ -3697,7 +3697,7 @@ references:
   fullName: BepInEx.Utility.TryResolveDllAssembly
   nameWithType: Utility.TryResolveDllAssembly
 - uid: configuration
-  name: configuration
+  name: Configuration
   href: articles/user_guide/configuration.html
 - uid: dotnet_profiles
   name: dotnet_profiles

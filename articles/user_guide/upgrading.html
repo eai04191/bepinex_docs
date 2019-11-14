@@ -48,8 +48,8 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-inverse">
-          <div class="container-fluid hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
@@ -70,6 +70,20 @@
 <h1 id="upgrading">Upgrading</h1>
 
 <h2 id="migration-from-previous-versions-of-bepinex">Migration from previous versions of BepInEx</h2>
+<h3 id="upgrading-from-4x">Upgrading from 4.x</h3>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>pre-BepInEx 5 plugins are not compatible with BepInEx 5!<br>
+This guide only provides a temporary upgrade solution.<br>
+It is suggested that you do a clean install of BepInEx instead -- remove all BepInEx files and start over fresh.</p>
+</div>
+<ol>
+<li>Delete <code>BepInEx/core</code> folder if it exists.</li>
+<li>Download and install BepInEx 5 <a class="xref" href="installation.html">according to the installation guide</a>.</li>
+<li>Download <a href="https://github.com/BepInEx/BepInEx.BepInEx4Upgrader/releases">latest version of <code>BepInEx.BepInEx4Upgrader</code></a> and place it in <code>BepInEx/patchers</code> folder.</li>
+<li>Run the game normally.</li>
+</ol>
+<h3 id="upgrading-from-3x">Upgrading from 3.x</h3>
 <p>To migrate from a previous version of BepInEx, do the following:</p>
 <ol>
 <li>Delete <code>UnityEngine.dll</code>, <code>0Harmony.dll</code> and <code>BepInEx.dll</code> from the <code>*_Data\Managed</code> folder for your game</li>
@@ -81,7 +95,7 @@
 <li>Rename <code>UnityEngine.dll.bak</code> to <code>UnityEngine.dll</code></li>
 <li><strong>Delete <code>BepInEx.Patcher.exe</code> from the game's root folder.</strong></li>
 <li>Delete your <code>config.ini</code> file in your BepInEx folder</li>
-<li><a href="./Installation#installation">Install BepInEx 4 normally</a></li>
+<li>Follow the upgrading guide for 4.x</li>
 </ol>
 <h2 id="migrating-from-sybaris-2x">Migrating from Sybaris 2.x</h2>
 <ol>

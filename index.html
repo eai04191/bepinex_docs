@@ -47,12 +47,21 @@
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
-          <div class="col-md-9">
+          <div class="col-md-12">
             <article class="content wrap" id="_content" data-uid="">
-                <div style="width: 256px; margin: auto;">
+
+<div style="width: 256px; margin: auto;">
     <img src="https://avatars2.githubusercontent.com/u/39589027?s=256">
 </div>
 <div class="NOTE">
@@ -65,26 +74,13 @@
 <p><strong>Bep</strong>is <strong>In</strong>jector <strong>Ex</strong>tensible is a patcher/plug-in framework for Unity games that use Mono as their scripting backend.</p>
 <p>BepInEx provides various features, including</p>
 <ul>
-<li><strong>drop-in installation</strong> with optional installer;</li>
+<li><strong>drop-in installation</strong>;</li>
 <li><strong>built-in configuration and logging systems</strong>;</li>
-<li><strong>runtime method patching with Harmony</strong> -- includes <a href="https://github.com/pardeike/Harmony">Harmony</a> to enable runtime method injection;</li>
-<li><strong>in-memory assembly patching</strong> -- allows to patch game's assemblies with <a href="https://github.com/jbevain/cecil">Mono.Cecil</a> in memory.</li>
+<li><strong>runtime method patching with Harmony</strong> -- includes <a href="https://github.com/pardeike/Harmony">Harmony</a> and <a href="https://github.com/MonoMod/MonoMod">MonoMod</a> to enable runtime method injection;</li>
+<li><strong>in-memory assembly patching</strong> -- allows to patch game's assemblies with <a href="https://github.com/jbevain/cecil">Mono.Cecil</a> in memory with the help of <a href="https://github.com/NeighTools/UnityDoorstop">UnityDoorstop</a>.</li>
 </ul>
-<p>Most importantly, BepInEx is fully open source under the MIT license.</p>
-
-            </article>
-          </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
+<p>BepInEx is fully open source under the MIT license.</p>
+</article>
           </div>
         </div>
       </div>

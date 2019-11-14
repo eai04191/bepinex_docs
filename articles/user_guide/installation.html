@@ -48,8 +48,8 @@
           </div>
         </nav>
         
-        <div class="subnav navbar navbar-inverse">
-          <div class="container-fluid hide-when-search" id="breadcrumb">
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
               <li></li>
             </ul>
@@ -93,35 +93,21 @@ For more information, read the whole explanation in the <a class="xref" href="..
 <h2 id="where-to-download-bepinex">Where to download BepInEx</h2>
 <p>BepInEx is distributed in two builds: <em>stable</em> and <em>bleeding edge</em>.</p>
 <p><strong>Stable builds</strong> are available on <a href="https://github.com/BepInEx/BepInEx/releases">GitHub</a>.<br>
-Stable builds are released once a new iteration of BepInEx is considered feature-complete. They have the least bugs, but some newest features might not be available. <em>It is recommended to use stable builds in most cases</em>.</p>
-<p><strong>Bleeding edge builds</strong> are available on <a href="http://bepisbuilds.dyn.mk/bepinex_be">BepisBuilds</a> page.<br>
-Bleeding edge builds are always the latest builds of the source code. Thus they are the opposite to stable builds: they have the newest features and bugfixes available, but usually tend to be the most buggy. Therefore you should use bleeding edge builds only if you are asked to or if you want to preview the upcoming version of BepInEx.</p>
+Stable builds are released once a new iteration of BepInEx is considered feature-complete.<br>
+They have the least bugs, but some newest features might not be available.<br>
+<strong>It is recommended to use stable builds in most cases.</strong></p>
+<p><strong>Bleeding edge builds</strong> are available on <a href="https://builds.bepis.io/projects/bepinex_be">BepisBuilds</a>.
+Bleeding edge builds are always the latest builds of the source code. Thus they are the opposite to stable builds: they have the newest features and bugfixes available, but usually tend to be the most buggy.<br>
+Therefore you should use bleeding edge builds only if you are asked to or if you want to preview the upcoming version of BepInEx.</p>
 <h2 id="installing-bepinex-1">Installing BepInEx</h2>
-<p>BepInEx can be installed in two ways: via the installer tool or manually.</p>
-<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
-<ul role="tablist">
-<li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_tabid-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-1" data-tab="tabid-1" tabindex="0" aria-selected="true">Installing manually</a>
-</li>
-<li role="presentation">
-<a href="#tabpanel_CeZOj-G++Q_tabid-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-2" data-tab="tabid-2" tabindex="-1">Using the installer tool</a>
-</li>
-</ul>
-<section id="tabpanel_CeZOj-G++Q_tabid-1" role="tabpanel" data-tab="tabid-1">
-
+<p>Currently, BepInEx can be installed manually.</p>
 <ol>
 <li><p>Download the correct version of BepInEx.</p>
 <p><a href="#where-to-download-bepinex">Download BepInEx from one of the available sources.</a><br>
 In the download section, all BepInEx distributions are designated using the following naming convention:</p>
-<p><code>BepInEx_&lt;unityVersion&gt;_&lt;arch&gt;_&lt;build&gt;_&lt;version&gt;.zip</code></p>
+<p><code>BepInEx_&lt;arch&gt;_&lt;build&gt;_&lt;version&gt;.zip</code></p>
 <p>Each value has different options depending on the game and your OS:</p>
 <ul>
-<li><code>&lt;unityVersion&gt;</code> -- Version of the Unity that the version supports. Has the following values:
-<ul>
-<li><code>Legacy</code>: Supports games made in Unity 2017 and earlier.</li>
-<li><code>v2018</code>: Supports games made in Unity 2018 and later.</li>
-</ul>
-</li>
 <li><code>arch</code> -- The OS and architecture this BepInEx was built against. Has the following values:
 <ul>
 <li><code>x86</code>: For computers running <em>32-bit Windows</em>.</li>
@@ -132,11 +118,6 @@ In the download section, all BepInEx distributions are designated using the foll
 <li><code>build</code> -- <em>Only in bleeding edge builds.</em> Specifies the exact commit BepInEx was built against.</li>
 <li><code>version</code> -- Exact version of BepInEx.</li>
 </ul>
-<div class="NOTE">
-<h5>Note</h5>
-<p>If you are not sure which Unity version the game runs on, you can check it by right-clicking the game executable and select <code>Properties -&gt; Details</code> the file version:</p>
-<p><img src="images/manual_install_1.png" alt="File properties of an example game showing Unity 2018.1"></p>
-</div>
 </li>
 <li><p>Extract the contents into the game root.</p>
 <p>After you have downloaded the correct game version, extact the archive into the game folder where the game exectuable is located (so called <em>game root folder</em>).</p>
@@ -150,34 +131,6 @@ In the download section, all BepInEx distributions are designated using the foll
 </div>
 </li>
 </ol>
-</section>
-<section id="tabpanel_CeZOj-G++Q_tabid-2" role="tabpanel" data-tab="tabid-2" aria-hidden="true" hidden="hidden">
-
-<ol>
-<li><p>Download the installer tool.</p>
-<p><a href="#where-to-download-bepinex">Download BepInEx from one of the available sources.</a><br>
-From the available files, download <code>BepInEx_Installer_&lt;version&gt;.zip</code>, where <code>&lt;version&gt;</code> is the version of BepInEx you are downloading.</p>
-</li>
-<li><p>Unpack and launch the installer.</p>
-<p>After you have downloaded the installer, unpack it and run <code>BepInEx.Installer.exe</code>. That will open the main installer GUI:</p>
-<p><img src="images/installer_1.png" alt="BepInEx Installer GUI"></p>
-</li>
-<li><p>Select the game folder.</p>
-<p>In the GUI, select <code>Browse...</code> and select the folder where the game executable is located:</p>
-<p><img src="images/installer_2.png" alt="Select the game folder in the directory browser"></p>
-<p>Press <code>OK</code> after which the installer will automatically detect game version and try to pick the best configuration for the game.</p>
-</li>
-<li><p><em>Optional:</em> Configure installation options.</p>
-<p>Optionally, you can configure the advanced option of the installation by selecting the <code>Advanced</code> tab:</p>
-<p><img src="images/installer_3.png" alt="Advanced tab of the installer"></p>
-<p>You can get description of every option by hovering your mouse on it.</p>
-</li>
-<li><p>Apply the patch.</p>
-<p>Finally, press <code>Patch</code> to install BepInEx. You should now have correct version of BepInEx installed for you.</p>
-</li>
-</ol>
-</section>
-</div>
 <h2 id="next-installing-plugins-and-configuration">Next: Installing plugins and configuration.</h2>
 <p>After you're done installing BepInEx, you can start installing and using plugins. Simply put plugins into <code>BepInEx/plugins</code> folder in the game folder and you're good to go.</p>
 <p>Additionally, you might want to configure plugins and BepInEx itself. For that, please refer to the <a class="xref" href="configuration.html">configuration guide</a>.</p>
