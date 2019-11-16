@@ -139,7 +139,7 @@ code {
 }
 
 .article.grid-right {
-  margin-left: 360px;
+  margin-left: 380px;
 }
 
 .tabGroup a[role="tab"][aria-selected="true"] {
@@ -161,13 +161,13 @@ code {
   }
 
   .article.grid-right {
-    margin-left: 260px;
+    margin-left: 280px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .article.grid-right {
-    margin-left: -15px;
+    margin-left: 0px;
   }
   .sidefilter,
   .sidetoc {
