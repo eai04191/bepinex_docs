@@ -8,8 +8,9 @@ a {
   color: #488ecb;
 }
 
-html, body {
-    font-size: 16px;
+html,
+body {
+  font-size: 16px;
 }
 
 body {
@@ -113,47 +114,65 @@ code {
   color: #c7a200;
 }
 
-.table-bordered, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
-    border: 1px solid #1E1E1E;
+.table-bordered,
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: 1px solid #1e1e1e;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #212123;
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #212123;
 }
 
 .navbar-default {
-    background-color: #222;
-    border-color: #080808;
+  background-color: #222;
+  border-color: #080808;
 }
 
-.sidefilter, .sidetoc {
-    margin-left: 100px;
+.sidefilter,
+.sidetoc {
+  margin-left: 100px;
 }
 
 .article.grid-right {
-    margin-left: 450px;
+  margin-left: 360px;
 }
 
 .tabGroup a[role="tab"][aria-selected="true"] {
-    color:  #fff;
+  color: #fff;
 }
 
 .tabGroup a[role="tab"] {
-    color: #ababab;
+  color: #ababab;
 }
 
 .tabGroup section[role="tabpanel"] {
-    border-color: #292929;
+  border-color: #292929;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    .sidefilter, .sidetoc {
-        margin-left: 0;
-    }
+  .sidefilter,
+  .sidetoc {
+    margin-left: 0;
+  }
 
-    .article.grid-right {
-        margin-left: 300px;
-    }
+  .article.grid-right {
+    margin-left: 260px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .article.grid-right {
+    margin-left: -15px;
+  }
+  .sidefilter,
+  .sidetoc {
+    margin-left: 0;
+  }
 }
 
 /*
