@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.ThreadingHelper.html",
-          "hash": "Mg/JmGnmTNN9OQLU2F9Ffw=="
+          "hash": "0hWtHwDhFVDEcsUEcRV67Q=="
         }
       },
       "is_incremental": false,
@@ -648,7 +648,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dotnet_profiles.html",
-          "hash": "VojEDWEE3KlJQpNlElZfng=="
+          "hash": "pNL1pHPcdGTld0/QI2qlCQ=="
         }
       },
       "is_incremental": false,
@@ -660,7 +660,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/index.html",
-          "hash": "5ZksChle1TWJn5266bV59g=="
+          "hash": "PdbthbkOa+DFdDEST3N+7g=="
         }
       },
       "is_incremental": false,
@@ -687,7 +687,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/porting.html",
-          "hash": "ST2Y1vvkPRVhcqV4sptoAw=="
+          "hash": "mQ2819WZGA1nNb1PagGh5A=="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "RFxmYs5p8Cd7q4xOi4YfRA=="
+          "hash": "Kj8J7Jcmr8mcerV/VPlu/A=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/4_logging.html",
-          "hash": "dZyEqkxN33ALDFD0Zq8lYA=="
+          "hash": "DdTK6/VNFgfpmvS5TAKC2Q=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/5_distributing.html",
-          "hash": "aKnFAcz3p6GHQ3T5Jg9vnQ=="
+          "hash": "KlnXSq7UEuKvoGFL3Km43Q=="
         }
       },
       "is_incremental": false,
@@ -1138,16 +1138,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
