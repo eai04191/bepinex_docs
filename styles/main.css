@@ -1,3 +1,17 @@
+.version-selector {
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.version-selector form {
+  display: inline-block;
+}
+
+.version-selector select {
+  background-color: #080808;
+}
+
 .footer {
   background-color: #222;
   border-top-color: #333;
@@ -172,6 +186,11 @@ code {
   .sidefilter,
   .sidetoc {
     margin-left: 0;
+  }
+
+  .version-selector {
+    display: block;
+    float: none;
   }
 }
 
