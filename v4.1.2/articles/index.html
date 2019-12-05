@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>BepInEx Guide Index </title>
+    <title>About BepInEx </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="BepInEx Guide Index ">
+    <meta name="title" content="About BepInEx ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -72,35 +72,31 @@
         <div class="article row grid-right">
           <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="bepinex-guide-index">BepInEx Guide Index</h1>
 
-<div class="IMPORTANT">
-<h5>Important</h5>
-<p>The documentation is WIP.<br>
-For the latest stable guide, refer to <a href="https://github.com/BepInEx/BepInEx/wiki">BepInEx wiki on GitHub</a>.</p>
-</div>
-<p>Welcome to BepInEx documentation pages! Please refer to the navigation menu on the left for all specific guides!</p>
-<h2 id="what-is-bepinex">What is BepInEx</h2>
-<p>BepInEx is a .NET plugin framework aimed at Unity games running on <a href="https://www.mono-project.com/">Mono</a> runtime.<br>
-The main goal of BepInEx is to be <em>simple to install and use for end-users</em> and to <em>provide absolutely necessary tools for modding</em> all while being <em>small and easily portable</em> to as many different Unity games as possible.</p>
-<p>While BepInEx is mainly aimed at PC games running on Windows, BepInEx can be installed on Linux, macOS and any other operating system that either has support for Mono or Windows emulation.</p>
-<h2 id="what-bepinex-is-not">What BepInEx is not</h2>
-<p>Currently BepInEx does not aim to be the solution for modding all games with .NET support on all platforms. This limitation allows BepInEx to be small and simple to install while still working on as many games as possible.</p>
-<p>As of version 5.0, support for more general .NET games is being planned.</p>
-<h2 id="getting-started-with-bepinex">Getting started with BepInEx</h2>
-<p>To start with BepInEx, you should <a class="xref" href="user_guide/installation.html">download and install it</a>.<br>
-Next, you might want to <a class="xref" href="user_guide/configuration.html">configure it and any of the plugins you install</a>.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>While BepInEx should work with default configuration on the majority of Unity games,
-some games might require specific entry point configuration.
-For more information, check out the guide on <a class="xref" href="advanced/porting.html">configuring BepInEx with different games</a>.</p>
-</div>
-<h2 id="developing-plugins">Developing plugins</h2>
-<p>If you are a developer, you can check the <a class="xref" href="dev_guide/plugin_tutorial/index.html">plugin creation walkthrough</a> to get acquainted with most of the API of BepInEx.
-Additionally, you should check out <a class="xref" href="dev_guide/harmony_wrapper.html">how to use Harmony to patch game methods</a> and <a class="xref" href="dev_guide/preloader_patchers.html">how to patch game assemblies with Cecil</a>.</p>
-<p>For more exact documentation on each of BepInEx's feature, consult the <a href="../api/index.html">API documentation</a></p>
-<p>Finally, the <a class="xref" href="advanced/index.html">advanced guides</a> contain information on how to debug plugins with dnSpy and elaborate on technical details of BepInEx and Unity modding.</p>
+<p>Welcome to the BepInEx wiki!</p>
+<p>Here you can find guides on installation, upgrading and developing plug-ins for BepInEx.</p>
+<h2 id="about-bepinex">About BepInEx</h2>
+<p><strong>Bep</strong>is <strong>In</strong>jector <strong>Ex</strong>tensible is a patcher/plug-in framework for Unity games that use C#/Mono as their scripting backend.</p>
+<p>Currently, BepInEx provides the following features:</p>
+<ul>
+<li><em>Drop-in installation</em>: Just drop the files in the game's directory and run the game as you usually would</li>
+<li><em>Plug-in framework</em>: Write custom MonoBehaviours to modify the game</li>
+<li><em>Harmony included</em>: Includes <a href="https://github.com/pardeike/Harmony">Harmony</a> to enable runtime method injection</li>
+<li><em>In-memory assembly patching</em>: Allows to patch game's assemblies with <a href="https://github.com/jbevain/cecil">Mono.Cecil</a> in memory</li>
+<li><em>Open source</em>: All parts of BepInEx are fully open and are licensed under highly permissive licences (MIT, CC0)</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<p>To start, check out the following pages:</p>
+<ul>
+<li><a class="xref" href="user_guide/installation.html">The installation guide</a> for those who just want to install BepInEx</li>
+<li><a href="https://github.com/bbepis/BepisPlugins">BepisPlugins</a> -- a collection of some plug-ins that you might be interested in</li>
+<li><a href="https://github.com/BepInEx">BepInEx project listing</a> -- a list of tools and plug-ins officially maintained by the BepInEx developers</li>
+</ul>
+<p>If you are a developer, you might be also interested in</p>
+<ul>
+<li><a class="xref" href="dev_guide/writing_plugins.html">How to develop plug-ins</a></li>
+<li><a class="xref" href="dev_guide/preloader_patchers.html">How to develop in-memory Mono.Cecil patches</a></li>
+</ul>
 </article>
           </div>
           
@@ -109,7 +105,7 @@ Additionally, you should check out <a class="xref" href="dev_guide/harmony_wrapp
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9eac439722ac650698ff67367d01d1cc7a0a49a7/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/4360791da14d337f65c1a2203997861adf684b20/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

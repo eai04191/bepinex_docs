@@ -69,24 +69,30 @@
 <div style="width: 256px; margin: auto;">
     <img src="https://avatars2.githubusercontent.com/u/39589027?s=256">
 </div>
-<div class="NOTE">
-<h5>Note</h5>
-<p>Please not that these docs are still WIP.<br>
-If you would like to help with writing guides for BepInEx 5, consider
-<a href="https://github.com/BepInEx/bepinex_docs#contributing">contributing by writing guides</a>!</p>
-</div>
-<p>Welcome to BepInEx documentation!</p>
-<p>Here you can find guides on how to install, configure and develop plugins for BepInEx!</p>
+<p>Welcome to the BepInEx wiki!</p>
+<p>Here you can find guides on installation, upgrading and developing plug-ins for BepInEx.</p>
 <h2 id="about-bepinex">About BepInEx</h2>
-<p><strong>Bep</strong>is <strong>In</strong>jector <strong>Ex</strong>tensible is a patcher/plug-in framework for Unity games that use Mono as their scripting backend.</p>
-<p>BepInEx provides various features, including</p>
+<p><strong>Bep</strong>is <strong>In</strong>jector <strong>Ex</strong>tensible is a patcher/plug-in framework for Unity games that use C#/Mono as their scripting backend.</p>
+<p>Currently, BepInEx provides the following features:</p>
 <ul>
-<li><strong>drop-in installation</strong>;</li>
-<li><strong>built-in configuration and logging systems</strong>;</li>
-<li><strong>runtime method patching with Harmony</strong> -- includes <a href="https://github.com/pardeike/Harmony">Harmony</a> and <a href="https://github.com/MonoMod/MonoMod">MonoMod</a> to enable runtime method injection;</li>
-<li><strong>in-memory assembly patching</strong> -- allows to patch game's assemblies with <a href="https://github.com/jbevain/cecil">Mono.Cecil</a> in memory with the help of <a href="https://github.com/NeighTools/UnityDoorstop">UnityDoorstop</a>.</li>
+<li><em>Drop-in installation</em>: Just drop the files in the game's directory and run the game as you usually would</li>
+<li><em>Plug-in framework</em>: Write custom MonoBehaviours to modify the game</li>
+<li><em>Harmony included</em>: Includes <a href="https://github.com/pardeike/Harmony">Harmony</a> to enable runtime method injection</li>
+<li><em>In-memory assembly patching</em>: Allows to patch game's assemblies with <a href="https://github.com/jbevain/cecil">Mono.Cecil</a> in memory</li>
+<li><em>Open source</em>: All parts of BepInEx are fully open and are licensed under highly permissive licences (MIT, CC0)</li>
 </ul>
-<p>BepInEx is fully open source under the MIT license.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>To start, check out the following pages:</p>
+<ul>
+<li><a class="xref" href="articles/user_guide/installation.html">The installation guide</a> for those who just want to install BepInEx</li>
+<li><a href="https://github.com/bbepis/BepisPlugins">BepisPlugins</a> -- a collection of some plug-ins that you might be interested in</li>
+<li><a href="https://github.com/BepInEx">BepInEx project listing</a> -- a list of tools and plug-ins officially maintained by the BepInEx developers</li>
+</ul>
+<p>If you are a developer, you might be also interested in</p>
+<ul>
+<li><a class="xref" href="articles/dev_guide/writing_plugins.html">How to develop plug-ins</a></li>
+<li><a class="xref" href="articles/dev_guide/preloader_patchers.html">How to develop in-memory Mono.Cecil patches</a></li>
+</ul>
 </article>
           </div>
         </div>

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Plugin development </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Plugin development ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9">
+            <article class="content wrap" id="_content" data-uid="writing_plugins">
+<h2 id="plugin-development">Plugin development</h2>
+
+<p>Assuming you already know your way around Visual Studio and C#, this is the basics of making a plugin.</p>
+<ol>
+<li>You need to create a .NET framework class library. You need to select .NET 3.5, or change it to that after you've created the project.</li>
+<li>Then you need to reference the main BepInEx library. This is where your helper classes are (<code>Logger</code> and <code>Config</code>), and most importantly your base class.</li>
+<li>In your new plugin class, you want to inherit <code>BepInEx.BaseUnityPlugin</code> (and specify the <code>[BepInPlugin]</code> attribute), so the injector can detect your plugin. This behaves exactly the same as a MonoBehaviour except with some extra fields for plugin management, so if you want to subscribe to an event, you have to declare the method manually. <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">Unity reference material</a></li>
+<li>Then, your plugin gets loaded on game launch if it's placed in the <code>BepInEx</code> folder in your main game folder.</li>
+</ol>
+<hr>
+<h3 id="baseunityplugin">BaseUnityPlugin</h3>
+<p>NOTE: From v3 onwards, abstract properties in <code>BaseUnityPlugin</code> got shifted to an attribute labeled <code>[BepInPlugin()]</code> to help issues with metadata.</p>
+<p>BaseUnityPlugin doesn't have anything you can override by itself, but you need to create a <code>[BepInPlugin()]</code> attribute on the class you're creating, to give additional metadata to the plugin loader. Here are what the parameters mean:</p>
+<ul>
+<li><code>GUID</code> - This is the unique identifier for your plugin, which is expected to never change. This is used by the framework mainly for dependency stuff.</li>
+<li><code>Name</code> - This is the user-friendly name of the plugin. Mainly used for visuals, so the user knows what is being loaded.</li>
+<li><code>Version</code> - This is the version of the plugin. Other than for displaying to the user, you can also use this to check if a dependency is a certain version (or a range of).</li>
+</ul>
+<h3 id="additional-attributes">Additional attributes</h3>
+<ul>
+<li><code>[BepInDependency(string GUID)]</code> - Add this attribute to your class to specify that it relies on another plugin, so the plugin loader can re-arrange load order to accommodate for you, and to gracefully handle if the plugin you require doesn't exist.
+<ul>
+<li>Pass in the <code>GUID</code> of the plugin that your plugin has a dependency, as the parameter.</li>
+<li>You can specify this attribute multiple times, to indicate multiple dependencies.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="helper-classes">Helper classes</h3>
+<ul>
+<li><p><code>BepInLogger</code> - This class handles all logging, either debug or not. By default, the Developer Console is the only plugin that is a dedicated output for this, showing all visible logs to the user as a message popup, and all non-visible logs hidden away in the console (F12).</p>
+<ul>
+<li><code>Logger.Log(LogLevel level, object message)</code> is what you use to log something. The level indicates the severity of the logged event, while the message is what textual content will be logged. Internally it gets converted to string via <code>message.ToString()</code> so you can use that to your advantage when logging things like exceptions.</li>
+<li><code>Logger.EntryLogged</code> is the event for a message being logged. You can add your own subscriber here, if you need to monitor the log.</li>
+</ul>
+</li>
+<li><p><code>Config</code> - This class handles persistent data, which can also be edited by the user manually. Currently subject to change, so please keep this in mind. The current standard is a global configuration file, where the keys are prefaced with an ID, such as <code>colorcorrector-saturationenabled</code>.</p>
+<ul>
+<li><code>Config.SaveOnConfigSet</code> is a property that determines if the config file should be saved on an entry being set, for convenience. The default is true. If you're about to write a large amount of values to the config, it may be the best option to disable this, write all your values, re-enable this and save manually.</li>
+<li><code>Config.ReloadConfig()</code> reloads all config values from disk. You will lose all unwritten changes, so be careful with this.</li>
+<li><code>Config.SaveConfig()</code> writes the config to disk.</li>
+<li>`Config.GetEntry(string key, string defaultValue) returns the value of the key if the entry in the config is found, otherwise returns the default value.</li>
+<li>`Config.SetEntry(string key, string value) sets the key to the specified value in the config.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="tips">Tips</h3>
+<ul>
+<li>It is generally better to use <code>void Awake()</code> or <code>void Start()</code> as your entry point, as using the constructor could potentially cause adverse effects (such as if an exception occurs), since the constructor is in a <code>grey zone</code> as it's not handled by Unity. However, it's fine for things that need to be done as early as possible and have very little chance of causing exceptions (such as installing hooks).</li>
+<li>Make sure to disable <code>Copy Local</code> in your references for certain references to avoid clutter.
+<ul>
+<li>You would want to disable it for references to assemblies that are already included in the base game (Assembly-CSharp.dll, UnityEngine.dll etc.) and for references that are already are part of the plugin (BepInEx.dll, 0Harmony.dll [unless you need a certain version, that's another issue of it's own]).</li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/4360791da14d337f65c1a2203997861adf684b20/articles/dev_guide/writing_plugins.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

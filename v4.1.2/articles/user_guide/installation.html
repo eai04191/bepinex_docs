@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Installing BepInEx </title>
+    <title>About BepInEx </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Installing BepInEx ">
+    <meta name="title" content="About BepInEx ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -72,73 +72,22 @@
         <div class="article row grid-right">
           <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="installation">
-<h1 id="installing-bepinex">Installing BepInEx</h1>
+<h2 id="about-bepinex">About BepInEx</h2>
 
+<p>BepInEx is a framework for Unity games running on Mono. BepInEx provides means of patching the game's assemblies and loading plugins via custom MonoBehaviours.</p>
 <h2 id="requirements">Requirements</h2>
-<ul>
-<li><em>Supported Operating Systems</em>
-<ul>
-<li>Windows 7, 8, 8.1 and 10 (both x86 and x64 are supported)</li>
-<li>Any OS that has support for <a href="https://www.winehq.org/">Wine</a> (Linux, macOS, FreeBSD, ...)</li>
-<li>Any OS that has support for <a href="https://www.mono-project.com/">Mono</a> (Windows, Linux, macOS)</li>
-</ul>
-</li>
-<li><em>Supported Unity games</em>
-<ul>
-<li>Unity 4 or newer</li>
-<li><strong>The game has to use Mono as the scripting backend. More info in <a class="xref" href="../advanced/limitations.html">limitations section</a>.</strong></li>
-</ul>
-</li>
-</ul>
-<div class="IMPORTANT">
-<h5>Important</h5>
-<p>Games built with IL2CPP are not supported!<br>
-For more information, read the whole explanation in the <a class="xref" href="../advanced/limitations.html">limitations section</a>.</p>
-</div>
-<h2 id="where-to-download-bepinex">Where to download BepInEx</h2>
-<p>BepInEx is distributed in two builds: <em>stable</em> and <em>bleeding edge</em>.</p>
-<p><strong>Stable builds</strong> are available on <a href="https://github.com/BepInEx/BepInEx/releases">GitHub</a>.<br>
-Stable builds are released once a new iteration of BepInEx is considered feature-complete.<br>
-They have the least bugs, but some newest features might not be available.<br>
-<strong>It is recommended to use stable builds in most cases.</strong></p>
-<p><strong>Bleeding edge builds</strong> are available on <a href="https://builds.bepis.io/projects/bepinex_be">BepisBuilds</a>.
-Bleeding edge builds are always the latest builds of the source code. Thus they are the opposite to stable builds: they have the newest features and bugfixes available, but usually tend to be the most buggy.<br>
-Therefore you should use bleeding edge builds only if you are asked to or if you want to preview the upcoming version of BepInEx.</p>
-<h2 id="installing-bepinex-1">Installing BepInEx</h2>
-<p>Currently, BepInEx can be installed manually.</p>
+<p>BepInEx requires a game using Unity that uses Mono runtime (i.e. has <code>mono.dll</code>). BepInEx has been successfully tested to be working on Unity versions 5.4 - 2017.2.</p>
+<h2 id="upgrading-from-previous-versions">Upgrading from previous versions</h2>
+<p>For upgrading guide, refer to the <a class="xref" href="upgrading.html">migration guide</a>.</p>
+<h2 id="installation">Installation</h2>
 <ol>
-<li><p>Download the correct version of BepInEx.</p>
-<p><a href="#where-to-download-bepinex">Download BepInEx from one of the available sources.</a><br>
-In the download section, all BepInEx distributions are designated using the following naming convention:</p>
-<p><code>BepInEx_&lt;arch&gt;_&lt;build&gt;_&lt;version&gt;.zip</code></p>
-<p>Each value has different options depending on the game and your OS:</p>
-<ul>
-<li><code>arch</code> -- The OS and architecture this BepInEx was built against. Has the following values:
-<ul>
-<li><code>x86</code>: For computers running <em>32-bit Windows</em>.</li>
-<li><code>x64</code>: For computers running <em>64-bit Windows</em>.</li>
-<li><code>Patcher</code>: For computers running Linux, macOS and other non-Windows systems.</li>
-</ul>
-</li>
-<li><code>build</code> -- <em>Only in bleeding edge builds.</em> Specifies the exact commit BepInEx was built against.</li>
-<li><code>version</code> -- Exact version of BepInEx.</li>
-</ul>
-</li>
-<li><p>Extract the contents into the game root.</p>
-<p>After you have downloaded the correct game version, extact the archive into the game folder where the game exectuable is located (so called <em>game root folder</em>).</p>
-</li>
-<li><p><em>Only for <code>Patcher</code> builds:</em> Run the patcher.</p>
-<p>If you have downloaded and installed the <code>Patcher</code> build, run <code>BepInEx.Patcher.exe</code> which will permanently patch the game to run BepInEx.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>If you are using a non-Windows system, you might need to run the patcher via mono:<br>
-<code>mono BepInEx.Patcher.exe</code></p>
-</div>
-</li>
+<li>Download the latest BepInEx from <a href="https://github.com/BepInEx/BepInEx/releases">releases page</a>.</li>
+<li>Extract the contents of the archive into the game's root folder</li>
+<li>If the game's executable is 32-bit version, replace <code>winhttp.dll</code> with the one in <code>x86</code> folder.</li>
+<li>Run the game once to let BepInEx create configuration files and folders</li>
+<li>Install plug-ins and patchers into <code>BepInEx</code> folder</li>
+<li>Configure BepInEx with <code>BepInEx/config.ini</code></li>
 </ol>
-<h2 id="next-installing-plugins-and-configuration">Next: Installing plugins and configuration.</h2>
-<p>After you're done installing BepInEx, you can start installing and using plugins. Simply put plugins into <code>BepInEx/plugins</code> folder in the game folder and you're good to go.</p>
-<p>Additionally, you might want to configure plugins and BepInEx itself. For that, please refer to the <a class="xref" href="configuration.html">configuration guide</a>.</p>
 </article>
           </div>
           
@@ -147,7 +96,7 @@ In the download section, all BepInEx distributions are designated using the foll
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9eac439722ac650698ff67367d01d1cc7a0a49a7/articles/user_guide/installation.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/4360791da14d337f65c1a2203997861adf684b20/articles/user_guide/installation.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

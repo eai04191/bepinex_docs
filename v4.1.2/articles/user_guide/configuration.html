@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Configuration </title>
+    <title>Configuration file </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Configuration ">
+    <meta name="title" content="Configuration file ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -72,23 +72,124 @@
         <div class="article row grid-right">
           <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="configuration">
-<h1 id="configuration">Configuration</h1>
+<h2 id="configuration-file">Configuration file</h2>
 
-<p>BepInEx 5 contains all configuration files in <code>BepInEx/config</code> folder.<br>
-All configuration files have <code>.cfg</code> extension and follow
-<a href="https://github.com/toml-lang/toml">TOML</a>-like syntax.</p>
-<h2 id="configuring-bepinex">Configuring BepInEx</h2>
-<p>The main BepInEx configuration is located in <code>BepInEx/config/BepInEx.cfg</code>.<br>
-If you don't have the file, run the game with BepInEx at least once and BepInEx
-with automatically generate the file.</p>
-<p>Open the file in any text editor of your choice. All configuration options
-are documented.</p>
-<h2 id="configuring-plugins">Configuring plugins</h2>
-<p>Most plugins have their configuration options in <code>BepInEx/config</code> folder.<br>
-The configuration files are named by the GUID of the plugin.<br>
-Options are usually documented, but that depends on the plugin developer.</p>
-<p>It is suggested to download and use <a href="https://github.com/BepInEx/BepInEx.ConfigurationManager">BepInEx.ConfigurationManager</a>
-which provides a simple, in-game UI for editing the plugin configuration.</p>
+<p>On its first launch, BepInEx creates <code>config.ini</code> file into <code>BepInEx</code> folder. This file is used to configure various aspects of BepInEx and the plug-ins.</p>
+<blockquote>
+<p><strong>NOTE TO DEVELOPERS</strong><br>
+BepInEx provides only the most basic single-file configuration capability via <code>Config</code> class.<br>
+If you want a separate configuration file for your own plug-in, make your own configuration file parser.</p>
+</blockquote>
+<p>Below is the listing of all BepInEx configuration options.</p>
+<h2 id="quicklinks">Quicklinks</h2>
+<ul>
+<li><a href="#configuration-file">Configuration file</a></li>
+<li><a href="#quicklinks">Quicklinks</a>
+<ul>
+<li><a href="#bepinex-section"><code>BepInEx</code> section</a>
+<ul>
+<li><a href="#console"><code>console</code></a></li>
+<li><a href="#console-shiftjis"><code>console-shiftjis</code></a></li>
+<li><a href="#preloader-logconsole"><code>preloader-logconsole</code></a></li>
+<li><a href="#logger-displayed-levels"><code>logger-displayed-levels</code></a></li>
+<li><a href="#chainloader-log-unity-messages"><code>chainloader-log-unity-messages</code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#preloader-section"><code>Preloader</code> section</a>
+<ul>
+<li><a href="#entrypoint-assembly"><code>entrypoint-assembly</code></a></li>
+<li><a href="#entrypoint-type"><code>entrypoint-type</code></a></li>
+<li><a href="#entrypoint-method"><code>entrypoint-method</code></a></li>
+<li><a href="#dump-assemblies"><code>dump-assemblies</code></a></li>
+</ul>
+</li>
+</ul>
+<h3 id="bepinex-section"><code>BepInEx</code> section</h3>
+<p>This section contains options related to logging.</p>
+<h4 id="console"><code>console</code></h4>
+<p><strong>Default:</strong> <code>false</code></p>
+<p>Specifies whether to open the console on game start. BepInEx (and some Unity games) writes all log messages into the console. Recommended to enable.</p>
+<h4 id="console-shiftjis"><code>console-shiftjis</code></h4>
+<p><strong>Default:</strong> <code>false</code></p>
+<p>If enabled, changes the codepage of the console to that of Shift-JIS. This is useful if the game outputs messages with Japanese characters into the console.</p>
+<p>If disabled, the codepage will be UTF-8.</p>
+<h4 id="preloader-logconsole"><code>preloader-logconsole</code></h4>
+<p><strong>Default:</strong> <code>false</code></p>
+<p>If enabled, BepInEx will create <code>preloader_xxx_xxx.log</code> on every game launch. The log will contain debug information from the preloader phase.</p>
+<p>If disabled, BepInEx will create the log only when an error occurs during preloader phase.</p>
+<h4 id="logger-displayed-levels"><code>logger-displayed-levels</code></h4>
+<p><strong>Default:</strong> <code>Info</code></p>
+<p>Specifies the maximum severity of the log message to be displayed in BepInEx's console.</p>
+<p>Possible values:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Level</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>None</code></td>
+<td>0</td>
+<td>Disables all log messages</td>
+</tr>
+<tr>
+<td><code>Fatal</code></td>
+<td>1</td>
+<td>Errors which cannot be recovered from; the game cannot continue to run</td>
+</tr>
+<tr>
+<td><code>Error</code></td>
+<td>2</td>
+<td>Errors are recoverable from; the game can be run, albeit with further errors</td>
+</tr>
+<tr>
+<td><code>Warning</code></td>
+<td>4</td>
+<td>Messages that signify an anomaly that is not an error</td>
+</tr>
+<tr>
+<td><code>Message</code></td>
+<td>8</td>
+<td>Important messages that should be displayed</td>
+</tr>
+<tr>
+<td><code>Info</code></td>
+<td>16</td>
+<td>Messages of low importance</td>
+</tr>
+<tr>
+<td><code>Debug</code></td>
+<td>32</td>
+<td>Messages intended for developers</td>
+</tr>
+</tbody>
+</table>
+<p>Setting value with a higher level will also display messages with a lower level.</p>
+<h4 id="chainloader-log-unity-messages"><code>chainloader-log-unity-messages</code></h4>
+<p><strong>Default:</strong> <code>false</code></p>
+<p>If enabled, BepInEx will display log messages coming from Unity's own logger. This is useful if the game uses the Unity logger a lot.</p>
+<h2 id="preloader-section"><code>Preloader</code> section</h2>
+<p>This section controls how BepInEx preloader functions. This section is intended mainly for developers or for those who want to setup BepInEx to work with a particular game.</p>
+<p>For more information, refer to <a class="xref" href="../dev_guide/porting.html">porting guide</a></p>
+<h4 id="entrypoint-assembly"><code>entrypoint-assembly</code></h4>
+<p><strong>Default:</strong> <code>UnityEngine.dll</code></p>
+<p>Specifies the name of the assembly found in <code>Managed</code> folder into which BepInEx should insert its entrypoint.</p>
+<h4 id="entrypoint-type"><code>entrypoint-type</code></h4>
+<p><strong>Default:</strong> <code>Application</code></p>
+<p>Specifies the type found within <code>entrypoint-assembly</code> where BepInEx should insert its entrypoint.</p>
+<p>Note that you only need to specify type's basic name; no fully qualified name is needed.</p>
+<h4 id="entrypoint-method"><code>entrypoint-method</code></h4>
+<p><strong>Default:</strong> <code>.cctor</code></p>
+<p>Specifies the method to patch BepInEx entrypoint into.</p>
+<h4 id="dump-assemblies"><code>dump-assemblies</code></h4>
+<p><strong>Default:</strong> <code>false</code></p>
+<p>If enabled, BepInEx will save patched assemblies into <code>BepInEx/DumpedAssemblies</code>.<br>
+This can be used by developers to inspect and debug preloader patchers.</p>
 </article>
           </div>
           
@@ -97,7 +198,7 @@ which provides a simple, in-game UI for editing the plugin configuration.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9eac439722ac650698ff67367d01d1cc7a0a49a7/articles/user_guide/configuration.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/4360791da14d337f65c1a2203997861adf684b20/articles/user_guide/configuration.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

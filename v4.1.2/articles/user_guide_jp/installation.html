@@ -5,17 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>BepInEx&#12395;&#12388;&#12356;&#12390; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="BepInEx&#12395;&#12388;&#12356;&#12390; ">
     <meta name="generator" content="docfx 2.47.0.0">
     
-    <link rel="shortcut icon" href="../../../favicon.ico">
-    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../../../styles/docfx.css">
-    <link rel="stylesheet" href="../../../styles/main.css">
-    <meta property="docfx:navrel" content="../../../toc.html">
-    <meta property="docfx:tocrel" content="../../toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     <meta property="docfx:urlPrefix" content="/bepinex_docs/">
     
     
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../../../index.html">
-                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -71,8 +71,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-9">
-            <article class="content wrap" id="_content" data-uid="">
+            <article class="content wrap" id="_content" data-uid="installation_jp">
+<h2 id="bepinexについて">BepInExについて</h2>
 
+<p>BepInExはMono上で動作するUnityで制作されたゲームのためのフレームワークです。<br>
+BepInExはゲームのアセンブリ（コンパイル済みの実行コード）にパッチを行ったり、カスタムMonoBehavioursを通してプラグインをロードする手段を提供します。</p>
+<h2 id="動作環境">動作環境</h2>
+<p>BepInExはMonoランタイムを使用するUnityを使ったゲームを必要とします（つまり、<code>mono.dll</code>を含んでいるゲームです）。<br>
+BepInExはUnityのバージョン5.4～2017.2で正常に動作するようにテストされています。</p>
+<h2 id="旧バージョンからのアップデート">旧バージョンからのアップデート</h2>
+<p>アップデート方法については、<a class="xref" href="upgrading.html">移行ガイド</a>を参照して下さい。</p>
+<h2 id="インストール">インストール</h2>
+<ol>
+<li>最新のBepInExを<a href="https://github.com/BepInEx/BepInEx/releases">リリースページ</a>からダウンロードします。</li>
+<li>ダウンロードした圧縮ファイルを解凍し、中身をゲームのルートフォルダに入れて下さい。</li>
+<li>もしゲームが32bit版であった場合には、<code>winhttp.dll</code>を<code>x86</code>フォルダの中のファイルで置き換えて下さい。</li>
+<li>ゲームを一度起動し、BepInExに設定ファイルやフォルダを生成させて下さい（もし<code>BepInEx\config.ini</code>が生成されない場合は、ここまでの手順を見直すこと！）。</li>
+<li>プラグインやパッチャーは、<code>BepInEx</code>フォルダの中に導入します。</li>
+<li>BepInExの設定のため、<code>BepInEx\config.ini</code>を編集します。</li>
+</ol>
 </article>
           </div>
           
@@ -81,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9eac439722ac650698ff67367d01d1cc7a0a49a7/articles/dev_guide/plugin_tutorial/5_distributing.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/4360791da14d337f65c1a2203997861adf684b20/articles/user_guide_jp/installation.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -107,8 +124,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

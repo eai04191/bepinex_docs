@@ -1,9 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: advanced
-  name: advanced
-  href: articles/advanced/index.html
 - uid: BepInEx
   name: BepInEx
   href: api/BepInEx.html
@@ -1759,29 +1756,29 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.TryResolveDllAssembly
   nameWithType: Utility.TryResolveDllAssembly
+- uid: building
+  name: Building BepInEx from source
+  href: articles/dev_guide/building.html
 - uid: configuration
-  name: Configuration
+  name: Configuration file
   href: articles/user_guide/configuration.html
-- uid: dotnet_profiles
-  name: dotnet_profiles
-  href: articles/advanced/dotnet_profiles.html
-- uid: harmony_wrapper
-  name: 'Runtime patching with '
-  href: articles/dev_guide/harmony_wrapper.html
 - uid: installation
-  name: Installing BepInEx
+  name: About BepInEx
   href: articles/user_guide/installation.html
-- uid: limitations
-  name: limitations
-  href: articles/advanced/limitations.html
-- uid: plugin_dev_index
-  name: 'How to: create a BepInEx plugin'
-  href: articles/dev_guide/plugin_tutorial/index.html
-- uid: porting
-  name: Porting BepInEx
-  href: articles/advanced/porting.html
+- uid: installation_jp
+  name: BepInExについて
+  href: articles/user_guide_jp/installation.html
+- uid: migration
+  name: Migration from previous versions of BepInEx
+  href: articles/user_guide/upgrading.html
+- uid: migration_jp
+  name: 以前のバージョンのBepInExからの移行
+  href: articles/user_guide_jp/upgrading.html
+- uid: porting_bepinex
+  name: Notes on porting
+  href: articles/dev_guide/porting.html
 - uid: preloader_patches
-  name: Using preloader patchers
+  name: Preface
   href: articles/dev_guide/preloader_patchers.html
 - uid: UnityInjector.ConsoleUtil
   name: UnityInjector.ConsoleUtil
@@ -1821,3 +1818,6 @@ references:
   isSpec: "True"
   fullName: UnityInjector.ConsoleUtil.SafeConsole.ForegroundColor
   nameWithType: SafeConsole.ForegroundColor
+- uid: writing_plugins
+  name: Plugin development
+  href: articles/dev_guide/writing_plugins.html
