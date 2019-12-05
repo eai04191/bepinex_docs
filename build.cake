@@ -7,7 +7,7 @@
 
 var target = Argument("target", "Build");
 var urlPrefix = Argument("url_prefix", "/");
-var currentBranch = RunGit("name-rev --name-only HEAD");
+var currentBranch = Argument("branch_name", RunGit("name-rev --name-only HEAD"));
 
 Information($"Current branch: {currentBranch}");
 
