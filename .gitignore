@@ -12,3 +12,7 @@ _site
 src/
 .vs/
 .vscode/
+
+# Ignore other folders build script might create
+gh-pages/
+tools/
