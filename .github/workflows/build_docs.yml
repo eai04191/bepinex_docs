@@ -8,19 +8,18 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
     - name: Setup Dotnet for use with actions
       uses: actions/setup-dotnet@v1.0.0
-    - name: Extract branch name
-      shell: bash
-      run: |
-        echo Current branch: ${GITHUB_REF##*/}
-        echo ::set-env name=GH_BRANCH::${GITHUB_REF##*/}
+    - name: Setup NuGet.exe for use with actions
+      uses: NuGet/setup-nuget@v1.0.2
     - name: Run CakeBuild script
-      run: ./build.ps1 -target=Build -url_prefix=/bepinex_docs/ -branch_name="${env:GH_BRANCH}"
+      run: | 
+        chmod +x ./build.sh
+        ./build.sh --target=Build --url_prefix=/bepinex_docs/ --branch_name="${GITHUB_REF##*/}"
     - name: Push page to gh-pages
       uses: ad-m/github-push-action@v0.5.0
       with:
