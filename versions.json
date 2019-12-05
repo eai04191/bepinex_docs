@@ -3,6 +3,10 @@
     {
       "name": "master",
       "tag": "master"
+    },
+    {
+      "name": "v5.0",
+      "tag": "v5.0"
     }
   ]
 }

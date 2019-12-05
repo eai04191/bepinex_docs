@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Upgrading </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Upgrading ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="upgrading">Upgrading</h1>
+
+<h2 id="migration-from-previous-versions-of-bepinex">Migration from previous versions of BepInEx</h2>
+<h3 id="upgrading-from-4x">Upgrading from 4.x</h3>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>pre-BepInEx 5 plugins are not compatible with BepInEx 5!<br>
+This guide only provides a temporary upgrade solution.<br>
+It is suggested that you do a clean install of BepInEx instead -- remove all BepInEx files and start over fresh.</p>
+</div>
+<ol>
+<li>Delete <code>BepInEx/core</code> folder if it exists.</li>
+<li>Download and install BepInEx 5 <a class="xref" href="installation.html">according to the installation guide</a>.</li>
+<li>Download <a href="https://github.com/BepInEx/BepInEx.BepInEx4Upgrader/releases">latest version of <code>BepInEx.BepInEx4Upgrader</code></a> and place it in <code>BepInEx/patchers</code> folder.</li>
+<li>Run the game normally.</li>
+</ol>
+<h3 id="upgrading-from-3x">Upgrading from 3.x</h3>
+<p>To migrate from a previous version of BepInEx, do the following:</p>
+<ol>
+<li>Delete <code>UnityEngine.dll</code>, <code>0Harmony.dll</code> and <code>BepInEx.dll</code> from the <code>*_Data\Managed</code> folder for your game</li>
+</ol>
+<ul>
+<li><strong>IMPORTANT:</strong> Check <strong>all</strong> game folders for their respective <code>Managed</code> folders. BepInEx 3 creates the aforementioned files for each valid Unity executable it finds, which means that you may have to repeat this process multiple times.</li>
+</ul>
+<ol start="2">
+<li>Rename <code>UnityEngine.dll.bak</code> to <code>UnityEngine.dll</code></li>
+<li><strong>Delete <code>BepInEx.Patcher.exe</code> from the game's root folder.</strong></li>
+<li>Delete your <code>config.ini</code> file in your BepInEx folder</li>
+<li>Follow the upgrading guide for 4.x</li>
+</ol>
+<h2 id="migrating-from-sybaris-2x">Migrating from Sybaris 2.x</h2>
+<ol>
+<li>Delete <strong>all occurences</strong> of the following DLLs in the game's folder:
+<ul>
+<li><code>ExIni.dll</code></li>
+<li><code>UnityInjector.dll</code></li>
+<li><code>Mono.Cecil.dll</code></li>
+<li><code>Sybaris.Loader.dll</code></li>
+<li><code>COM3D2.UnityInjector.Patcher</code> (and other UnityInjector patchers)</li>
+<li><code>opengl32.dll</code><br>
+Use Windows' search tool if you cannot find those.</li>
+</ul>
+</li>
+<li><a href="./Installation#installation">Install BepInEx 4 normally</a></li>
+<li>Download and install <a href="https://github.com/BepInEx/BepInEx.UnityInjectorLoader/releases">UnityInjectorLoader</a> and <a href="https://github.com/BepInEx/BepInEx.SybarisLoader.Patcher/releases">SybarisLoader</a> to enable UnityInjector and Sybaris compatibility</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/b783e54809f6aba485dfec4d46f3d325c32965b7/articles/user_guide/upgrading.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

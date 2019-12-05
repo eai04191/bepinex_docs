@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Porting BepInEx </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Porting BepInEx ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9">
+            <article class="content wrap" id="_content" data-uid="porting">
+<h1 id="porting-bepinex">Porting BepInEx</h1>
+
+<h2 id="notes-on-porting">Notes on porting</h2>
+<p>While BepInEx 4.x is very game-agnostic, there are still some things one must know to get BepInEx working on different versions of Unity.</p>
+<p>When trying to install BepInEx on a game it wasn't ever installed on before, note the following:</p>
+<h2 id="1-check-whether-the-game-executable-is-x86-or-x64">1. Check whether the game executable is x86 or x64</h2>
+<p>Some games are still being built as x86 executables. Thus, make sure that you use x86 BepInEx with x86 game and x64 BepInEx with x64 game.</p>
+<p>Failing to do so will cause the game to not load BepInEx.</p>
+<h2 id="2-bepinex-wont-work-with-net-or-il2cpp-runtimes">2. BepInEx won't work with .NET or IL2CPP runtimes</h2>
+<p>Currently (version 4.1) BepInEx will only work with games using Mono as their backend CLR runtime.<br>
+You can check that the game uses Mono by looking for <code>mono.dll</code> in the game's folder (e.g. with Windows' search tool).</p>
+<h2 id="3-different-games-may-require-different-entrypoints">3. Different games may require different entrypoints</h2>
+<p>When you run BepInEx on a new game for the first time, you might encounter the same error as in <a href="https://github.com/BepInEx/BepInEx/issues/45">#45</a>:</p>
+<pre><code>[Fatal] Could not run preloader!
+[Fatal] System.Exception: The entrypoint type is invalid! Please check your config.ini
+</code></pre>
+<p>The error means that BepInEx's default entry point configuration will not work with the game.</p>
+<p>Currently there exist two main solutions:</p>
+<ol>
+<li><p>If the game runs a new version of Unity (2017.1 or newer), in <code>config.ini</code> simply change</p>
+<pre><code class="lang-ini">entrypoint-assembly=UnityEngine.dll
+</code></pre>
+<p>to</p>
+<pre><code class="lang-ini">entrypoint-assembly=UnityEngine.CoreModule.dll
+</code></pre>
+</li>
+<li><p><em>If you are a developer</em> (or have someone who is), use dnSpy to find a new entry point in <code>Assembly-CSharp.dll</code>.<br>
+The entry point should be placed in the very first Scene the game loads (or the very first MonoBehaviour the game uses)</p>
+<p>You can configure the entrypoint <a href="./Configuration#preloader-section">in <code>config.ini</code></a>.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/b783e54809f6aba485dfec4d46f3d325c32965b7/articles/advanced/porting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

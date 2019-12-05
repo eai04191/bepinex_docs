@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Logging messages </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Logging messages ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="logging-messages">Logging messages</h1>
+
+<p>One of the most important parts of any plugin is logging messages. Be it a
+piece of information, a warning or a bigger error, BepInEx provides
+functionality to log it all.<br>
+With BepInEx, you can use the following logging APIs:</p>
+<ul>
+<li><strong>(Recommended)</strong> <a class="xref" href="../../../api/BepInEx.Logging.Logger.html">Logger</a> APIs</li>
+<li><code>UnityEngine.Debug</code> APIs</li>
+<li><code>System.Diagnostics.Trace</code> APIs</li>
+<li><code>System.Console</code> APIs</li>
+</ul>
+<p>Whichever API you will use, BepInEx will write the logs to the console,
+Unity's <code>output_log.txt</code> and to <code>BepInEx/LogOutput.log</code> file.</p>
+<h2 id="using--apis">Using <a class="xref" href="../../../api/BepInEx.Logging.Logger.html">Logger</a> APIs</h2>
+<p><strong>This is the recommended way for logging in plugins.</strong></p>
+<p>All <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> instances have <a class="xref" href="../../../api/BepInEx.BaseUnityPlugin.html#BepInEx_BaseUnityPlugin_Logger">Logger</a>
+property for logging:</p>
+<pre><code class="lang-csharp">[BepInPlugin(&quot;org.bepinex.myplugin&quot;, &quot;Logger Test&quot;, &quot;1.0.0.0&quot;)]
+public class MyPlugin : BaseUnityPlugin
+{
+    void Awake()
+    {
+        Logger.LogInfo(&quot;This is information&quot;);
+        Logger.LogWarning(&quot;This is a warning&quot;);
+        Logger.LogError(&quot;This is an error&quot;);
+    }
+}
+</code></pre>
+<p>If BepInEx console is enabled via [the configuration](<span class="xref">configuration),
+this will print<p>
+<pre><code>[Info   : Logger Test] This is information
+[Warning: Logger Test] This is a warning
+[Error  : Logger Test] This is an error
+</code></pre>
+<p>Notice that the log reports the message type and the message source.<br>
+When using BepInEx's own logging API, the log source (i.e. the plugin name
+is automatically reported).</p>
+<p>Refer to <a class="xref" href="../../../api/BepInEx.Logging.ManualLogSource.html">ManualLogSource</a> for all available logging API.</p>
+<h2 id="advanced-log-sources-and-log-listeners">Advanced: Log sources and log listeners</h2>
+<p>BepInEx's logging system mimics that of <code>System.Diagnostics.Trace</code> API.<br>
+BepInEx allows to create <em>log sources</em> that can generate log events (i.e
+the messages) and <em>log listeners</em> that receive and process those log events.<br>
+All sources are linked to listeners via <a class="xref" href="../../../api/BepInEx.Logging.Logger.html">Logger</a> class.</p>
+<p>In most cases, you don't have to care about how the API works. However, in some
+cases you may want to register your own log sources to log messages.<br>
+In  addition, sometimes you might need to process the log events to write them
+somewhere. This is where you use the manual APIs.</p>
+<h3 id="registering-log-sources">Registering log sources</h3>
+<p>A log source is a class that inherits from <a class="xref" href="../../../api/BepInEx.Logging.ILogSource.html">ILogSource</a>.<br>
+The most basic implementation is <a class="xref" href="../../../api/BepInEx.Logging.ManualLogSource.html">ManualLogSource</a> which exposes
+various convenience logging functions.</p>
+<p>To register a log source, add it to <a class="xref" href="../../../api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Sources">Sources</a> collection:</p>
+<pre><code class="lang-csharp">var myLogSource = new ManualLogSource(&quot;MyLogSource&quot;); // The source name is shown in BepInEx log
+
+// Register the source
+BepInEx.Logging.Logger.Sources.Add(myLogSource);
+
+myLogSource.LogInfo(&quot;Test&quot;); // Will print [Info: MyLogSource] Test
+
+// Remove the source to free resources
+BepInEx.Logging.Logger.Sources.Remove(myLogSource);
+</code></pre>
+<p>Because <a class="xref" href="../../../api/BepInEx.Logging.ManualLogSource.html">ManualLogSource</a> is so useful, you can use
+<a class="xref" href="../../../api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_CreateLogSource_System_String_">CreateLogSource(String)</a> to automatically create
+and register a <a class="xref" href="../../../api/BepInEx.Logging.ManualLogSource.html">ManualLogSource</a>.</p>
+<p>That way the above example becomes</p>
+<pre><code class="lang-csharp">var myLogSource = BepInEx.Logging.Logger.CreateLogSource(&quot;MyLogSource&quot;);
+myLogSource.LogInfo(&quot;Test&quot;);
+BepInEx.Logging.Logger.Sources.Remove(myLogSource);
+</code></pre>
+<h3 id="about-log-listeners">About log listeners</h3>
+<p>Log listeners are used to process messages from log sources. To create a log
+source, create a class that inherits <a class="xref" href="../../../api/BepInEx.Logging.ILogListener.html">ILogListener</a>.<br>
+After that, register a log listener by adding it to <a class="xref" href="../../../api/BepInEx.Logging.Logger.html#BepInEx_Logging_Logger_Listeners">Listeners</a>.</p>
+<p>By default, BepInEx itself registers the following listeners:</p>
+<ul>
+<li><a class="xref" href="../../../api/BepInEx.Logging.ConsoleLogListener.html">ConsoleLogListener</a> - writes all log messages to BepInEx
+console</li>
+<li><a class="xref" href="../../../api/BepInEx.Logging.DiskLogListener.html">DiskLogListener</a> - writes all log messages to
+<code>BepInEx/LogOutput.log</code></li>
+<li><a class="xref" href="../../../api/BepInEx.Logging.UnityLogListener.html">UnityLogListener</a> - writes all log messages to Unity's
+<code>output_log.txt</code></li>
+</ul>
+<p>If you need to write a custom log listener, consider using the above ones as
+examples.</p>
+</span></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/b783e54809f6aba485dfec4d46f3d325c32965b7/articles/dev_guide/plugin_tutorial/4_logging.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
