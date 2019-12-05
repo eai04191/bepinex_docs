@@ -20,7 +20,7 @@ jobs:
         echo Current branch: ${GITHUB_REF##*/}
         echo ::set-env name=GH_BRANCH::${GITHUB_REF##*/}
     - name: Run CakeBuild script
-      run: ./build.ps1 -Target=Build -url_prefix=/bepinex_docs/ -branch_name="${env:GH_BRANCH}"
+      run: ./build.ps1 -Target=Build -ScriptArgs "-url_prefix=/bepinex_docs/ -branch_name=""${env:GH_BRANCH}"""
     - name: Deploy pages
       uses: s0/git-publish-subdir-action@master
       env:
