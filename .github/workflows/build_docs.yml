@@ -20,7 +20,7 @@ jobs:
         echo Current branch: ${GITHUB_REF##*/}
         echo ::set-env name=GH_BRANCH::${GITHUB_REF##*/}
     - name: Run CakeBuild script
-      run: ./build.ps1 -target=Build -url_prefix=/bepinex_docs/ -branch_name="${GH_BRANCH}"
+      run: ./build.ps1 -target=Build -url_prefix=/bepinex_docs/ -branch_name="${env:GH_BRANCH}"
     - name: Push page to gh-pages
       uses: ad-m/github-push-action@v0.5.0
       with:
