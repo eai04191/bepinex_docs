@@ -21,11 +21,11 @@ jobs:
         echo ::set-env name=GH_BRANCH::${GITHUB_REF##*/}
     - name: Run CakeBuild script
       run: ./build.ps1 -Target Build -ScriptArgs "-url_prefix=/bepinex_docs/ -branch_name=""${env:GH_BRANCH}"""
-    - name: Deploy pages
-      uses: s0/git-publish-subdir-action@master
+    - name: Deploy to GH Pages
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: gh-pages
+        build_dir: gh-pages
       env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: gh-pages
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
+        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
