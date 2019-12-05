@@ -42,6 +42,12 @@
         "files": [
           "images/**",
           "**/images/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**",
+          "gh-pages/**",
+          "src/**"
         ]
       }
     ],
@@ -52,11 +58,16 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "_site/**",
+          "gh-pages/**",
+          "src/**"
         ]
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_urlPrefix": "/"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
