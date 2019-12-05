@@ -8,15 +8,15 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
     - name: Setup Dotnet for use with actions
       uses: actions/setup-dotnet@v1.0.0
     - name: Run CakeBuild script
-      run: ./build.ps1 -target=Build -url_prefix=/bepinex_docs/ -branch_name=${GITHUB_REF##*/}
-      shell: powershell
+      run: ./build.sh --target=Build --url_prefix=/bepinex_docs/ --branch_name="${GITHUB_REF##*/}"
+      shell: bash
     - name: Push page to gh-pages
       uses: ad-m/github-push-action@v0.5.0
       with:
