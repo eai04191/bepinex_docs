@@ -17,7 +17,7 @@ jobs:
     - name: Run CakeBuild script
       run: |
         chmod +x ./build.sh
-        ./build.sh --target Build --url_prefix /bepinex_docs/ --branch_name "${GITHUB_REF##*/}"
+        ./build.sh --target Build --url_prefix=/bepinex_docs/ --branch_name="${GITHUB_REF##*/}"
       shell: bash
     - name: Push page to gh-pages
       uses: ad-m/github-push-action@v0.5.0
