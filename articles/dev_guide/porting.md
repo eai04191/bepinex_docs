@@ -1,7 +1,6 @@
 ---
-uid: porting
+uid: porting_bepinex
 ---
-# Porting BepInEx
 
 ## Notes on porting
 
@@ -46,5 +45,4 @@ Currently there exist two main solutions:
 2. *If you are a developer* (or have someone who is), use dnSpy to find a new entry point in `Assembly-CSharp.dll`.  
     The entry point should be placed in the very first Scene the game loads (or the very first MonoBehaviour the game uses)
     
-    You can configure the entrypoint [in `config.ini`](./Configuration#preloader-section).
-    
+    You can configure the entrypoint [in `config.ini`](<xref:configuration>).

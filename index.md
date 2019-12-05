@@ -9,24 +9,31 @@ _centerBody: true
     <img src="https://avatars2.githubusercontent.com/u/39589027?s=256"/>
 </div>
 
-> [!NOTE]  
-> Please not that these docs are still WIP.  
-> If you would like to help with writing guides for BepInEx 5, consider 
-> [contributing by writing guides](https://github.com/BepInEx/bepinex_docs#contributing)!
+Welcome to the BepInEx wiki!
 
-Welcome to BepInEx documentation!
-
-Here you can find guides on how to install, configure and develop plugins for BepInEx!
+Here you can find guides on installation, upgrading and developing plug-ins for BepInEx.
 
 ## About BepInEx
 
-**Bep**is **In**jector **Ex**tensible is a patcher/plug-in framework for Unity games that use Mono as their scripting backend.
+**Bep**is **In**jector **Ex**tensible is a patcher/plug-in framework for Unity games that use C#/Mono as their scripting backend.
 
-BepInEx provides various features, including
+Currently, BepInEx provides the following features:
 
-* **drop-in installation**;
-* **built-in configuration and logging systems**; 
-* **runtime method patching with Harmony** -- includes [Harmony](https://github.com/pardeike/Harmony) and [MonoMod](https://github.com/MonoMod/MonoMod) to enable runtime method injection;
-* **in-memory assembly patching** -- allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory with the help of [UnityDoorstop](https://github.com/NeighTools/UnityDoorstop).
+* *Drop-in installation*: Just drop the files in the game's directory and run the game as you usually would
+* *Plug-in framework*: Write custom MonoBehaviours to modify the game
+* *Harmony included*: Includes [Harmony](https://github.com/pardeike/Harmony) to enable runtime method injection
+* *In-memory assembly patching*: Allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory
+* *Open source*: All parts of BepInEx are fully open and are licensed under highly permissive licences (MIT, CC0)
 
-BepInEx is fully open source under the MIT license.
+## Getting started
+
+To start, check out the following pages:
+
+* [The installation guide](<xref:installation>) for those who just want to install BepInEx
+* [BepisPlugins](https://github.com/bbepis/BepisPlugins) -- a collection of some plug-ins that you might be interested in
+* [BepInEx project listing](https://github.com/BepInEx) -- a list of tools and plug-ins officially maintained by the BepInEx developers
+
+If you are a developer, you might be also interested in
+ 
+* [How to develop plug-ins](<xref:writing_plugins>)
+* [How to develop in-memory Mono.Cecil patches](<xref:preloader_patches>)

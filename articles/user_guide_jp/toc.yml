@@ -1,0 +1,4 @@
+- name: インストール方法
+  href: installation.md
+- name: アップグレード方法
+  href: upgrading.md

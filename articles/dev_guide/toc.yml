@@ -1,7 +1,10 @@
-- name: "Walkthrough: writing a basic plugin"
-  href: plugin_tutorial/toc.yml
-  topicHref: plugin_tutorial/index.md
-- name: "How to: writing preloader patchers"
+- name: "How to make a regular plugin"
+  href: writing_plugins.md
+- name: "Writing preloader patchers"
   href: preloader_patchers.md
-- name: "Runtime patching with HarmonyWrapper"
-  href: harmony_wrapper.md
+- name: "Building"
+  href: building.md
+- name: "dnSpy Debugging"
+  href: debugging.md
+- name: "Porting BepInEx"
+  href: porting.md
