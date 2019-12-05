@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AssemblyPatcher
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AssemblyPatcher
+   ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9">
+            <article class="content wrap" id="_content" data-uid="BepInEx.Bootstrap.AssemblyPatcher">
+  
+  
+  <h1 id="BepInEx_Bootstrap_AssemblyPatcher" data-uid="BepInEx.Bootstrap.AssemblyPatcher" class="text-break">Class AssemblyPatcher
+  </h1>
+  <div class="markdown level0 summary"><p>Worker class which is used for loading and patching entire folders of assemblies, or alternatively patching and loading assemblies one at a time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AssemblyPatcher</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BepInEx.Bootstrap.html">BepInEx.Bootstrap</a></h6>
+  <h6><strong>Assembly</strong>: BepInEx.dll</h6>
+  <h5 id="BepInEx_Bootstrap_AssemblyPatcher_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AssemblyPatcher</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/e04efc299e773911af2cd4fe59a69431d9851f59/apiSpec/new?filename=BepInEx_Bootstrap_AssemblyPatcher_Load_Mono_Cecil_AssemblyDefinition_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.AssemblyPatcher.Load(Mono.Cecil.AssemblyDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/e04efc299e773911af2cd4fe59a69431d9851f59/BepInEx/Bootstrap/AssemblyPatcher.cs/#L141">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_AssemblyPatcher_Load_" data-uid="BepInEx.Bootstrap.AssemblyPatcher.Load*"></a>
+  <h4 id="BepInEx_Bootstrap_AssemblyPatcher_Load_Mono_Cecil_AssemblyDefinition_" data-uid="BepInEx.Bootstrap.AssemblyPatcher.Load(Mono.Cecil.AssemblyDefinition)">Load(AssemblyDefinition)</h4>
+  <div class="markdown level1 summary"><p>Loads an individual assembly defintion into the CLR.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load(AssemblyDefinition assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.AssemblyDefinition</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/e04efc299e773911af2cd4fe59a69431d9851f59/apiSpec/new?filename=BepInEx_Bootstrap_AssemblyPatcher_Patch_Mono_Cecil_AssemblyDefinition__BepInEx_Bootstrap_AssemblyPatcherDelegate_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.AssemblyPatcher.Patch(Mono.Cecil.AssemblyDefinition%40%2CBepInEx.Bootstrap.AssemblyPatcherDelegate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/e04efc299e773911af2cd4fe59a69431d9851f59/BepInEx/Bootstrap/AssemblyPatcher.cs/#L132">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_AssemblyPatcher_Patch_" data-uid="BepInEx.Bootstrap.AssemblyPatcher.Patch*"></a>
+  <h4 id="BepInEx_Bootstrap_AssemblyPatcher_Patch_Mono_Cecil_AssemblyDefinition__BepInEx_Bootstrap_AssemblyPatcherDelegate_" data-uid="BepInEx.Bootstrap.AssemblyPatcher.Patch(Mono.Cecil.AssemblyDefinition@,BepInEx.Bootstrap.AssemblyPatcherDelegate)">Patch(ref AssemblyDefinition, AssemblyPatcherDelegate)</h4>
+  <div class="markdown level1 summary"><p>Patches an individual assembly, without loading it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Patch(ref AssemblyDefinition assembly, AssemblyPatcherDelegate patcherMethod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.AssemblyDefinition</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td><p>The assembly definition to apply the patch to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="BepInEx.Bootstrap.AssemblyPatcherDelegate.html">AssemblyPatcherDelegate</a></td>
+        <td><span class="parametername">patcherMethod</span></td>
+        <td><p>The patcher to use to patch the assembly definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/e04efc299e773911af2cd4fe59a69431d9851f59/apiSpec/new?filename=BepInEx_Bootstrap_AssemblyPatcher_PatchAll_System_String_System_Collections_Generic_IDictionary_BepInEx_Bootstrap_AssemblyPatcherDelegate_System_Collections_Generic_IEnumerable_System_String___System_Collections_Generic_IEnumerable_System_Action__System_Collections_Generic_IEnumerable_System_Action__.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.AssemblyPatcher.PatchAll(System.String%2CSystem.Collections.Generic.IDictionary%7BBepInEx.Bootstrap.AssemblyPatcherDelegate%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%7D%2CSystem.Collections.Generic.IEnumerable%7BSystem.Action%7D%2CSystem.Collections.Generic.IEnumerable%7BSystem.Action%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/e04efc299e773911af2cd4fe59a69431d9851f59/BepInEx/Bootstrap/AssemblyPatcher.cs/#L35">View Source</a>
+  </span>
+  <a id="BepInEx_Bootstrap_AssemblyPatcher_PatchAll_" data-uid="BepInEx.Bootstrap.AssemblyPatcher.PatchAll*"></a>
+  <h4 id="BepInEx_Bootstrap_AssemblyPatcher_PatchAll_System_String_System_Collections_Generic_IDictionary_BepInEx_Bootstrap_AssemblyPatcherDelegate_System_Collections_Generic_IEnumerable_System_String___System_Collections_Generic_IEnumerable_System_Action__System_Collections_Generic_IEnumerable_System_Action__" data-uid="BepInEx.Bootstrap.AssemblyPatcher.PatchAll(System.String,System.Collections.Generic.IDictionary{BepInEx.Bootstrap.AssemblyPatcherDelegate,System.Collections.Generic.IEnumerable{System.String}},System.Collections.Generic.IEnumerable{System.Action},System.Collections.Generic.IEnumerable{System.Action})">PatchAll(String, IDictionary&lt;AssemblyPatcherDelegate, IEnumerable&lt;String&gt;&gt;, IEnumerable&lt;Action&gt;, IEnumerable&lt;Action&gt;)</h4>
+  <div class="markdown level1 summary"><p>Patches and loads an entire directory of assemblies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PatchAll(string directory, IDictionary&lt;AssemblyPatcherDelegate, IEnumerable&lt;string&gt;&gt; patcherMethodDictionary, IEnumerable&lt;Action&gt; initializers = null, IEnumerable&lt;Action&gt; finalizers = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directory</span></td>
+        <td><p>The directory to load assemblies from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<a class="xref" href="BepInEx.Bootstrap.AssemblyPatcherDelegate.html">AssemblyPatcherDelegate</a>, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">patcherMethodDictionary</span></td>
+        <td><p>The dictionary of patchers and their targeted assembly filenames which they are patching.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Action</span>&gt;</td>
+        <td><span class="parametername">initializers</span></td>
+        <td><p>List of initializers to run before any patching starts</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Action</span>&gt;</td>
+        <td><span class="parametername">finalizers</span></td>
+        <td><p>List of finalizers to run before returning</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/new/e04efc299e773911af2cd4fe59a69431d9851f59/apiSpec/new?filename=BepInEx_Bootstrap_AssemblyPatcher.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.AssemblyPatcher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/blob/e04efc299e773911af2cd4fe59a69431d9851f59/BepInEx/Bootstrap/AssemblyPatcher.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
