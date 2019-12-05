@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>BepInEx Guide Index </title>
+    <title>BepInEx API documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="BepInEx Guide Index ">
+    <meta name="title" content="BepInEx API documentation ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -72,35 +72,26 @@
         <div class="article row grid-right">
           <div class="col-md-9">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="bepinex-guide-index">BepInEx Guide Index</h1>
+<h1 id="bepinex-api-documentation">BepInEx API documentation</h1>
 
-<div class="IMPORTANT">
-<h5>Important</h5>
-<p>The documentation is WIP.<br>
-For the latest stable guide, refer to <a href="https://github.com/BepInEx/BepInEx/wiki">BepInEx wiki on GitHub</a>.</p>
-</div>
-<p>Welcome to BepInEx documentation pages! Please refer to the navigation menu on the left for all specific guides!</p>
-<h2 id="what-is-bepinex">What is BepInEx</h2>
-<p>BepInEx is a .NET plugin framework aimed at Unity games running on <a href="https://www.mono-project.com/">Mono</a> runtime.<br>
-The main goal of BepInEx is to be <em>simple to install and use for end-users</em> and to <em>provide absolutely necessary tools for modding</em> all while being <em>small and easily portable</em> to as many different Unity games as possible.</p>
-<p>While BepInEx is mainly aimed at PC games running on Windows, BepInEx can be installed on Linux, macOS and any other operating system that either has support for Mono or Windows emulation.</p>
-<h2 id="what-bepinex-is-not">What BepInEx is not</h2>
-<p>Currently BepInEx does not aim to be the solution for modding all games with .NET support on all platforms. This limitation allows BepInEx to be small and simple to install while still working on as many games as possible.</p>
-<p>As of version 5.0, support for more general .NET games is being planned.</p>
-<h2 id="getting-started-with-bepinex">Getting started with BepInEx</h2>
-<p>To start with BepInEx, you should <a class="xref" href="user_guide/installation.html">download and install it</a>.<br>
-Next, you might want to <a class="xref" href="user_guide/configuration.html">configure it and any of the plugins you install</a>.</p>
-<div class="NOTE">
-<h5>Note</h5>
-<p>While BepInEx should work with default configuration on the majority of Unity games,
-some games might require specific entry point configuration.
-For more information, check out the guide on <a class="xref" href="advanced/porting.html">configuring BepInEx with different games</a>.</p>
-</div>
-<h2 id="developing-plugins">Developing plugins</h2>
-<p>If you are a developer, you can check the <a class="xref" href="dev_guide/plugin_tutorial/index.html">plugin creation walkthrough</a> to get acquainted with most of the API of BepInEx.
-Additionally, you should check out <a class="xref" href="dev_guide/harmony_wrapper.html">how to use Harmony to patch game methods</a> and <a class="xref" href="dev_guide/preloader_patchers.html">how to patch game assemblies with Cecil</a>.</p>
-<p>For more exact documentation on each of BepInEx's feature, consult the <a href="../api/index.html">API documentation</a></p>
-<p>Finally, the <a class="xref" href="advanced/index.html">advanced guides</a> contain information on how to debug plugins with dnSpy and elaborate on technical details of BepInEx and Unity modding.</p>
+<p>This page contains documentation for BepInEx API.</p>
+<h2 id="main-namespaces-of-bepinex">Main namespaces of BepInEx</h2>
+<h3 id="section"><a class="xref" href="BepInEx.html">BepInEx</a></h3>
+<p>Contains most commonly used API provided by BepInEx.</p>
+<p>Important classes:</p>
+<ul>
+<li><a class="xref" href="BepInEx.BaseUnityPlugin.html">BaseUnityPlugin</a> -- base class your plugins should inherit from.</li>
+<li><a class="xref" href="BepInEx.BepInPlugin.html">BepInPlugin</a>, <a class="xref" href="BepInEx.BepInDependency.html">BepInDependency</a> and <a class="xref" href="BepInEx.BepInProcess.html">BepInProcess</a> attributes -- used to specify important metadata about each plugin class.</li>
+<li><a class="xref" href="BepInEx.Configuration.html">BepInEx.Configuration</a> -- access to configuration.</li>
+<li><a class="xref" href="BepInEx.Paths.html">Paths</a> -- all common file and directory locations BepInEx and plugins rely on.</li>
+</ul>
+<h3 id="section-1"><a class="xref" href="BepInEx.Bootstrap.html">BepInEx.Bootstrap</a></h3>
+<p>Contains internals of BepInEx plugin loader. Allows access to other loaded plugins.</p>
+<h3 id="section-2"><a class="xref" href="BepInEx.Harmony.html">BepInEx.Harmony</a></h3>
+<p>Special extensions to Harmony to allow patching without writing special patcher classes.<br>
+See <a class="xref" href="../articles/dev_guide/harmony_wrapper.html">&quot;How to use HarmonyWrapper&quot;</a> for more information.</p>
+<h3 id="section-3"><a class="xref" href="BepInEx.Logging.html">BepInEx.Logging</a></h3>
+<p>All classes related to logging in BepInEx.</p>
 </article>
           </div>
           
@@ -109,7 +100,7 @@ Additionally, you should check out <a class="xref" href="dev_guide/harmony_wrapp
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/master/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/master/api/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
