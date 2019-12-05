@@ -1,5 +1,8 @@
 {
-    "versions": [
-        { "name": "master", "tag": "master" }
-    ]
+  "versions": [
+    {
+      "name": "master",
+      "tag": "master"
+    }
+  ]
 }
