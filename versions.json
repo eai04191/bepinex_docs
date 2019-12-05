@@ -1,5 +1,4 @@
 {
-    "urlPrefix": "/bepinex_docs/",
     "versions": [
         { "name": "master", "tag": "master" }
     ]

@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "zhKG5e3An+fU42lMu6iycw=="
+          "hash": "W6ffzfJ/FoHN5DcQanz1Tw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1161,6 +1161,1326 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "_site/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
       "output": {
         "resource": {
@@ -1242,6 +2562,886 @@
       "output": {
         "resource": {
           "relative_path": "_site/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
         }
       },
       "is_incremental": false,
@@ -1341,10 +3541,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BaseUnityPlugin.html",
-          "hash": "2lwKsHZzB6Lw+l0nmIcORA=="
+          "hash": "mEh1tIbK2LRrbSm5qxrY/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,10 +3553,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInDependency.DependencyFlags.html",
-          "hash": "irMcQ0BoxlYgU+bD5nGzxQ=="
+          "hash": "XErzlq5As5DgNjev/zs7bQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1365,10 +3565,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInDependency.html",
-          "hash": "zHS1+Tgb4GcZDgjAsN3vrQ=="
+          "hash": "wgm5wejCf0/5HC401+hd/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1377,10 +3577,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInIncompatibility.html",
-          "hash": "YvoqVyjZ4mg7C+3z0CCJ6g=="
+          "hash": "0c9xEFs8AvaooUT3ukPO+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1389,10 +3589,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInPlugin.html",
-          "hash": "/eoAIvCDJ6JRvWU/8m9fug=="
+          "hash": "PPlIfS2C3t41pLAuU10XFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1401,10 +3601,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.BepInProcess.html",
-          "hash": "ZCogz7xSVqq3bjOjhJY8NA=="
+          "hash": "rfYxFt7A9ozx/u5aCAXdTg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1413,10 +3613,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.CachedAssembly-1.html",
-          "hash": "CPG4AfcjiI2sFNULQDhusg=="
+          "hash": "bQ3akeN5hkvDXgcVyW/tIw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1425,10 +3625,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "SaqzHmg8ZAKig5I1Oq16tA=="
+          "hash": "npp0invTJTg6psAmdYVvvQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1437,10 +3637,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.ICacheable.html",
-          "hash": "Qxm0rk/zkI2k62Tb3NMtwA=="
+          "hash": "xodOYTRjIDo7rZ7Sd6ftmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1449,10 +3649,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.TypeLoader.html",
-          "hash": "7/wl1GroAxoOKN+nDsbdOA=="
+          "hash": "Hp9mlXven4A+NGW2jBsZWw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1461,10 +3661,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.html",
-          "hash": "txYFHytg3S0b//libkuVWQ=="
+          "hash": "15XDT2S5JN4dDR3d8DgVSw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1473,10 +3673,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.AcceptableValueBase.html",
-          "hash": "95O6xQFNb9zeD/cOHzvQiw=="
+          "hash": "qWHnG62vBdVGcMZwOtl38w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1485,10 +3685,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.AcceptableValueList-1.html",
-          "hash": "byYxW+I9LmNLhlyMIc5xNA=="
+          "hash": "hZ2LllKDK5NgkzMvUqFS5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1497,10 +3697,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.AcceptableValueRange-1.html",
-          "hash": "XOvYUiJawp/rANTR2fDBSg=="
+          "hash": "zy16HStFCXv63Bc/oDapCA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1509,10 +3709,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigDefinition.html",
-          "hash": "KFTu/3TD8QvPsKbyvxEPMQ=="
+          "hash": "Ow41EZwi0RPxdKwI+6cCCA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1521,10 +3721,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigDescription.html",
-          "hash": "ZPJmSl4zH1Zsi4xu7KXz5A=="
+          "hash": "6iyKytc79tFGN8/lEmo8ug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1533,10 +3733,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigEntry-1.html",
-          "hash": "vDaVBoJapxn4pLrPnw5wUg=="
+          "hash": "ajsFj6RQPJLH+da1mg3lUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1545,10 +3745,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigEntryBase.html",
-          "hash": "kSr32DE7ro/XZY7Lqc2m9w=="
+          "hash": "JUGvC8RJs77ildnxfKYR/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1557,10 +3757,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigFile.html",
-          "hash": "gilNBQXyZzge3kvcN+wDfQ=="
+          "hash": "VN44hfVBsPygOoAAb1yN3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1569,10 +3769,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.ConfigWrapper-1.html",
-          "hash": "g8Sx6/ZcOTR+xvnRCijkNQ=="
+          "hash": "sqZtqcw9/aqj1Nk1JD0VHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1581,10 +3781,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.KeyboardShortcut.html",
-          "hash": "z/45BDhDiahEqKo1cEnGQg=="
+          "hash": "TwaMVHEMyENqskVPUblb3A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1593,10 +3793,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.SettingChangedEventArgs.html",
-          "hash": "13oaWdFSfoRUVVgztNUCjg=="
+          "hash": "XEYhaTt9O5XX7sgbwPpQCA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1605,10 +3805,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.TomlTypeConverter.html",
-          "hash": "482jy9zwv7mBEIcI/J8QGg=="
+          "hash": "c5dq6JCjmMXhaUJLRxIFYA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1617,10 +3817,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.TypeConverter.html",
-          "hash": "hYN1PG2VLvpncf5Ix2uwJQ=="
+          "hash": "JxHumFH64A5KTD7WlWV8mQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1629,10 +3829,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Configuration.html",
-          "hash": "H3rQl+BX7K8LXsPcoVtahg=="
+          "hash": "qoRAdtnBEbRaFLH9zu5gww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1641,10 +3841,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Harmony.HarmonyExtensions.html",
-          "hash": "Xz9qAYmnLzGndGKsxJqo5w=="
+          "hash": "0JiprN3qDoZgbGnjhL5ZfQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1653,10 +3853,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Harmony.HarmonyWrapper.html",
-          "hash": "iCDivlGg+xiqhfdR+sQ5AQ=="
+          "hash": "R9aSfuEhqPrzeoSKRmYtSQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1665,10 +3865,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.html",
-          "hash": "KngDrecaN4cVaAuW4RDw/w=="
+          "hash": "FZIwZYmffTTmkBsi06Ge0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1677,10 +3877,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Harmony.html",
-          "hash": "PSWILuISoFH3L7yvDbSVcA=="
+          "hash": "hk8yg80u26UA0Pg+Dv9ZIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1689,10 +3889,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ConsoleLogListener.html",
-          "hash": "lq6cHCfOqtA9yEH6L4iFxQ=="
+          "hash": "YtpxO9iCLGRdd9NRxxd6fQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1701,10 +3901,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.DiskLogListener.html",
-          "hash": "c3znrAu/zu4pvARLBmYu6A=="
+          "hash": "2VhKTCvITqcwd1a1R7eJCw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1713,10 +3913,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ILogListener.html",
-          "hash": "RAyVQ6CmkhaYdLxeObZNZg=="
+          "hash": "mmDxAmBIC6IPbw9GceffLA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1725,10 +3925,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ILogSource.html",
-          "hash": "VjkHB+fXmpqiK/U9/xWIPw=="
+          "hash": "KdEIQoj15VMJCE/IeobVrw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1737,10 +3937,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.LogEventArgs.html",
-          "hash": "nEJWxt9hJP5Va+k+KQNfZw=="
+          "hash": "ANbV7XmVtEkCQv73IxMTrg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1749,10 +3949,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.LogLevel.html",
-          "hash": "tPEyEwAfGS1t+7bya76D9w=="
+          "hash": "wwinfOcOueBSFBdT4L2ukA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1761,10 +3961,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.LogLevelExtensions.html",
-          "hash": "0q8miqYlxdjBLFGcv6HhXw=="
+          "hash": "DYMDi60MJxn1lXP1D/Bg6Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1773,10 +3973,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.Logger.html",
-          "hash": "1qUz5AQ6Lrl2PTuO8gEwmw=="
+          "hash": "H2+NDmOLAetCf0s/f73i5Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1785,10 +3985,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ManualLogSource.html",
-          "hash": "69MhnRFpGqZ7LUl5AFN7Rw=="
+          "hash": "9sTz4TLGxz2N/oO5WiXhbQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1797,10 +3997,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.TraceLogSource.html",
-          "hash": "Xhfr6liT38zk9fz2VqOF/g=="
+          "hash": "rSliMFHL3iHywPpcFKtyKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1809,10 +4009,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.UnityLogListener.html",
-          "hash": "ALR/TVqrIHOCI9bgaeDhXQ=="
+          "hash": "GhgH1IHA3ZmnfHH43NFjhA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1821,10 +4021,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.UnityLogSource.html",
-          "hash": "kQ8bdO/+Zy3bJT44UOvgMA=="
+          "hash": "tAj6/081fm41un8YQAaguA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1833,10 +4033,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.html",
-          "hash": "sImFedP+BucbUYNu45JljQ=="
+          "hash": "rU606uVYnKJz7aNliImizw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1845,10 +4045,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.MetadataHelper.html",
-          "hash": "XX2IWOiJJ8qKmbWa90iIkg=="
+          "hash": "UELRov+GZJMr7CRSPQXdGQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1857,10 +4057,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Paths.html",
-          "hash": "YJosGq7G+8+sLKwzLYzMiQ=="
+          "hash": "EW/zs6tAZchrZ8YkS9xG3A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1869,10 +4069,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.PluginInfo.html",
-          "hash": "wrmnh0BxZJv658TBDQVGYA=="
+          "hash": "BRhBCJ8JmqsitrFnVyF6nA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1881,10 +4081,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.ThreadingHelper.html",
-          "hash": "cQRrQnBXJ+MUd/ZuZBOWBw=="
+          "hash": "3fjptY6F+i01ecKDFxTfvA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1893,10 +4093,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Utility.html",
-          "hash": "l7BNSRfv3VjbhEh4NdxS/Q=="
+          "hash": "wBCg5SXQ9oyFBCdbX1pMEQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1905,10 +4105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.html",
-          "hash": "NOutfwbDUQJwajvxyLbKGQ=="
+          "hash": "G4+udM5QAfnhlTKDmzPNLA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1917,10 +4117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "wbYSnlPmG7YjPCT36kfJEQ=="
+          "hash": "mkJm828PPDj0mYbm1jZRQA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1941,10 +4141,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "elpy8/qWJLpvEdraLJC2Qw=="
+          "hash": "YElY4suHG8Xyj+ax9dxbUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1956,10 +4156,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dnspy_debug.html",
-          "hash": "UlFBL/cPR9i6wfKfYqAl0A=="
+          "hash": "mEh3fcx8uQeN1uknr6wAgQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1968,10 +4168,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/dotnet_profiles.html",
-          "hash": "kGEADgMWhwhH+V6lZ8Q3zg=="
+          "hash": "fITn5UJZwakesKfS5mYP2A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1980,10 +4180,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/index.html",
-          "hash": "2+atVXQnTT79YoNkuC4Bjw=="
+          "hash": "H3GpOB4yUJLYVQHRmYv38w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1992,10 +4192,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/limitations.html",
-          "hash": "EGEIk4HYSp+XW8ija6Rueg=="
+          "hash": "amkTRezh6OnkUp+cC4ANmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2007,10 +4207,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/porting.html",
-          "hash": "Xzc7Hs+MQs/Ygxdqalo04Q=="
+          "hash": "9N+gjkxrl+6PAYZ1qt+0Tg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2019,10 +4219,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/harmony_wrapper.html",
-          "hash": "aq8NiHx7z9Jv0dsUI64uIQ=="
+          "hash": "c7YcvBgbN7NB6HBeaP0uXw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2031,10 +4231,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/index.html",
-          "hash": "dUZ6g7MIAGeJSAhND9K01Q=="
+          "hash": "5cYSRS0n0fQfBS9psy9zmg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2043,10 +4243,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/1_setup.html",
-          "hash": "8RdHaPJMMqVeYCce7xHBgQ=="
+          "hash": "h3JySYv1hTiwp+IvsZhDRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2058,10 +4258,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "nlWhD+tVJranvGGPWHJ9Nw=="
+          "hash": "ckCUBECiFI6GR0UCJobr+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2070,10 +4270,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "g9VreJMQl0iHolwnOE7SXw=="
+          "hash": "0sxBTI3aeAWh7VFPMdvRHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2082,10 +4282,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/4_logging.html",
-          "hash": "XIMfxQ4gLhHOz1liWbcIGQ=="
+          "hash": "3a+Z1UNq1QvN9qmNye9DXA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2094,10 +4294,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/5_distributing.html",
-          "hash": "zwoUeiHjETRxZ8eKBK2xSQ=="
+          "hash": "VKbI9rHj46uEoNhDlwspkg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2197,10 +4397,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "QMw9jAdKp4cRgQRDgUQSRg=="
+          "hash": "whxTkzJzH42QBw57kDcU/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2209,10 +4409,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/preloader_patchers.html",
-          "hash": "wTKkDn9Gt7STwBBMSZPhig=="
+          "hash": "U0UtLAisliB9jQnYlCHXKA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2221,10 +4421,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "2VcZKBB6j62REBKP4fxbYg=="
+          "hash": "Xqr6ERV4+tclkRMcmdSM5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2245,10 +4445,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/configuration.html",
-          "hash": "x8daSro6n/orBtoPi5GLjA=="
+          "hash": "udRlqNuRoEP+1DO8GUkxDQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2301,10 +4501,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/index.html",
-          "hash": "cAJaKSfqplq4oxkde5nduw=="
+          "hash": "zBq6sdqJfe6frhidYicGOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2313,10 +4513,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation.html",
-          "hash": "KGhhdvPeexr0Mjim1zqSQw=="
+          "hash": "y1gfwIdGeOeNVPY/1p4EHw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2328,18 +4528,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "NlL6dKvLIs9kipUiLzVTSw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png",
-      "output": {
-        "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png"
+          "hash": "7jLMCvvLYJ/ZoMSCALUe+A=="
         }
       },
       "is_incremental": false,
@@ -2347,10 +4536,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/build-output.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/build-output.png"
         }
       },
       "is_incremental": false,
@@ -2358,10 +4547,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
         }
       },
       "is_incremental": false,
@@ -2369,10 +4558,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
         }
       },
       "is_incremental": false,
@@ -2380,10 +4569,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
         }
       },
       "is_incremental": false,
@@ -2391,10 +4580,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
         }
       },
       "is_incremental": false,
@@ -2402,10 +4591,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
         }
       },
       "is_incremental": false,
@@ -2413,10 +4602,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
         }
       },
       "is_incremental": false,
@@ -2424,10 +4613,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/user_guide/images/installer_1.png",
+      "source_relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-references.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/user_guide/images/installer_1.png"
+          "relative_path": "gh-pages/master/articles/dev_guide/plugin_tutorial/images/vs-references.png"
         }
       },
       "is_incremental": false,
@@ -2435,10 +4624,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/user_guide/images/installer_2.png",
+      "source_relative_path": "gh-pages/master/articles/user_guide/images/installer_1.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/user_guide/images/installer_2.png"
+          "relative_path": "gh-pages/master/articles/user_guide/images/installer_1.png"
         }
       },
       "is_incremental": false,
@@ -2446,10 +4635,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/user_guide/images/installer_3.png",
+      "source_relative_path": "gh-pages/master/articles/user_guide/images/installer_2.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/user_guide/images/installer_3.png"
+          "relative_path": "gh-pages/master/articles/user_guide/images/installer_2.png"
         }
       },
       "is_incremental": false,
@@ -2457,10 +4646,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/articles/user_guide/images/manual_install_1.png",
+      "source_relative_path": "gh-pages/master/articles/user_guide/images/installer_3.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/articles/user_guide/images/manual_install_1.png"
+          "relative_path": "gh-pages/master/articles/user_guide/images/installer_3.png"
         }
       },
       "is_incremental": false,
@@ -2468,10 +4657,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "source_relative_path": "gh-pages/master/articles/user_guide/images/manual_install_1.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+          "relative_path": "gh-pages/master/articles/user_guide/images/manual_install_1.png"
         }
       },
       "is_incremental": false,
@@ -2479,10 +4668,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/build-output.png"
         }
       },
       "is_incremental": false,
@@ -2490,10 +4679,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
         }
       },
       "is_incremental": false,
@@ -2501,10 +4690,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
         }
       },
       "is_incremental": false,
@@ -2512,10 +4701,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
         }
       },
       "is_incremental": false,
@@ -2523,10 +4712,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
         }
       },
       "is_incremental": false,
@@ -2534,10 +4723,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
         }
       },
       "is_incremental": false,
@@ -2545,10 +4734,1121 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
       "output": {
         "resource": {
-          "relative_path": "gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/gh-pages/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v4.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/build-output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/libs-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-folder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/plugin-works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-add-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-new-plugin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-open-solution.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/dev_guide/plugin_tutorial/images/vs-references.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/installer_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/manual_install_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/articles/user_guide/images/manual_install_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/site_bak/v5.0/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/Harmony/Documentation/images/patch-logic.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/note.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.sketch"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "gh-pages/master/src/submodules/BepInEx.Harmony/submodules/Harmony/docs/images/patch-logic.svg"
         }
       },
       "is_incremental": false,
@@ -2560,10 +5860,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "fuNDiVaTQR57xFwjJPK8hA=="
+          "hash": "c45voxDfhMNj2/aYC136Vg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3550,10 +6850,12 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ResourceDocumentProcessor": {
@@ -3563,17 +6865,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 23,
-          "skipped_file_count": 23
-        },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 48,
-          "skipped_file_count": 48
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 23,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
