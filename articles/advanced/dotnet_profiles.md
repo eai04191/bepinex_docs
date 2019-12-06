@@ -1,3 +1,0 @@
----
-uid: dotnet_profiles
----
