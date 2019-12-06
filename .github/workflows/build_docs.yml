@@ -22,7 +22,7 @@ jobs:
         ref: 'common'
     - name: Set up build environment
       shell: bash
-      run: cp -rf common .
+      run: cp -rf ./common/* .
     - name: Extract branch name
       shell: bash
       run: |
