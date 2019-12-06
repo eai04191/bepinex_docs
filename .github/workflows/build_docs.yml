@@ -15,6 +15,14 @@ jobs:
     - uses: actions/checkout@v1
     - name: Setup Dotnet for use with actions
       uses: actions/setup-dotnet@v1.0.0
+    - name: Checkout common files
+      uses: actions/checkout@v2-beta
+      with:
+        path: 'common'
+        ref: 'common'
+    - name: Set up build environment
+      shell: bash
+      run: cp -rf common .
     - name: Extract branch name
       shell: bash
       run: |
