@@ -13,6 +13,8 @@ src/
 .vs/
 .vscode/
 
-# Ignore other folders build script might create
+# Ignore common repo files
 gh-pages/
 tools/
+./build.*
+templates/
