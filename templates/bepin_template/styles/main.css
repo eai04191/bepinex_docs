@@ -1,3 +1,31 @@
+.toc .level1 > li {
+  font-size: 17px;
+}
+
+.toc ul {
+  font-size: 14px;
+}
+
+.toc .level2 {
+  font-size: 16px;
+}
+
+.toc .level3 {
+  margin-left: 10px;
+}
+
+h2 {
+  margin-top: 45px !important;
+  margin-bottom: 0.8rem !important;
+}
+
+p {
+  line-height: 1.7rem;
+  word-spacing: .06rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
 .version-selector {
   float: right;
   padding-top: 15px;
@@ -95,6 +123,8 @@ code {
   border-right-style: none;
   border-radius: 0px;
   border-width: 4px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .alert-danger,
@@ -135,7 +165,11 @@ code {
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th {
-  border: 1px solid #1e1e1e;
+  border: 1px solid #1e1e1e !important;
+}
+
+.table-responsive {
+  border: none !important;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
@@ -149,11 +183,12 @@ code {
 
 .sidefilter,
 .sidetoc {
-  margin-left: 100px;
+  margin-left: 5%;
+  width: 20%;
 }
 
 .article.grid-right {
-  margin-left: 380px;
+  margin-left: 30%;
 }
 
 .tabGroup a[role="tab"][aria-selected="true"] {
@@ -172,10 +207,11 @@ code {
   .sidefilter,
   .sidetoc {
     margin-left: 0;
+    width: 230px;
   }
 
   .article.grid-right {
-    margin-left: 280px;
+    margin-left: 250px;
   }
 }
 
@@ -186,6 +222,7 @@ code {
   .sidefilter,
   .sidetoc {
     margin-left: 0;
+    width: auto;
   }
 
   .version-selector {
