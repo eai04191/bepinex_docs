@@ -18,3 +18,4 @@ gh-pages/
 tools/
 ./build.*
 templates/
+common/
