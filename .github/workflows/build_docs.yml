@@ -21,7 +21,7 @@ jobs:
         echo Current branch: ${GITHUB_REF##*/}
         echo ::set-env name=GH_BRANCH::${GITHUB_REF##*/}
     - name: Run CakeBuild script
-      run: ./build.ps1 -Target Build -ScriptArgs "-url_prefix=/bepinex_docs/ -branch_name=""${env:GH_BRANCH}"""
+      run: ./build.ps1 -Target PublishGHPages -ScriptArgs "-url_prefix=/bepinex_docs/ -branch_name=""${env:GH_BRANCH}"""
     - name: Deploy to GH Pages
       uses: crazy-max/ghaction-github-pages@v1
       with:
