@@ -3409,6 +3409,37 @@ references:
   isSpec: "True"
   fullName: BepInEx.PluginInfo.Processes
   nameWithType: PluginInfo.Processes
+- uid: BepInEx.ThreadingExtensions
+  name: ThreadingExtensions
+  href: api/BepInEx.ThreadingExtensions.html
+  commentId: T:BepInEx.ThreadingExtensions
+  fullName: BepInEx.ThreadingExtensions
+  nameWithType: ThreadingExtensions
+- uid: BepInEx.ThreadingExtensions.RunParallel*
+  name: RunParallel
+  href: api/BepInEx.ThreadingExtensions.html#BepInEx_ThreadingExtensions_RunParallel_
+  commentId: Overload:BepInEx.ThreadingExtensions.RunParallel
+  isSpec: "True"
+  fullName: BepInEx.ThreadingExtensions.RunParallel
+  nameWithType: ThreadingExtensions.RunParallel
+- uid: BepInEx.ThreadingExtensions.RunParallel``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Int32)
+  name: RunParallel<TIn, TOut>(IEnumerable<TIn>, Func<TIn, TOut>, Int32)
+  href: api/BepInEx.ThreadingExtensions.html#BepInEx_ThreadingExtensions_RunParallel__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__System_Int32_
+  commentId: M:BepInEx.ThreadingExtensions.RunParallel``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Int32)
+  name.vb: RunParallel(Of TIn, TOut)(IEnumerable(Of TIn), Func(Of TIn, TOut), Int32)
+  fullName: BepInEx.ThreadingExtensions.RunParallel<TIn, TOut>(System.Collections.Generic.IEnumerable<TIn>, System.Func<TIn, TOut>, System.Int32)
+  fullName.vb: BepInEx.ThreadingExtensions.RunParallel(Of TIn, TOut)(System.Collections.Generic.IEnumerable(Of TIn), System.Func(Of TIn, TOut), System.Int32)
+  nameWithType: ThreadingExtensions.RunParallel<TIn, TOut>(IEnumerable<TIn>, Func<TIn, TOut>, Int32)
+  nameWithType.vb: ThreadingExtensions.RunParallel(Of TIn, TOut)(IEnumerable(Of TIn), Func(Of TIn, TOut), Int32)
+- uid: BepInEx.ThreadingExtensions.RunParallel``2(System.Collections.Generic.IList{``0},System.Func{``0,``1},System.Int32)
+  name: RunParallel<TIn, TOut>(IList<TIn>, Func<TIn, TOut>, Int32)
+  href: api/BepInEx.ThreadingExtensions.html#BepInEx_ThreadingExtensions_RunParallel__2_System_Collections_Generic_IList___0__System_Func___0___1__System_Int32_
+  commentId: M:BepInEx.ThreadingExtensions.RunParallel``2(System.Collections.Generic.IList{``0},System.Func{``0,``1},System.Int32)
+  name.vb: RunParallel(Of TIn, TOut)(IList(Of TIn), Func(Of TIn, TOut), Int32)
+  fullName: BepInEx.ThreadingExtensions.RunParallel<TIn, TOut>(System.Collections.Generic.IList<TIn>, System.Func<TIn, TOut>, System.Int32)
+  fullName.vb: BepInEx.ThreadingExtensions.RunParallel(Of TIn, TOut)(System.Collections.Generic.IList(Of TIn), System.Func(Of TIn, TOut), System.Int32)
+  nameWithType: ThreadingExtensions.RunParallel<TIn, TOut>(IList<TIn>, Func<TIn, TOut>, Int32)
+  nameWithType.vb: ThreadingExtensions.RunParallel(Of TIn, TOut)(IList(Of TIn), Func(Of TIn, TOut), Int32)
 - uid: BepInEx.ThreadingHelper
   name: ThreadingHelper
   href: api/BepInEx.ThreadingHelper.html
