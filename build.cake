@@ -50,6 +50,8 @@ Task("PullDeps")
 
         DoInDirectory("src", () => 
         {
+            if(currentBranch != "master")
+                RunGit($"checkout {currentBranch}");
             RunGit("submodule update --init --recursive");
             NuGetRestore("BepInEx.sln");
         });
