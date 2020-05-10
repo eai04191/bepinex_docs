@@ -1,3 +1,7 @@
+---
+uid: api
+---
+
 # BepInEx API documentation
 
 This page contains documentation for BepInEx API.
