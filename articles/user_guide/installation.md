@@ -12,7 +12,6 @@ uid: installation
     - Any OS that has support for [Mono](https://www.mono-project.com/) (Windows, Linux, macOS)
 * *Supported Unity games*
     - Unity 4 or newer
-    - **The game has to use Mono as the scripting backend. More info in [limitations section](<xref:limitations>).**
 
 > [!IMPORTANT]
 > Games built with IL2CPP are not supported at the moment.
