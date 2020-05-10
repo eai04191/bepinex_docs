@@ -1,5 +1,5 @@
-- name: Debugging BepInEx with dnSpy
-  href: dnspy_debug.md
+- name: Debugging plugins and Unity games
+  href: debug.md
 - name: Porting to new Unity games
   href: porting.md
 - name: .NET profiles and BepInEx support
