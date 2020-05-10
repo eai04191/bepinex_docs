@@ -15,8 +15,8 @@ uid: installation
     - **The game has to use Mono as the scripting backend. More info in [limitations section](<xref:limitations>).**
 
 > [!IMPORTANT]
-> Games built with IL2CPP are not supported!  
-> For more information, read the whole explanation in the [limitations section](<xref:limitations>).
+> Games built with IL2CPP are not supported at the moment.
+> However, support for it is planned as the tooling has gotten better thanks to projects like MelonLoader.  
 
 ## Where to download BepInEx
 
