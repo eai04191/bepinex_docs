@@ -1,9 +1,5 @@
 # BepInEx Guide Index
 
-> [!IMPORTANT]  
-> The documentation is WIP.  
-> For the latest stable guide, refer to [BepInEx wiki on GitHub](https://github.com/BepInEx/BepInEx/wiki).
-
 Welcome to BepInEx documentation pages! Please refer to the navigation menu on the left for all specific guides!
 
 ## What is BepInEx
@@ -27,7 +23,7 @@ Next, you might want to [configure it and any of the plugins you install](<xref:
 > [!NOTE]  
 > While BepInEx should work with default configuration on the majority of Unity games,
 > some games might require specific entry point configuration.
-> For more information, check out the guide on [configuring BepInEx with different games](<xref:porting>).
+> Refer to the BepInEx configuration file for configurations of the BepInEx entrypoint.
 
 ## Developing plugins
 
