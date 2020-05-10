@@ -25,8 +25,7 @@ Different Unity may require you to use different .NET Framework versions. As a r
 
 
 > [!NOTE]
-> Technically, it is possible to target both .NET Standard and .NET Framework games with a single build, but there are a lot of considerations to take into account.
-> Refer to [explanation of different .NET profiles in Unity](<xref:dotnet_profiles>) for more information.
+> It is possible to target both .NET Framework and .NET Standard games by using .NET Framework 3.5 as the build target.
 
 
 In the case of this test plugin, we'll be writing a plugin for [Risk of Rain 2](https://store.steampowered.com/app/632360/Risk_of_Rain_2/).  

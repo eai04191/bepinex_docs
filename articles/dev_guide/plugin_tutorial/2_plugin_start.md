@@ -35,7 +35,7 @@ However, BepInEx has to know some information about the class in order to know h
 This is done by specifying C# attributes to the class as we defined above.
 
 Let's go over some of the most important attributes you might want to use. 
-For more attributes and exact documentation, visit the [API docs](~/api).
+For more attributes and exact documentation, visit the [API docs](~/api/index.md).
 
 ### Basic information about the plug-in
 
