@@ -14,6 +14,25 @@
   margin-left: 10px;
 }
 
+.toc .nav > li > a {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.toc .nav > li > a:hover {
+  background-color: #171717;
+  border-radius: 2px;
+}
+
+.toc .level2 {
+  margin-left: 25px;
+}
+
+.toc .nav.level3 > li > a {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
 h2 {
   margin-top: 45px !important;
   margin-bottom: 0.8rem !important;
@@ -202,6 +221,8 @@ code {
 .tabGroup section[role="tabpanel"] {
   border-color: #292929;
 }
+
+
 
 @media (max-width: 991px) and (min-width: 768px) {
   .sidefilter,
