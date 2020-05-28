@@ -15,7 +15,7 @@ uid: installation
 
 > [!IMPORTANT]
 > Games built with IL2CPP are not supported at the moment.
-> However, support for it is planned as the tooling has gotten better thanks to projects like MelonLoader.  
+> However, support for it is planned as the tooling has gotten better thanks to projects like [Il2CppAssemblyUnhollower](https://github.com/knah/Il2CppAssemblyUnhollower).  
 
 ## Where to download BepInEx
 
