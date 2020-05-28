@@ -1,4 +1,5 @@
-- name: Debugging plugins and Unity games
-  href: debug.md
+- name: Debugging plugins and game assemblies
+  href: debug/toc.yml
+  topicHref: debug/index.md
 - name: Compatibility with other modding frameworks
   href: compatibility.md
