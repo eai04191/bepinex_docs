@@ -30,3 +30,9 @@ BepInEx provides various features, including
 * **in-memory assembly patching** -- allows to patch game's assemblies with [Mono.Cecil](https://github.com/jbevain/cecil) in memory with the help of [UnityDoorstop](https://github.com/NeighTools/UnityDoorstop).
 
 BepInEx is fully open source under the MIT license.
+
+## Getting started
+
+* [Install BepInEx](<xref:installation>)
+* [Write plugins](<xref:plugin_dev_index>)
+* [Browse API and its documentation](<xref:api>)
