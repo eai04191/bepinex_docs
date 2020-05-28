@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "3XAh+rnKZtlYIqYwUNnN7Q=="
+          "hash": "g3aS5o4h1+usGty2GCDIMA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "56GlkedVhr0e6j9WZWREJQ=="
+          "hash": "TcxfNY8UxcWzfc2/7oDgLw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.TypeLoader.html",
-          "hash": "0UHvUcgo6VFsnynyhqLgHg=="
+          "hash": "FTtKnB8ndCbJ/ERUJ9zOoQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ConsoleLogListener.html",
-          "hash": "sgx68sPHIbxEVqw2DMydFA=="
+          "hash": "R/r/dxuNW+XbyJ2KtzA8RA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.LogEventArgs.html",
-          "hash": "pozKrijRQXzAA7NcITFo8g=="
+          "hash": "pmbUbKlCPaknuGQSfr60Dg=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.UnityLogListener.html",
-          "hash": "cdRHl1OVo1vRIqRWr98/Nw=="
+          "hash": "w12LXQV+ktT6rvKY+23wgw=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Utility.html",
-          "hash": "+YNCu5x/PCxRVm5WnSXD2g=="
+          "hash": "XKE2J4QazQriLNuDaqM8gQ=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "PW+4w8vTv342/fVE9yt2Wg=="
+          "hash": "YweKLKy2AmgJmbDLhnY9cQ=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "ot2+sLoidZ40F+1/XhJ+yw=="
+          "hash": "YnhANuY7ON4RaZSTYrLqtA=="
         }
       },
       "is_incremental": false,
@@ -641,11 +641,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/advanced/debug.md",
+      "source_relative_path": "articles/advanced/debug/assemblies_dnSpy.md",
       "output": {
         ".html": {
-          "relative_path": "articles/advanced/debug.html",
-          "hash": "w03FlxV4H2t3+/p74IzYLQ=="
+          "relative_path": "articles/advanced/debug/assemblies_dnSpy.html",
+          "hash": "gZn3yV6djDFsnlMVU7k3FQ=="
         }
       },
       "is_incremental": false,
@@ -653,10 +653,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/bepin_breakpoint_hit.png",
+      "source_relative_path": "articles/advanced/debug/images/bepin_breakpoint_hit.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/bepin_breakpoint_hit.png"
+          "relative_path": "articles/advanced/debug/images/bepin_breakpoint_hit.png"
         }
       },
       "is_incremental": false,
@@ -664,10 +664,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_asscsharp_beakpoint_hit.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_asscsharp_beakpoint_hit.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_asscsharp_beakpoint_hit.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_asscsharp_beakpoint_hit.png"
         }
       },
       "is_incremental": false,
@@ -675,10 +675,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_breakpoint_hit.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_breakpoint_hit.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_breakpoint_hit.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_breakpoint_hit.png"
         }
       },
       "is_incremental": false,
@@ -686,10 +686,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_debug.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_debug.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_debug.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_debug.png"
         }
       },
       "is_incremental": false,
@@ -697,10 +697,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_dragndrop.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_dragndrop.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_dragndrop.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_dragndrop.png"
         }
       },
       "is_incremental": false,
@@ -708,10 +708,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_module_breakpoints.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_module_breakpoints.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_module_breakpoints.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_module_breakpoints.png"
         }
       },
       "is_incremental": false,
@@ -719,10 +719,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_modules.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_modules.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_modules.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_modules.png"
         }
       },
       "is_incremental": false,
@@ -730,10 +730,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_modules_view.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_modules_view.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_modules_view.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_modules_view.png"
         }
       },
       "is_incremental": false,
@@ -741,10 +741,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_set_breakpoint.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_set_breakpoint.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_set_breakpoint.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_set_breakpoint.png"
         }
       },
       "is_incremental": false,
@@ -752,10 +752,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/dnSpy_start_debug.png",
+      "source_relative_path": "articles/advanced/debug/images/dnSpy_start_debug.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/dnSpy_start_debug.png"
+          "relative_path": "articles/advanced/debug/images/dnSpy_start_debug.png"
         }
       },
       "is_incremental": false,
@@ -763,10 +763,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_debugger_select.png",
+      "source_relative_path": "articles/advanced/debug/images/vstu_debugger_select.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_debugger_select.png"
+          "relative_path": "articles/advanced/debug/images/vstu_debugger_select.png"
         }
       },
       "is_incremental": false,
@@ -774,10 +774,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_pdb2mdb.gif",
+      "source_relative_path": "articles/advanced/debug/images/vstu_pdb2mdb.gif",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_pdb2mdb.gif"
+          "relative_path": "articles/advanced/debug/images/vstu_pdb2mdb.gif"
         }
       },
       "is_incremental": false,
@@ -785,10 +785,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_plugin_install.png",
+      "source_relative_path": "articles/advanced/debug/images/vstu_plugin_install.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_plugin_install.png"
+          "relative_path": "articles/advanced/debug/images/vstu_plugin_install.png"
         }
       },
       "is_incremental": false,
@@ -796,10 +796,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_select.png",
+      "source_relative_path": "articles/advanced/debug/images/vstu_select.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_select.png"
+          "relative_path": "articles/advanced/debug/images/vstu_select.png"
         }
       },
       "is_incremental": false,
@@ -807,10 +807,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_select_process.png",
+      "source_relative_path": "articles/advanced/debug/images/vstu_select_process.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_select_process.png"
+          "relative_path": "articles/advanced/debug/images/vstu_select_process.png"
         }
       },
       "is_incremental": false,
@@ -818,10 +818,46 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/advanced/images/vstu_works.png",
+      "source_relative_path": "articles/advanced/debug/images/vstu_works.png",
       "output": {
         "resource": {
-          "relative_path": "articles/advanced/images/vstu_works.png"
+          "relative_path": "articles/advanced/debug/images/vstu_works.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/debug/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/debug/index.html",
+          "hash": "a+Ccm8dPYebNhCuMPQu7Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/debug/plugins_dnSpy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/debug/plugins_dnSpy.html",
+          "hash": "cU4LJb1MROwhObBD7qkFxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/debug/plugins_vs.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/debug/plugins_vs.html",
+          "hash": "7VcBGR2vvC23h4a9wFs72g=="
         }
       },
       "is_incremental": false,
@@ -833,7 +869,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/index.html",
-          "hash": "H/tSE+4DGpJfrvynFtp5yw=="
+          "hash": "GpWc4upE0ED8KMQmdpsfNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/advanced/steam_interop.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/advanced/steam_interop.html",
+          "hash": "pjvVnxALX5gV9l8fXmLRfw=="
         }
       },
       "is_incremental": false,
@@ -845,7 +893,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/harmony_wrapper.html",
-          "hash": "qsWcxi2fPH61oI+W2ldXSQ=="
+          "hash": "lJzG9ZemouUE7h2sg+gOuw=="
         }
       },
       "is_incremental": false,
@@ -857,7 +905,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/index.html",
-          "hash": "dXv9aZ+jz0OBDJDTVLMG5w=="
+          "hash": "x4SAyLWmPR9hCt0M3BeI8Q=="
         }
       },
       "is_incremental": false,
@@ -869,7 +917,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/1_setup.html",
-          "hash": "bKan1G2B8yT6bosWxT7scQ=="
+          "hash": "iefed836HIlA0yh0GWgMhA=="
         }
       },
       "is_incremental": false,
@@ -881,7 +929,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "GSXG6fk0p5Sese5x+J1U2A=="
+          "hash": "/mrxbeJ0PEPoBuYcu0RbIQ=="
         }
       },
       "is_incremental": false,
@@ -893,7 +941,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "4XaeyczU7MVvlxtfQC8sRQ=="
+          "hash": "GLEzPrV2GZgdRSiXncLRHg=="
         }
       },
       "is_incremental": false,
@@ -905,7 +953,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/4_logging.html",
-          "hash": "fflV93tNxs0uNzI7fnGouw=="
+          "hash": "7F0Ij1WRXCKPtdlxa7mSyg=="
         }
       },
       "is_incremental": false,
@@ -917,7 +965,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/5_distributing.html",
-          "hash": "XhkWPIDtm85Zt4KQyNirxA=="
+          "hash": "ZA5brrKC2g02K9NuZ64U2g=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "n9wRl3ntC+LFyowRXNn0Dg=="
+          "hash": "ZflGQ9fpAuysjtr46N/fug=="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/preloader_patchers.html",
-          "hash": "uWpM88PwZyMUIHNwDRnEZw=="
+          "hash": "R0ms6uK7LQn8uv08B53XKg=="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "qzA2f0bO12LGB7yOg4Pytg=="
+          "hash": "sjJ6oM/EPZoLyKytC9ngag=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "pd7zD6dmXlM0Z2EBA+jGpw=="
+          "hash": "UTX6/r5rV2p7eyMfzORxKw=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/configuration.html",
-          "hash": "6iTpPiQLEaSFe9IDgyKnqg=="
+          "hash": "Veurp4UXNbsI07Q4mW44wQ=="
         }
       },
       "is_incremental": false,
@@ -1121,7 +1169,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/index.html",
-          "hash": "21L1lSoM/ZBc9Cp3yTW3Zg=="
+          "hash": "wZpTVzws4COUnYk7L8XbbA=="
         }
       },
       "is_incremental": false,
@@ -1129,11 +1177,35 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/user_guide/installation.md",
+      "source_relative_path": "articles/user_guide/installation/hardpatching.md",
       "output": {
         ".html": {
-          "relative_path": "articles/user_guide/installation.html",
-          "hash": "jqaVhkf7xrp0/ZaHZqNkMA=="
+          "relative_path": "articles/user_guide/installation/hardpatching.html",
+          "hash": "r7rgg2Nz4VCBe/a7zUJzPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/user_guide/installation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/user_guide/installation/index.html",
+          "hash": "uKcieV0JUBdNAXYM2739iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/user_guide/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/user_guide/troubleshooting.html",
+          "hash": "jbrQ+zzKrIe92mmAjuMfGA=="
         }
       },
       "is_incremental": false,
@@ -1145,7 +1217,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "WGNfBuFTd5PcUVneKcBrEA=="
+          "hash": "LwsK+e/7Cy7/T2x8d5xNYA=="
         }
       },
       "is_incremental": false,
@@ -1157,7 +1229,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "c45voxDfhMNj2/aYC136Vg=="
+          "hash": "IySD4WPfqLnm8fD55o0Oyw=="
         }
       },
       "is_incremental": false,
@@ -1187,13 +1259,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -1201,10 +1266,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 20,
+          "total_file_count": 26,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {

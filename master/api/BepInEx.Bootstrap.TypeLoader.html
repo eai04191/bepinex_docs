@@ -120,13 +120,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_Mono_Cecil_TypeDefinition___0__System_Func_Mono_Cecil_AssemblyDefinition_System_Boolean__System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.FindPluginTypes%60%601(System.String%2CSystem.Func%7BMono.Cecil.TypeDefinition%2C%60%600%7D%2CSystem.Func%7BMono.Cecil.AssemblyDefinition%2CSystem.Boolean%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/BepInEx/BepInEx/new/master/apiSpec/new?filename=BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_.md&amp;value=---%0Auid%3A%20BepInEx.Bootstrap.TypeLoader.FindPluginTypes%60%601(System.String%2CSystem.Func%7BTypeDefinition%2C%60%600%7D%2CSystem.Func%7BAssemblyDefinition%2CSystem.Boolean%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/BepInEx/BepInEx/blob/master/BepInEx/Bootstrap/TypeLoader.cs/#L86">View Source</a>
   </span>
   <a id="BepInEx_Bootstrap_TypeLoader_FindPluginTypes_" data-uid="BepInEx.Bootstrap.TypeLoader.FindPluginTypes*"></a>
-  <h4 id="BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_Mono_Cecil_TypeDefinition___0__System_Func_Mono_Cecil_AssemblyDefinition_System_Boolean__System_String_" data-uid="BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{Mono.Cecil.TypeDefinition,``0},System.Func{Mono.Cecil.AssemblyDefinition,System.Boolean},System.String)">FindPluginTypes&lt;T&gt;(String, Func&lt;TypeDefinition, T&gt;, Func&lt;AssemblyDefinition, Boolean&gt;, String)</h4>
+  <h4 id="BepInEx_Bootstrap_TypeLoader_FindPluginTypes__1_System_String_System_Func_TypeDefinition___0__System_Func_AssemblyDefinition_System_Boolean__System_String_" data-uid="BepInEx.Bootstrap.TypeLoader.FindPluginTypes``1(System.String,System.Func{TypeDefinition,``0},System.Func{AssemblyDefinition,System.Boolean},System.String)">FindPluginTypes&lt;T&gt;(String, Func&lt;TypeDefinition, T&gt;, Func&lt;AssemblyDefinition, Boolean&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Looks up assemblies in the given directory and locates all types that can be loaded and collects their metadata.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -152,13 +152,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.TypeDefinition</span>, T&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">TypeDefinition</span>, T&gt;</td>
         <td><span class="parametername">typeSelector</span></td>
         <td><p>A function to check if a type should be selected and to build the type metadata.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">Mono.Cecil.AssemblyDefinition</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">AssemblyDefinition</span>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">assemblyFilter</span></td>
         <td><p>A filter function to quickly determine if the assembly can be loaded.</p>
 </td>
@@ -403,7 +403,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Mono.Cecil.AssemblyResolveEventHandler</span></td>
+        <td><span class="xref">AssemblyResolveEventHandler</span></td>
         <td></td>
       </tr>
     </tbody>
