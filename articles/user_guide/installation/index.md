@@ -73,6 +73,9 @@ Currently, BepInEx can be installed manually.
     file into `BepInEx/config` folder and an initial log file `BepInEx/LogOutput.txt`.
 
     # [Linux/macOS](#tab/tabid-nix)
+    > [!NOTE]
+    > If you are modding a Steam game, you need to [configure Steam to run BepInEx](<xref:steam_interop>)
+    
     First, open the included run script `run_bepinex.sh` in a text editor of 
     your choice. Edit the line
     ```sh
@@ -100,8 +103,6 @@ Currently, BepInEx can be installed manually.
     ```
     This should generate BepInEx configuration 
     file into `BepInEx/config` folder and an initial log file `BepInEx/LogOutput.txt`.
-
-    If you are modding a Steam game, you need to [configure Steam to run BepInEx](<xref:steam_interop>)
     ***
     
 4. Configure BepInEx to suit your needs. 
