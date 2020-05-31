@@ -3781,7 +3781,7 @@ references:
   name: Using preloader patchers
   href: articles/dev_guide/preloader_patchers.html
 - uid: steam_interop
-  name: TODO
+  name: Unix platforms (native games)
   href: articles/advanced/steam_interop.html
 - uid: troubleshooting
   name: TODO
