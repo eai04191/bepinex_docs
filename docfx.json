@@ -7,7 +7,7 @@
             "src/**.csproj"
           ],
           "exclude": [
-            "src/**/submodules/Harmony/**",
+            "src/**/submodules/**",
             "src/**/BepInEx.Preloader/**",
             "src/**/BepInEx.Bootstrap/**",
             "src/**/BepInEx.Harmony.Tests/**",
