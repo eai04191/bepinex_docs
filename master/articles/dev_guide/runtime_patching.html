@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Patching methods during runtime </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Patching methods during runtime ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -71,8 +71,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-7">
-            <article class="content wrap" id="_content" data-uid="">
+            <article class="content wrap" id="_content" data-uid="runtime_patching">
+<h1 id="patching-methods-during-runtime">Patching methods during runtime</h1>
 
+<div class="NOTE">
+<h5>Note</h5>
+<p>This guide is still WIP.</p>
+</div>
+<p>Runtime patching is the process of modifying methods without permanently
+patching them. Runtime patching happens while the game is running and on .NET
+can be done very extensively.</p>
+<p>BepInEx ships with HarmonyX and MonoMod.RuntimeDetour to perform runtime patching.
+You can use either or both libraries -- both of them have different API but it
+does not matter which one you use.</p>
+<h2 id="harmonyx">HarmonyX</h2>
+<p>BepInEx uses <a href="https://github.com/BepInEx/HarmonyX">HarmonyX</a> to perform runtime
+patching. HarmonyX is a fork of <a href="https://github.com/pardeike/Harmony">Harmony</a>
+with changes to specifically allow interop with MonoMod.RuntimeDetour.</p>
+<p>HarmonyX is attribute-based, which means you define patches by applying attributes
+to a method.</p>
+<p>Refer to the following guides on how to use HarmonyX:</p>
+<ul>
+<li><a href="https://github.com/BepInEx/HarmonyX/wiki">HarmonyX wiki</a> - gives basic examples and outlines differences from normal Harmony. Still WIP at the moment</li>
+<li><a href="https://harmony.pardeike.net/articles/intro.html">Original Harmony wiki</a> - HarmonyX API is similar to that of Harmony, so you can use the official wiki without much issue</li>
+</ul>
+<h2 id="monomodruntimedetour">MonoMod.RuntimeDetour</h2>
+<p><a href="https://github.com/MonoMod/MonoMod/blob/master/README-RuntimeDetour.md">MonoMod.RuntimeDetour</a>
+is a helper library that allows to apply runtime patches as C# objects.</p>
+<p>Alternatively, RuntimeDetour supports defining patches as events.</p>
+<p>Some useful guides</p>
+<ul>
+<li><a href="https://github.com/MonoMod/MonoMod/blob/master/README-RuntimeDetour.md">Brief introduction into using RuntimeDetour</a></li>
+<li><a href="https://github.com/risk-of-thunder/R2Wiki/wiki/Working-with-IL">Introduction to IL hooks</a></li>
+</ul>
 </article>
           </div>
           
@@ -81,7 +112,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/a37f9020061fd598c5b5a02796230a48c2602b0b/articles/dev_guide/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/fcebfd75362de263becb174eb244348e8614c3e3/articles/dev_guide/runtime_patching.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

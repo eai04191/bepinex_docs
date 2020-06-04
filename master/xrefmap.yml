@@ -1,9 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: advanced
-  name: advanced
-  href: articles/advanced/index.html
 - uid: api
   name: BepInEx API documentation
   href: api/index.html
@@ -2232,131 +2229,147 @@ references:
   isSpec: "True"
   fullName: BepInEx.Configuration.TypeConverter.ConvertToString
   nameWithType: TypeConverter.ConvertToString
-- uid: BepInEx.Harmony
-  name: BepInEx.Harmony
-  href: api/BepInEx.Harmony.html
-  commentId: N:BepInEx.Harmony
-  fullName: BepInEx.Harmony
-  nameWithType: BepInEx.Harmony
-- uid: BepInEx.Harmony.HarmonyExtensions
-  name: HarmonyExtensions
-  href: api/BepInEx.Harmony.HarmonyExtensions.html
-  commentId: T:BepInEx.Harmony.HarmonyExtensions
-  fullName: BepInEx.Harmony.HarmonyExtensions
-  nameWithType: HarmonyExtensions
-- uid: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
-  name: PatchAll(Harmony, Type)
-  href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_HarmonyLib_Harmony_System_Type_
-  commentId: M:BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony,System.Type)
-  fullName: BepInEx.Harmony.HarmonyExtensions.PatchAll(HarmonyLib.Harmony, System.Type)
-  nameWithType: HarmonyExtensions.PatchAll(Harmony, Type)
-- uid: BepInEx.Harmony.HarmonyExtensions.PatchAll*
-  name: PatchAll
-  href: api/BepInEx.Harmony.HarmonyExtensions.html#BepInEx_Harmony_HarmonyExtensions_PatchAll_
-  commentId: Overload:BepInEx.Harmony.HarmonyExtensions.PatchAll
+- uid: BepInEx.ConsoleManager
+  name: ConsoleManager
+  href: api/BepInEx.ConsoleManager.html
+  commentId: T:BepInEx.ConsoleManager
+  fullName: BepInEx.ConsoleManager
+  nameWithType: ConsoleManager
+- uid: BepInEx.ConsoleManager.ConfigConsoleEnabled
+  name: ConfigConsoleEnabled
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConfigConsoleEnabled
+  commentId: F:BepInEx.ConsoleManager.ConfigConsoleEnabled
+  fullName: BepInEx.ConsoleManager.ConfigConsoleEnabled
+  nameWithType: ConsoleManager.ConfigConsoleEnabled
+- uid: BepInEx.ConsoleManager.ConfigConsoleShiftJis
+  name: ConfigConsoleShiftJis
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConfigConsoleShiftJis
+  commentId: F:BepInEx.ConsoleManager.ConfigConsoleShiftJis
+  fullName: BepInEx.ConsoleManager.ConfigConsoleShiftJis
+  nameWithType: ConsoleManager.ConfigConsoleShiftJis
+- uid: BepInEx.ConsoleManager.ConsoleActive
+  name: ConsoleActive
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConsoleActive
+  commentId: P:BepInEx.ConsoleManager.ConsoleActive
+  fullName: BepInEx.ConsoleManager.ConsoleActive
+  nameWithType: ConsoleManager.ConsoleActive
+- uid: BepInEx.ConsoleManager.ConsoleActive*
+  name: ConsoleActive
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConsoleActive_
+  commentId: Overload:BepInEx.ConsoleManager.ConsoleActive
   isSpec: "True"
-  fullName: BepInEx.Harmony.HarmonyExtensions.PatchAll
-  nameWithType: HarmonyExtensions.PatchAll
-- uid: BepInEx.Harmony.HarmonyWrapper
-  name: HarmonyWrapper
-  href: api/BepInEx.Harmony.HarmonyWrapper.html
-  commentId: T:BepInEx.Harmony.HarmonyWrapper
-  fullName: BepInEx.Harmony.HarmonyWrapper
-  nameWithType: HarmonyWrapper
-- uid: BepInEx.Harmony.HarmonyWrapper.EmitDelegate*
-  name: EmitDelegate
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_EmitDelegate_
-  commentId: Overload:BepInEx.Harmony.HarmonyWrapper.EmitDelegate
+  fullName: BepInEx.ConsoleManager.ConsoleActive
+  nameWithType: ConsoleManager.ConsoleActive
+- uid: BepInEx.ConsoleManager.ConsoleStream
+  name: ConsoleStream
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConsoleStream
+  commentId: P:BepInEx.ConsoleManager.ConsoleStream
+  fullName: BepInEx.ConsoleManager.ConsoleStream
+  nameWithType: ConsoleManager.ConsoleStream
+- uid: BepInEx.ConsoleManager.ConsoleStream*
+  name: ConsoleStream
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_ConsoleStream_
+  commentId: Overload:BepInEx.ConsoleManager.ConsoleStream
   isSpec: "True"
-  fullName: BepInEx.Harmony.HarmonyWrapper.EmitDelegate
-  nameWithType: HarmonyWrapper.EmitDelegate
-- uid: BepInEx.Harmony.HarmonyWrapper.EmitDelegate``1(``0)
-  name: EmitDelegate<T>(T)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_EmitDelegate__1___0_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.EmitDelegate``1(``0)
-  name.vb: EmitDelegate(Of T)(T)
-  fullName: BepInEx.Harmony.HarmonyWrapper.EmitDelegate<T>(T)
-  fullName.vb: BepInEx.Harmony.HarmonyWrapper.EmitDelegate(Of T)(T)
-  nameWithType: HarmonyWrapper.EmitDelegate<T>(T)
-  nameWithType.vb: HarmonyWrapper.EmitDelegate(Of T)(T)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
-  name: PatchAll(Harmony)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_HarmonyLib_Harmony_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(Harmony)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,HarmonyLib.Harmony)
-  name: PatchAll(Assembly, Harmony)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Reflection_Assembly_HarmonyLib_Harmony_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,HarmonyLib.Harmony)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly, HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(Assembly, Harmony)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,System.String)
-  name: PatchAll(Assembly, String)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Reflection_Assembly_System_String_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly,System.String)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Reflection.Assembly, System.String)
-  nameWithType: HarmonyWrapper.PatchAll(Assembly, String)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.String)
-  name: PatchAll(String)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_String_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.String)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.String)
-  nameWithType: HarmonyWrapper.PatchAll(String)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,HarmonyLib.Harmony)
-  name: PatchAll(Type, Harmony)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Type_HarmonyLib_Harmony_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,HarmonyLib.Harmony)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type, HarmonyLib.Harmony)
-  nameWithType: HarmonyWrapper.PatchAll(Type, Harmony)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,System.String)
-  name: PatchAll(Type, String)
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_System_Type_System_String_
-  commentId: M:BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type,System.String)
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll(System.Type, System.String)
-  nameWithType: HarmonyWrapper.PatchAll(Type, String)
-- uid: BepInEx.Harmony.HarmonyWrapper.PatchAll*
-  name: PatchAll
-  href: api/BepInEx.Harmony.HarmonyWrapper.html#BepInEx_Harmony_HarmonyWrapper_PatchAll_
-  commentId: Overload:BepInEx.Harmony.HarmonyWrapper.PatchAll
+  fullName: BepInEx.ConsoleManager.ConsoleStream
+  nameWithType: ConsoleManager.ConsoleStream
+- uid: BepInEx.ConsoleManager.CreateConsole
+  name: CreateConsole()
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_CreateConsole
+  commentId: M:BepInEx.ConsoleManager.CreateConsole
+  fullName: BepInEx.ConsoleManager.CreateConsole()
+  nameWithType: ConsoleManager.CreateConsole()
+- uid: BepInEx.ConsoleManager.CreateConsole*
+  name: CreateConsole
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_CreateConsole_
+  commentId: Overload:BepInEx.ConsoleManager.CreateConsole
   isSpec: "True"
-  fullName: BepInEx.Harmony.HarmonyWrapper.PatchAll
-  nameWithType: HarmonyWrapper.PatchAll
-- uid: BepInEx.Harmony.ParameterByRefAttribute
-  name: ParameterByRefAttribute
-  href: api/BepInEx.Harmony.ParameterByRefAttribute.html
-  commentId: T:BepInEx.Harmony.ParameterByRefAttribute
-  fullName: BepInEx.Harmony.ParameterByRefAttribute
-  nameWithType: ParameterByRefAttribute
-- uid: BepInEx.Harmony.ParameterByRefAttribute.#ctor(System.Int32[])
-  name: ParameterByRefAttribute(Int32[])
-  href: api/BepInEx.Harmony.ParameterByRefAttribute.html#BepInEx_Harmony_ParameterByRefAttribute__ctor_System_Int32___
-  commentId: M:BepInEx.Harmony.ParameterByRefAttribute.#ctor(System.Int32[])
-  name.vb: ParameterByRefAttribute(Int32())
-  fullName: BepInEx.Harmony.ParameterByRefAttribute.ParameterByRefAttribute(System.Int32[])
-  fullName.vb: BepInEx.Harmony.ParameterByRefAttribute.ParameterByRefAttribute(System.Int32())
-  nameWithType: ParameterByRefAttribute.ParameterByRefAttribute(Int32[])
-  nameWithType.vb: ParameterByRefAttribute.ParameterByRefAttribute(Int32())
-- uid: BepInEx.Harmony.ParameterByRefAttribute.#ctor*
-  name: ParameterByRefAttribute
-  href: api/BepInEx.Harmony.ParameterByRefAttribute.html#BepInEx_Harmony_ParameterByRefAttribute__ctor_
-  commentId: Overload:BepInEx.Harmony.ParameterByRefAttribute.#ctor
+  fullName: BepInEx.ConsoleManager.CreateConsole
+  nameWithType: ConsoleManager.CreateConsole
+- uid: BepInEx.ConsoleManager.DetachConsole
+  name: DetachConsole()
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_DetachConsole
+  commentId: M:BepInEx.ConsoleManager.DetachConsole
+  fullName: BepInEx.ConsoleManager.DetachConsole()
+  nameWithType: ConsoleManager.DetachConsole()
+- uid: BepInEx.ConsoleManager.DetachConsole*
+  name: DetachConsole
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_DetachConsole_
+  commentId: Overload:BepInEx.ConsoleManager.DetachConsole
   isSpec: "True"
-  fullName: BepInEx.Harmony.ParameterByRefAttribute.ParameterByRefAttribute
-  nameWithType: ParameterByRefAttribute.ParameterByRefAttribute
-- uid: BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
-  name: ParameterIndices
-  href: api/BepInEx.Harmony.ParameterByRefAttribute.html#BepInEx_Harmony_ParameterByRefAttribute_ParameterIndices
-  commentId: P:BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
-  fullName: BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
-  nameWithType: ParameterByRefAttribute.ParameterIndices
-- uid: BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices*
-  name: ParameterIndices
-  href: api/BepInEx.Harmony.ParameterByRefAttribute.html#BepInEx_Harmony_ParameterByRefAttribute_ParameterIndices_
-  commentId: Overload:BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
+  fullName: BepInEx.ConsoleManager.DetachConsole
+  nameWithType: ConsoleManager.DetachConsole
+- uid: BepInEx.ConsoleManager.Initialize(System.Boolean)
+  name: Initialize(Boolean)
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_Initialize_System_Boolean_
+  commentId: M:BepInEx.ConsoleManager.Initialize(System.Boolean)
+  fullName: BepInEx.ConsoleManager.Initialize(System.Boolean)
+  nameWithType: ConsoleManager.Initialize(Boolean)
+- uid: BepInEx.ConsoleManager.Initialize*
+  name: Initialize
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_Initialize_
+  commentId: Overload:BepInEx.ConsoleManager.Initialize
   isSpec: "True"
-  fullName: BepInEx.Harmony.ParameterByRefAttribute.ParameterIndices
-  nameWithType: ParameterByRefAttribute.ParameterIndices
+  fullName: BepInEx.ConsoleManager.Initialize
+  nameWithType: ConsoleManager.Initialize
+- uid: BepInEx.ConsoleManager.SetConsoleColor(System.ConsoleColor)
+  name: SetConsoleColor(ConsoleColor)
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleColor_System_ConsoleColor_
+  commentId: M:BepInEx.ConsoleManager.SetConsoleColor(System.ConsoleColor)
+  fullName: BepInEx.ConsoleManager.SetConsoleColor(System.ConsoleColor)
+  nameWithType: ConsoleManager.SetConsoleColor(ConsoleColor)
+- uid: BepInEx.ConsoleManager.SetConsoleColor*
+  name: SetConsoleColor
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleColor_
+  commentId: Overload:BepInEx.ConsoleManager.SetConsoleColor
+  isSpec: "True"
+  fullName: BepInEx.ConsoleManager.SetConsoleColor
+  nameWithType: ConsoleManager.SetConsoleColor
+- uid: BepInEx.ConsoleManager.SetConsoleEncoding
+  name: SetConsoleEncoding()
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding
+  commentId: M:BepInEx.ConsoleManager.SetConsoleEncoding
+  fullName: BepInEx.ConsoleManager.SetConsoleEncoding()
+  nameWithType: ConsoleManager.SetConsoleEncoding()
+- uid: BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
+  name: SetConsoleEncoding(Encoding)
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding_System_Text_Encoding_
+  commentId: M:BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
+  fullName: BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
+  nameWithType: ConsoleManager.SetConsoleEncoding(Encoding)
+- uid: BepInEx.ConsoleManager.SetConsoleEncoding*
+  name: SetConsoleEncoding
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding_
+  commentId: Overload:BepInEx.ConsoleManager.SetConsoleEncoding
+  isSpec: "True"
+  fullName: BepInEx.ConsoleManager.SetConsoleEncoding
+  nameWithType: ConsoleManager.SetConsoleEncoding
+- uid: BepInEx.ConsoleManager.SetConsoleTitle(System.String)
+  name: SetConsoleTitle(String)
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleTitle_System_String_
+  commentId: M:BepInEx.ConsoleManager.SetConsoleTitle(System.String)
+  fullName: BepInEx.ConsoleManager.SetConsoleTitle(System.String)
+  nameWithType: ConsoleManager.SetConsoleTitle(String)
+- uid: BepInEx.ConsoleManager.SetConsoleTitle*
+  name: SetConsoleTitle
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleTitle_
+  commentId: Overload:BepInEx.ConsoleManager.SetConsoleTitle
+  isSpec: "True"
+  fullName: BepInEx.ConsoleManager.SetConsoleTitle
+  nameWithType: ConsoleManager.SetConsoleTitle
+- uid: BepInEx.ConsoleManager.StandardOutStream
+  name: StandardOutStream
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_StandardOutStream
+  commentId: P:BepInEx.ConsoleManager.StandardOutStream
+  fullName: BepInEx.ConsoleManager.StandardOutStream
+  nameWithType: ConsoleManager.StandardOutStream
+- uid: BepInEx.ConsoleManager.StandardOutStream*
+  name: StandardOutStream
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_StandardOutStream_
+  commentId: Overload:BepInEx.ConsoleManager.StandardOutStream
+  isSpec: "True"
+  fullName: BepInEx.ConsoleManager.StandardOutStream
+  nameWithType: ConsoleManager.StandardOutStream
 - uid: BepInEx.Logging
   name: BepInEx.Logging
   href: api/BepInEx.Logging.html
@@ -3438,6 +3451,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.PluginInfo.Processes
   nameWithType: PluginInfo.Processes
+- uid: BepInEx.PluginInfo.ToString
+  name: ToString()
+  href: api/BepInEx.PluginInfo.html#BepInEx_PluginInfo_ToString
+  commentId: M:BepInEx.PluginInfo.ToString
+  fullName: BepInEx.PluginInfo.ToString()
+  nameWithType: PluginInfo.ToString()
+- uid: BepInEx.PluginInfo.ToString*
+  name: ToString
+  href: api/BepInEx.PluginInfo.html#BepInEx_PluginInfo_ToString_
+  commentId: Overload:BepInEx.PluginInfo.ToString
+  isSpec: "True"
+  fullName: BepInEx.PluginInfo.ToString
+  nameWithType: PluginInfo.ToString
 - uid: BepInEx.ThreadingExtensions
   name: ThreadingExtensions
   href: api/BepInEx.ThreadingExtensions.html
@@ -3596,6 +3622,238 @@ references:
   fullName: BepInEx.ThreadingHelper.System.ComponentModel.ISynchronizeInvoke.Invoke
   nameWithType: ThreadingHelper.ISynchronizeInvoke.Invoke
   nameWithType.vb: ThreadingHelper.System.ComponentModel.ISynchronizeInvoke.Invoke
+- uid: BepInEx.Unix
+  name: BepInEx.Unix
+  href: api/BepInEx.Unix.html
+  commentId: N:BepInEx.Unix
+  fullName: BepInEx.Unix
+  nameWithType: BepInEx.Unix
+- uid: BepInEx.Unix.ConsoleWriter
+  name: ConsoleWriter
+  href: api/BepInEx.Unix.ConsoleWriter.html
+  commentId: T:BepInEx.Unix.ConsoleWriter
+  fullName: BepInEx.Unix.ConsoleWriter
+  nameWithType: ConsoleWriter
+- uid: BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  name: CreateConsoleStreamWriter(Stream, Encoding, Boolean)
+  href: api/BepInEx.Unix.ConsoleWriter.html#BepInEx_Unix_ConsoleWriter_CreateConsoleStreamWriter_System_IO_Stream_System_Text_Encoding_System_Boolean_
+  commentId: M:BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter(System.IO.Stream,System.Text.Encoding,System.Boolean)
+  fullName: BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter(System.IO.Stream, System.Text.Encoding, System.Boolean)
+  nameWithType: ConsoleWriter.CreateConsoleStreamWriter(Stream, Encoding, Boolean)
+- uid: BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter*
+  name: CreateConsoleStreamWriter
+  href: api/BepInEx.Unix.ConsoleWriter.html#BepInEx_Unix_ConsoleWriter_CreateConsoleStreamWriter_
+  commentId: Overload:BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter
+  isSpec: "True"
+  fullName: BepInEx.Unix.ConsoleWriter.CreateConsoleStreamWriter
+  nameWithType: ConsoleWriter.CreateConsoleStreamWriter
+- uid: BepInEx.Unix.UnixStream
+  name: UnixStream
+  href: api/BepInEx.Unix.UnixStream.html
+  commentId: T:BepInEx.Unix.UnixStream
+  fullName: BepInEx.Unix.UnixStream
+  nameWithType: UnixStream
+- uid: BepInEx.Unix.UnixStream.#ctor(System.Int32,System.IO.FileAccess)
+  name: UnixStream(Int32, FileAccess)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream__ctor_System_Int32_System_IO_FileAccess_
+  commentId: M:BepInEx.Unix.UnixStream.#ctor(System.Int32,System.IO.FileAccess)
+  fullName: BepInEx.Unix.UnixStream.UnixStream(System.Int32, System.IO.FileAccess)
+  nameWithType: UnixStream.UnixStream(Int32, FileAccess)
+- uid: BepInEx.Unix.UnixStream.#ctor*
+  name: UnixStream
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream__ctor_
+  commentId: Overload:BepInEx.Unix.UnixStream.#ctor
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.UnixStream
+  nameWithType: UnixStream.UnixStream
+- uid: BepInEx.Unix.UnixStream.Access
+  name: Access
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Access
+  commentId: P:BepInEx.Unix.UnixStream.Access
+  fullName: BepInEx.Unix.UnixStream.Access
+  nameWithType: UnixStream.Access
+- uid: BepInEx.Unix.UnixStream.Access*
+  name: Access
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Access_
+  commentId: Overload:BepInEx.Unix.UnixStream.Access
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Access
+  nameWithType: UnixStream.Access
+- uid: BepInEx.Unix.UnixStream.CanRead
+  name: CanRead
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanRead
+  commentId: P:BepInEx.Unix.UnixStream.CanRead
+  fullName: BepInEx.Unix.UnixStream.CanRead
+  nameWithType: UnixStream.CanRead
+- uid: BepInEx.Unix.UnixStream.CanRead*
+  name: CanRead
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanRead_
+  commentId: Overload:BepInEx.Unix.UnixStream.CanRead
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.CanRead
+  nameWithType: UnixStream.CanRead
+- uid: BepInEx.Unix.UnixStream.CanSeek
+  name: CanSeek
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanSeek
+  commentId: P:BepInEx.Unix.UnixStream.CanSeek
+  fullName: BepInEx.Unix.UnixStream.CanSeek
+  nameWithType: UnixStream.CanSeek
+- uid: BepInEx.Unix.UnixStream.CanSeek*
+  name: CanSeek
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanSeek_
+  commentId: Overload:BepInEx.Unix.UnixStream.CanSeek
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.CanSeek
+  nameWithType: UnixStream.CanSeek
+- uid: BepInEx.Unix.UnixStream.CanWrite
+  name: CanWrite
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanWrite
+  commentId: P:BepInEx.Unix.UnixStream.CanWrite
+  fullName: BepInEx.Unix.UnixStream.CanWrite
+  nameWithType: UnixStream.CanWrite
+- uid: BepInEx.Unix.UnixStream.CanWrite*
+  name: CanWrite
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_CanWrite_
+  commentId: Overload:BepInEx.Unix.UnixStream.CanWrite
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.CanWrite
+  nameWithType: UnixStream.CanWrite
+- uid: BepInEx.Unix.UnixStream.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Dispose_System_Boolean_
+  commentId: M:BepInEx.Unix.UnixStream.Dispose(System.Boolean)
+  fullName: BepInEx.Unix.UnixStream.Dispose(System.Boolean)
+  nameWithType: UnixStream.Dispose(Boolean)
+- uid: BepInEx.Unix.UnixStream.Dispose*
+  name: Dispose
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Dispose_
+  commentId: Overload:BepInEx.Unix.UnixStream.Dispose
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Dispose
+  nameWithType: UnixStream.Dispose
+- uid: BepInEx.Unix.UnixStream.FileHandle
+  name: FileHandle
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_FileHandle
+  commentId: P:BepInEx.Unix.UnixStream.FileHandle
+  fullName: BepInEx.Unix.UnixStream.FileHandle
+  nameWithType: UnixStream.FileHandle
+- uid: BepInEx.Unix.UnixStream.FileHandle*
+  name: FileHandle
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_FileHandle_
+  commentId: Overload:BepInEx.Unix.UnixStream.FileHandle
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.FileHandle
+  nameWithType: UnixStream.FileHandle
+- uid: BepInEx.Unix.UnixStream.Finalize
+  name: Finalize()
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Finalize
+  commentId: M:BepInEx.Unix.UnixStream.Finalize
+  fullName: BepInEx.Unix.UnixStream.Finalize()
+  nameWithType: UnixStream.Finalize()
+- uid: BepInEx.Unix.UnixStream.Finalize*
+  name: Finalize
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Finalize_
+  commentId: Overload:BepInEx.Unix.UnixStream.Finalize
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Finalize
+  nameWithType: UnixStream.Finalize
+- uid: BepInEx.Unix.UnixStream.Flush
+  name: Flush()
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Flush
+  commentId: M:BepInEx.Unix.UnixStream.Flush
+  fullName: BepInEx.Unix.UnixStream.Flush()
+  nameWithType: UnixStream.Flush()
+- uid: BepInEx.Unix.UnixStream.Flush*
+  name: Flush
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Flush_
+  commentId: Overload:BepInEx.Unix.UnixStream.Flush
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Flush
+  nameWithType: UnixStream.Flush
+- uid: BepInEx.Unix.UnixStream.Length
+  name: Length
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Length
+  commentId: P:BepInEx.Unix.UnixStream.Length
+  fullName: BepInEx.Unix.UnixStream.Length
+  nameWithType: UnixStream.Length
+- uid: BepInEx.Unix.UnixStream.Length*
+  name: Length
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Length_
+  commentId: Overload:BepInEx.Unix.UnixStream.Length
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Length
+  nameWithType: UnixStream.Length
+- uid: BepInEx.Unix.UnixStream.Position
+  name: Position
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Position
+  commentId: P:BepInEx.Unix.UnixStream.Position
+  fullName: BepInEx.Unix.UnixStream.Position
+  nameWithType: UnixStream.Position
+- uid: BepInEx.Unix.UnixStream.Position*
+  name: Position
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Position_
+  commentId: Overload:BepInEx.Unix.UnixStream.Position
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Position
+  nameWithType: UnixStream.Position
+- uid: BepInEx.Unix.UnixStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:BepInEx.Unix.UnixStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: BepInEx.Unix.UnixStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: BepInEx.Unix.UnixStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: UnixStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: UnixStream.Read(Byte(), Int32, Int32)
+- uid: BepInEx.Unix.UnixStream.Read*
+  name: Read
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Read_
+  commentId: Overload:BepInEx.Unix.UnixStream.Read
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Read
+  nameWithType: UnixStream.Read
+- uid: BepInEx.Unix.UnixStream.Seek(System.Int64,System.IO.SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Seek_System_Int64_System_IO_SeekOrigin_
+  commentId: M:BepInEx.Unix.UnixStream.Seek(System.Int64,System.IO.SeekOrigin)
+  fullName: BepInEx.Unix.UnixStream.Seek(System.Int64, System.IO.SeekOrigin)
+  nameWithType: UnixStream.Seek(Int64, SeekOrigin)
+- uid: BepInEx.Unix.UnixStream.Seek*
+  name: Seek
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Seek_
+  commentId: Overload:BepInEx.Unix.UnixStream.Seek
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Seek
+  nameWithType: UnixStream.Seek
+- uid: BepInEx.Unix.UnixStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_SetLength_System_Int64_
+  commentId: M:BepInEx.Unix.UnixStream.SetLength(System.Int64)
+  fullName: BepInEx.Unix.UnixStream.SetLength(System.Int64)
+  nameWithType: UnixStream.SetLength(Int64)
+- uid: BepInEx.Unix.UnixStream.SetLength*
+  name: SetLength
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_SetLength_
+  commentId: Overload:BepInEx.Unix.UnixStream.SetLength
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.SetLength
+  nameWithType: UnixStream.SetLength
+- uid: BepInEx.Unix.UnixStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:BepInEx.Unix.UnixStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: BepInEx.Unix.UnixStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: BepInEx.Unix.UnixStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: UnixStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: UnixStream.Write(Byte(), Int32, Int32)
+- uid: BepInEx.Unix.UnixStream.Write*
+  name: Write
+  href: api/BepInEx.Unix.UnixStream.html#BepInEx_Unix_UnixStream_Write_
+  commentId: Overload:BepInEx.Unix.UnixStream.Write
+  isSpec: "True"
+  fullName: BepInEx.Unix.UnixStream.Write
+  nameWithType: UnixStream.Write
 - uid: BepInEx.Utility
   name: Utility
   href: api/BepInEx.Utility.html
@@ -3644,6 +3902,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.ConvertToWWWFormat
   nameWithType: Utility.ConvertToWWWFormat
+- uid: BepInEx.Utility.CurrentOs
+  name: CurrentOs
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CurrentOs
+  commentId: P:BepInEx.Utility.CurrentOs
+  fullName: BepInEx.Utility.CurrentOs
+  nameWithType: Utility.CurrentOs
+- uid: BepInEx.Utility.CurrentOs*
+  name: CurrentOs
+  href: api/BepInEx.Utility.html#BepInEx_Utility_CurrentOs_
+  commentId: Overload:BepInEx.Utility.CurrentOs
+  isSpec: "True"
+  fullName: BepInEx.Utility.CurrentOs
+  nameWithType: Utility.CurrentOs
 - uid: BepInEx.Utility.IsNullOrWhiteSpace(System.String)
   name: IsNullOrWhiteSpace(String)
   href: api/BepInEx.Utility.html#BepInEx_Utility_IsNullOrWhiteSpace_System_String_
@@ -3670,6 +3941,19 @@ references:
   isSpec: "True"
   fullName: BepInEx.Utility.IsSubtypeOf
   nameWithType: Utility.IsSubtypeOf
+- uid: BepInEx.Utility.ParentDirectory(System.String,System.Int32)
+  name: ParentDirectory(String, Int32)
+  href: api/BepInEx.Utility.html#BepInEx_Utility_ParentDirectory_System_String_System_Int32_
+  commentId: M:BepInEx.Utility.ParentDirectory(System.String,System.Int32)
+  fullName: BepInEx.Utility.ParentDirectory(System.String, System.Int32)
+  nameWithType: Utility.ParentDirectory(String, Int32)
+- uid: BepInEx.Utility.ParentDirectory*
+  name: ParentDirectory
+  href: api/BepInEx.Utility.html#BepInEx_Utility_ParentDirectory_
+  commentId: Overload:BepInEx.Utility.ParentDirectory
+  isSpec: "True"
+  fullName: BepInEx.Utility.ParentDirectory
+  nameWithType: Utility.ParentDirectory
 - uid: BepInEx.Utility.SafeParseBool(System.String,System.Boolean)
   name: SafeParseBool(String, Boolean)
   href: api/BepInEx.Utility.html#BepInEx_Utility_SafeParseBool_System_String_System_Boolean_
@@ -3757,20 +4041,17 @@ references:
   fullName: BepInEx.Utility.TryResolveDllAssembly
   nameWithType: Utility.TryResolveDllAssembly
 - uid: compatibility
-  name: compatibility
+  name: Compatibility
   href: articles/advanced/compatibility.html
 - uid: configuration
   name: Configuration
   href: articles/user_guide/configuration.html
 - uid: debug_assemblies_dnSpy
-  name: Debugging patched assemblies
+  name: Debugging all assemblies with dnSpy
   href: articles/advanced/debug/assemblies_dnSpy.html
 - uid: debug_plugin_dnspy
   name: Debugging with dnSpy
   href: articles/advanced/debug/plugins_dnSpy.html
-- uid: harmony_wrapper
-  name: 'Runtime patching with '
-  href: articles/dev_guide/harmony_wrapper.html
 - uid: installation
   name: Installing BepInEx
   href: articles/user_guide/installation/index.html
@@ -3780,9 +4061,12 @@ references:
 - uid: preloader_patches
   name: Using preloader patchers
   href: articles/dev_guide/preloader_patchers.html
+- uid: runtime_patching
+  name: Patching methods during runtime
+  href: articles/dev_guide/runtime_patching.html
 - uid: steam_interop
-  name: Unix platforms (native games)
+  name: Running games on Steam
   href: articles/advanced/steam_interop.html
 - uid: troubleshooting
-  name: TODO
+  name: Troubleshooting
   href: articles/user_guide/troubleshooting.html

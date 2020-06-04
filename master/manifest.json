@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "OtuyHFeWww5z2gdGLriJaA=="
+          "hash": "aMKBRJn1UY/K5rwgSG4zlQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Bootstrap.Chainloader.html",
-          "hash": "TcxfNY8UxcWzfc2/7oDgLw=="
+          "hash": "kJEIE2Rb552tb01dnHVs2Q=="
         }
       },
       "is_incremental": false,
@@ -317,47 +317,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.HarmonyExtensions.yml",
+      "source_relative_path": "api/BepInEx.ConsoleManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BepInEx.Harmony.HarmonyExtensions.html",
-          "hash": "RRFOu9rpOeXR3LDyjhFPxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.HarmonyWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.HarmonyWrapper.html",
-          "hash": "N7q+Do48r8nHETjGr3OTfQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.ParameterByRefAttribute.html",
-          "hash": "xpUQ6unPKgIaF3nefYTU/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BepInEx.Harmony.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BepInEx.Harmony.html",
-          "hash": "8P747t+WpUaZA9/X5LsDxw=="
+          "relative_path": "api/BepInEx.ConsoleManager.html",
+          "hash": "+2bXmSFumWfFv5xGCNvWPw=="
         }
       },
       "is_incremental": false,
@@ -369,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.ConsoleLogListener.html",
-          "hash": "R/r/dxuNW+XbyJ2KtzA8RA=="
+          "hash": "GaRB0UO7t6nNh17CscT2Zg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Logging.Logger.html",
-          "hash": "wQNbK4kqM6Ut/VVcVgZ8Gw=="
+          "hash": "sgehy32JAPJogWuYUzvfXQ=="
         }
       },
       "is_incremental": false,
@@ -537,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Paths.html",
-          "hash": "XKe7WTJMi3ZNs8wcc5adFg=="
+          "hash": "InInvAYgIyp2TaopDggANw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.PluginInfo.html",
-          "hash": "w7As4CcGAjv//96XQ/ZpZA=="
+          "hash": "RHcKTCv6LAlrF1m8H9pt0A=="
         }
       },
       "is_incremental": false,
@@ -581,11 +545,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Unix.ConsoleWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Unix.ConsoleWriter.html",
+          "hash": "plcy22sNieTa3Dw4LkEXxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Unix.UnixStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Unix.UnixStream.html",
+          "hash": "a5ewEWtpp8My6ovCNRyfhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BepInEx.Unix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BepInEx.Unix.html",
+          "hash": "NQWtw+UtCB5Ex5yXUN3Kfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BepInEx.Utility.yml",
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.Utility.html",
-          "hash": "XKE2J4QazQriLNuDaqM8gQ=="
+          "hash": "12Z7LEw15MlzcHBPaEihoA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BepInEx.html",
-          "hash": "S75+SezO9jT6zU2hi7oHJg=="
+          "hash": "21wS6oi4tAhGd1E0aQyZRg=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "YYeG34FuIySfGM7kbi9hFA=="
+          "hash": "L2f5RUeJ4UVwn8/hx3nhfA=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "DoRjXzEFkh5pGnilJeE4Zg=="
+          "hash": "B7ZhBgnL+2n6Y5KG7OkAhw=="
         }
       },
       "is_incremental": false,
@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/compatibility.html",
-          "hash": "UE1L3fGeX6xSWBzSkI1xOw=="
+          "hash": "otoYxzSn8qyFvmztvqFtuQ=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/debug/assemblies_dnSpy.html",
-          "hash": "enbQCJ7fIGR5lG6RN+O7fQ=="
+          "hash": "OvqaUU0Fp3sIr9ZXg3XIrw=="
         }
       },
       "is_incremental": false,
@@ -833,7 +833,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/debug/index.html",
-          "hash": "y2A+yRYQTXwzE1k7Mgmumw=="
+          "hash": "LYs1rG76edYzRvXoJ5Kbzg=="
         }
       },
       "is_incremental": false,
@@ -845,7 +845,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/debug/plugins_dnSpy.html",
-          "hash": "tgpBbXdh3W+wbQ0heRQF8Q=="
+          "hash": "NP2axTInLvQWO1swg+sH5w=="
         }
       },
       "is_incremental": false,
@@ -857,7 +857,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced/debug/plugins_vs.html",
-          "hash": "8RYrc6x/K9dK/dye4KwYSA=="
+          "hash": "6UbnFD3mVu25QPDb1Mj/dw=="
         }
       },
       "is_incremental": false,
@@ -942,47 +942,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/advanced/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/advanced/index.html",
-          "hash": "7eUKhvLLO+7lsYakqlFebw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/advanced/steam_interop.md",
       "output": {
         ".html": {
           "relative_path": "articles/advanced/steam_interop.html",
-          "hash": "400TygCsTOPyhEO+O7rZWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/dev_guide/harmony_wrapper.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/dev_guide/harmony_wrapper.html",
-          "hash": "IcMa7ggIkyOCT7ITe38Juw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/dev_guide/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/dev_guide/index.html",
-          "hash": "UTj7oe2M2O0BLcyiXkspLw=="
+          "hash": "c9gXzriut9wAKylKcKHpMA=="
         }
       },
       "is_incremental": false,
@@ -994,7 +958,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/1_setup.html",
-          "hash": "Dh89adCj/QX7v3eQWOf/nw=="
+          "hash": "vTL15cfJqt5w+RCn9b0ojA=="
         }
       },
       "is_incremental": false,
@@ -1006,7 +970,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/2_plugin_start.html",
-          "hash": "D+JIrSGSUksR0vuANfsTgA=="
+          "hash": "rRUkd9nV/FH0GiL7DYek4w=="
         }
       },
       "is_incremental": false,
@@ -1018,7 +982,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/3_configuration.html",
-          "hash": "uoBq/4HAsRh3CMPCP/1XMg=="
+          "hash": "ZU5nZAp9Z09x8TooIScc9A=="
         }
       },
       "is_incremental": false,
@@ -1030,7 +994,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/4_logging.html",
-          "hash": "xTB5qTKz4zwAcJeH0i98Zg=="
+          "hash": "i6fVRP65JMLAF5HjGz/lpQ=="
         }
       },
       "is_incremental": false,
@@ -1042,7 +1006,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/5_distributing.html",
-          "hash": "O2nOtxguXeAg2E1O7JPmgw=="
+          "hash": "at+uWkwh9DxrgcHmXYkhJQ=="
         }
       },
       "is_incremental": false,
@@ -1142,7 +1106,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/plugin_tutorial/index.html",
-          "hash": "m1LRSoGF/SV7uFREPwqo2A=="
+          "hash": "XsdYKJBss9IOuGCxJzDuVQ=="
         }
       },
       "is_incremental": false,
@@ -1154,7 +1118,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/dev_guide/preloader_patchers.html",
-          "hash": "nw4/9imhY8OL0gayqaT+BQ=="
+          "hash": "doByLEBPb/jqX+SZEOzZYg=="
         }
       },
       "is_incremental": false,
@@ -1162,11 +1126,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/dev_guide/runtime_patching.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dev_guide/runtime_patching.html",
+          "hash": "FaEaH43J8TfaHtjDqR/OvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
       "source_relative_path": "articles/index.md",
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "uGiLo23LS3VXQZStgugK3A=="
+          "hash": "EEfegGIty6Irv41K2vgy5g=="
         }
       },
       "is_incremental": false,
@@ -1178,7 +1157,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "UTX6/r5rV2p7eyMfzORxKw=="
+          "hash": "JVCE5xt6mtrfATbLuTrw9Q=="
         }
       },
       "is_incremental": false,
@@ -1190,7 +1169,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/configuration.html",
-          "hash": "KVjj/910rga2OGQkD8Y6Pg=="
+          "hash": "DHQGdNoYbBAJv/4xGECktQ=="
         }
       },
       "is_incremental": false,
@@ -1241,12 +1220,22 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/user_guide/index.md",
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/x64process_example.png",
       "output": {
-        ".html": {
-          "relative_path": "articles/user_guide/index.html",
-          "hash": "aTYrMQ4NKgI8n5z3HlP/zw=="
+        "resource": {
+          "relative_path": "articles/user_guide/images/x64process_example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/user_guide/images/x86process_example.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/user_guide/images/x86process_example.png"
         }
       },
       "is_incremental": false,
@@ -1258,7 +1247,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation/hardpatching.html",
-          "hash": "5bjnp/6N69mVGOVWHzywxw=="
+          "hash": "4c9E8hXwIcSO/S22b/iPmw=="
         }
       },
       "is_incremental": false,
@@ -1270,7 +1259,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/installation/index.html",
-          "hash": "aMQEMglC9HHxSeKV7DcUIQ=="
+          "hash": "LBq00gEK3kCIiyQtM3ZFpg=="
         }
       },
       "is_incremental": false,
@@ -1282,7 +1271,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/troubleshooting.html",
-          "hash": "zd0xphwSUaIN++38AmJI6A=="
+          "hash": "7RRsRqmdemZNgFRcwEESAw=="
         }
       },
       "is_incremental": false,
@@ -1294,7 +1283,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/user_guide/upgrading.html",
-          "hash": "tVyhGVoekSBm9RGAKVviog=="
+          "hash": "PA40NFU9/unTAnHlwC1KZQ=="
         }
       },
       "is_incremental": false,
@@ -1336,10 +1325,17 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 26,
+          "total_file_count": 23,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -1351,13 +1347,6 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
