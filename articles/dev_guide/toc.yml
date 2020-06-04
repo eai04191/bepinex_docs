@@ -3,5 +3,5 @@
   topicHref: plugin_tutorial/index.md
 - name: "How to: writing preloader patchers"
   href: preloader_patchers.md
-- name: "Runtime patching with HarmonyWrapper"
-  href: harmony_wrapper.md
+- name: "Patching methods in runtime"
+  href: runtime_patching.md

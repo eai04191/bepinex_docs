@@ -23,11 +23,6 @@ Important classes:
 
 Contains internals of BepInEx plugin loader. Allows access to other loaded plugins.
 
-### @BepInEx.Harmony
-
-Special extensions to Harmony to allow patching without writing special patcher classes.  
-See ["How to use HarmonyWrapper"](<xref:harmony_wrapper>) for more information.
-
 ### @BepInEx.Logging
 
 All classes related to logging in BepInEx.
