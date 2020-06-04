@@ -1,3 +1,7 @@
+---
+title: Debugging plugins
+---
+
 # Debugging plugins
 
 Debugging BepInEx plugins can pose a challenge depending on the game and the plugin.  

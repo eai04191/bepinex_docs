@@ -1,3 +1,7 @@
+---
+title: "Plugin walkthrough: Writing a basic plug-in"
+---
+
 # Writing a basic plug-in
 
 In this step we continue by writing code for a simple plug-in that displays a message in the console.

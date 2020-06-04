@@ -1,3 +1,7 @@
+---
+title: "Plugin walkthrough: Setting up the development environment"
+---
+
 # Setting up the development environment
 
 Writing BepInEx plugins starts with creation of the code projects.

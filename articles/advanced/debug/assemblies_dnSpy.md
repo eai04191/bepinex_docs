@@ -1,5 +1,6 @@
 ---
 uid: debug_assemblies_dnSpy
+title: Debugging all assemblies with dnSpy
 ---
 
 # Debugging patched assemblies

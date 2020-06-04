@@ -1,5 +1,6 @@
 ---
 uid: plugin_dev_index
+title: "How to: create a BepInEx plugin"
 ---
 
 # How to: create a BepInEx plugin
@@ -22,4 +23,4 @@ Making a BepInEx plugin consists of the following steps:
 2. [Creating plugin base](./2_plugin_start.md)
 3. (Optional) [Reading and writing configuration files](./3_configuration.md)
 4. (Optional) [Using loggers to simplify debugging](./4_logging.md)
-5. [Packaging and distributing the plugin](./5_distributing.md)
+5. WIP: Packaging and distributing the plugin

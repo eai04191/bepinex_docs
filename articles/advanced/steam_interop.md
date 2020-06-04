@@ -1,5 +1,6 @@
 ---
 uid: steam_interop
+title: Running games on Steam
 ---
 
 ## Unix platforms (native games)

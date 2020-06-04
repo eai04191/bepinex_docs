@@ -1,3 +1,7 @@
+---
+title: BepInEx Guide Index
+---
+
 # BepInEx Guide Index
 
 Welcome to BepInEx documentation pages! Please refer to the navigation menu 

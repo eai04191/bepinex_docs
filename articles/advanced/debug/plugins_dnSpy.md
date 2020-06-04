@@ -1,5 +1,6 @@
 ---
 uid: debug_plugin_dnspy
+title: Debugging with dnSpy
 ---
 
 # Debugging with dnSpy

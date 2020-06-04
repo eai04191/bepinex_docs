@@ -1,3 +1,7 @@
+---
+title: Upgrading
+---
+
 # Upgrading
 
 ## Migration from previous versions of BepInEx

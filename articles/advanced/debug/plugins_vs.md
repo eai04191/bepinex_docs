@@ -1,3 +1,7 @@
+---
+title: Debugging plugins with Visual Studio Tools for Unity
+---
+
 # Debugging plugins with Visual Studio Tools for Unity
 
 > [!NOTE]  
