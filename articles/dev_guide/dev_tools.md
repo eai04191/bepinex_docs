@@ -75,3 +75,15 @@ without any reflection.
 
 Refer to the [README](https://github.com/denikson/BepInEx.ScriptLoader/blob/master/README.md) 
 for info on how to write scripts and current limitations.
+
+## ThunderKit (make plugins in Unity Editor)
+
+**Link**: [GitHub](https://github.com/PassivePicasso/ThunderKit)
+
+**Description**: Allows you to create plugins directly in Unity Editor. With it 
+you can easily create new assets and link them to existing or new components. 
+Great for integrating new items, maps and whatnot into any Unity game.
+
+The tool is being actively developed and documentation is being created. 
+Refer to [README](https://github.com/PassivePicasso/ThunderKit/blob/master/README.md) 
+for more information about the tool and how to install it.
