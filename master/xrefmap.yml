@@ -4052,6 +4052,9 @@ references:
 - uid: debug_plugin_dnspy
   name: Debugging with dnSpy
   href: articles/advanced/debug/plugins_dnSpy.html
+- uid: dev_tools
+  name: List of useful development plugins
+  href: articles/dev_guide/dev_tools.html
 - uid: installation
   name: Installing BepInEx
   href: articles/user_guide/installation/index.html
