@@ -34,5 +34,6 @@ BepInEx is fully open source under the MIT license.
 ## Getting started
 
 * [Install BepInEx](<xref:installation>)
+* [List of some plugins useful for modding games](<xref:dev_tools>)
 * [Write plugins](<xref:plugin_dev_index>)
 * [Browse API and its documentation](<xref:api>)
