@@ -120,7 +120,7 @@ This will open winecfg.
 
 ### Configure proxy to run
 
-BepInEx relies on `version.dll` proxy DLL to inject itself into Unity games. 
+BepInEx relies on `winhttp.dll` proxy DLL to inject itself into Unity games. 
 On wine the proxy should be configured manually.
 
 In winecfg, select `Libraries` tab. Under `New override for library` dropbox, 

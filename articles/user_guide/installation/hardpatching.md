@@ -29,7 +29,7 @@ Meanwhile hardpatcher comes with these downsides
     * The core archive name starts with `BepInEx_x64`
 2. Extract the core and patcher into the game folder
 3. Remove unnecessary core files
-    * `version.dll`
+    * `winhttp.dll`
     * `doorstop_config.ini`
 4. Run the hardpatcher and wait until it finishes running
 5. Run the game
