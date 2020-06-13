@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConsoleManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConsoleManager
+   ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-7">
+            <article class="content wrap" id="_content" data-uid="BepInEx.ConsoleManager">
+  
+  
+  <h1 id="BepInEx_ConsoleManager" data-uid="BepInEx.ConsoleManager" class="text-break">Class ConsoleManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ConsoleManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BepInEx.html">BepInEx</a></h6>
+  <h6><strong>Assembly</strong>: BepInEx.dll</h6>
+  <h5 id="BepInEx_ConsoleManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ConsoleManager</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_ConfigConsoleEnabled.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.ConfigConsoleEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L130">View Source</a>
+  </span>
+  <h4 id="BepInEx_ConsoleManager_ConfigConsoleEnabled" data-uid="BepInEx.ConsoleManager.ConfigConsoleEnabled">ConfigConsoleEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ConfigEntry&lt;bool&gt; ConfigConsoleEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_ConfigConsoleShiftJis.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.ConfigConsoleShiftJis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L135">View Source</a>
+  </span>
+  <h4 id="BepInEx_ConsoleManager_ConfigConsoleShiftJis" data-uid="BepInEx.ConsoleManager.ConfigConsoleShiftJis">ConfigConsoleShiftJis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly ConfigEntry&lt;bool&gt; ConfigConsoleShiftJis</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BepInEx.Configuration.ConfigEntry-1.html">ConfigEntry</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_ConsoleActive.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.ConsoleActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L19">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_ConsoleActive_" data-uid="BepInEx.ConsoleManager.ConsoleActive*"></a>
+  <h4 id="BepInEx_ConsoleManager_ConsoleActive" data-uid="BepInEx.ConsoleManager.ConsoleActive">ConsoleActive</h4>
+  <div class="markdown level1 summary"><p>True if an external console has been started, false otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ConsoleActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_ConsoleStream.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.ConsoleStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L29">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_ConsoleStream_" data-uid="BepInEx.ConsoleManager.ConsoleStream*"></a>
+  <h4 id="BepInEx_ConsoleManager_ConsoleStream" data-uid="BepInEx.ConsoleManager.ConsoleStream">ConsoleStream</h4>
+  <div class="markdown level1 summary"><p>The stream that writes to an external console. Null if no such console exists</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextWriter ConsoleStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.TextWriter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_StandardOutStream.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.StandardOutStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L24">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_StandardOutStream_" data-uid="BepInEx.ConsoleManager.StandardOutStream*"></a>
+  <h4 id="BepInEx_ConsoleManager_StandardOutStream" data-uid="BepInEx.ConsoleManager.StandardOutStream">StandardOutStream</h4>
+  <div class="markdown level1 summary"><p>The stream that writes to the standard out stream of the process. Should never be null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextWriter StandardOutStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.TextWriter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_CreateConsole.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.CreateConsole%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L60">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_CreateConsole_" data-uid="BepInEx.ConsoleManager.CreateConsole*"></a>
+  <h4 id="BepInEx_ConsoleManager_CreateConsole" data-uid="BepInEx.ConsoleManager.CreateConsole">CreateConsole()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateConsole()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_DetachConsole.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.DetachConsole%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L71">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_DetachConsole_" data-uid="BepInEx.ConsoleManager.DetachConsole*"></a>
+  <h4 id="BepInEx_ConsoleManager_DetachConsole" data-uid="BepInEx.ConsoleManager.DetachConsole">DetachConsole()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DetachConsole()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_Initialize_System_Boolean_.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.Initialize(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L32">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_Initialize_" data-uid="BepInEx.ConsoleManager.Initialize*"></a>
+  <h4 id="BepInEx_ConsoleManager_Initialize_System_Boolean_" data-uid="BepInEx.ConsoleManager.Initialize(System.Boolean)">Initialize(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(bool alreadyActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">alreadyActive</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_SetConsoleColor_System_ConsoleColor_.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.SetConsoleColor(System.ConsoleColor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L109">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_SetConsoleColor_" data-uid="BepInEx.ConsoleManager.SetConsoleColor*"></a>
+  <h4 id="BepInEx_ConsoleManager_SetConsoleColor_System_ConsoleColor_" data-uid="BepInEx.ConsoleManager.SetConsoleColor(System.ConsoleColor)">SetConsoleColor(ConsoleColor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetConsoleColor(ConsoleColor color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_SetConsoleEncoding.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.SetConsoleEncoding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L82">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_SetConsoleEncoding_" data-uid="BepInEx.ConsoleManager.SetConsoleEncoding*"></a>
+  <h4 id="BepInEx_ConsoleManager_SetConsoleEncoding" data-uid="BepInEx.ConsoleManager.SetConsoleEncoding">SetConsoleEncoding()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetConsoleEncoding()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_SetConsoleEncoding_System_UInt32_.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.SetConsoleEncoding(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L92">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_SetConsoleEncoding_" data-uid="BepInEx.ConsoleManager.SetConsoleEncoding*"></a>
+  <h4 id="BepInEx_ConsoleManager_SetConsoleEncoding_System_UInt32_" data-uid="BepInEx.ConsoleManager.SetConsoleEncoding(System.UInt32)">SetConsoleEncoding(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetConsoleEncoding(uint codepage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">codepage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager_SetConsoleTitle_System_String_.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager.SetConsoleTitle(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L102">View Source</a>
+  </span>
+  <a id="BepInEx_ConsoleManager_SetConsoleTitle_" data-uid="BepInEx.ConsoleManager.SetConsoleTitle*"></a>
+  <h4 id="BepInEx_ConsoleManager_SetConsoleTitle_System_String_" data-uid="BepInEx.ConsoleManager.SetConsoleTitle(System.String)">SetConsoleTitle(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetConsoleTitle(string title)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/new/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/apiSpec/new?filename=BepInEx_ConsoleManager.md&amp;value=---%0Auid%3A%20BepInEx.ConsoleManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/BepInEx/BepInEx/blob/dfba4f0a0331d31da19ff4ccdd556f667516bd8e/BepInEx/Console/ConsoleManager.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Running games on Steam </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Running games on Steam ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-7">
+            <article class="content wrap" id="_content" data-uid="steam_interop">
+<h2 id="unix-platforms-native-games">Unix platforms (native games)</h2>
+
+<p>On Unix platforms, Steam provides a way to run launch scripts directly
+before running the original game. The process is similar for both
+Linux and macOS, but with one key difference.</p>
+<h3 id="1-download-and-install-bepinex">1. Download and install BepInEx</h3>
+<p>First, download and install BepInEx binaries if you hadn't done so.<br>
+For that, follow steps 1-2 in the [installation guide](<a class="xref" href="../user_guide/installation/index.html">Installing BepInEx</a>#installing-bepinex)</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>To easily find the game folder of a Steam game, go into properties of the game:<br>
+<img src="images/steam_props.png" alt="Right-click the game and press Properties"></p>
+<p>And Select <code>Browse local files</code> from <code>Local files</code> tab:<br>
+<img src="images/steam_local_files.png" alt="Click Browse local files to open the game folder"></p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Don't run the script yet as it will run the game without Steam integration.
+You don't need to configure the script either, as it will be done by Steam.</p>
+</div>
+<h3 id="2-set-up-permissions">2. Set up permissions</h3>
+<p>On Unix systems, you first need to give the run script permission to run.<br>
+At this moment it has to be done manually.</p>
+<p>Open the game folder in terminal and add execution permission to run script:</p>
+<pre><code class="lang-sh">chmod u+x run_bepinex.sh
+</code></pre>
+<p>This will add needed permissions to run BepInEx.</p>
+<h3 id="3-configure-steam-to-run-the-script">3. Configure Steam to run the script</h3>
+<p>Finally, configure Steam to run the script.<br>
+Open the game's properties on Steam:</p>
+<p><img src="images/steam_props.png" alt="Open game properties on Steam by right-clicking the game name"></p>
+<p>Next, click <code>Set launch options</code> button which will open a new window:</p>
+<p><img src="images/steam_launch_opts.png" alt="Click Set launch options to set launch options"></p>
+<p>Now, change the launch options depending on your OS:</p>
+<div class="tabGroup" id="tabgroup_CeZOj-G++Q">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-1" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-1" data-tab="tabid-1" tabindex="0" aria-selected="true">Linux</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_CeZOj-G++Q_tabid-2" role="tab" aria-controls="tabpanel_CeZOj-G++Q_tabid-2" data-tab="tabid-2" tabindex="-1">macOS</a>
+</li>
+</ul>
+<section id="tabpanel_CeZOj-G++Q_tabid-1" role="tabpanel" data-tab="tabid-1">
+
+<p>Set the launch option to</p>
+<pre><code>./run_bepinex.sh %command%
+</code></pre>
+</section>
+<section id="tabpanel_CeZOj-G++Q_tabid-2" role="tabpanel" data-tab="tabid-2" aria-hidden="true" hidden="hidden">
+
+<p>First, open a terminal in the game folder and run</p>
+<pre><code class="lang-sh">pwd
+</code></pre>
+<p>This will print the full path to the game folder. Copy it.</p>
+<p>Next, set launch option to</p>
+<pre><code>&quot;&lt;PWD&gt;/run_bepinex.sh&quot; %command%
+</code></pre>
+<p><strong>where <code>&lt;PWD&gt;</code> is the full path to the game folder you got above.</strong></p>
+</section>
+</div>
+<h3 id="4-run-first-time-to-generate-configuration">4. Run first time to generate configuration</h3>
+<p>Finally, run the game via Steam normally.
+This will generate BepInEx config, but the game might not run.</p>
+<h3 id="5-configure-bepinex-to-suit-your-needs">5. Configure BepInEx to suit your needs.</h3>
+<p>Open <code>BepInEx/config/BepInEx.cfg</code> in a text editor of your choice.
+All options are documented directly in the configuration file.</p>
+<p>Additionally, refer to refer to the <a class="xref" href="../user_guide/configuration.html">configuration guide</a> for more information.</p>
+<h2 id="protonwine">Proton/Wine</h2>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Instructions on using BepInEx with proton are based on a guide from
+<a href="https://github.com/risk-of-thunder/R2Wiki/wiki/Getting-BepInEx-Console-Working-on-Linux">R2Wiki</a></p>
+</div>
+<p>Setting up BepInEx with Wine requires primarily configuring the DLL forwarding
+to work correctly. <strong>We strongly recommend to use Proton</strong>, but it is not an
+absolute requirement.</p>
+<h3 id="open-winecfg-for-the-target-game">Open winecfg for the target game</h3>
+<p>With proton the easiest way to do so is via
+<a href="https://github.com/Matoking/protontricks"><code>protontricks</code></a>
+(or similarly with <code>winetricks</code> which is not covered here).
+Open the terminal and type</p>
+<pre><code class="lang-sh">protontricks --gui
+</code></pre>
+<p>Next, select the game you want to configure</p>
+<p><img src="images/protontricks_select.png" alt="Select the game from library in protontricks"></p>
+<p>Next, in winetricks menu select <code>Select default wineprefix</code> option and press OK:</p>
+<p><img src="images/protontricks_wineprefix.png" alt="Select &quot;Select default wineprefix&quot; option"></p>
+<p>Finally, select <code>Run winecfg</code> and click OK:</p>
+<p><img src="images/protontricks_winecfg.png" alt="Select &quot;Run winecfg&quot; and click OK"></p>
+<p>This will open winecfg.</p>
+<h3 id="configure-proxy-to-run">Configure proxy to run</h3>
+<p>BepInEx relies on <code>winhttp.dll</code> proxy DLL to inject itself into Unity games.
+On wine the proxy should be configured manually.</p>
+<p>In winecfg, select <code>Libraries</code> tab. Under <code>New override for library</code> dropbox,
+select <code>version</code> and <code>Click</code> add:</p>
+<p><img src="images/winecfg_add_lib.png" alt="Add &quot;version&quot; library override in winecfg Libraries tab"></p>
+<p>Finally click <code>Apply</code> and you're done. Running the game should now run BepInEx.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9929658e79d132ca0a18539da0dd640b3bd2e1dc/articles/advanced/steam_interop.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
