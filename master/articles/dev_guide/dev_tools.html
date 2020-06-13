@@ -127,6 +127,16 @@ Great for integrating new items, maps and whatnot into any Unity game.</p>
 <p>The tool is being actively developed and documentation is being created.
 Refer to <a href="https://github.com/PassivePicasso/ThunderKit/blob/master/README.md">README</a>
 for more information about the tool and how to install it.</p>
+<h2 id="runtime-monomodhookgen-and-mmhook-stripping">Runtime MonoMod.HookGen and MMHOOK stripping</h2>
+<p><strong>Link (HookGenPatcher)</strong>: <a href="https://github.com/harbingerofme/Bepinex.Monomod.HookGenPatcher">GitHub</a><br>
+<strong>Link (LighterPatcher)</strong>: <a href="https://github.com/harbingerofme/LighterPatcher">GitHub</a></p>
+<p><strong>Description</strong>: Normally using <a href="https://github.com/MonoMod/MonoMod/blob/master/README-RuntimeDetour.md#using-hookgen">MonoMod.HookGen</a> requires you to bundle <code>MMHOOK.dll</code> with your plugins and regenerate them
+between game updates.</p>
+<p>This preloader patcher allows you to dynamically generate the <code>MMHOOK.dll</code> file on the fly when the game starts, thus
+removing potential problems of incompatibility between game updates.<br>
+In addition, LighterPatcher strips the generated <code>MMHOOK.dll</code> down to only patches that are used by the plugins, thus
+speeding up loading of MMHOOK DLL (in cases where type resolving is triggered for all types in MMHOOK).</p>
+<p>Everything is done at runtime and requires no action from the end-user.</p>
 </article>
           </div>
           
@@ -135,7 +145,7 @@ for more information about the tool and how to install it.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9929658e79d132ca0a18539da0dd640b3bd2e1dc/articles/dev_guide/dev_tools.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/a19f15385400e51ab19c542ee247e18c913296bc/articles/dev_guide/dev_tools.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
