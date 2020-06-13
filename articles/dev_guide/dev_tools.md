@@ -87,3 +87,18 @@ Great for integrating new items, maps and whatnot into any Unity game.
 The tool is being actively developed and documentation is being created. 
 Refer to [README](https://github.com/PassivePicasso/ThunderKit/blob/master/README.md) 
 for more information about the tool and how to install it.
+
+## Runtime MonoMod.HookGen and MMHOOK stripping
+
+**Link (HookGenPatcher)**: [GitHub](https://github.com/harbingerofme/Bepinex.Monomod.HookGenPatcher)  
+**Link (LighterPatcher)**: [GitHub](https://github.com/harbingerofme/LighterPatcher)
+
+**Description**: Normally using [MonoMod.HookGen](https://github.com/MonoMod/MonoMod/blob/master/README-RuntimeDetour.md#using-hookgen) requires you to bundle `MMHOOK.dll` with your plugins and regenerate them 
+between game updates.
+
+This preloader patcher allows you to dynamically generate the `MMHOOK.dll` file on the fly when the game starts, thus 
+removing potential problems of incompatibility between game updates.  
+In addition, LighterPatcher strips the generated `MMHOOK.dll` down to only patches that are used by the plugins, thus 
+speeding up loading of MMHOOK DLL (in cases where type resolving is triggered for all types in MMHOOK).
+
+Everything is done at runtime and requires no action from the end-user.
