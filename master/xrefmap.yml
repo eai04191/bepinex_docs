@@ -2331,12 +2331,12 @@ references:
   commentId: M:BepInEx.ConsoleManager.SetConsoleEncoding
   fullName: BepInEx.ConsoleManager.SetConsoleEncoding()
   nameWithType: ConsoleManager.SetConsoleEncoding()
-- uid: BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
-  name: SetConsoleEncoding(Encoding)
-  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding_System_Text_Encoding_
-  commentId: M:BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
-  fullName: BepInEx.ConsoleManager.SetConsoleEncoding(System.Text.Encoding)
-  nameWithType: ConsoleManager.SetConsoleEncoding(Encoding)
+- uid: BepInEx.ConsoleManager.SetConsoleEncoding(System.UInt32)
+  name: SetConsoleEncoding(UInt32)
+  href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding_System_UInt32_
+  commentId: M:BepInEx.ConsoleManager.SetConsoleEncoding(System.UInt32)
+  fullName: BepInEx.ConsoleManager.SetConsoleEncoding(System.UInt32)
+  nameWithType: ConsoleManager.SetConsoleEncoding(UInt32)
 - uid: BepInEx.ConsoleManager.SetConsoleEncoding*
   name: SetConsoleEncoding
   href: api/BepInEx.ConsoleManager.html#BepInEx_ConsoleManager_SetConsoleEncoding_

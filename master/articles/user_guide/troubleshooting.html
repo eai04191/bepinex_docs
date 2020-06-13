@@ -87,6 +87,14 @@ progress and potential errors live.</p>
 
 Enabled = true
 </code></pre>
+<h3 id="remove-managed-folder-and-verify-files">Remove <code>Managed</code> folder and verify files</h3>
+<p>If you're upgrading from older version of BepInEx or different modding frameworks,
+there might be some incompatible DLLs installed into the game's <code>Managed</code> folder.</p>
+<p>If the game is on Steam, go to <code>&lt;Game Folder&gt;\&lt;Game Name&gt;_Data</code> folder and
+delete <code>Managed</code> folder. Finally, go to Steam and <a href="https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335">verify game integrity</a>.<br>
+This will cause Steam to redownload a clean copy of <code>Managed</code> folder.</p>
+<p>If the game is not on Steam, you can try obtaining the clean <code>Managed</code> folder
+or reinstall the game altogether.</p>
 <h3 id="windows-check-the-bitness-of-the-game">(Windows) Check the bitness of the game</h3>
 <p>Currently Windows builds of BepInEx ship separately for x64 and x86 games.<br>
 Because of that, make sure the version of BepInEx is for the correct architecture.</p>
@@ -164,6 +172,11 @@ If not, you have to obtain such libraries yourself <em>at the moment</em>.</p>
 <li>In the folder, locate <code>System.Core.dll</code> (should be in <code>Data\Managed</code>) and copy it to your game's <code>Managed</code> folder</li>
 <li>Try running the game again. BepInEx should now launch</li>
 </ol>
+<h3 id="rename-winhttpdll-to-versiondll">Rename <code>winhttp.dll</code> to <code>version.dll</code></h3>
+<p>While <code>winhttp.dll</code> proxy works best on more platforms (especially older versions of Wine on Linux),
+older Unity games might not work properly with it.</p>
+<p>Try renaming <code>winhttp.dll</code> that comes with BepInEx to <code>version.dll</code> and run
+the game.</p>
 </article>
           </div>
           
@@ -172,7 +185,7 @@ If not, you have to obtain such libraries yourself <em>at the moment</em>.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/BepInEx/bepinex_docs/blob/c7518b1389ce4c4c639c975eb72b8c5cefde1bc1/articles/user_guide/troubleshooting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/9929658e79d132ca0a18539da0dd640b3bd2e1dc/articles/user_guide/troubleshooting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
