@@ -23,6 +23,18 @@ Open `BepInEx/config/BepInEx.cfg`, locate and change the following settings acco
 Enabled = true
 ```
 
+### Remove `Managed` folder and verify files
+
+If you're upgrading from older version of BepInEx or different modding frameworks, 
+there might be some incompatible DLLs installed into the game's `Managed` folder.  
+
+If the game is on Steam, go to `<Game Folder>\<Game Name>_Data` folder and 
+delete `Managed` folder. Finally, go to Steam and [verify game integrity](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335).   
+This will cause Steam to redownload a clean copy of `Managed` folder.
+
+If the game is not on Steam, you can try obtaining the clean `Managed` folder 
+or reinstall the game altogether.
+
 ### (Windows) Check the bitness of the game
 
 Currently Windows builds of BepInEx ship separately for x64 and x86 games.  
@@ -119,3 +131,11 @@ If not, you have to obtain such libraries yourself *at the moment*.
 4. Go to `<unity-install-dir>\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\win32_development_mono` where `<unity-install-dir>` is the directory where you installed Unity to
 5. In the folder, locate `System.Core.dll` (should be in `Data\Managed`) and copy it to your game's `Managed` folder
 6. Try running the game again. BepInEx should now launch
+
+### Rename `winhttp.dll` to `version.dll`
+
+While `winhttp.dll` proxy works best on more platforms (especially older versions of Wine on Linux), 
+older Unity games might not work properly with it.  
+
+Try renaming `winhttp.dll` that comes with BepInEx to `version.dll` and run 
+the game.
