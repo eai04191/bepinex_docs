@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>List of useful development plugins </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="List of useful development plugins ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-7">
+            <article class="content wrap" id="_content" data-uid="dev_tools">
+<h1 id="list-of-useful-development-plugins">List of useful development plugins</h1>
+
+<p>This page contains a list of useful plugins and tools you can use
+to make development of plugins with BepInEx easier.</p>
+<h2 id="bepinexdebug-tools">BepInEx.Debug tools</h2>
+<p><strong>Link</strong>: <a href="https://github.com/BepInEx/BepInEx.Debug">GitHub</a></p>
+<p><strong>Description</strong>: This is a pack of useful plugins to ease development.
+Below is a description of each debug plugin. You can find more specific
+usage guide in <a href="https://github.com/BepInEx/BepInEx.Debug/blob/master/README.md">repository README</a>.</p>
+<h3 id="scriptengine">ScriptEngine</h3>
+<p>Allows to reload plugins without restarting the game. Simply put your
+plugins into <code>BepInEx/scripts</code> folder and press <code>F6</code> in-game whenever you
+want to reload a plugin.</p>
+<p>Note that to support this your plugin needs to clean up its resources in
+your plugin by creating <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnDestroy.html"><code>OnDestroy</code></a>
+method and unpatching any Harmony patches along with cleaning up other resources.</p>
+<h3 id="startup-profiler">Startup profiler</h3>
+<p>Logs load times for each of the plugins.</p>
+<h3 id="mono-profiler">Mono Profiler</h3>
+<p>A profiler for Unity games. Logs all called methods, call counts and call times.<br>
+Outputs all data as <code>.csv</code> files.</p>
+<h3 id="demystify-exceptions">Demystify Exceptions</h3>
+<p>Formats stack traces into a more human-friendly formats and attempts to properly
+resolve <code>IEnumerable</code>s, lambdas and <code>async</code> state machines.</p>
+<h2 id="runtime-unity-editor">Runtime Unity Editor</h2>
+<p><img src="https://user-images.githubusercontent.com/39247311/64476158-ce1a4c00-d18b-11e9-97d6-084452cdbf0a.PNG" alt="RuntimeUnityEditor GUI"></p>
+<p><strong>Link</strong>: <a href="https://github.com/ManlyMarco/RuntimeUnityEditor">GitHub</a></p>
+<p><strong>Description</strong>: Brings an extensive Unity Editor -like hierarchy explorer
+directly into a game. Allows you to inspect any game object and component.
+Additionally comes with a C# REPL and support for rotation/translation gizmos
+via Vectrocity.</p>
+<p>Refer to the <a href="https://github.com/ManlyMarco/RuntimeUnityEditor/blob/master/README.md">README</a> for installation
+and usage info.</p>
+<h2 id="configuration-manager">Configuration Manager</h2>
+<p><img src="https://github.com/BepInEx/BepInEx.ConfigurationManager/raw/master/Screenshot.PNG" alt="ConfigurationManager GUI"></p>
+<p><strong>Link</strong>: <a href="https://github.com/BepInEx/BepInEx.ConfigurationManager">GitHub</a></p>
+<p><strong>Description</strong>: Allows to edit all configuration files via an in-game GUI.
+Default hotkey is <code>F1</code>. Refer to <a href="https://github.com/BepInEx/BepInEx.ConfigurationManager/blob/master/README.md">README</a> for more info on how to use and
+how to integrate into your plugin.</p>
+<h2 id="c-script-loader">C# Script Loader</h2>
+<p><strong>Link</strong>: <a href="https://github.com/denikson/BepInEx.ScriptLoader">GitHub</a></p>
+<p><strong>Description</strong>: Allows to write C# scripts without compiling them. Useful for small (under 200 LOC)
+Harmony patches and tools. Supports live code reloading and comes with a custom
+version of MCS compiler that allows you to access private methods/fields
+without any reflection.</p>
+<p>Refer to the <a href="https://github.com/denikson/BepInEx.ScriptLoader/blob/master/README.md">README</a>
+for info on how to write scripts and current limitations.</p>
+<h2 id="thunderkit-make-plugins-in-unity-editor">ThunderKit (make plugins in Unity Editor)</h2>
+<p><strong>Link</strong>: <a href="https://github.com/PassivePicasso/ThunderKit">GitHub</a></p>
+<p><strong>Description</strong>: Allows you to create plugins directly in Unity Editor. With it
+you can easily create new assets and link them to existing or new components.
+Great for integrating new items, maps and whatnot into any Unity game.</p>
+<p>The tool is being actively developed and documentation is being created.
+Refer to <a href="https://github.com/PassivePicasso/ThunderKit/blob/master/README.md">README</a>
+for more information about the tool and how to install it.</p>
+<h2 id="runtime-monomodhookgen-and-mmhook-stripping">Runtime MonoMod.HookGen and MMHOOK stripping</h2>
+<p><strong>Link (HookGenPatcher)</strong>: <a href="https://github.com/harbingerofme/Bepinex.Monomod.HookGenPatcher">GitHub</a><br>
+<strong>Link (LighterPatcher)</strong>: <a href="https://github.com/harbingerofme/LighterPatcher">GitHub</a></p>
+<p><strong>Description</strong>: Normally using <a href="https://github.com/MonoMod/MonoMod/blob/master/README-RuntimeDetour.md#using-hookgen">MonoMod.HookGen</a> requires you to bundle <code>MMHOOK.dll</code> with your plugins and regenerate them
+between game updates.</p>
+<p>This preloader patcher allows you to dynamically generate the <code>MMHOOK.dll</code> file on the fly when the game starts, thus
+removing potential problems of incompatibility between game updates.<br>
+In addition, LighterPatcher strips the generated <code>MMHOOK.dll</code> down to only patches that are used by the plugins, thus
+speeding up loading of MMHOOK DLL (in cases where type resolving is triggered for all types in MMHOOK).</p>
+<p>Everything is done at runtime and requires no action from the end-user.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/a19f15385400e51ab19c542ee247e18c913296bc/articles/dev_guide/dev_tools.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

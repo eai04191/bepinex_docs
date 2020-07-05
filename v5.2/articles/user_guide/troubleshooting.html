@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Troubleshooting </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Troubleshooting ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-7">
+            <article class="content wrap" id="_content" data-uid="troubleshooting">
+
+
+<p>This page outlines some specifics related to running BepInEx of various
+platforms and Unity versions.<br>
+Whenever you have problem starting up BepInEx, most commonly it's either
+because of a missing core file or a wrong entrypoint.</p>
+<h2 id="common">Common</h2>
+<h3 id="enable-console">Enable console</h3>
+<p>In many cases, it's suggested to enable the console. That way you'll see load
+progress and potential errors live.</p>
+<p>Open <code>BepInEx/config/BepInEx.cfg</code>, locate and change the following settings accordingly:</p>
+<pre><code class="lang-ini">[Logging.Console]
+
+Enabled = true
+</code></pre>
+<h3 id="remove-managed-folder-and-verify-files">Remove <code>Managed</code> folder and verify files</h3>
+<p>If you're upgrading from older version of BepInEx or different modding frameworks,
+there might be some incompatible DLLs installed into the game's <code>Managed</code> folder.</p>
+<p>If the game is on Steam, go to <code>&lt;Game Folder&gt;\&lt;Game Name&gt;_Data</code> folder and
+delete <code>Managed</code> folder. Finally, go to Steam and <a href="https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335">verify game integrity</a>.<br>
+This will cause Steam to redownload a clean copy of <code>Managed</code> folder.</p>
+<p>If the game is not on Steam, you can try obtaining the clean <code>Managed</code> folder
+or reinstall the game altogether.</p>
+<h3 id="windows-check-the-bitness-of-the-game">(Windows) Check the bitness of the game</h3>
+<p>Currently Windows builds of BepInEx ship separately for x64 and x86 games.<br>
+Because of that, make sure the version of BepInEx is for the correct architecture.</p>
+<p>To do that, run the game and check it via Task Manager.<br>
+If you see <code>(32 bit)</code> after the game process name:<br>
+<img src="images/x86process_example.png" alt="ThomasWasAlone.exe (32 bit)"><br>
+the game requires <strong>x86</strong> build of BepInEx.</p>
+<p>If you don't see such addition:<br>
+<img src="images/x64process_example.png" alt="Koikatu.exe"><br>
+the game requires <strong>x64</strong> build of BepInEx.</p>
+<h3 id="extremely-long-paths-with-non-ascii-characters">Extremely long paths with non-ASCII characters</h3>
+<p>Some versions of Mono bundled with Unity games cannot handle non-ASCII characters
+in paths or too long path names. Because of that, it's suggested that</p>
+<ul>
+<li>Your game executable path is not too long. Under 1024 will work on most systems, under 256 on all.</li>
+<li>Attempt to remove &quot;exotic&quot; characters from the game path. Make sure any of the game folders have only the following characters:
+<ul>
+<li>A-Z, a-z or numbers 0-9</li>
+<li>Common punctuation (<code>.:;,!&quot;#%&amp;()[]{}=?*'_-</code>)</li>
+</ul>
+</li>
+</ul>
+<h2 id="unity-2017-and-newer">Unity 2017 and newer</h2>
+<h3 id="change-the-entrypoint">Change the entrypoint</h3>
+<p>In some games, the default entrypoint is too early for BepInEx to load up
+properly. For that, try an alternative entrypoint:</p>
+<p>Open <code>BepInEx/config/BepInEx.cfg</code>, locate and change the following settings accordingly:</p>
+<pre><code class="lang-ini">[Preloader.Entrypoint]
+
+Assembly = UnityEngine.CoreModule.dll
+
+Type = MonoBehaviour
+
+Method = .cctor
+</code></pre>
+<h2 id="unity-5-and-older">Unity 5 and older</h2>
+<h3 id="change-the-entrypoint-1">Change the entrypoint</h3>
+<p>In some games, the default entrypoint is too early for BepInEx to load up
+properly. For that, try an alternative entrypoint:</p>
+<p>Open <code>BepInEx/config/BepInEx.cfg</code>, locate and change the following settings accordingly:</p>
+<pre><code class="lang-ini">[Preloader.Entrypoint]
+
+Assembly = UnityEngine.dll
+
+Type = MonoBehaviour
+
+Method = .cctor
+</code></pre>
+<p>In some cases, the another option works better</p>
+<pre><code class="lang-ini">[Preloader.Entrypoint]
+
+Assembly = UnityEngine.dll
+
+Type = Camera
+
+Method = .cctor
+</code></pre>
+<p>Future versions of BepInEx should automate the process of setting an early
+enough entrypoint.</p>
+<h2 id="unity-4-and-older">Unity 4 and older</h2>
+<h3 id="ensure-core-libraries-are-included">Ensure core libraries are included</h3>
+<p>Some older Unity games strip away unused core libraries. Specifically, BepInEx
+requires the following two libraries to be bundled</p>
+<ul>
+<li><code>System.dll</code></li>
+<li><code>System.Core.dll</code></li>
+</ul>
+<p>Make sure they are included in <code>&lt;Game Name&gt;_Data/Managed</code> folder of your game.<br>
+If not, you have to obtain such libraries yourself <em>at the moment</em>.</p>
+<ol>
+<li>Head to <a href="https://unity3d.com/get-unity/download/archive">Unity download archive</a></li>
+<li>Find an old version of Unity. 5.0.0 is suggested as a good middle ground</li>
+<li>Download its Unity Editor and install it</li>
+<li>Go to <code>&lt;unity-install-dir&gt;\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\win32_development_mono</code> where <code>&lt;unity-install-dir&gt;</code> is the directory where you installed Unity to</li>
+<li>In the folder, locate <code>System.Core.dll</code> (should be in <code>Data\Managed</code>) and copy it to your game's <code>Managed</code> folder</li>
+<li>Try running the game again. BepInEx should now launch</li>
+</ol>
+<h3 id="rename-winhttpdll-to-versiondll">Rename <code>winhttp.dll</code> to <code>version.dll</code></h3>
+<p>While <code>winhttp.dll</code> proxy works best on more platforms (especially older versions of Wine on Linux),
+older Unity games might not work properly with it.</p>
+<p>Try renaming <code>winhttp.dll</code> that comes with BepInEx to <code>version.dll</code> and run
+the game.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/a19f15385400e51ab19c542ee247e18c913296bc/articles/user_guide/troubleshooting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

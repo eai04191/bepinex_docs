@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Debugging plugins with Visual Studio Tools for Unity </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Debugging plugins with Visual Studio Tools for Unity ">
+    <meta name="generator" content="docfx 2.47.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:urlPrefix" content="/bepinex_docs/">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+              <div class="version-selector" style="display: none;">
+                <span>Version:</span>
+                <form>
+                    <select class="versions-dropdown"></select>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container-fluid body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-7">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="debugging-plugins-with-visual-studio-tools-for-unity">Debugging plugins with Visual Studio Tools for Unity</h1>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This method is suitable for debugging only BepInEx plugins!
+To debug preloader plugins, refer to <a class="xref" href="assemblies_dnSpy.html">dnSpy debug guide</a>.</p>
+</div>
+<p>While debugging with dnSpy is rather simple, you might want to debug directly in
+Visual Studio while developing. It is possible to debug your plugins with the help of
+Visual Studio Tools for Unity (VSTU).</p>
+<h2 id="installing-required-tools">Installing required tools</h2>
+<p>First, you have to convert the game to debug build. To do that, <a href="https://github.com/0xd4d/dnSpy/wiki/Debugging-Unity-Games#turning-a-release-build-into-a-debug-build">refer to dnSpy guide on converting the game to pure debug build</a>.</p>
+<p>Next, install VSTU. You can do so in Visual Studio 2019 via Visual Studio Installer.
+You can find the component behind <code>Individual components</code> tab:
+<img src="images/vstu_select.png" alt="Select &quot;Visual Studio Tools for Unity&quot; component in Visual Studio installer"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Rider provides a similar Unity extension which allows for the same debugging functionality.</p>
+</div>
+<h2 id="compiling-your-project">Compiling your project</h2>
+<p>Next, compile your BepInEx plugin with a <code>Debug</code> build. <strong>Make sure that you generate a <code>.pdb</code> file!</strong></p>
+<p>Place your BepInEx plugin into <code>BepInEx\plugins</code> like you normally would but with the <code>.pdb</code> file accompanying it:</p>
+<p><img src="images/vstu_plugin_install.png" alt="Install your plugin with the .pdb file normally into BepInEx/plugins folder."></p>
+<h2 id="converting-pdb-to-mdb">Converting <code>.pdb</code> to <code>.mdb</code></h2>
+<p>Since Unity uses Mono as its .NET runtime, it cannot directly read <code>.pdb</code> files which contains the required debug symbols.
+Instead, it uses <code>.mdb</code> files for the similar task. Because of this, <code>.pdb</code> file needs to be converted.</p>
+<p>Grab <code>pdb2mdb</code> converter (for example, from <a href="https://www.nuget.org/packages/Mono.pdb2mdb/">NuGet</a> or from <a href="https://gist.github.com/jbevain/ba23149da8369e4a966f#file-pdb2mdb-exe">GitHub</a>). Put the executable in some folder <strong>except not into BepInEx plugin folder</strong>.</p>
+<p>Finally, simply drag-and-drop your plugin DLL file, which will generate the required debug symbols:</p>
+<p><img src="images/vstu_pdb2mdb.gif" alt="Convert pdb to mdb by dragging and dropping the plugin DLL onto the pdb2mdb.exe"></p>
+<p>After this, you can optionally delete the <code>.pdb</code> file as it is not needed.</p>
+<h2 id="starting-debugging">Starting debugging</h2>
+<p>Finally, put breakpoints in Visual Studio however you want and start the game.
+When the game has started, you're ready to start debugging.</p>
+<p>In Visual Studio, select <code>Debug &gt; Attach Unity Debugger</code>:</p>
+<p><img src="images/vstu_debugger_select.png" alt="Select Debug &gt; Attach Unity Debugger in Visual Studio"></p>
+<p>In the opened dialog, select the game executable and press <code>OK</code>:</p>
+<p><img src="images/vstu_select_process.png" alt="Select the game process from the opened dialog"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If there is no processes in the list, try pressing <code>Refresh</code> -- it might be that the game hasn't loaded in yet.<br>
+It is also may be because you didn't follow the <a href="https://github.com/0xd4d/dnSpy/wiki/Debugging-Unity-Games#turning-a-release-build-into-a-debug-build">dnSpy debug build conversion guide</a> properly.
+In that case, please repeat the steps in that setup guide making sure you use correct Unity version and bitness.</p>
+</div>
+<p>If you've done everything correctly, the debugging session starts and your breakpoints can be hit:</p>
+<p><img src="images/vstu_works.png" alt="An example of a breakpoint being hit"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BepInEx/bepinex_docs/blob/a19f15385400e51ab19c542ee247e18c913296bc/articles/advanced/debug/plugins_vs.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
