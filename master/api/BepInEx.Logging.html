@@ -89,16 +89,19 @@
       <section><p>Logs entries using Unity specific outputs.</p>
 </section>
       <h4><a class="xref" href="BepInEx.Logging.LogEventArgs.html">LogEventArgs</a></h4>
-      <section></section>
+      <section><p>Log event arguments. Contains info about the log message.</p>
+</section>
       <h4><a class="xref" href="BepInEx.Logging.Logger.html">Logger</a></h4>
-      <section><p>A static <see cref="!:BaseLogger"></see> instance.</p>
+      <section><p>A static Logger instance.</p>
 </section>
       <h4><a class="xref" href="BepInEx.Logging.LogLevelExtensions.html">LogLevelExtensions</a></h4>
-      <section></section>
+      <section><p>Helper methods for log level handling.</p>
+</section>
       <h4><a class="xref" href="BepInEx.Logging.ManualLogSource.html">ManualLogSource</a></h4>
-      <section></section>
+      <section><p>A generic, multi-purpose log source. Exposes simple API to manually emit logs.</p>
+</section>
       <h4><a class="xref" href="BepInEx.Logging.TraceLogSource.html">TraceLogSource</a></h4>
-      <section><p>A trace listener that writes to an underlying <see cref="!:BaseLogger"></see> instance.</p>
+      <section><p>A source that routes all logs from <span class="xref">System.Diagnostics.Trace</span> API to BepInEx logger.</p>
 </section>
       <h4><a class="xref" href="BepInEx.Logging.UnityLogListener.html">UnityLogListener</a></h4>
       <section><p>Logs entries using Unity specific outputs.</p>
@@ -109,9 +112,11 @@
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="BepInEx.Logging.ILogListener.html">ILogListener</a></h4>
-      <section></section>
+      <section><p>A generic log listener that receives log events and can route them to some output (e.g. file, console, socket).</p>
+</section>
       <h4><a class="xref" href="BepInEx.Logging.ILogSource.html">ILogSource</a></h4>
-      <section></section>
+      <section><p>Log source that can output log messages.</p>
+</section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="BepInEx.Logging.LogLevel.html">LogLevel</a></h4>
