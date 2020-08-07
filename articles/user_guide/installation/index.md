@@ -84,12 +84,7 @@ Currently, BepInEx can be installed manually.
     to be **the name of the game executable**:
     
     * On Linux, this is simply the name of the game executable
-    * On macOS, this is the name of the game app without the `.app` extension
-
-    Next, comment out the warning line by appending `#` to it:
-    ```sh 
-    # if [ -z "$1" ]; then echo "Please open run.sh in a text editor and configure executable name. Comment or remove this line when you're done." && exit 1; fi
-    ```
+    * On macOS, this is the name of the game app **with** `.app` extension, for example `HuniePop.app`
 
     Finally, open the terminal in the game folder and make `run_bepinex.sh` script 
     executable:

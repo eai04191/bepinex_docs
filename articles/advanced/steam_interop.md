@@ -124,8 +124,8 @@ BepInEx relies on `winhttp.dll` proxy DLL to inject itself into Unity games.
 On wine the proxy should be configured manually.
 
 In winecfg, select `Libraries` tab. Under `New override for library` dropbox, 
-select `version` and `Click` add:
+select `winhttp` and `Click` add:
 
-![Add "version" library override in winecfg Libraries tab](images/winecfg_add_lib.png)
+![Add "winhttp" library override in winecfg Libraries tab](images/winecfg_add_lib.png)
 
 Finally click `Apply` and you're done. Running the game should now run BepInEx.
